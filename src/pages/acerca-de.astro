@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import C from '../components/Copy.astro';
+import media from '../data/media.json';
+import {companyAbout,endikaBio} from '../data/company';
+---
+<Base title="Acerca de · GOXO Experiences" description={companyAbout.es}>
+<main id="main">
+<section class="page-heading section-pad"><C tag="p" class="eyebrow" es="QUIÉNES SOMOS" en="WHO WE ARE"/><C tag="h1" es="Acerca de GOXO Experiences." en="About GOXO Experiences."/><C tag="p" es="El País Vasco, como solo alguien de aquí lo conoce." en="The Basque Country, as only a local knows it."/></section>
+<section class="host-section section-pad"><div class="host-visual"><img src={media.endika} alt="Endika, guía local de GOXO Experiences" loading="lazy" width="1000" height="1300"/><C class="host-note" es="Este es mi sitio. Y a partir de mañana, también el tuyo." en="This is my place. From tomorrow, it is yours too."/></div><div class="host-copy"><C tag="p" class="eyebrow" es="TU ANFITRIÓN · TU CONEXIÓN LOCAL" en="YOUR HOST · YOUR LOCAL CONNECTION"/><C tag="h2" class="display-title" es="Kaixo. Soy Endika." en="Kaixo. I’m Endika."/><C tag="p" {...endikaBio[0]}/><C tag="p" {...endikaBio[1]}/><C tag="p" class="eyebrow" style="margin-top:30px" es="SOBRE GOXO EXPERIENCES" en="ABOUT GOXO EXPERIENCES"/><C tag="p" {...companyAbout}/><C tag="a" class="text-link" href="/#por-que" es="Por qué reservar con nosotros ↗" en="Why book with us ↗"/><span class="signature">Endika</span></div></section>
+<section class="intro section-pad" style="padding-top:0"><div class="values-row"><C es="Experiencias privadas" en="Private experiences"/><C es="Un guía de aquí" en="A guide from here"/><C es="A tu ritmo" en="At your pace"/></div></section>
+<section class="section-pad" style="padding-top:0;max-width:720px"><C tag="p" class="eyebrow" es="EMPECEMOS" en="LET'S START"/><C tag="h2" class="display-title" es="¿Hablamos?" en="Shall we talk?"/><C tag="p" es="Cuéntanos qué te apetece vivir y preparamos juntos tu experiencia." en="Tell us what you'd love to experience and we'll plan it together."/><C tag="a" class="button" style="margin-top:24px" href="/contacto/" es="Escribir a Endika ↗" en="Write to Endika ↗"/></section>
+</main>
+</Base>
