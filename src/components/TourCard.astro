@@ -1,0 +1,6 @@
+---
+const {tour,index=0}=Astro.props;
+---
+<article class="tour-card" data-tour-card={tour.id} data-category={tour.category}>
+ <a href={`/experiencias/${tour.id}/`} class="tour-card-photo" aria-label={tour.short.es}><img src={tour.image} alt={tour.location.es} loading="lazy" width="1200" height="1400" data-tour-image={tour.id}/><span class="photo-shade"></span><span class="tour-number">/{tour.number}</span><span class="tour-card-caption"><span class="eyebrow" data-es={tour.eyebrow.es} data-en={tour.eyebrow.en}>{tour.eyebrow.es}</span><h3 data-tour-name={tour.id} data-es={tour.short.es} data-en={tour.short.en}>{tour.short.es}</h3><span class="circle-link" aria-hidden="true">↗</span></span></a><div class="tour-card-meta"><span data-es={tour.location.es} data-en={tour.location.en}>{tour.location.es}</span><span data-tour-duration={tour.id} data-es={tour.duration.es} data-en={tour.duration.en}>{tour.duration.es}</span></div>
+</article>

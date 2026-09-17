@@ -1,0 +1,8 @@
+---
+import Base from '../../layouts/Base.astro';
+import TourDetail from '../../components/TourDetail.astro';
+import {tours} from '../../data/tours';
+export function getStaticPaths(){return tours.map(tour=>({params:{slug:tour.id},props:{tour}}))}
+const {tour}=Astro.props;
+---
+<Base title={`${tour.short.es} · GOXO Experiences`} description={tour.description.es} dark><TourDetail tour={tour}/></Base>
