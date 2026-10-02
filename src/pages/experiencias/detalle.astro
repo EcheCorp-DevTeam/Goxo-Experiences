@@ -1,0 +1,6 @@
+---
+import Base from '../../layouts/Base.astro';
+import TourDetail from '../../components/TourDetail.astro';
+import {tours} from '../../data/tours';
+---
+<Base title="Tu experiencia · GOXO" dark><TourDetail tour={tours[0]} generic/><noscript>Esta experiencia de demostración necesita JavaScript para cargar los datos guardados en tu navegador.</noscript></Base>

@@ -1,0 +1,81 @@
+/* Image motion stays within its frame; controls and type retain a stable reading plane. */
+.hero-image {
+  transform-origin: 52% 48%;
+  transform: scale(1);
+  transition: transform 1400ms cubic-bezier(.22,1,.36,1);
+}
+.hero-image img { animation: none; will-change: auto; }
+.hero-shade {
+  background: linear-gradient(90deg, #091f21b3, #091f210a 85%),
+    linear-gradient(0deg, #0c1e1feb, transparent 42%, #0c1e1f88);
+}
+.hero h1 { letter-spacing: -.04em; }
+.hero h1 > * { transform-origin: left bottom; }
+.portal-button { backdrop-filter: none; background: #112d3233; transition: background 400ms ease; }
+.portal-button:hover { transform: none; background: #112d3255; }
+.portal-ring { animation: none; box-shadow: none; }
+.territory-switch button::before {
+  content: ''; position: absolute; bottom: -8px; left: 0; width: 100%; height: 2px;
+  background: #e0e0bd; transform: scaleX(0); transform-origin: left;
+  transition: transform 650ms cubic-bezier(.22,1,.36,1);
+}
+.territory-switch button[aria-pressed='true']::after { display: none; }
+.territory-switch button[aria-pressed='true']::before { transform: scaleX(1); }
+.tour-card-photo { border-radius: 12px; isolation: isolate; }
+.tour-card-photo img {
+  transform: scale(1.04);
+  transition: transform 1400ms cubic-bezier(.22,1,.36,1);
+}
+.tour-magnifier {
+  position: absolute; z-index: 1; pointer-events: none;
+  border-radius: 50%; border: 2px solid #ffffffbf;
+  background-repeat: no-repeat; background-origin: border-box;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 8px 24px #101b3240;
+}
+.tour-card-photo .photo-shade { z-index: 2; pointer-events: none; }
+.tour-card-caption, .tour-number { z-index: 3; }
+.circle-link { transition: background 400ms ease, color 400ms ease; }
+.immersive-feature > img { top: -9%; height: 118%; max-width: none; }
+@media (min-width: 761px) {
+  .tours-grid { align-items: stretch; gap: 32px 24px; }
+  .tour-card { display: flex; flex-direction: column; min-width: 0; }
+  .tour-card-photo { flex-shrink: 0; aspect-ratio: 3 / 4; }
+  .tour-card-meta { flex: 1; }
+}
+@media (min-width: 1024px) {
+  .tours-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .tour-card-caption { left: 20px; right: 20px; bottom: 24px; padding-right: 0; }
+  .tour-card-caption h3 { font-size: clamp(28px, 2.35vw, 38px); line-height: 1.08; margin-top: 12px; padding-right: 32px; }
+  .tour-card-caption .eyebrow { font-size: 12px; letter-spacing: .06em; }
+  .tour-card-caption .circle-link { width: 28px; height: 28px; font-size: 17px; bottom: 2px; }
+  .tour-number { left: 20px; top: 20px; }
+  .tour-card-meta { flex-direction: column; justify-content: space-between; gap: 4px; padding: 16px 0; }
+  .tour-card-meta span:first-child { max-width: 100%; }
+}
+@media (max-width: 760px) {
+  .hero-shade {
+    background: linear-gradient(90deg, #141d2eb3, #141d2e26),
+      linear-gradient(0deg, #111928eb, #1119281a 55%, #11192899);
+  }
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  html:not([data-motion='off']) .hero:hover .hero-image { transform: scale(1.08); }
+  html:not([data-motion='off']) .tour-card-photo:is(:hover,:focus-visible) img {
+    transform: scale(1.04);
+  }
+  html:not([data-motion='off']) .tour-card-photo:is(:hover,:focus-visible) .circle-link {
+    background: var(--cream); color: var(--ink);
+  }
+}
+html[data-motion='off'] .hero-image,
+html[data-motion='off'] .tour-card-photo img { transform: none; }
+html[data-motion='off'] .tour-magnifier { display: none; }
+@media (hover: none), (pointer: coarse) {
+  .tour-magnifier { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tour-magnifier { display: none; }
+  .hero-image { transform: none !important; }
+  .tour-card-photo img, .tour-card-photo:hover img { transform: none; }
+}

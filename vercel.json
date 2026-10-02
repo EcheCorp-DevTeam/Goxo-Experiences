@@ -1,0 +1,74 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "astro",
+  "buildCommand": "node scripts/build-vercel.mjs",
+  "outputDirectory": "dist",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/acerca-de/",
+      "destination": "/about/",
+      "statusCode": 301
+    },
+    {
+      "source": "/contacto/",
+      "destination": "/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/creditos/",
+      "destination": "/credits/",
+      "statusCode": 301
+    },
+    {
+      "source": "/experiencias/",
+      "destination": "/experiences/",
+      "statusCode": 301
+    },
+    {
+      "source": "/historias/",
+      "destination": "/journal/",
+      "statusCode": 301
+    },
+    {
+      "source": "/politica-de-cancelacion/",
+      "destination": "/cancellation-policy/",
+      "statusCode": 301
+    },
+    {
+      "source": "/privacidad-y-cookies/",
+      "destination": "/privacy-cookies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/terminos-y-condiciones/",
+      "destination": "/terms-conditions/",
+      "statusCode": 301
+    },
+    {
+      "source": "/experiencias/bilbao-cultura/",
+      "destination": "/experiences/private-bilbao-city-tour-guggenheim/",
+      "statusCode": 301
+    },
+    {
+      "source": "/experiencias/costa-vasca/",
+      "destination": "/experiences/gaztelugatxe-mundaka-gernika-tour/",
+      "statusCode": 301
+    },
+    {
+      "source": "/experiencias/pintxos/",
+      "destination": "/experiences/private-bilbao-pintxos-tour/",
+      "statusCode": 301
+    },
+    {
+      "source": "/experiencias/rioja/",
+      "destination": "/experiences/rioja-wine-tour-from-bilbao/",
+      "statusCode": 301
+    },
+    {
+      "source": "/experiencias/san-sebastian-getaria/",
+      "destination": "/experiences/san-sebastian-getaria-tour-from-bilbao/",
+      "statusCode": 301
+    }
+  ]
+}

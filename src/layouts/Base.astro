@@ -1,0 +1,43 @@
+---
+import '../styles/global.css';
+import '../styles/experience-motion.css';
+import '@fontsource/cormorant-garamond/400.css';
+import '@fontsource/cormorant-garamond/500.css';
+import '@fontsource/cormorant-garamond/400-italic.css';
+import '@fontsource/montserrat/400.css';
+import '@fontsource/montserrat/500.css';
+import '@fontsource/montserrat/600.css';
+import C from '../components/Copy.astro';
+import Seo from '../components/Seo.astro';
+import {ClientRouter} from 'astro:transitions';
+import official from '../data/official.json';
+import {tours,posts} from '../data/tours';
+import media from '../data/media.json';
+import {languageOf,localizedHref,siteOrigin,isPublicProduction} from '../data/urls';
+import '../styles/clarity.css';
+const {title=official.title[languageOf(Astro.url.pathname)],description=official.description[languageOf(Astro.url.pathname)],dark=false}=Astro.props;
+const lang=languageOf(Astro.url.pathname);
+const path=Astro.url.pathname;
+const english=localizedHref(path,'en');
+const spanish=localizedHref(path,'es');
+const indexable=isPublicProduction&&!['/admin/','/experiencias/detalle/','/404/','/journal/','/es/journal/'].includes(path)&&!path.includes('/historias/')&&!path.includes('404')&&!['/privacy-cookies/','/terms-conditions/','/cancellation-policy/','/es/privacy-cookies/','/es/terms-conditions/','/es/cancellation-policy/'].includes(path);
+const bilingual=!path.includes('404')&&!path.includes('/admin/')&&!path.includes('/experiencias/detalle/');
+const canonical=new URL(lang==='en'?english:spanish,siteOrigin).href;
+const business={"@context":"https://schema.org","@type":["Organization","LocalBusiness"],"@id":siteOrigin+'/#business',name:'GOXO Experiences',url:siteOrigin,logo:siteOrigin+'/media/logo-goxo.png',email:'kaixo@goxoexperiences.com',telephone:'+34 644 714 642',address:{'@type':'PostalAddress',addressLocality:'Bilbao',addressCountry:'ES'},areaServed:['Bilbao','Basque Country','Rioja']};
+const nav=[['/experiences/','Experiencias','Experiences'],['/about/','Acerca de','About'],['/#opiniones','Opiniones','Reviews'],['/contact/','Contacto','Contact']];
+
+---
+<!doctype html><html lang={lang}><head><ClientRouter fallback="swap" /><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>{title}</title><meta name="description" content={description}/>{import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION&&<meta name="google-site-verification" content={import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION}/>}{import.meta.env.PUBLIC_BING_SITE_VERIFICATION&&<meta name="msvalidate.01" content={import.meta.env.PUBLIC_BING_SITE_VERIFICATION}/>}<meta name="theme-color" content="#19233a"/><meta name="robots" content={indexable?'index, follow, max-image-preview:large':'noindex, nofollow'}/><link rel="canonical" href={canonical}/>{bilingual&&<><link rel="alternate" hreflang="en" href={new URL(english,siteOrigin).href}/><link rel="alternate" hreflang="es" href={new URL(spanish,siteOrigin).href}/><link rel="alternate" hreflang="x-default" href={new URL(english,siteOrigin).href}/></>}<link rel="icon" type="image/png" sizes="32x32" href="/media/favicon-32.png"/><link rel="icon" type="image/png" sizes="512x512" href="/media/favicon-512.png"/><link rel="apple-touch-icon" href="/media/apple-touch-icon.png"/><Seo {title} {description} {canonical} {business}/></head>
+<body class:list={[{'page-dark':dark}]}><C tag="a" class="skip-link" href="#main" es="Saltar al contenido" en="Skip to content"/>
+<header class="site-header"><a class="brand" href={localizedHref('/',lang)} aria-label="GOXO Experiences"><img class="brand-logo" src="/media/logo-goxo.png" alt="GOXO Experiences" width="539" height="220"/></a><nav class="desktop-nav" aria-label={lang==='en'?'Main navigation':'Navegación principal'}>{nav.map(([href,es,en])=><C tag="a" href={href} es={es} en={en}/>)}</nav><div class="header-actions">{bilingual&&<a class="language-button" id="language-toggle" href={lang==='en'?spanish:english} aria-label={lang==='en'?'Cambiar a español':'Switch to English'}>{lang==='en'?'ES':'EN'}</a>}<C tag="a" class="header-contact button" href="/contact/" es="Planifica tu experiencia" en="Plan Your Experience"/><button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label={lang==='en'?'Open menu':'Abrir menú'}><span></span><span></span></button></div></header>
+<nav id="mobile-nav" class="mobile-nav" hidden aria-label={lang==='en'?'Mobile navigation':'Navegación móvil'}>{nav.map(([href,es,en])=><C tag="a" href={href} es={es} en={en}/>)}</nav>
+<noscript><nav class="no-script-nav" aria-label={lang==='en'?'Navigation':'Navegación'}>{nav.map(([href,es,en])=><C tag="a" href={href} es={es} en={en}/>)}</nav></noscript>
+<slot/>
+<footer class="site-footer"><div class="footer-top"><div><C tag="p" es="Experiencias privadas en el País Vasco." en="Private experiences in the Basque Country."/><nav class="footer-nav" aria-label={lang==='en'?'Footer navigation':'Navegación del pie'}>{nav.map(([href,es,en])=><C tag="a" href={href} es={es} en={en}/>)}{posts.length>0&&<C tag="a" href="/journal/" es="Blog" en="Journal"/>}</nav></div><div class="footer-contact"><a href="mailto:kaixo@goxoexperiences.com">kaixo@goxoexperiences.com</a><a href="https://wa.me/34644714642" target="_blank" rel="noopener noreferrer">+34 644 714 642</a><span>Bilbao · Basque Country</span></div></div><div class="footer-bottom"><span>© {new Date().getFullYear()} GOXO Experiences</span><div><C tag="a" href="/privacy-cookies/" es="Privacidad y cookies" en="Privacy & Cookies"/><C tag="a" href="/terms-conditions/" es="Términos y condiciones" en="Terms & Conditions"/><C tag="a" href="/cancellation-policy/" es="Política de cancelación" en="Cancellation Policy"/><C tag="a" href="/credits/" es="Créditos visuales" en="Visual credits"/><C tag="button" id="motion-toggle" aria-pressed="false" es="Pausar movimiento" en="Pause motion"/></div></div><p class="developer-credit">Developed By: Eche Corp. <a href="https://wa.me/573043261092?text=Hola%2C%20estoy%20interesado%20en%20obtener%20informaci%C3%B3n%20acerca%20de%20los%20desarrollos%20web.%20%C2%BFPodr%C3%ADas%20proporcionarme%20m%C3%A1s%20detalles%3F" target="_blank" rel="noopener noreferrer"><strong>+57 304 326 1092</strong></a></p></footer>
+<dialog class="media-dialog" id="media-dialog" aria-labelledby="media-title"><div class="media-toolbar"><h2 id="media-title"></h2><button class="close-button" data-close-dialog aria-label={lang==='en'?'Close':'Cerrar'}>✕</button></div><img id="lightbox-image" alt="" hidden/><video id="lightbox-video" controls playsinline preload="none" hidden></video><p id="media-description"></p><div class="gallery-controls"><button id="gallery-prev" aria-label={lang==='en'?'Previous photograph':'Foto anterior'}>←</button><span id="gallery-count"></span><button id="gallery-next" aria-label={lang==='en'?'Next photograph':'Foto siguiente'}>→</button></div></dialog>
+<a class="wa-float" href="https://wa.me/34644714642" target="_blank" rel="noopener noreferrer" aria-label={lang==='en'?'Contact us on WhatsApp':'Escríbenos por WhatsApp'}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.17c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.53.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg></a>
+<div id="toast" role="status" class="toast" hidden></div>
+<script id="goxo-data" type="application/json" set:html={JSON.stringify({tours,posts,media}).replace(/</g,'\\u003c')}/>
+
+<script>import '../scripts/app';</script>
+</body></html>

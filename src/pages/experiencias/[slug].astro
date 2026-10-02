@@ -1,0 +1,6 @@
+---
+import {tours} from '../../data/tours';
+export function getStaticPaths(){return tours.map(tour=>({params:{slug:tour.id},props:{tour}}))}
+const {tour}=Astro.props;
+return Astro.redirect(`/experiences/${tour.slug}/`,301);
+---

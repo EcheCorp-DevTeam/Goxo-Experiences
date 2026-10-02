@@ -1,0 +1,133 @@
+{
+  "credits": [
+    {
+      "title": "San juan de gaztelugatxe, Bilbao (Unsplash)",
+      "author": "Nuri Lopez (bartalamus)",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:San_juan_de_gaztelugatxe,_Bilbao_(Unsplash).jpg",
+      "notes": "Photo of real Gaztelugatxe. Taken 26 January 2017; Commons verifies pre-June-2017 Unsplash CC0 publication.",
+      "file": "gaztelugatxe.jpg"
+    },
+    {
+      "title": "Guggenheim Bilbao 06 2012 Panorama 2680",
+      "author": "Mariordo (Mario Roberto Durán Ortiz)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Guggenheim_Bilbao_06_2012_Panorama_2680.jpg",
+      "notes": "Real panoramic photograph from the opposite Nervion river bank; 1 June 2012. This is NOT a 360 panorama.",
+      "file": "bilbao.jpg"
+    },
+    {
+      "title": "Pintxos basques (8287051912)",
+      "author": "Nicolas Vollmer",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Pintxos_basques_(8287051912).jpg",
+      "notes": "Real pintxos in Donostia; 15 September 2012.",
+      "file": "pintxos.jpg"
+    },
+    {
+      "title": "Viñedos en Rodezno, La Rioja",
+      "author": "Nicolás Pérez Gimilio (Nicondarreta)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Vi%C3%B1edos_en_Rodezno,_La_Rioja.jpg",
+      "notes": "Real vineyards in Rodezno, La Rioja; 7 July 2020.",
+      "file": "rioja.jpg"
+    },
+    {
+      "title": "White Cliff Top",
+      "author": "Greg Zaal",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://polyhaven.com/a/white_cliff_top",
+      "notes": "Photographic 360×180 equirectangular JPG from HDRI capture. Demonstration scene outside Euskadi/Rioja; do not label as local. Source photograph author Greg Zaal; additional backplates by Rico Cilliers are NOT used.",
+      "file": "pano-white-cliff.jpg"
+    },
+    {
+      "title": "Golden Gate Hills",
+      "author": "Dimitrios Savva (photography); Jarod Guest (processing)",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://polyhaven.com/a/golden_gate_hills",
+      "notes": "Photographic 360×180 equirectangular JPG from HDRI capture. Demonstration scene outside Euskadi/Rioja; do not label as local.",
+      "file": "pano-golden-gate.jpg"
+    },
+    {
+      "title": "Pool",
+      "author": "Greg Zaal",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://polyhaven.com/a/pool",
+      "notes": "Photographic 360×180 equirectangular JPG from HDRI capture. Demonstration garden pool; location unspecified in source. Do not label as a local destination.",
+      "file": "pano-pool.jpg"
+    },
+    {
+      "title": "Gaztelugatxe from airplane 163926",
+      "author": "Quahadi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gaztelugatxe_from_airplane_163926.webm",
+      "notes": "Real Gaztelugatxe seen from Bilbao–Düsseldorf flight on 19 November 2023. 19.825 seconds, 3840×2160 VP8/Opus. All files are originals unless listed as derivatives.",
+      "file": "gaztelugatxe-video.webm"
+    },
+    {
+      "title": "Puerto de Mundaka",
+      "author": "MiguelAlanCS",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mundaka_2023_-_23_puerto.jpg",
+      "file": "gallery-mundaka.webp"
+    },
+    {
+      "title": "Árbol de Gernika",
+      "author": "Lpikaza",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gernikako_arbola_2.JPG",
+      "file": "gallery-gernika.webp"
+    },
+    {
+      "title": "Ayuntamiento viejo de Laguardia",
+      "author": "Gilles Messian from Paris, France",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Laguardia,_Pays_Basque,_Espagne_(22258056152).jpg",
+      "file": "gallery-laguardia.webp"
+    },
+    {
+      "title": "Bodegas Bilbaínas, Haro",
+      "author": "Zarateman",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Haro_-_Bodegas_Bilba%C3%ADnas-Vi%C3%B1a_Pomal_04.jpg",
+      "file": "gallery-haro.webp"
+    },
+    {
+      "title": "Casco Viejo de Bilbao, junto a la Catedral de Santiago",
+      "author": "Zarateman",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Bilbao_-_casco_viejo_05.jpg",
+      "file": "gallery-casco-viejo.webp"
+    },
+    {
+      "title": "Bar Basque, Bilbao",
+      "author": "Fred Romero from Paris, France",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bilbao_-_Bar_Basque_(28716717754).jpg",
+      "file": "gallery-bar-bilbao.webp"
+    },
+    {
+      "title": "Puente Zubizuri, Bilbao",
+      "author": "Basotxerri",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bilbao_-_Zubizuri_07.jpg",
+      "file": "gallery-zubizuri.webp"
+    }
+  ],
+  "modifications": "Resized/compressed photographs; interface crops. MP4 video transcode without audio. Adaptations retain source licences."
+}

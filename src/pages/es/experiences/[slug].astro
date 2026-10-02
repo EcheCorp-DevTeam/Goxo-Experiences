@@ -1,0 +1,10 @@
+---
+import Base from '../../../layouts/Base.astro';
+import TourDetail from '../../../components/TourDetail.astro';
+import {tours} from '../../../data/tours';
+import {languageOf} from '../../../data/urls';
+export function getStaticPaths(){return tours.map(tour=>({params:{slug:tour.slug},props:{tour}}))}
+const {tour}=Astro.props;
+const lang=languageOf(Astro.url.pathname);
+---
+<Base title={tour.seoTitle[lang]} description={tour.seoDescription[lang]} dark><TourDetail tour={tour}/></Base>
