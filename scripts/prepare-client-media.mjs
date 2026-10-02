@@ -9,16 +9,17 @@ const OUT = 'public/media';
 
 // target file -> { from, small?, label }
 const photos = {
-  'bilbao.webp': { from: 'Bilbo (21 de 77).jpg', small: true, label: 'La ría de Bilbao desde Artxanda' },
+  'bilbao-local-guide.webp': { from: 'Bilbao Old Town tour.jpg', small: true, label: 'Endika guiando una experiencia privada en el Casco Viejo de Bilbao' },
+  'bilbao.webp': { from: 'Bilbao-walking-tour.jpg', small: true, label: 'La ría de Bilbao desde Artxanda' },
   'pintxos.webp': { from: 'Pintxos-tour-Bilbao.jpg', small: true, label: 'Barra de pintxos en el Casco Viejo' },
   'endika.webp': { from: 'Bilbo (24 de 77).jpg', small: true, label: 'Endika, guía local de GOXO Experiences' },
   'grupo.webp': { from: '20240802-DSC03148.jpg', small: true, label: 'Endika con un grupo privado en Bilbao' },
   'gallery-casco-viejo.webp': { from: 'Bilbo (19 de 77).jpg', label: 'Las Siete Calles, Casco Viejo de Bilbao' },
-  'gallery-bar-bilbao.webp': { from: 'Basque-country-wine-experience.jpg', label: 'Sobremesa en una terraza de Bilbao' },
+  'gallery-bar-bilbao.webp': { from: 'Basque-country-private-pintxo-experience.jpg', label: 'Sobremesa en una terraza de Bilbao' },
   'gallery-zubizuri.webp': { from: 'Bilbo (68 de 77).jpg', label: 'La ría a su paso por el Casco Viejo' },
-  'gallery-arriaga.webp': { from: 'Bilbo (73 de 77).jpg', label: 'Teatro Arriaga, Bilbao' },
-  'gallery-ribera.webp': { from: 'Verano Europa (362 de 562).jpg', label: 'Mercado de la Ribera, Bilbao' },
-  'gallery-siete-calles.webp': { from: 'Verano Europa (359 de 562).jpg', label: 'Calles del Casco Viejo de Bilbao' },
+  'gallery-arriaga.webp': { from: 'Arriaga Theatre-preview.jpg', label: 'Teatro Arriaga, Bilbao' },
+  'gallery-ribera.webp': { from: 'Bilbao-walking-tour-culture-history.jpg', label: 'Mercado de la Ribera, Bilbao' },
+  'gallery-siete-calles.webp': { from: 'Old town sustainably-local-commerce.jpg', label: 'Calles del Casco Viejo de Bilbao' },
 };
 
 for (const [file, { from, small }] of Object.entries(photos)) {
@@ -34,7 +35,7 @@ for (const [file, { from, small }] of Object.entries(photos)) {
 const media = JSON.parse(await fs.readFile('src/data/media.json', 'utf8'));
 media.endika = '/media/endika.webp';
 media.grupo = '/media/grupo.webp';
-media.galleries['bilbao-cultura'] = ['/media/gallery-arriaga.webp', '/media/gallery-ribera.webp'];
+media.galleries['bilbao-cultura'] = ['/media/bilbao-local-guide.webp', '/media/bilbao.webp', '/media/gallery-arriaga.webp', '/media/gallery-ribera.webp', '/media/gallery-siete-calles.webp'];
 media.galleries.pintxos = ['/media/gallery-casco-viejo.webp', '/media/gallery-bar-bilbao.webp', '/media/gallery-siete-calles.webp'];
 
 // Third-party credits for files now replaced by the client's own photography.

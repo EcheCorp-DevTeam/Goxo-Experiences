@@ -1,6 +1,3 @@
 ---
-import Base from '../../layouts/Base.astro';
-import C from '../../components/Copy.astro';
-import {posts} from '../../data/tours';
+return Astro.redirect('/journal/',301);
 ---
-<Base title="Historias de aquí · GOXO"><main id="main"><section class="page-heading section-pad"><C tag="p" class="eyebrow" es="EL CUADERNO DE GOXO" en="THE GOXO JOURNAL"/><C tag="h1" es="Historias de aquí." en="Stories from here."/><C tag="p" es="Lugares, sabores y pequeñas maneras de acercarse al País Vasco." en="Places, flavours and little ways to get closer to the Basque Country."/></section><section class="stories-section section-pad"><div class="stories-grid">{posts.map(post=><a class="story-card" href={`/historias/${post.slug}/`}><img src={post.image} alt="" width="900" height="650" loading="lazy"/><C tag="p" class="eyebrow" {...post.category}/><C tag="h3" {...post.title}/><C tag="p" {...post.intro}/></a>)}</div></section></main></Base>

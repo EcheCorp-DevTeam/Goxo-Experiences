@@ -130,6 +130,15 @@
    "file": "gallery-haro.webp"
   },
   {
+   "title": "Endika guiando una experiencia privada en el Casco Viejo de Bilbao",
+   "author": "GOXO Experiences",
+   "license": "Todos los derechos reservados",
+   "licenseUrl": "",
+   "source": "",
+   "notes": "Fotografía propia del cliente.",
+   "file": "bilbao-local-guide.webp"
+  },
+  {
    "title": "La ría de Bilbao desde Artxanda",
    "author": "GOXO Experiences",
    "license": "Todos los derechos reservados",
@@ -218,6 +227,15 @@
    "source": "",
    "notes": "Fotografía propia del cliente.",
    "file": "gallery-siete-calles.webp"
+  },
+  {
+   "title": "San Sebastián - Playa de la Concha 01",
+   "author": "Zarateman",
+   "license": "CC0 1.0 — dominio público",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:San_Sebasti%C3%A1n_-_Playa_de_la_Concha_01.jpg",
+   "notes": "Imagen provisional de referencia solicitada por el cliente. Sustituir por fotografía oficial de GOXO.",
+   "file": "san-sebastian-reference.webp"
   }
  ],
  "galleries": {
@@ -235,8 +253,14 @@
    "/media/gallery-siete-calles.webp"
   ],
   "bilbao-cultura": [
+   "/media/bilbao-local-guide.webp",
+   "/media/bilbao.webp",
    "/media/gallery-arriaga.webp",
-   "/media/gallery-ribera.webp"
+   "/media/gallery-ribera.webp",
+   "/media/gallery-siete-calles.webp"
+  ],
+  "san-sebastian-getaria": [
+   "/media/san-sebastian-reference.webp"
   ]
  },
  "labels": {
@@ -249,7 +273,8 @@
   "/media/gallery-zubizuri.webp": "La ría a su paso por el Casco Viejo",
   "/media/gallery-arriaga.webp": "Teatro Arriaga, Bilbao",
   "/media/gallery-ribera.webp": "Mercado de la Ribera, Bilbao",
-  "/media/gallery-siete-calles.webp": "Calles del Casco Viejo de Bilbao"
+  "/media/gallery-siete-calles.webp": "Calles del Casco Viejo de Bilbao",
+  "/media/san-sebastian-reference.webp": "Playa de La Concha, San Sebastián"
  },
  "endika": "/media/endika.webp",
  "grupo": "/media/grupo.webp"

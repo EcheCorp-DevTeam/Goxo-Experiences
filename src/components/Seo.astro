@@ -1,0 +1,43 @@
+---
+import official from '../data/official.json';
+import {tours} from '../data/tours';
+import {languageOf,localizedHref,siteOrigin} from '../data/urls';
+const {title,description,canonical,business}=Astro.props;
+const lang=languageOf(Astro.url.pathname);
+const path=localizedHref(Astro.url.pathname,'en');
+const tour=tours.find(t=>path===`/experiences/${t.slug}/`);
+const absolute=(href:string)=>new URL(href,siteOrigin).href;
+const image=absolute(tour?.image||'/media/logo-goxo.png');
+const pageType=path==='/about/'?'AboutPage':path==='/contact/'?'ContactPage':path==='/experiences/'?'CollectionPage':'WebPage';
+const page:any={'@type':pageType,'@id':canonical+'#page',url:canonical,name:title,description,inLanguage:lang,isPartOf:{'@id':siteOrigin+'/#website'},publisher:{'@id':business['@id']}};
+const graph:any[]=[business,{'@type':'WebSite','@id':siteOrigin+'/#website',url:siteOrigin+'/',name:'GOXO Experiences',inLanguage:['en','es'],publisher:{'@id':business['@id']}},page];
+if(tour){
+ page.mainEntity={'@id':canonical+'#experience'};
+ graph.push({'@type':'Service','@id':canonical+'#experience',name:tour.name[lang],description:tour.story[lang],url:canonical,image,serviceType:lang==='en'?'Private guided experience':'Experiencia privada con guía',provider:{'@id':business['@id']},areaServed:tour.location[lang]});
+}
+if(path==='/about/'){
+ page.mainEntity={'@id':siteOrigin+'/#endika'};
+ graph.push({'@type':'Person','@id':siteOrigin+'/#endika',name:'Endika',url:absolute(localizedHref('/about/',lang))+'#endika',image:absolute('/media/endika.webp'),jobTitle:lang==='en'?'Local guide':'Guía local',worksFor:{'@id':business['@id']}});
+}
+if(path==='/'||path==='/experiences/')graph.push({'@type':'ItemList','@id':canonical+'#experiences',name:official.experiencesTitle[lang],itemListElement:tours.filter(t=>t.published).map((t,i)=>({'@type':'ListItem',position:i+1,name:t.name[lang],url:absolute(localizedHref(`/experiences/${t.slug}/`,lang))}))});
+if(path!=='/'&&!path.includes('404')&&!path.includes('admin')){
+ const crumbs=[{name:lang==='en'?'Home':'Inicio',item:absolute(localizedHref('/',lang))}];
+ if(tour)crumbs.push({name:lang==='en'?'Experiences':'Experiencias',item:absolute(localizedHref('/experiences/',lang))});
+ crumbs.push({name:tour?tour.short[lang]:title.split('|')[0].trim(),item:canonical});
+ graph.push({'@type':'BreadcrumbList','@id':canonical+'#breadcrumbs',itemListElement:crumbs.map((c,i)=>({'@type':'ListItem',position:i+1,...c}))});
+}
+---
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="GOXO Experiences"/>
+<meta property="og:title" content={title}/>
+<meta property="og:description" content={description}/>
+<meta property="og:url" content={canonical}/>
+<meta property="og:image" content={image}/>
+<meta property="og:image:alt" content={tour?.imageAlt?.[lang]||'GOXO Experiences'}/>
+<meta property="og:locale" content={lang==='en'?'en_GB':'es_ES'}/>
+<meta property="og:locale:alternate" content={lang==='en'?'es_ES':'en_GB'}/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content={title}/>
+<meta name="twitter:description" content={description}/>
+<meta name="twitter:image" content={image}/>
+<script id="seo-graph" type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\u003c')}/>

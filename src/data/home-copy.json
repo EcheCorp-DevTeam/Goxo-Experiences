@@ -1,0 +1,122 @@
+{
+  "reviewsEyebrow": {
+    "es": "LO QUE CUENTAN",
+    "en": "WHAT THEY SAY"
+  },
+  "reviewsTitle": {
+    "es": "Opiniones de quienes ya vinieron.",
+    "en": "Reviews from travellers who came."
+  },
+  "reviewsContact": {
+    "es": "Pregúntanos por WhatsApp ↗",
+    "en": "Ask us on WhatsApp ↗"
+  },
+  "reviewsNotice": {
+    "es": "Opiniones de muestra. Se sustituirán por las reseñas verificadas de la ficha de Google antes de publicar.",
+    "en": "Sample reviews. They will be replaced with the verified Google listing reviews before launch."
+  },
+  "storiesEyebrow": {
+    "es": "EL VIAJE EMPIEZA LEYENDO",
+    "en": "THE JOURNEY STARTS WITH A STORY"
+  },
+  "storiesTitle": {
+    "es": "Historias de aquí.",
+    "en": "Stories from here."
+  },
+  "storiesLink": {
+    "es": "Todas las historias ↗",
+    "en": "All stories ↗"
+  },
+  "faqEyebrow": {
+    "es": "ANTES DE VENIR",
+    "en": "BEFORE YOU ARRIVE"
+  },
+  "faqTitle": {
+    "es": "Preguntas frecuentes.",
+    "en": "Frequently asked questions."
+  },
+  "faqIntro": {
+    "es": "Resolvemos tus dudas antes de venir.",
+    "en": "Your questions answered before you arrive."
+  },
+  "faqContact": {
+    "es": "¿Tienes otra pregunta? Escríbenos ↗",
+    "en": "Have another question? Get in touch ↗"
+  },
+  "bookingQuestion": {
+    "es": "¿Cómo solicito una experiencia?",
+    "en": "How do I enquire about an experience?"
+  },
+  "bookingAnswer": {
+    "es": "Escríbenos por WhatsApp o prepara tu consulta en el formulario. Endika te confirmará disponibilidad, recorrido y precio antes de acordar la experiencia.",
+    "en": "Message us on WhatsApp or prepare your enquiry in the form. Endika will confirm availability, itinerary and price before you agree on your experience."
+  },
+  "customisationQuestion": {
+    "es": "¿Podemos adaptar el recorrido?",
+    "en": "Can we personalise the itinerary?"
+  },
+  "customisationAnswer": {
+    "es": "Sí. Cuéntanos qué os interesa, cuántos sois y si tenéis necesidades de movilidad o alimentación para preparar una propuesta adecuada.",
+    "en": "Yes. Tell us your interests, group size and any mobility or dietary needs so we can prepare a suitable proposal."
+  },
+  "languagesQuestion": {
+    "es": "¿En qué idiomas son los tours?",
+    "en": "Which languages are available?"
+  },
+  "languagesAnswer": {
+    "es": "Español e inglés. El idioma se acuerda contigo al preparar la experiencia.",
+    "en": "Spanish and English. We agree on your preferred language when planning the experience."
+  },
+  "durationQuestion": {
+    "es": "¿Cuánto duran las experiencias?",
+    "en": "How long do the experiences last?"
+  },
+  "durationAnswer": {
+    "es": "Depende del recorrido: la ruta de pintxos dura unas 3 horas; Costa Vasca, unas 6; Bilbao Premium, unas 7,5; y Rioja, unas 8. El horario se concreta en tu propuesta personal.",
+    "en": "It depends on the itinerary: the pintxos tour takes around 3 hours; Basque Coast, around 6; Bilbao Premium, around 7.5; and Rioja, around 8. Your schedule is confirmed in your personal proposal."
+  },
+  "meetingQuestion": {
+    "es": "¿Dónde nos encontramos?",
+    "en": "Where do we meet?"
+  },
+  "meetingAnswer": {
+    "es": "Para la ruta de pintxos, el encuentro es en el Casco Viejo de Bilbao, entre el Mercado de la Ribera y la iglesia de San Antón. En los tours de día completo, la recogida es en tu hotel o en el punto que acordemos.",
+    "en": "For the pintxos tour, we meet in Bilbao’s Old Town, between the Ribera Market and the church of San Antón. For full-day tours, pickup is at your hotel or an agreed meeting point."
+  },
+  "inclusionsQuestion": {
+    "es": "¿Qué incluye cada experiencia?",
+    "en": "What does each experience include?"
+  },
+  "inclusionsAnswer": {
+    "es": "Cada recorrido tiene sus propios servicios incluidos: guía, transporte, entradas o degustaciones, según la experiencia. Consulta los apartados de incluidos y no incluidos en su ficha; Endika concretará los detalles en tu propuesta.",
+    "en": "Each itinerary includes different services: a guide, transport, tickets or tastings, depending on the experience. Check the included and excluded items on its page; Endika will confirm the details in your proposal."
+  },
+  "paymentQuestion": {
+    "es": "¿Cómo se confirma el precio y se realiza el pago?",
+    "en": "How are the price and payment arranged?"
+  },
+  "paymentAnswer": {
+    "es": "El precio se confirma en tu propuesta personal y depende del número de personas, la temporada y los servicios incluidos. La forma de pago se acuerda directamente con Endika; el sitio web no procesa pagos automáticos.",
+    "en": "The price is confirmed in your personal proposal and depends on group size, season and included services. Payment is arranged directly with Endika; the website does not process automatic payments."
+  },
+  "packingQuestion": {
+    "es": "¿Qué debo llevar al tour?",
+    "en": "What should I bring on the tour?"
+  },
+  "packingAnswer": {
+    "es": "Lleva calzado cómodo y ropa adecuada para el recorrido. Para la Costa Vasca, recomendamos también agua, protección solar y una chaqueta ligera. Revisa las indicaciones de tu propuesta antes de salir.",
+    "en": "Bring comfortable shoes and clothing suited to your itinerary. For the Basque Coast, we also recommend water, sun protection and a light jacket. Check the guidance in your proposal before setting off."
+  },
+  "cancellationQuestion": {
+    "es": "¿Cómo solicito un cambio o una cancelación?",
+    "en": "How do I request a change or cancellation?"
+  },
+  "cancellationAnswer": {
+    "es": "Escríbenos por WhatsApp o a kaixo@goxoexperiences.com con tu nombre y la fecha reservada. Endika confirmará la solicitud y las condiciones aplicables a tu experiencia.",
+    "en": "Contact us on WhatsApp or at kaixo@goxoexperiences.com with your name and booked date. Endika will confirm your request and the conditions that apply to your experience."
+  },
+  "cancellationLink": {
+    "es": "Consultar la política de cancelación ↗",
+    "en": "Read the cancellation policy ↗"
+  }
+}

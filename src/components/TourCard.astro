@@ -1,6 +1,11 @@
 ---
-const {tour,index=0}=Astro.props;
+import C from './Copy.astro';
+import {languageOf,localizedHref} from '../data/urls';
+const {tour,catalog=false}=Astro.props;
+const lang=languageOf(Astro.url.pathname);
+const href=localizedHref(`/experiences/${tour.slug}/`,lang);
 ---
 <article class="tour-card" data-tour-card={tour.id} data-category={tour.category}>
- <a href={`/experiencias/${tour.id}/`} class="tour-card-photo" aria-label={tour.short.es}><img src={tour.image} alt={tour.location.es} loading="lazy" width="1200" height="1400" data-tour-image={tour.id}/><span class="photo-shade"></span><span class="tour-number">/{tour.number}</span><span class="tour-card-caption"><span class="eyebrow" data-es={tour.eyebrow.es} data-en={tour.eyebrow.en}>{tour.eyebrow.es}</span><h3 data-tour-name={tour.id} data-es={tour.short.es} data-en={tour.short.en}>{tour.short.es}</h3><span class="circle-link" aria-hidden="true">↗</span></span></a><div class="tour-card-meta"><span data-es={tour.location.es} data-en={tour.location.en}>{tour.location.es}</span><span data-tour-duration={tour.id} data-es={tour.duration.es} data-en={tour.duration.en}>{tour.duration.es}</span></div>
+ <a href={href} class="tour-card-photo" aria-label={tour.short[lang]}>{tour.image?<picture><source media="(max-width:760px)" srcset={tour.image.replace('.webp','-small.webp')}/><img src={tour.image} alt={tour.imageAlt[lang]} loading="lazy" decoding="async" width="1200" height="900" data-tour-image={tour.id}/></picture>:<span class="tour-photo-pending" aria-hidden="true"></span>}</a>
+ <div class="tour-card-body"><C tag="h3" data-tour-name={tour.id} {...tour.short}/><C tag="p" class="tour-description" {...(catalog?tour.catalogDescription:tour.description)}/><div class="tour-card-meta"><C {...tour.location}/><C data-tour-duration={tour.id} {...tour.duration}/><C es="Experiencia privada" en="Private experience"/><C {...tour.guests}/></div><C tag="a" class="button" href={`/contact/?tour=${tour.id}`} es="Consultar disponibilidad" en="Check Availability"/><C tag="a" class="text-link" href={href} es="Ver experiencia" en="View experience"/></div>
 </article>

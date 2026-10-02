@@ -22,3 +22,13 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+.vercel
+.env*.local
+
+# Local audit artifacts and duplicate source attachments
+.playwright-mcp/
+output/
+Fotos Bilbao/
+GOXO_Web_Text_and_SEO_Brief_FINAL_v2.odt
+Logo definitivo.png
+Logo peque.png

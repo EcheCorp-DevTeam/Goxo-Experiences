@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import C from '../components/Copy.astro';
+import Host from '../components/Host.astro';
+import official from '../data/official.json';
+import {languageOf} from '../data/urls';
+import '../styles/home.css';
+const lang=languageOf(Astro.url.pathname);
+---
+<Base title={official.aboutTitle[lang]} description={official.aboutIntro[0][lang]}><main id="main">
+<section class="page-heading section-pad"><C tag="h1" {...official.aboutClaim}/>{official.aboutIntro.map(p=><C tag="p" {...p}/>)}</section>
+<section class="about-company section-pad">{official.aboutCompany.map(p=><C tag="p" {...p}/>)}<C tag="h2" class="display-title" es="Nuestro compromiso" en="Our commitment"/>{official.aboutCommitment.map(p=><C tag="p" {...p}/>)}</section>
+<Host full/>
+</main></Base>
+<script>import '../scripts/home-media';</script>

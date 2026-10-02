@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import C from '../components/Copy.astro';
+import media from '../data/media.json';
+import {languageOf} from '../data/urls';
+const lang=languageOf(Astro.url.pathname);
+const credits=media.credits.filter(item=>!item.file.startsWith('pano-'));
+---
+<Base title={lang==='en'?'Visual credits | GOXO':'Créditos visuales | GOXO'}><main id="main"><section class="page-heading section-pad"><C tag="p" class="eyebrow" es="LA MIRADA DE QUIENES ESTUVIERON ALLÍ" en="THROUGH THE EYES OF THOSE WHO WERE THERE"/><C tag="h1" es="Créditos visuales." en="Visual credits."/><C tag="p" es="Fotografías propias de GOXO y fotografías de referencia con licencia abierta. El vídeo provisional muestra Gaztelugatxe y se sustituirá por el vídeo de GOXO." en="GOXO photographs and openly licensed destination photographs. The provisional video shows Gaztelugatxe and will be replaced by the GOXO film."/><C tag="p" es="Las imágenes se han redimensionado y comprimido; la interfaz puede recortarlas para ajustarlas al espacio. El video se ha convertido a MP4 y se ha eliminado el audio. Las adaptaciones conservan la licencia indicada." en="Images have been resized and compressed; the interface may crop them to fit. The video was converted to MP4 and its audio removed. Adaptations retain the stated licence."/></section><section class="credits-list section-pad">{credits.map(item=><article class="credit-item"><h2>{item.title}</h2><p>{item.author} · {item.license}</p><div class="credit-links">{item.source&&<C tag="a" href={item.source} target="_blank" rel="noopener noreferrer" es="Fotografía original ↗" en="Original source ↗"/>}{item.licenseUrl&&<C tag="a" href={item.licenseUrl} target="_blank" rel="noopener noreferrer" es="Licencia ↗" en="Licence ↗"/>}</div></article>)}</section></main></Base>

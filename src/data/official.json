@@ -1,0 +1,828 @@
+{
+  "title": {
+    "es": "Tours privados en Bilbao | Experiencias en el País Vasco | GOXO",
+    "en": "Private Tours in Bilbao | Basque Country Experiences | GOXO"
+  },
+  "description": {
+    "es": "Tours privados en Bilbao y experiencias a medida por el País Vasco. Descubre gastronomía, vino, cultura y lugares locales con Endika, tu guía local.",
+    "en": "Private tours in Bilbao and bespoke experiences across the Basque Country. Discover food, wine, culture and local places with Endika, your local guide."
+  },
+  "claim": {
+    "es": "Tours privados en Bilbao y el País Vasco — con un guía local.",
+    "en": "Private tours in Bilbao and the Basque Country — led by a local."
+  },
+  "experiencesTitle": {
+    "es": "Cinco formas de descubrir el País Vasco.",
+    "en": "Five ways to discover the Basque Country."
+  },
+  "experiencesIntro": {
+    "es": "Cada experiencia es privada, sin prisas y adaptada a tu grupo.",
+    "en": "Each experience is private, unhurried and shaped around your group."
+  },
+  "catalogTitle": {
+    "es": "Experiencias que recordarás mucho después de volver.",
+    "en": "Experiences you will remember long after you leave."
+  },
+  "catalogIntro": {
+    "es": "Sea lo que sea lo que te trae aquí, nuestros tours privados te acercan a la cultura vasca a través de paisajes inolvidables, gastronomía local y vinos que merecen el viaje.",
+    "en": "Whatever draws you here, our private tours bring you closer to Basque culture through unforgettable landscapes, local food and wines worth travelling for."
+  },
+  "whyTitle": {
+    "es": "Goxo es una palabra vasca que evoca algo sabroso, reconfortante y hecho con cariño.",
+    "en": "Goxo is a Basque word that evokes something tasty, comforting and made with care."
+  },
+  "whyIntro": {
+    "es": "Así creemos que debe sentirse un viaje: personal, generoso y conectado con el lugar que visitas.",
+    "en": "That is how we believe travel should feel: personal, generous and connected to the place you are visiting."
+  },
+  "whySupport": {
+    "es": "GOXO nació para quienes buscan algo más que una lista de lugares. Diseñamos experiencias privadas que te acercan a las personas, la gastronomía, el vino y los paisajes del País Vasco. Cada experiencia empieza con una conversación y continúa a tu ritmo. Viajar bien también significa dejar una huella más ligera y una conexión más fuerte: apoyar a productores locales, explorar de forma responsable y devolver parte de lo que genera el viaje a las comunidades que lo hacen posible.",
+    "en": "GOXO was created for travellers who want more than a list of places to see. We design private experiences that bring you closer to the people, food, wine and landscapes that make the Basque Country special. Every experience starts with a conversation, then unfolds at your pace. To travel well is also to leave a lighter footprint and a stronger connection: supporting local producers, choosing responsible ways to explore, and returning part of what the journey creates to the communities that make it possible."
+  },
+  "hostTitle": {
+    "es": "Kaixo, soy Endika.",
+    "en": "Kaixo, I’m Endika."
+  },
+  "hostCaption": {
+    "es": "Un anfitrión local, toda una vida de historias y una forma más personal de conocer el País Vasco.",
+    "en": "A local host, a lifetime of stories and a more personal way to experience the Basque Country."
+  },
+  "hostStory": [
+    {
+      "es": "Nací en Bilbao y he pasado más de once años viajando y trabajando como guía turístico por todo el mundo. Tras años en el extranjero, volví a casa con una idea sencilla: compartir el País Vasco con la misma curiosidad, cuidado y generosidad que busco cuando viajo.",
+      "en": "I was born in Bilbao and have spent more than eleven years travelling and working as a tour guide around the world. After years abroad, I came home with a simple idea: to share the Basque Country with the same curiosity, care and generosity that I look for when I travel myself."
+    },
+    {
+      "es": "No siempre imaginé que me dedicaría a esto. Estudié Administración de Empresas, pensando que seguiría un camino más convencional. Pero once años guiando por el mundo me enseñaron algo que ningún título puede enseñar: la diferencia entre mostrar un lugar y hacer que alguien sienta que también es suyo.",
+      "en": "I did not always imagine myself doing this. I studied Business Administration, thinking I would follow a more conventional path. But eleven years of guiding around the world taught me something no degree can teach: the difference between showing someone a place and making them feel it is theirs."
+    },
+    {
+      "es": "GOXO es mi manera de presentarte los lugares que conozco, las personas en quienes confío, las historias que rara vez aparecen en una guía y la cultura real que buscas. Después de más de una década compartiendo otras partes del mundo, quería compartir la mía: despacio, en grupos pequeños y mediante experiencias auténticas, sin prisas, sin turismo masivo y sin hacer algo comercial solo por hacerlo.",
+      "en": "GOXO is my way of introducing you to the places I know, the people I trust, the stories that rarely appear in a guidebook and the real culture you are looking for. After more than a decade of sharing other parts of the world, I wanted to share my own: slowly, in small groups and through genuine experiences — never rushed, never mass tourism, never commercial for the sake of it."
+    }
+  ],
+  "aboutTitle": {
+    "es": "Acerca de GOXO | Tours privados por el País Vasco con impacto local",
+    "en": "About GOXO | Private Basque Country Tours with Local Impact"
+  },
+  "aboutClaim": {
+    "es": "Una forma más consciente de conocer el País Vasco.",
+    "en": "A more thoughtful way to experience the Basque Country."
+  },
+  "aboutIntro": [
+    {
+      "es": "GOXO toma su nombre de la palabra vasca goxo, que evoca algo sabroso, reconfortante y hecho con cariño.",
+      "en": "GOXO takes its name from the Basque word goxo, evoking something tasty, comforting and made with care."
+    },
+    {
+      "es": "Esa idea guía todo lo que hacemos. Creemos que viajar debe sentirse personal, generoso y conectado con el lugar que visitas.",
+      "en": "That idea shapes everything we do. We believe travel should feel personal, generous and connected to the place you are visiting."
+    }
+  ],
+  "aboutCompany": [
+    {
+      "es": "Desde Bilbao, GOXO crea experiencias privadas de gastronomía, vino y cultura por el País Vasco. Cada viaje se diseña alrededor de tu grupo, tus intereses y tu ritmo, desde la primera conversación hasta la última recomendación.",
+      "en": "Based in Bilbao, GOXO creates private food, wine and cultural experiences across the Basque Country. Every journey is designed around your group, your interests and your pace — from the first conversation to the final recommendation."
+    },
+    {
+      "es": "Te llevamos más allá de lo evidente: a bodegas familiares donde puedes hablar con quien hace el vino, restaurantes locales, pueblos costeros, productores e historias que revelan el verdadero carácter de la región. Sin grupos mezclados. Sin itinerarios apresurados. Sin experiencias hechas para todos y recordadas por nadie.",
+      "en": "We take you beyond the obvious: to family-owned wineries where you can talk with the winemaker, local restaurants, coastal towns, producers and stories that reveal the real character of the region. No mixed groups. No rushed itineraries. No experiences built for everyone and remembered by no one."
+    }
+  ],
+  "aboutCommitment": [
+    {
+      "es": "El País Vasco está en el corazón de cada experiencia GOXO; cuidarlo forma parte de nuestro trabajo. Priorizamos negocios locales y de temporada, apoyamos a pequeños productores independientes y tomamos decisiones responsables al explorar la región.",
+      "en": "The Basque Country is at the heart of every GOXO experience, so looking after it is part of how we work. We prioritise local and seasonal businesses, support small independent producers and make responsible choices in the way we explore the region."
+    },
+    {
+      "es": "Creemos que el turismo debe devolver algo. A medida que GOXO crezca, parte de lo que creemos se reinvertirá en proyectos sociales y medioambientales locales que protejan las comunidades y los paisajes que hacen posibles estas experiencias.",
+      "en": "We believe tourism should give something back. As GOXO grows, part of what we create will be reinvested in local social and environmental projects that protect the communities and landscapes that make these experiences possible."
+    }
+  ],
+  "reviewsTitle": {
+    "es": "Lo que recuerdan nuestros viajeros.",
+    "en": "What guests remember."
+  },
+  "reviewsIntro": {
+    "es": "La recomendación más valiosa es la de alguien que ha vivido GOXO en primera persona.",
+    "en": "The most meaningful recommendation is the one that comes from someone who has experienced GOXO first-hand."
+  },
+  "faqTitle": {
+    "es": "Tus preguntas, resueltas.",
+    "en": "Questions, answered."
+  },
+  "faqIntro": {
+    "es": "Todo lo que necesitas saber antes de planificar tu experiencia privada.",
+    "en": "Everything you need to know before planning your private experience."
+  },
+  "finalTitle": {
+    "es": "Planifica tu experiencia vasca.",
+    "en": "Plan your Basque experience."
+  },
+  "finalBody": {
+    "es": "Cuéntanos cuándo vienes, con quién viajas y qué te gustaría descubrir. Te ayudaremos a preparar un día privado que recordarás mucho después de volver.",
+    "en": "Tell us when you are visiting, who you are travelling with and what you would love to experience. We will help you shape a private day you will remember long after you leave."
+  },
+  "reasons": [
+    {
+      "title": {
+        "es": "Siempre privado",
+        "en": "Private by design"
+      },
+      "body": {
+        "es": "Solo tu grupo, tus preguntas y tu ritmo. Sin grupos mezclados ni itinerarios apresurados.",
+        "en": "Only your group, your questions and your pace. There are no mixed groups and no rushed itineraries."
+      },
+      "image": "/media/grupo.webp",
+      "imageAlt": {
+        "es": "Endika con un grupo en Bilbao",
+        "en": "Endika with a group in Bilbao"
+      }
+    },
+    {
+      "title": {
+        "es": "Experiencias reales",
+        "en": "Real experiences"
+      },
+      "body": {
+        "es": "Compartimos el País Vasco a través de los lugares, las personas y las historias que lo hacen único.",
+        "en": "We share the Basque Country through the places, people and stories that make it unique."
+      },
+      "image": "/media/gallery-casco-viejo.webp",
+      "imageAlt": {
+        "es": "Calles del Casco Viejo de Bilbao",
+        "en": "Streets of Bilbao’s Old Town"
+      }
+    },
+    {
+      "title": {
+        "es": "Gastronomía y vino con raíces",
+        "en": "Food and wine with a sense of place"
+      },
+      "body": {
+        "es": "Cada parada se elige por lo que hay detrás: un productor, un oficio, una temporada o una historia familiar.",
+        "en": "Every stop is chosen for what is behind it: a producer, a craft, a season or a family story."
+      },
+      "image": "/media/pintxos.webp",
+      "imageAlt": {
+        "es": "Barra de pintxos en el Casco Viejo de Bilbao",
+        "en": "Pintxos counter in Bilbao’s Old Town"
+      }
+    },
+    {
+      "title": {
+        "es": "Viajar y devolver",
+        "en": "Travel that gives back"
+      },
+      "body": {
+        "es": "Cada experiencia GOXO apoya a negocios locales, una forma más ligera de viajar y proyectos que cuidan el País Vasco.",
+        "en": "Every GOXO experience supports local businesses, lighter travel and projects that care for the Basque Country."
+      },
+      "image": "/media/bilbao.webp",
+      "imageAlt": {
+        "es": "Panorámica de Bilbao y su ría desde Artxanda",
+        "en": "Bilbao and its river seen from Artxanda"
+      }
+    },
+    {
+      "title": {
+        "es": "Adaptado con cuidado",
+        "en": "Thoughtfully tailored"
+      },
+      "body": {
+        "es": "Tus intereses, necesidades alimentarias, movilidad y ritmo se tienen en cuenta antes de empezar y durante la experiencia.",
+        "en": "Your interests, dietary needs, mobility and rhythm are considered before the day begins — and while it unfolds."
+      },
+      "image": "/media/endika.webp",
+      "imageAlt": {
+        "es": "Endika, guía local de GOXO Experiences",
+        "en": "Endika, local guide at GOXO Experiences"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "es": "¿Cómo planifico una experiencia?",
+        "en": "How do I plan an experience?"
+      },
+      "answer": {
+        "es": "Cuéntanos tus fechas, el número de personas y qué quieres descubrir. Te responderemos personalmente para ayudarte a elegir y confirmar disponibilidad.",
+        "en": "Tell us your travel dates, the number of guests and what you would like to discover. We will reply personally to help you choose the right experience and confirm availability."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Todas las experiencias GOXO son privadas?",
+        "en": "Are all GOXO experiences private?"
+      },
+      "answer": {
+        "es": "Sí. Cada experiencia es para tu propio grupo. No hay grupos mezclados, y el ritmo, la conversación y el itinerario son personales de principio a fin.",
+        "en": "Yes. Every GOXO experience is designed for your own group. There are no mixed groups, so the pace, conversation and itinerary can feel personal from beginning to end."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Podéis adaptar la experiencia a nosotros?",
+        "en": "Can you tailor the experience to us?"
+      },
+      "answer": {
+        "es": "Por supuesto. Cuéntanos tus intereses, necesidades alimentarias y de movilidad y el ritmo que prefieres. Adaptaremos la experiencia a lo que más te importa.",
+        "en": "Of course. Tell us about your interests, dietary requirements, mobility needs and preferred pace. We will shape the experience around what matters most to you."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Dónde nos encontramos?",
+        "en": "Where do we meet?"
+      },
+      "answer": {
+        "es": "Confirmaremos el punto de encuentro antes de la experiencia, con un enlace de Google Maps y todos los detalles prácticos para ese día.",
+        "en": "Your meeting point will be confirmed before the experience, together with a Google Maps link and all the practical details you need for the day."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Qué incluye cada tour?",
+        "en": "What is included in each tour?"
+      },
+      "answer": {
+        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
+        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Qué idiomas ofrecéis?",
+        "en": "What languages do you offer?"
+      },
+      "answer": {
+        "es": "Las experiencias están disponibles en inglés y español. Indícanos tu idioma preferido al contactar.",
+        "en": "Experiences are available in English and Spanish. Please tell us your preferred language when you get in touch."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Qué debemos llevar?",
+        "en": "What should we bring?"
+      },
+      "answer": {
+        "es": "Te enviaremos consejos prácticos antes de la experiencia. Normalmente basta con calzado cómodo y ropa adecuada al tiempo. Para la costa y el campo, podemos recomendar una prenda impermeable ligera.",
+        "en": "We will send you practical advice before the experience. Comfortable shoes and clothing suitable for the weather are usually all you need. For coastal and countryside experiences, we may recommend a light waterproof layer."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Qué pasa si cambia el tiempo?",
+        "en": "What happens if the weather changes?"
+      },
+      "answer": {
+        "es": "El País Vasco es precioso en cualquier estación, pero tu comodidad y seguridad son lo primero. Si el tiempo afecta a la experiencia, hablaremos contigo sobre la mejor alternativa, cambio de fecha o solución de cancelación.",
+        "en": "The Basque Country is beautiful in every season, but your comfort and safety come first. If the weather affects the experience, we will discuss the best alternative, rescheduling option or cancellation solution with you."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Cómo confirmo y pago mi experiencia?",
+        "en": "How do I confirm and pay for my experience?"
+      },
+      "answer": {
+        "es": "Una vez acordada la experiencia y confirmada la disponibilidad, te enviaremos los detalles de reserva, el precio y las instrucciones de pago antes de confirmar nada.",
+        "en": "Once we have agreed on the right experience and confirmed availability, we will send you the booking details, price and payment instructions clearly before anything is confirmed."
+      }
+    }
+  ],
+  "tours": [
+    {
+      "id": "rioja",
+      "slug": "rioja-wine-tour-from-bilbao",
+      "category": "vino",
+      "image": "/media/rioja.webp",
+      "imageAlt": {
+        "es": "Viñedos de Rodezno en La Rioja",
+        "en": "Vineyards in Rodezno, La Rioja"
+      },
+      "short": {
+        "es": "Rioja Wine Experience",
+        "en": "Rioja Wine Experience"
+      },
+      "name": {
+        "es": "Rioja Wine Experience",
+        "en": "Rioja Wine Experience"
+      },
+      "location": {
+        "es": "Rioja · Laguardia",
+        "en": "Rioja · Laguardia"
+      },
+      "duration": {
+        "es": "8 horas",
+        "en": "8 hours"
+      },
+      "guests": {
+        "es": "2–8 personas",
+        "en": "2–8 guests"
+      },
+      "eyebrow": {
+        "es": "EXPERIENCIA PRIVADA",
+        "en": "PRIVATE EXPERIENCE"
+      },
+      "description": {
+        "es": "Un tour privado por Rioja desde Bilbao, entre bodegas familiares, pueblos medievales e historias detrás de cada copa.",
+        "en": "A private Rioja wine tour from Bilbao, combining family wineries, medieval towns and stories behind every glass."
+      },
+      "catalogDescription": {
+        "es": "Un tour privado de vino por Rioja desde Bilbao, con bodegas familiares, pueblos medievales y un almuerzo local cuidadosamente elegido.",
+        "en": "A private Rioja wine tour from Bilbao, combining family-owned wineries, medieval towns and a carefully chosen local lunch."
+      },
+      "story": {
+        "es": "Dedica un día a descubrir La Rioja a través de las personas, paisajes y vinos que definen una de las regiones vinícolas más celebradas de España. Visita dos bodegas familiares, habla con el bodeguero, descubre las historias detrás de cada copa y pasea por las calles medievales de Laguardia.\n\nLa experiencia se adapta a tus intereses, desde pequeños productores hasta bodegas grandes e icónicas. Termina el día con un almuerzo local premium, elegido por su conexión con el territorio y su cultura gastronómica.",
+        "en": "Spend a full day discovering La Rioja through the people, landscapes and wines that define one of Spain’s most celebrated wine regions. Visit two family-owned wineries, talk to the winemaker and meet the stories behind each glass and explore the medieval streets of Laguardia.\n\nThe experience can be tailored around your interests, from small producers to larger, iconic wineries. Finish the day with a premium local lunch, chosen for its connection to the territory and its food culture."
+      },
+      "seoTitle": {
+        "es": "Rioja Wine Experience | Tours privados | GOXO",
+        "en": "Private Rioja Wine Tour from Bilbao | GOXO Experiences"
+      },
+      "seoDescription": {
+        "es": "Un tour privado de vino por Rioja desde Bilbao, con bodegas familiares, pueblos medievales y un almuerzo local cuidadosamente elegido.",
+        "en": "A private Rioja wine tour from Bilbao, combining family-owned wineries, medieval towns and a carefully chosen local lunch."
+      },
+      "stops": [
+        {
+          "es": "Bodegas familiares",
+          "en": "Family-owned wineries"
+        },
+        {
+          "es": "Laguardia",
+          "en": "Laguardia"
+        },
+        {
+          "es": "Almuerzo local",
+          "en": "Local lunch"
+        }
+      ],
+      "stopCopy": [
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        }
+      ],
+      "includes": [
+        {
+          "es": "Guía local y experiencia privada para tu grupo",
+          "en": "Local guide and a private experience for your group"
+        }
+      ],
+      "excludes": [
+        {
+          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
+          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+        }
+      ],
+      "faq": {
+        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
+        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+      },
+      "immersive": false,
+      "gallery": [
+        "/media/rioja.webp",
+        "/media/gallery-laguardia.webp",
+        "/media/gallery-haro.webp"
+      ],
+      "published": true,
+      "number": "01"
+    },
+    {
+      "id": "costa-vasca",
+      "slug": "gaztelugatxe-mundaka-gernika-tour",
+      "category": "costa",
+      "image": "/media/gaztelugatxe.webp",
+      "imageAlt": {
+        "es": "San Juan de Gaztelugatxe y la costa vasca",
+        "en": "San Juan de Gaztelugatxe and the Basque coast"
+      },
+      "short": {
+        "es": "Costa Vasca",
+        "en": "Basque Coast"
+      },
+      "name": {
+        "es": "Costa Vasca",
+        "en": "Basque Coast"
+      },
+      "location": {
+        "es": "Gaztelugatxe · Mundaka · Gernika",
+        "en": "Gaztelugatxe · Mundaka · Gernika"
+      },
+      "duration": {
+        "es": "6 horas",
+        "en": "6 hours"
+      },
+      "guests": {
+        "es": "2–8 personas",
+        "en": "2–8 guests"
+      },
+      "eyebrow": {
+        "es": "EXPERIENCIA PRIVADA",
+        "en": "PRIVATE EXPERIENCE"
+      },
+      "description": {
+        "es": "Un recorrido privado por Gaztelugatxe, Mundaka y Gernika: paisajes atlánticos, historias locales y una conexión más profunda con la cultura y la política vascas.",
+        "en": "A private journey through Gaztelugatxe, Mundaka and Gernika: Atlantic landscapes, local stories and a deeper connection with Basque culture & politics."
+      },
+      "catalogDescription": {
+        "es": "Un recorrido privado por Gaztelugatxe, Mundaka y Gernika: paisajes atlánticos, historias de pescadores locales y cultura vasca.",
+        "en": "A private journey through Gaztelugatxe, Mundaka and Gernika: Atlantic landscapes, local fisherman´s stories and Basque culture."
+      },
+      "story": {
+        "es": "Descubre la Costa Vasca sin prisas, desde los escalones de San Juan de Gaztelugatxe hasta la cultura del surf de Mundaka y la poderosa historia de Gernika.\n\nEste día privado combina paisajes costeros, historias locales y tiempo para disfrutar de cada lugar. La entrada a Gaztelugatxe se puede gestionar cuando esté disponible, y el itinerario puede incluir un almuerzo en un restaurante local cuidadosamente elegido.",
+        "en": "Discover the Basque Coast at an unhurried pace, from the dramatic steps of San Juan de Gaztelugatxe to the surf culture of Mundaka and the powerful history of Gernika.\n\nThis private day combines coastal landscapes, local stories and time to experience each place properly. Entry to Gaztelugatxe can be arranged when available, and the itinerary can include lunch at a carefully selected local restaurant."
+      },
+      "seoTitle": {
+        "es": "Costa Vasca | Tours privados | GOXO",
+        "en": "Private Basque Coast Tour | Gaztelugatxe, Mundaka & Gernika | GOXO"
+      },
+      "seoDescription": {
+        "es": "Un recorrido privado por Gaztelugatxe, Mundaka y Gernika: paisajes atlánticos, historias de pescadores locales y cultura vasca.",
+        "en": "A private journey through Gaztelugatxe, Mundaka and Gernika: Atlantic landscapes, local fisherman´s stories and Basque culture."
+      },
+      "stops": [
+        {
+          "es": "Gaztelugatxe",
+          "en": "Gaztelugatxe"
+        },
+        {
+          "es": "Mundaka",
+          "en": "Mundaka"
+        },
+        {
+          "es": "Gernika",
+          "en": "Gernika"
+        }
+      ],
+      "stopCopy": [
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        }
+      ],
+      "includes": [
+        {
+          "es": "Guía local y experiencia privada para tu grupo",
+          "en": "Local guide and a private experience for your group"
+        }
+      ],
+      "excludes": [
+        {
+          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
+          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+        }
+      ],
+      "faq": {
+        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
+        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+      },
+      "immersive": false,
+      "gallery": [
+        "/media/gaztelugatxe.webp",
+        "/media/gallery-mundaka.webp",
+        "/media/gallery-gernika.webp"
+      ],
+      "published": true,
+      "number": "02"
+    },
+    {
+      "id": "bilbao-cultura",
+      "slug": "private-bilbao-city-tour-guggenheim",
+      "category": "cultura",
+      "image": "/media/bilbao-local-guide.webp",
+      "imageAlt": {
+        "es": "Endika guiando junto a la ría y el Casco Viejo de Bilbao",
+        "en": "Endika guiding beside the river and Bilbao’s Old Town"
+      },
+      "short": {
+        "es": "Bilbao Arte, Cultura y Guggenheim",
+        "en": "Bilbao Art, Culture & Guggenheim"
+      },
+      "name": {
+        "es": "Bilbao Arte, Cultura y Guggenheim",
+        "en": "Bilbao Art, Culture & Guggenheim"
+      },
+      "location": {
+        "es": "Bilbao · Museo Guggenheim · Centro · Casco Viejo",
+        "en": "Bilbao · Guggenheim Museum · City Centre · Old Town"
+      },
+      "duration": {
+        "es": "4 horas",
+        "en": "4 hours"
+      },
+      "guests": {
+        "es": "2–8 personas",
+        "en": "2–8 guests"
+      },
+      "eyebrow": {
+        "es": "EXPERIENCIA PRIVADA",
+        "en": "PRIVATE EXPERIENCE"
+      },
+      "description": {
+        "es": "Una introducción privada a Bilbao: el Museo Guggenheim, la arquitectura de la ciudad y las historias que le dan vida.",
+        "en": "A private introduction to Bilbao: the Guggenheim Museum, the city’s architecture and the stories that bring it to life."
+      },
+      "catalogDescription": {
+        "es": "Una introducción privada a Bilbao: el Museo Guggenheim, la arquitectura de la ciudad y las historias que le dan vida.",
+        "en": "A private introduction to Bilbao: the Guggenheim Museum, the city’s architecture and the stories that bring it to life."
+      },
+      "story": {
+        "es": "Descubre Bilbao con un guía local, empezando por el Museo Guggenheim y continuando junto a la ría, la arquitectura contemporánea y los lugares cotidianos que dan carácter a la ciudad. Terminaremos en el Casco Viejo, hablando de los orígenes de la ciudad y sus rincones escondidos.\n\nEsta experiencia privada de cuatro horas está pensada para quienes quieren entender Bilbao además de verlo.",
+        "en": "Discover Bilbao with a local guide, beginning with the Guggenheim Museum and continuing through the river, contemporary architecture and everyday places that give the city its character. We will finish in the Old town talking about the early days of the city and all the hidden gems.\n\nThis four-hour private experience is designed for travellers who want to understand Bilbao as well as see it."
+      },
+      "seoTitle": {
+        "es": "Bilbao Arte, Cultura y Guggenheim | Tours privados | GOXO",
+        "en": "Private Bilbao City Tour & Guggenheim Visit | GOXO"
+      },
+      "seoDescription": {
+        "es": "Una introducción privada a Bilbao: el Museo Guggenheim, la arquitectura de la ciudad y las historias que le dan vida.",
+        "en": "A private introduction to Bilbao: the Guggenheim Museum, the city’s architecture and the stories that bring it to life."
+      },
+      "stops": [
+        {
+          "es": "Museo Guggenheim",
+          "en": "Guggenheim Museum"
+        },
+        {
+          "es": "La ría y la arquitectura",
+          "en": "The river and architecture"
+        },
+        {
+          "es": "Casco Viejo",
+          "en": "Old Town"
+        }
+      ],
+      "stopCopy": [
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        }
+      ],
+      "includes": [
+        {
+          "es": "Guía local y experiencia privada para tu grupo",
+          "en": "Local guide and a private experience for your group"
+        }
+      ],
+      "excludes": [
+        {
+          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
+          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+        }
+      ],
+      "faq": {
+        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
+        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+      },
+      "immersive": false,
+      "gallery": [
+        "/media/bilbao-local-guide.webp",
+        "/media/bilbao.webp",
+        "/media/gallery-arriaga.webp",
+        "/media/gallery-ribera.webp",
+        "/media/gallery-siete-calles.webp"
+      ],
+      "published": true,
+      "number": "03"
+    },
+    {
+      "id": "san-sebastian-getaria",
+      "slug": "san-sebastian-getaria-tour-from-bilbao",
+      "category": "costa",
+      "image": "/media/san-sebastian-reference.webp",
+      "imageAlt": {
+        "es": "Playa de La Concha y monte Urgull en San Sebastián",
+        "en": "La Concha beach and Mount Urgull in San Sebastián"
+      },
+      "short": {
+        "es": "San Sebastián y Getaria",
+        "en": "San Sebastián & Getaria"
+      },
+      "name": {
+        "es": "San Sebastián y Getaria",
+        "en": "San Sebastián & Getaria"
+      },
+      "location": {
+        "es": "San Sebastián · Getaria",
+        "en": "San Sebastián · Getaria"
+      },
+      "duration": {
+        "es": "8 horas",
+        "en": "8 hours"
+      },
+      "guests": {
+        "es": "2–8 personas",
+        "en": "2–8 guests"
+      },
+      "eyebrow": {
+        "es": "EXPERIENCIA PRIVADA",
+        "en": "PRIVATE EXPERIENCE"
+      },
+      "description": {
+        "es": "Un recorrido privado entre San Sebastián y Getaria, donde se unen la elegancia de la Belle Époque, la gastronomía vasca, los paisajes costeros y el txakoli.",
+        "en": "A private journey between San Sebastián and Getaria, where Belle Époque elegance, Basque food culture, coastal landscapes and txakoli come together."
+      },
+      "catalogDescription": {
+        "es": "Un recorrido privado entre San Sebastián y Getaria, donde se unen la elegancia de la Belle Époque, la gastronomía vasca y la costa.",
+        "en": "A private journey between San Sebastián and Getaria, where Belle Époque elegance, Basque food culture and the coast come together."
+      },
+      "story": {
+        "es": "Comienza en San Sebastián, explorando el casco antiguo, la bahía de La Concha y las historias de una de las grandes ciudades gastronómicas de Europa. Disfruta de un pintxo antes de seguir por la costa hacia Getaria: una villa pesquera conocida por el txakoli, el pescado a la parrilla, Balenciaga y su entorno atlántico.\n\nSi lo deseas, la experiencia puede incluir un almuerzo memorable en una parrilla con estrella Michelin en Getaria, sujeto a disponibilidad.",
+        "en": "Begin in San Sebastián, exploring the Old Town, La Concha Bay and the stories behind one of Europe’s great food cities. Stop for a pintxo in the old town, then continue along the coast to Getaria: a fishing town known for txakoli wine, grilled fish, Balenciaga and its Atlantic setting.\n\nFor guests who wish, the experience can include a memorable lunch in Getaria at a Michelin-starred grill, subject to availability."
+      },
+      "seoTitle": {
+        "es": "San Sebastián y Getaria | Tours privados | GOXO",
+        "en": "Private San Sebastián & Getaria Tour | Food, Culture & Coast | GOXO"
+      },
+      "seoDescription": {
+        "es": "Un recorrido privado entre San Sebastián y Getaria, donde se unen la elegancia de la Belle Époque, la gastronomía vasca y la costa.",
+        "en": "A private journey between San Sebastián and Getaria, where Belle Époque elegance, Basque food culture and the coast come together."
+      },
+      "stops": [
+        {
+          "es": "Casco antiguo y La Concha",
+          "en": "Old Town and La Concha"
+        },
+        {
+          "es": "Un pintxo en San Sebastián",
+          "en": "A pintxo in San Sebastián"
+        },
+        {
+          "es": "Getaria",
+          "en": "Getaria"
+        }
+      ],
+      "stopCopy": [
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        }
+      ],
+      "includes": [
+        {
+          "es": "Guía local y experiencia privada para tu grupo",
+          "en": "Local guide and a private experience for your group"
+        }
+      ],
+      "excludes": [
+        {
+          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
+          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+        }
+      ],
+      "faq": {
+        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
+        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+      },
+      "immersive": false,
+      "gallery": [
+        "/media/san-sebastian-reference.webp"
+      ],
+      "published": true,
+      "number": "04"
+    },
+    {
+      "id": "pintxos",
+      "slug": "private-bilbao-pintxos-tour",
+      "category": "gastronomia",
+      "image": "/media/pintxos.webp",
+      "imageAlt": {
+        "es": "Barra de pintxos en el Casco Viejo de Bilbao",
+        "en": "Pintxos counter in Bilbao’s Old Town"
+      },
+      "short": {
+        "es": "Pintxos de Bilbao y maridaje de vino local",
+        "en": "Bilbao Pintxos & Local Wine Pairing"
+      },
+      "name": {
+        "es": "Tour privado de pintxos y vino por el Casco Viejo de Bilbao",
+        "en": "Private Bilbao Pintxos & Wine Tour in the Old Town"
+      },
+      "location": {
+        "es": "Bilbao Casco Viejo",
+        "en": "Bilbao Old Town"
+      },
+      "duration": {
+        "es": "3 horas",
+        "en": "3 hours"
+      },
+      "guests": {
+        "es": "2–8 personas",
+        "en": "2–8 guests"
+      },
+      "eyebrow": {
+        "es": "EXPERIENCIA PRIVADA",
+        "en": "PRIVATE EXPERIENCE"
+      },
+      "description": {
+        "es": "Un tour privado de pintxos y vino por el Casco Viejo de Bilbao, visitando favoritos locales y bares escondidos que difícilmente encontrarías por tu cuenta.",
+        "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
+      },
+      "catalogDescription": {
+        "es": "Un tour privado de pintxos y vino por el Casco Viejo de Bilbao, visitando favoritos locales y bares escondidos que difícilmente encontrarías por tu cuenta.",
+        "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
+      },
+      "story": {
+        "es": "Descubre el Casco Viejo de Bilbao a través de su gastronomía, vino e historias cotidianas. Durante tres horas sin prisas, recorremos las calles estrechas del Casco Viejo y paramos en bares locales cuidadosamente elegidos donde los pintxos forman parte de la vida de la ciudad.\n\nPrueba una selección de pintxos vascos con vino local mientras aprendes a pedir, en qué fijarte y por qué importa cada lugar. Son sitios con carácter, personas detrás de la barra e historias que te ayudan a vivir Bilbao como sus habitantes.",
+        "en": "Discover Bilbao’s Old Town through its food, wine and everyday stories. Over three unhurried hours, we move through the narrow streets of the Casco Viejo, stopping at carefully chosen local bars where pintxos are part of the city’s way of life.\n\nTaste a selection of Basque pintxos, paired with local wine, while learning how to order, what to look for and why each place matters. These are not stops chosen for a checklist: they are places with character, people behind the bar and stories that help you experience Bilbao as locals do."
+      },
+      "seoTitle": {
+        "es": "Pintxos de Bilbao y maridaje de vino local | Tours privados | GOXO",
+        "en": "Private Bilbao Pintxos Tour | Old Town Food & Wine | GOXO"
+      },
+      "seoDescription": {
+        "es": "Un tour privado de pintxos y vino por el Casco Viejo de Bilbao, visitando favoritos locales y bares escondidos que difícilmente encontrarías por tu cuenta.",
+        "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
+      },
+      "stops": [
+        {
+          "es": "Casco Viejo de Bilbao",
+          "en": "Bilbao Old Town"
+        },
+        {
+          "es": "Bares locales y pintxos",
+          "en": "Local bars and pintxos"
+        },
+        {
+          "es": "Vino local",
+          "en": "Local wine"
+        }
+      ],
+      "stopCopy": [
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        }
+      ],
+      "includes": [
+        {
+          "es": "Guía local y experiencia privada para tu grupo",
+          "en": "Local guide and a private experience for your group"
+        }
+      ],
+      "excludes": [
+        {
+          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
+          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+        }
+      ],
+      "faq": {
+        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
+        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+      },
+      "immersive": false,
+      "gallery": [
+        "/media/pintxos.webp",
+        "/media/gallery-casco-viejo.webp",
+        "/media/gallery-bar-bilbao.webp",
+        "/media/gallery-siete-calles.webp"
+      ],
+      "published": true,
+      "number": "05"
+    }
+  ]
+}

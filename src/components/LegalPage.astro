@@ -1,9 +1,11 @@
 ---
 import Base from '../layouts/Base.astro';
 import C from './Copy.astro';
+import {languageOf} from '../data/urls';
 const {page}=Astro.props;
+const lang=languageOf(Astro.url.pathname);
 ---
-<Base title={`${page.title.es} · GOXO Experiences`} description={page.intro.es}>
+<Base title={`${page.title[lang]} · GOXO Experiences`} description={page.intro[lang]}>
 <main id="main">
 <section class="page-heading section-pad"><C tag="p" class="eyebrow" {...page.eyebrow}/><C tag="h1" {...page.title}/><C tag="p" {...page.intro}/></section>
 <section class="legal-content section-pad">

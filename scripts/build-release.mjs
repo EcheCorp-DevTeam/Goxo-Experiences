@@ -1,0 +1,10 @@
+import {execFileSync} from 'node:child_process';
+import {loadEnv} from 'vite';
+const releaseEnv={...loadEnv('production',process.cwd(),'PUBLIC_'),...process.env};
+const origin=releaseEnv.PUBLIC_SITE_URL;
+if(!origin)throw new Error('Set PUBLIC_SITE_URL to the confirmed production domain before building a release.');
+const url=new URL(origin);
+if(url.protocol!=='https:'||['localhost','127.0.0.1'].includes(url.hostname)||url.pathname!=='/'||url.search||url.hash)throw new Error('PUBLIC_SITE_URL must be an HTTPS production origin without a path or parameters.');
+execFileSync(process.execPath,['node_modules/astro/bin/astro.mjs','build'],{stdio:'inherit',env:{...releaseEnv,PUBLIC_INDEXABLE:'true',PUBLIC_SITE_URL:url.origin}});
+execFileSync(process.execPath,['scripts/audit-seo.mjs','--production'],{stdio:'inherit'});
+execFileSync(process.execPath,['scripts/prepare-redirects.mjs'],{stdio:'inherit'});

@@ -1,7 +1,3 @@
 ---
-import Base from '../../layouts/Base.astro';
-import C from '../../components/Copy.astro';
-import TourCard from '../../components/TourCard.astro';
-import {tours} from '../../data/tours';
+return Astro.redirect('/experiences/',301);
 ---
-<Base title="Experiencias · GOXO"><main id="main" class="catalog-page"><section class="page-heading section-pad"><C tag="p" class="eyebrow" es="PAÍS VASCO & RIOJA" en="BASQUE COUNTRY & RIOJA"/><C tag="h1" es="Sigue lo que te mueve." en="Follow what moves you."/><C tag="p" es="Costa, gastronomía, vino y cultura. Experiencias privadas para descubrir el territorio con alguien de aquí." en="Coast, food, wine and culture. Private experiences to discover the region with someone from here."/></section><section class="experiences-section section-pad"><div class="filter-row" role="group" aria-label="Filtrar experiencias">{[['all','Todas','All'],['costa','Costa','Coast'],['vino','Vino','Wine'],['gastronomia','Gastronomía','Food'],['cultura','Cultura','Culture']].map(([id,es,en])=><C tag="button" data-filter={id} aria-pressed={id==='all'} es={es} en={en}/>)}</div><div class="tours-grid" id="tours-grid">{tours.map((tour,index)=><TourCard tour={tour} index={index}/>)}</div><C tag="p" id="tours-empty" hidden es="No hay experiencias en esta selección." en="No experiences in this selection."/></section></main></Base>

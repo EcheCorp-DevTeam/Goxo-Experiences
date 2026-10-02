@@ -1,0 +1,145 @@
+/* Preserve GOXO’s palette and type while making essential information readable. */
+body{font-size:1.125rem}
+body .site-header{position:sticky;top:0;min-height:100px;height:auto;background:var(--cream);color:var(--ink);padding:16px 4%;gap:24px;border-bottom:1px solid var(--line)}
+body.page-dark .site-header{color:var(--ink);border-color:var(--line)}
+body .brand-logo{height:48px;width:auto}
+body .desktop-nav{gap:22px;margin:0 0 0 auto;font-size:1.125rem}
+body .header-actions{gap:16px;font-size:1.125rem}
+body .header-contact,body.page-dark .header-contact{display:inline-flex;border-color:var(--ink);background:var(--ink);color:var(--cream);font-size:1rem;padding:12px 18px;min-height:48px;align-items:center;text-align:center;justify-content:center}
+body .language-button{display:grid;place-items:center;min-height:44px;min-width:44px}
+body .menu-toggle{min-height:44px;min-width:44px}
+body .mobile-nav{position:fixed;top:100px;font-size:28px;max-height:calc(100svh - 100px);overflow:auto}
+.no-script-nav{display:flex;flex-wrap:wrap;gap:20px;padding:20px 5%;background:var(--cream)}
+body .page-heading{padding-top:65px}
+body .page-heading h1{font-size:clamp(42px,6vw,82px);max-width:20ch;line-height:1.08;letter-spacing:-.03em}
+body .display-title{font-size:clamp(36px,4.7vw,72px);letter-spacing:-.025em;line-height:1.1}
+body main p,body main li,body main summary,body .section-note,body .home .section-note,body .home .tour-card-meta,body .form-note,body .footer-contact,body .footer-bottom,body .footer-top p:not(.eyebrow){font-size:1.125rem;line-height:1.7}
+body .eyebrow{font-size:14px;letter-spacing:.1em}
+body .button,body .text-link{font-size:1.125rem;min-height:48px;line-height:1.5}
+body .home .home-hero{min-height:620px;height:calc(100svh - 100px);max-height:850px}
+body .home .hero-content{padding:80px 7%;max-width:1250px}
+body .home .hero h1{font-size:clamp(44px,5.5vw,82px);max-width:23ch;line-height:1.08}
+body .home .hero h1 span{display:inline}
+body .home .home-video-toggle{z-index:5;background:var(--ink);color:var(--cream)}
+body .tours-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:54px 5%;align-items:stretch}
+body .tour-card{display:flex;flex-direction:column;min-width:0;transform:none;opacity:1}
+body .tour-card-photo{aspect-ratio:4/3;background:#e6e5d8}
+body .tour-card-photo img,body .tour-card-photo:hover img{transform:none;transition:none}
+body .tour-photo-pending{display:block;width:100%;height:100%;background:var(--olive);opacity:.2}
+body .tour-card-body{padding-top:24px;display:flex;flex-direction:column;align-items:flex-start;flex:1}
+body .tour-card-body h3{font:500 clamp(28px,2.8vw,42px)/1.12 var(--serif);margin:0 0 18px}
+body .tour-card-body .tour-description{max-width:65ch;margin-bottom:20px}
+body .tour-card-meta{display:grid;grid-template-columns:1fr 1fr;gap:6px 18px;padding:0 0 22px;color:var(--ink);margin-top:auto;width:100%}
+body .tour-card-meta span:first-child{max-width:none;grid-column:1/-1}
+body .tour-card-body .button{width:100%}
+body .tour-card-body .text-link{margin-top:8px}
+body .section-heading{align-items:start}
+body .section-note{max-width:32ch}
+body .why-title{max-width:24ch}
+body .section-intro,body .about-company>p{max-width:72ch}
+body .reasons-grid{display:flex;flex-direction:column;gap:64px;background:none;border:0}
+body .reason-card{padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center;background:none}
+body .reason-card:nth-child(even) img{order:2}
+body .reason-card img{width:100%;aspect-ratio:4/3;object-fit:cover}
+body .reason-card h3{font:500 clamp(30px,3vw,46px)/1.12 var(--serif)}
+body .reason-card p{font-size:1.125rem;max-width:55ch}
+body .host-copy p{font-size:1.125rem;max-width:65ch}
+body .host-story{margin:24px 0}
+body summary{min-height:48px;cursor:pointer;padding:16px 0}
+body details p{margin:12px 0 22px}
+body .reviews-note{font-size:1.125rem;letter-spacing:0}
+body .final-cta{border-top:1px solid var(--line)}
+body .final-cta .button{margin:14px 0 24px}
+body .final-cta a[href^="mailto"]{text-decoration:underline;overflow-wrap:anywhere}
+body .footer-nav,body .related-experiences nav{display:flex;flex-wrap:wrap;gap:12px 28px}
+body .footer-nav a,body .related-experiences a{padding:10px 0;min-height:44px;text-decoration:underline}
+body .footer-contact a{min-height:44px;overflow-wrap:anywhere}
+body .footer-bottom a,body .footer-bottom button{min-height:44px;padding:10px 0}
+body .contact-layout{padding-top:0}
+body .contact-layout label,body .contact-extra{font-size:1.125rem}
+body input,body select,body textarea{font-size:1.125rem;min-height:48px;width:100%;max-width:100%}
+body .tour-story{white-space:pre-line}
+body .detail-hero{min-height:560px;height:70svh;background:var(--ink)}
+body .detail-back{margin-top:35px;font-size:1.125rem}
+body .detail-hero h1{font-size:clamp(40px,6vw,80px);line-height:1.08;max-width:20ch}
+body .detail-facts{font-size:1.125rem;flex-wrap:wrap}
+body .detail-intro h2{font-size:clamp(28px,3vw,42px);line-height:1.2}
+body .sticky-tour-cta{font-size:1.125rem;bottom:16px;right:90px}
+body .experience-faq{max-width:1100px}
+body .about-company{padding-top:0;max-width:1100px}
+body .about-company h2{margin-top:50px}
+body a:focus-visible,body button:focus-visible,body summary:focus-visible{outline:3px solid var(--olive);outline-offset:5px}
+body .site-footer a:focus-visible,body .site-footer button:focus-visible,body .hero button:focus-visible{outline-color:var(--cream)}
+@media(max-width:1100px){body .desktop-nav{display:none}body .menu-toggle{display:block}body .site-header{gap:16px}body .header-actions{margin-left:auto}}
+@media(max-width:760px){
+ body .site-header{padding:12px 20px;min-height:120px;align-items:center;gap:12px;flex-wrap:wrap}
+ body .brand-logo{height:38px}body .header-actions{display:contents}
+ body .language-button{margin-left:auto}body .header-contact{order:4;width:100%;padding:9px 16px;font-size:1rem}
+ body .menu-toggle{display:block}body .mobile-nav{top:124px;max-height:calc(100svh - 124px)}
+ body .home .home-hero{min-height:540px;height:calc(100svh - 124px)}
+ body .home .hero-content{padding:60px 24px 100px}
+ body .home .hero h1{font-size:clamp(38px,8.7vw,60px)}
+ body .tours-grid{grid-template-columns:1fr;gap:48px}
+ body .section-heading{flex-direction:column;gap:20px}
+ body .reason-card{grid-template-columns:1fr;gap:24px}body .reason-card:nth-child(even) img{order:0}
+ body .reasons-grid{gap:48px}body .section-pad{padding:64px 24px}
+ body .home .home-host{grid-template-columns:1fr}
+ body .host-video-frame{max-height:600px}
+ body .detail-intro,body .details-columns,body .contact-layout{grid-template-columns:1fr}
+ body .detail-hero{min-height:500px}body .detail-hero-content{bottom:45px}
+ body .detail-facts{gap:10px 18px}body .detail-hero h1{font-size:44px}
+ body .sticky-tour-cta{position:static;margin:0 24px 40px;width:calc(100% - 48px)}
+ body .page-heading{padding-top:50px}body .page-heading>p{font-size:1.125rem}
+ body .footer-bottom>div{flex-direction:column;gap:0}body .site-footer{padding-bottom:80px}
+ body .contact-extra strong{font-size:1rem}body .form-grid{grid-template-columns:1fr}
+ body .form-grid .full{grid-column:auto}body .footer-contact{font-size:1.125rem}
+}
+@media(prefers-reduced-motion:reduce){body .tour-card-photo img{animation:none;transform:none}}
+
+body main .button,body .site-header .header-contact{font-size:1.125rem}
+body .close-button,body .gallery-controls button{min-width:44px;min-height:44px}
+
+/* Overlay the home video while keeping normal page headers readable. */
+body:has(.home #hero) .site-header{position:fixed;inset:0 0 auto;transition:background-color .2s,color .2s}
+body .site-header.over-video,body.page-dark .site-header.over-video{background:transparent;color:var(--cream);border-bottom-color:transparent}
+body .site-header.over-video .desktop-nav a,body .site-header.over-video .language-button{text-shadow:0 1px 4px #0009}
+body .site-header.over-video .header-contact{background:#19233a80;color:var(--cream);border-color:#ffffffa6}
+body .site-header.over-video .header-contact:hover{background:var(--cream);color:var(--ink)}
+@media(prefers-reduced-motion:reduce){body:has(.home #hero) .site-header{transition:none}}
+
+
+
+body .site-header.over-video .brand{background:var(--cream);padding:10px 16px;border-radius:3px;box-shadow:0 2px 14px #00000014}
+@media(max-width:760px){body .site-header.over-video .brand{padding:8px 12px}}
+
+
+
+body .site-header .brand{transform-origin:left center;transition:transform 1s cubic-bezier(.45,0,.2,1),background-color .4s ease}
+@media(hover:hover) and (pointer:fine){body .site-header .brand:hover{transform:scale(1.12)}}
+body .site-header .brand:focus-visible{transform:scale(1.12)}
+@media(prefers-reduced-motion:reduce){body .site-header .brand{transition:none}}
+
+
+
+
+
+@media(hover:hover) and (pointer:fine){body .site-header.over-video .brand:hover{background:var(--olive)}}
+body .site-header.over-video .brand:focus-visible{background:var(--olive)}
+
+
+/* Softer, consistent corners for interactive controls. */
+body .button,body .header-contact,body .language-button,body .menu-toggle,body .close-button,body #motion-toggle,body .home-video-toggle,body .gallery-controls button{border-radius:8px}
+body .site-header.over-video .brand{border-radius:8px}
+
+
+body .home-hero .hero-content .button.button-light{background:transparent;color:var(--cream);border:1px solid #ffffffb3}
+body .home-hero .hero-content .button.button-light:hover,body .home-hero .hero-content .button.button-light:focus-visible{background:var(--olive);color:var(--cream);border-color:var(--olive)}
+
+
+body:has(.home) .site-header .header-contact{display:none}
+
+
+.developer-credit{margin:8px 0 0;padding-top:6px;border-top:1px solid var(--line);font-size:.875rem;line-height:1.5;text-align:center}.developer-credit a{display:inline-flex;align-items:center;min-height:44px;margin-left:8px;text-decoration:underline;text-underline-offset:4px}
+
+
+
