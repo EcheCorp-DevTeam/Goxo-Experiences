@@ -4,6 +4,18 @@ body .site-header{position:sticky;top:0;min-height:100px;height:auto;background:
 body.page-dark .site-header{color:var(--ink);border-color:var(--line)}
 body .brand-logo{height:48px;width:auto}
 body .desktop-nav{gap:22px;margin:0 0 0 auto;font-size:1.125rem}
+body .experiences-menu{position:relative}
+body details.experiences-menu{border:0}
+body .experiences-menu summary::after{content:none}
+body .experiences-menu summary{display:flex;align-items:center;gap:8px;padding:8px 0;min-height:44px;font-size:inherit;list-style:none}
+body .experiences-menu summary::-webkit-details-marker{display:none}
+body .experiences-menu[open] summary svg{transform:rotate(180deg)}
+body .experiences-submenu{position:absolute;top:100%;left:-18px;width:360px;padding:12px;background:var(--cream);color:var(--ink);border:1px solid var(--line);border-radius:8px;box-shadow:0 10px 24px #19233a18;z-index:30}
+body .site-header.over-video .experiences-submenu a{color:var(--ink);text-shadow:none}
+body .experiences-submenu a{display:block;padding:12px;font-family:var(--sans);font-size:1.125rem;font-weight:400;letter-spacing:normal;line-height:1.5;min-height:44px}
+body .experiences-submenu a:hover,body .experiences-submenu a:focus-visible{background:var(--olive);color:var(--cream)}
+body .experiences-submenu .experiences-all{margin-top:8px;border-top:1px solid var(--line)}
+body .mobile-nav .experiences-submenu{position:static;width:100%;box-shadow:none;margin-bottom:12px}
 body .header-actions{gap:16px;font-size:1.125rem}
 body .header-contact,body.page-dark .header-contact{display:inline-flex;border-color:var(--ink);background:var(--ink);color:var(--cream);font-size:1rem;padding:12px 18px;min-height:48px;align-items:center;text-align:center;justify-content:center}
 body .language-button{display:grid;place-items:center;min-height:44px;min-width:44px}
@@ -25,6 +37,23 @@ body .tours-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:54px 5%;align
 body .tour-card{display:flex;flex-direction:column;min-width:0;transform:none;opacity:1}
 body .tour-card-photo{aspect-ratio:4/3;background:#e6e5d8}
 body .tour-card-photo img,body .tour-card-photo:hover img{transform:none;transition:none}
+/* Paired photos breathe together without shifting the reading plane. */
+body .gallery-tile img,body .gallery-tile:hover img{transform:none;transition:none}
+body .gallery-tile{min-width:0}
+@media(min-width:761px) and (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+ html:not([data-motion='off']) body .tour-card-photo img,
+ html:not([data-motion='off']) body .reason-card img{transition:transform 650ms cubic-bezier(.4,0,.2,1);transform-origin:center}
+ html:not([data-motion='off']) body .reasons-grid:has(.reason-card img:hover) .reason-card img:not(:hover){transform:scale(.99)}
+ html:not([data-motion='off']) body .reason-card img:hover{transform:scale(1.025)}
+ html:not([data-motion='off']) body .gallery-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);transition:grid-template-columns 650ms cubic-bezier(.4,0,.2,1)}
+ html:not([data-motion='off']) body .gallery-grid:has(.gallery-tile:nth-child(3n+1):is(:hover,:focus-visible)){grid-template-columns:minmax(0,1.18fr) minmax(0,.91fr) minmax(0,.91fr)}
+ html:not([data-motion='off']) body .gallery-grid:has(.gallery-tile:nth-child(3n+2):is(:hover,:focus-visible)){grid-template-columns:minmax(0,.91fr) minmax(0,1.18fr) minmax(0,.91fr)}
+ html:not([data-motion='off']) body .gallery-grid:has(.gallery-tile:nth-child(3n):is(:hover,:focus-visible)){grid-template-columns:minmax(0,.91fr) minmax(0,.91fr) minmax(0,1.18fr)}
+ html:not([data-motion='off']) body .tour-card-photo img{transform:scale(1.015)}
+ html:not([data-motion='off']) body .tour-card-photo:is(:hover,:focus-visible) img{transform:scale(1.04)}
+ html:not([data-motion='off']) body .tour-card:nth-child(odd):has(.tour-card-photo:is(:hover,:focus-visible)) + .tour-card .tour-card-photo img,
+ html:not([data-motion='off']) body .tour-card:nth-child(odd):has(+ .tour-card .tour-card-photo:is(:hover,:focus-visible)) .tour-card-photo img{transform:scale(1)}
+}
 body .tour-photo-pending{display:block;width:100%;height:100%;background:var(--olive);opacity:.2}
 body .tour-card-body{padding-top:24px;display:flex;flex-direction:column;align-items:flex-start;flex:1}
 body .tour-card-body h3{font:500 clamp(28px,2.8vw,42px)/1.12 var(--serif);margin:0 0 18px}
@@ -33,6 +62,26 @@ body .tour-card-meta{display:grid;grid-template-columns:1fr 1fr;gap:6px 18px;pad
 body .tour-card-meta span:first-child{max-width:none;grid-column:1/-1}
 body .tour-card-body .button{width:100%}
 body .tour-card-body .text-link{margin-top:8px}
+/* Click reveals the reverse; both faces remain readable without JavaScript. */
+body .tour-flippable{display:grid;perspective:1400px;align-items:stretch}
+body .tour-flippable .tour-card-front,body .tour-flippable .tour-card-body{grid-area:1/1;backface-visibility:hidden;transition:transform 700ms cubic-bezier(.4,0,.2,1);min-width:0}
+body .tour-flippable .tour-card-front{position:relative;transform:rotateY(0deg)}
+body .tour-flippable .tour-card-photo{height:100%;min-height:460px;aspect-ratio:auto}
+body .tour-flippable .tour-card-photo img{transform:none;transition:none}
+@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+ html:not([data-motion='off']) body .tour-flippable .tour-card-photo img{transform:scale(1);transition:transform 650ms cubic-bezier(.4,0,.2,1)}
+ html:not([data-motion='off']) body .tour-flippable .tour-card-front:is(:hover,:focus-within) .tour-card-photo img{transform:scale(1.045)}
+}
+body .tour-flippable .tour-card-body{transform:rotateY(-180deg);padding:32px;background:var(--cream);border:1px solid var(--line);border-radius:12px;justify-content:center}
+body .tour-flippable.is-flipped .tour-card-front{transform:rotateY(180deg)}
+body .tour-flippable.is-flipped .tour-card-body{transform:rotateY(0deg)}
+body .tour-flip-caption{position:absolute;inset:auto 0 0;padding:65px 28px 28px;background:linear-gradient(transparent,#19233aee);color:var(--cream);border-radius:0 0 12px 12px;pointer-events:none}
+body .tour-flip-caption h3{font:500 clamp(28px,2.8vw,42px)/1.12 var(--serif);margin-bottom:20px}
+body .tour-flip-caption button{pointer-events:auto;background:var(--cream);color:var(--ink)}
+body .tour-flip-back{margin-top:14px}
+@media(max-width:760px){body .tour-flippable .tour-card-body{padding:24px}body .tour-flippable .tour-card-photo{min-height:430px}}
+@media(prefers-reduced-motion:reduce){body .tour-flippable .tour-card-front,body .tour-flippable .tour-card-body{transition:none}}
+html[data-motion='off'] body .tour-flippable .tour-card-front,html[data-motion='off'] body .tour-flippable .tour-card-body{transition:none}
 body .section-heading{align-items:start}
 body .section-note{max-width:32ch}
 body .why-title{max-width:24ch}

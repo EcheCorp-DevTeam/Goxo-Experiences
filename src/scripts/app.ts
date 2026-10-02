@@ -8,6 +8,31 @@ const events=new AbortController();
 const on=(target:any,type:string,handler:any,options:any={})=>target.addEventListener(type,handler,{...options,signal:events.signal});
 const $=(selector:string):any=>document.querySelector(selector);
 const $$=(selector:string):any[]=>Array.from(document.querySelectorAll(selector));
+$$('.experiences-menu').forEach(dropdown=>{
+ on(dropdown,'pointerenter',(event:PointerEvent)=>{if(dropdown.closest('.desktop-nav')&&event.pointerType==='mouse'&&matchMedia('(hover:hover)').matches)dropdown.open=true});
+ on(dropdown,'pointerleave',()=>{if(!dropdown.contains(document.activeElement))dropdown.open=false});
+ on(dropdown,'focusout',(event:FocusEvent)=>{if(!dropdown.contains(event.relatedTarget as Node))dropdown.open=false});
+ on(dropdown,'keydown',(event:KeyboardEvent)=>{if(event.key==='Escape'){dropdown.querySelector('summary').focus();dropdown.open=false;event.stopPropagation()}});
+ on(dropdown,'click',(event:MouseEvent)=>{if((event.target as Element).closest('a'))dropdown.open=false});
+});
+$$('.tour-card').forEach(card=>{
+ const front=card.querySelector('.tour-card-front'),back=card.querySelector('.tour-card-body');
+ if(!front||!back)return;
+ const toggle=front.querySelector('.tour-flip-toggle'),close=back.querySelector('.tour-flip-back');
+ card.classList.add('tour-flippable');front.querySelector('.tour-flip-caption').hidden=false;close.hidden=false;
+ back.id=`tour-info-${card.dataset.tourCard}`;toggle.setAttribute('aria-controls',back.id);back.inert=true;
+ const flip=(open:boolean)=>{
+  if(open)$$('.tour-flippable.is-flipped').forEach(other=>{
+   if(other===card)return;
+   other.classList.remove('is-flipped');other.querySelector('.tour-flip-toggle').setAttribute('aria-expanded','false');
+   other.querySelector('.tour-card-front').inert=false;other.querySelector('.tour-card-body').inert=true;
+  });
+  card.classList.toggle('is-flipped',open);toggle.setAttribute('aria-expanded',String(open));front.inert=open;back.inert=!open;(open?close:toggle).focus({preventScroll:true});
+ };
+ on(front.querySelector('.tour-card-photo'),'click',(event:MouseEvent)=>{if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();flip(true)});
+ on(toggle,'click',()=>flip(true));on(close,'click',()=>flip(false));
+ on(card,'keydown',(event:KeyboardEvent)=>{if(event.key==='Escape'&&card.classList.contains('is-flipped'))flip(false)});
+});
 const hero=document.querySelector<HTMLElement>('#hero');
 const header=document.querySelector<HTMLElement>('.site-header');
 let headerObserver:IntersectionObserver|undefined;
