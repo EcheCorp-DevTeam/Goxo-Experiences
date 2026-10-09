@@ -1,6 +1,8 @@
 ---
 import {languageOf,localizedHref} from '../data/urls';
-const {tag:Tag='span',es,en,...rest}=Astro.props;
+import {interfaceCopy} from '../data/interface';
+const {tag:Tag='span',es:originalEs,en:originalEn,...rest}=Astro.props;
+const {es,en}=interfaceCopy[originalEn]||{es:originalEs,en:originalEn};
 const lang=languageOf(Astro.url.pathname);
 if(rest.href)rest.href=localizedHref(rest.href,lang);
 ---

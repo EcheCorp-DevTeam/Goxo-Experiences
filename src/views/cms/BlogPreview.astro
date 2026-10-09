@@ -1,0 +1,13 @@
+---
+import {allPosts} from '../../data/articles';
+import BlogPreview from '../../components/cms/BlogPreview';
+import '../../styles/blog-preview.css';
+import '@fontsource/montserrat/400.css';
+import '@fontsource/montserrat/500.css';
+import '@fontsource/montserrat/600.css';
+export const prerender=false;
+Astro.response.headers.set('Cache-Control','no-store');
+Astro.response.headers.set('X-Robots-Tag','noindex, nofollow');
+const selected=Astro.url.searchParams.get('slug');
+---
+<!doctype html><html lang="es"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><title>Previsualización del blog · GOXO Studio</title></head><body class="blog-preview"><BlogPreview posts={allPosts} initialSlug={selected} client:load /></body></html>

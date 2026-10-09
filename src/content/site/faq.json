@@ -1,0 +1,102 @@
+{
+  "faqTitle": {
+    "es": "Tus preguntas, resueltas.",
+    "en": "Questions, answered."
+  },
+  "faqIntro": {
+    "es": "Todo lo que necesitas saber antes de planificar tu experiencia privada.",
+    "en": "Everything you need to know before planning your private experience."
+  },
+  "faqs": [
+    {
+      "question": {
+        "es": "¿Cómo planifico una experiencia?",
+        "en": "How do I plan an experience?"
+      },
+      "answer": {
+        "es": "Cuéntanos tus fechas, el número de personas y qué quieres descubrir. Te responderemos personalmente para ayudarte a elegir y confirmar disponibilidad.",
+        "en": "Tell us your travel dates, the number of guests and what you would like to discover. We will reply personally to help you choose the right experience and confirm availability."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Todas las experiencias GOXO son privadas?",
+        "en": "Are all GOXO experiences private?"
+      },
+      "answer": {
+        "es": "Sí. Cada experiencia es para tu propio grupo. No hay grupos mezclados, y el ritmo, la conversación y el itinerario son personales de principio a fin.",
+        "en": "Yes. Every GOXO experience is designed for your own group. There are no mixed groups, so the pace, conversation and itinerary can feel personal from beginning to end."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Podéis adaptar la experiencia a nosotros?",
+        "en": "Can you tailor the experience to us?"
+      },
+      "answer": {
+        "es": "Por supuesto. Cuéntanos tus intereses, necesidades alimentarias y de movilidad y el ritmo que prefieres. Adaptaremos la experiencia a lo que más te importa.",
+        "en": "Of course. Tell us about your interests, dietary requirements, mobility needs and preferred pace. We will shape the experience around what matters most to you."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Dónde nos encontramos?",
+        "en": "Where do we meet?"
+      },
+      "answer": {
+        "es": "Confirmaremos el punto de encuentro antes de la experiencia, con un enlace de Google Maps y todos los detalles prácticos para ese día.",
+        "en": "Your meeting point will be confirmed before the experience, together with a Google Maps link and all the practical details you need for the day."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Qué incluye cada tour?",
+        "en": "What is included in each tour?"
+      },
+      "answer": {
+        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
+        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Qué idiomas ofrecéis?",
+        "en": "What languages do you offer?"
+      },
+      "answer": {
+        "es": "Las experiencias están disponibles en inglés y español. Indícanos tu idioma preferido al contactar.",
+        "en": "Experiences are available in English and Spanish. Please tell us your preferred language when you get in touch."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Qué debemos llevar?",
+        "en": "What should we bring?"
+      },
+      "answer": {
+        "es": "Te enviaremos consejos prácticos antes de la experiencia. Normalmente basta con calzado cómodo y ropa adecuada al tiempo. Para la costa y el campo, podemos recomendar una prenda impermeable ligera.",
+        "en": "We will send you practical advice before the experience. Comfortable shoes and clothing suitable for the weather are usually all you need. For coastal and countryside experiences, we may recommend a light waterproof layer."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Qué pasa si cambia el tiempo?",
+        "en": "What happens if the weather changes?"
+      },
+      "answer": {
+        "es": "El País Vasco es precioso en cualquier estación, pero tu comodidad y seguridad son lo primero. Si el tiempo afecta a la experiencia, hablaremos contigo sobre la mejor alternativa, cambio de fecha o solución de cancelación.",
+        "en": "The Basque Country is beautiful in every season, but your comfort and safety come first. If the weather affects the experience, we will discuss the best alternative, rescheduling option or cancellation solution with you."
+      }
+    },
+    {
+      "question": {
+        "es": "¿Cómo confirmo y pago mi experiencia?",
+        "en": "How do I confirm and pay for my experience?"
+      },
+      "answer": {
+        "es": "Una vez acordada la experiencia y confirmada la disponibilidad, te enviaremos los detalles de reserva, el precio y las instrucciones de pago antes de confirmar nada.",
+        "en": "Once we have agreed on the right experience and confirmed availability, we will send you the booking details, price and payment instructions clearly before anything is confirmed."
+      }
+    }
+  ]
+}

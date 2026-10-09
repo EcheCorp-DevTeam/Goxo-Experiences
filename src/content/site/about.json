@@ -1,0 +1,62 @@
+{
+  "hostTitle": {
+    "es": "Kaixo, soy Endika.",
+    "en": "Kaixo, I’m Endika."
+  },
+  "hostCaption": {
+    "es": "Un anfitrión local, toda una vida de historias y una forma más personal de conocer el País Vasco.",
+    "en": "A local host, a lifetime of stories and a more personal way to experience the Basque Country."
+  },
+  "hostStory": [
+    {
+      "es": "Nací en Bilbao y he pasado más de once años viajando y trabajando como guía turístico por todo el mundo. Tras años en el extranjero, volví a casa con una idea sencilla: compartir el País Vasco con la misma curiosidad, cuidado y generosidad que busco cuando viajo.",
+      "en": "I was born in Bilbao and have spent more than eleven years travelling and working as a tour guide around the world. After years abroad, I came home with a simple idea: to share the Basque Country with the same curiosity, care and generosity that I look for when I travel myself."
+    },
+    {
+      "es": "No siempre imaginé que me dedicaría a esto. Estudié Administración de Empresas, pensando que seguiría un camino más convencional. Pero once años guiando por el mundo me enseñaron algo que ningún título puede enseñar: la diferencia entre mostrar un lugar y hacer que alguien sienta que también es suyo.",
+      "en": "I did not always imagine myself doing this. I studied Business Administration, thinking I would follow a more conventional path. But eleven years of guiding around the world taught me something no degree can teach: the difference between showing someone a place and making them feel it is theirs."
+    },
+    {
+      "es": "GOXO es mi manera de presentarte los lugares que conozco, las personas en quienes confío, las historias que rara vez aparecen en una guía y la cultura real que buscas. Después de más de una década compartiendo otras partes del mundo, quería compartir la mía: despacio, en grupos pequeños y mediante experiencias auténticas, sin prisas, sin turismo masivo y sin hacer algo comercial solo por hacerlo.",
+      "en": "GOXO is my way of introducing you to the places I know, the people I trust, the stories that rarely appear in a guidebook and the real culture you are looking for. After more than a decade of sharing other parts of the world, I wanted to share my own: slowly, in small groups and through genuine experiences — never rushed, never mass tourism, never commercial for the sake of it."
+    }
+  ],
+  "aboutTitle": {
+    "es": "Acerca de GOXO | Tours privados por el País Vasco con impacto local",
+    "en": "About GOXO | Private Basque Country Tours with Local Impact"
+  },
+  "aboutClaim": {
+    "es": "Una forma más consciente de conocer el País Vasco.",
+    "en": "A more thoughtful way to experience the Basque Country."
+  },
+  "aboutIntro": [
+    {
+      "es": "GOXO toma su nombre de la palabra vasca goxo, que evoca algo sabroso, reconfortante y hecho con cariño.",
+      "en": "GOXO takes its name from the Basque word goxo, evoking something tasty, comforting and made with care."
+    },
+    {
+      "es": "Esa idea guía todo lo que hacemos. Creemos que viajar debe sentirse personal, generoso y conectado con el lugar que visitas.",
+      "en": "That idea shapes everything we do. We believe travel should feel personal, generous and connected to the place you are visiting."
+    }
+  ],
+  "aboutCompany": [
+    {
+      "es": "Desde Bilbao, GOXO crea experiencias privadas de gastronomía, vino y cultura por el País Vasco. Cada viaje se diseña alrededor de tu grupo, tus intereses y tu ritmo, desde la primera conversación hasta la última recomendación.",
+      "en": "Based in Bilbao, GOXO creates private food, wine and cultural experiences across the Basque Country. Every journey is designed around your group, your interests and your pace — from the first conversation to the final recommendation."
+    },
+    {
+      "es": "Te llevamos más allá de lo evidente: a bodegas familiares donde puedes hablar con quien hace el vino, restaurantes locales, pueblos costeros, productores e historias que revelan el verdadero carácter de la región. Sin grupos mezclados. Sin itinerarios apresurados. Sin experiencias hechas para todos y recordadas por nadie.",
+      "en": "We take you beyond the obvious: to family-owned wineries where you can talk with the winemaker, local restaurants, coastal towns, producers and stories that reveal the real character of the region. No mixed groups. No rushed itineraries. No experiences built for everyone and remembered by no one."
+    }
+  ],
+  "aboutCommitment": [
+    {
+      "es": "El País Vasco está en el corazón de cada experiencia GOXO; cuidarlo forma parte de nuestro trabajo. Priorizamos negocios locales y de temporada, apoyamos a pequeños productores independientes y tomamos decisiones responsables al explorar la región.",
+      "en": "The Basque Country is at the heart of every GOXO experience, so looking after it is part of how we work. We prioritise local and seasonal businesses, support small independent producers and make responsible choices in the way we explore the region."
+    },
+    {
+      "es": "Creemos que el turismo debe devolver algo. A medida que GOXO crezca, parte de lo que creemos se reinvertirá en proyectos sociales y medioambientales locales que protejan las comunidades y los paisajes que hacen posibles estas experiencias.",
+      "en": "We believe tourism should give something back. As GOXO grows, part of what we create will be reinvested in local social and environmental projects that protect the communities and landscapes that make these experiences possible."
+    }
+  ]
+}

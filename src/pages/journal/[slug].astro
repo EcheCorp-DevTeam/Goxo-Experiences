@@ -1,0 +1,7 @@
+---
+import Article from '../../components/Article.astro';
+import {posts} from '../../data/tours';
+export function getStaticPaths(){return posts.map(post=>({params:{slug:post.slug},props:{post}}))}
+const {post}=Astro.props;
+---
+<Article {post}/>

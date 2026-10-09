@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import C from '../components/Copy.astro';
-import media from '../data/media.json';
+import media from '../content/site/media.json';
 import {languageOf} from '../data/urls';
 const lang=languageOf(Astro.url.pathname);
 const credits=media.credits.filter(item=>!item.file.startsWith('pano-'));

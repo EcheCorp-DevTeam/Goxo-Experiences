@@ -1,0 +1,609 @@
+{
+  "tours": [
+    {
+      "id": "rioja",
+      "slug": "rioja-wine-tour-from-bilbao",
+      "category": "vino",
+      "image": "/media/cms/tours/tours-0-image.webp",
+      "imageAlt": {
+        "es": "Viñedos de Rodezno en La Rioja",
+        "en": "Vineyards in Rodezno, La Rioja"
+      },
+      "short": {
+        "es": "Rioja Wine Experience",
+        "en": "Rioja Wine Experience"
+      },
+      "name": {
+        "es": "Rioja Wine Experience",
+        "en": "Rioja Wine Experience"
+      },
+      "location": {
+        "es": "Rioja · Laguardia",
+        "en": "Rioja · Laguardia"
+      },
+      "duration": {
+        "es": "8 horas",
+        "en": "8 hours"
+      },
+      "guests": {
+        "es": "2–8 personas",
+        "en": "2–8 guests"
+      },
+      "eyebrow": {
+        "es": "EXPERIENCIA PRIVADA",
+        "en": "PRIVATE EXPERIENCE"
+      },
+      "description": {
+        "es": "Un tour privado por Rioja desde Bilbao, entre bodegas familiares, pueblos medievales e historias detrás de cada copa.",
+        "en": "A private Rioja wine tour from Bilbao, combining family wineries, medieval towns and stories behind every glass."
+      },
+      "catalogDescription": {
+        "es": "Un tour privado de vino por Rioja desde Bilbao, con bodegas familiares, pueblos medievales y un almuerzo local cuidadosamente elegido.",
+        "en": "A private Rioja wine tour from Bilbao, combining family-owned wineries, medieval towns and a carefully chosen local lunch."
+      },
+      "story": {
+        "es": "Dedica un día a descubrir La Rioja a través de las personas, paisajes y vinos que definen una de las regiones vinícolas más celebradas de España. Visita dos bodegas familiares, habla con el bodeguero, descubre las historias detrás de cada copa y pasea por las calles medievales de Laguardia.\n\nLa experiencia se adapta a tus intereses, desde pequeños productores hasta bodegas grandes e icónicas. Termina el día con un almuerzo local premium, elegido por su conexión con el territorio y su cultura gastronómica.",
+        "en": "Spend a full day discovering La Rioja through the people, landscapes and wines that define one of Spain’s most celebrated wine regions. Visit two family-owned wineries, talk to the winemaker and meet the stories behind each glass and explore the medieval streets of Laguardia.\n\nThe experience can be tailored around your interests, from small producers to larger, iconic wineries. Finish the day with a premium local lunch, chosen for its connection to the territory and its food culture."
+      },
+      "seoTitle": {
+        "es": "Rioja Wine Experience | Tours privados | GOXO",
+        "en": "Private Rioja Wine Tour from Bilbao | GOXO Experiences"
+      },
+      "seoDescription": {
+        "es": "Un tour privado de vino por Rioja desde Bilbao, con bodegas familiares, pueblos medievales y un almuerzo local cuidadosamente elegido.",
+        "en": "A private Rioja wine tour from Bilbao, combining family-owned wineries, medieval towns and a carefully chosen local lunch."
+      },
+      "stops": [
+        {
+          "es": "Bodegas familiares",
+          "en": "Family-owned wineries"
+        },
+        {
+          "es": "Laguardia",
+          "en": "Laguardia"
+        },
+        {
+          "es": "Almuerzo local",
+          "en": "Local lunch"
+        }
+      ],
+      "stopCopy": [
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        }
+      ],
+      "includes": [
+        {
+          "es": "Guía local y experiencia privada para tu grupo",
+          "en": "Local guide and a private experience for your group"
+        }
+      ],
+      "excludes": [
+        {
+          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
+          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+        }
+      ],
+      "faq": {
+        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
+        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+      },
+      "immersive": false,
+      "gallery": [
+        "/media/cms/tours/tours-0-gallery-0.webp",
+        "/media/cms/tours/tours-0-gallery-1.webp",
+        "/media/cms/tours/tours-0-gallery-2.webp"
+      ],
+      "published": true,
+      "number": "01",
+      "galleryAlts": [
+        {
+          "es": "Viñedos de Rodezno en La Rioja",
+          "en": "Vineyards in Rodezno, La Rioja"
+        },
+        {
+          "es": "Ayuntamiento viejo de Laguardia",
+          "en": "Laguardia’s old town hall"
+        },
+        {
+          "es": "Bodegas Bilbaínas en Haro",
+          "en": "Bodegas Bilbaínas in Haro"
+        }
+      ]
+    },
+    {
+      "id": "costa-vasca",
+      "slug": "gaztelugatxe-mundaka-gernika-tour",
+      "category": "costa",
+      "image": "/media/cms/tours/tours-1-image.webp",
+      "imageAlt": {
+        "es": "San Juan de Gaztelugatxe y la costa vasca",
+        "en": "San Juan de Gaztelugatxe and the Basque coast"
+      },
+      "short": {
+        "es": "Costa Vasca",
+        "en": "Basque Coast"
+      },
+      "name": {
+        "es": "Costa Vasca",
+        "en": "Basque Coast"
+      },
+      "location": {
+        "es": "Gaztelugatxe · Mundaka · Gernika",
+        "en": "Gaztelugatxe · Mundaka · Gernika"
+      },
+      "duration": {
+        "es": "6 horas",
+        "en": "6 hours"
+      },
+      "guests": {
+        "es": "2–8 personas",
+        "en": "2–8 guests"
+      },
+      "eyebrow": {
+        "es": "EXPERIENCIA PRIVADA",
+        "en": "PRIVATE EXPERIENCE"
+      },
+      "description": {
+        "es": "Un recorrido privado por Gaztelugatxe, Mundaka y Gernika: paisajes atlánticos, historias locales y una conexión más profunda con la cultura y la política vascas.",
+        "en": "A private journey through Gaztelugatxe, Mundaka and Gernika: Atlantic landscapes, local stories and a deeper connection with Basque culture & politics."
+      },
+      "catalogDescription": {
+        "es": "Un recorrido privado por Gaztelugatxe, Mundaka y Gernika: paisajes atlánticos, historias de pescadores locales y cultura vasca.",
+        "en": "A private journey through Gaztelugatxe, Mundaka and Gernika: Atlantic landscapes, local fisherman´s stories and Basque culture."
+      },
+      "story": {
+        "es": "Descubre la Costa Vasca sin prisas, desde los escalones de San Juan de Gaztelugatxe hasta la cultura del surf de Mundaka y la poderosa historia de Gernika.\n\nEste día privado combina paisajes costeros, historias locales y tiempo para disfrutar de cada lugar. La entrada a Gaztelugatxe se puede gestionar cuando esté disponible, y el itinerario puede incluir un almuerzo en un restaurante local cuidadosamente elegido.",
+        "en": "Discover the Basque Coast at an unhurried pace, from the dramatic steps of San Juan de Gaztelugatxe to the surf culture of Mundaka and the powerful history of Gernika.\n\nThis private day combines coastal landscapes, local stories and time to experience each place properly. Entry to Gaztelugatxe can be arranged when available, and the itinerary can include lunch at a carefully selected local restaurant."
+      },
+      "seoTitle": {
+        "es": "Costa Vasca | Tours privados | GOXO",
+        "en": "Private Basque Coast Tour | Gaztelugatxe, Mundaka & Gernika | GOXO"
+      },
+      "seoDescription": {
+        "es": "Un recorrido privado por Gaztelugatxe, Mundaka y Gernika: paisajes atlánticos, historias de pescadores locales y cultura vasca.",
+        "en": "A private journey through Gaztelugatxe, Mundaka and Gernika: Atlantic landscapes, local fisherman´s stories and Basque culture."
+      },
+      "stops": [
+        {
+          "es": "Gaztelugatxe",
+          "en": "Gaztelugatxe"
+        },
+        {
+          "es": "Mundaka",
+          "en": "Mundaka"
+        },
+        {
+          "es": "Gernika",
+          "en": "Gernika"
+        }
+      ],
+      "stopCopy": [
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        }
+      ],
+      "includes": [
+        {
+          "es": "Guía local y experiencia privada para tu grupo",
+          "en": "Local guide and a private experience for your group"
+        }
+      ],
+      "excludes": [
+        {
+          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
+          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+        }
+      ],
+      "faq": {
+        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
+        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+      },
+      "immersive": false,
+      "gallery": [
+        "/media/cms/tours/tours-1-gallery-0.webp",
+        "/media/cms/tours/tours-1-gallery-1.webp",
+        "/media/cms/tours/tours-1-gallery-2.webp"
+      ],
+      "published": true,
+      "number": "02",
+      "galleryAlts": [
+        {
+          "es": "San Juan de Gaztelugatxe y la costa vasca",
+          "en": "San Juan de Gaztelugatxe and the Basque coast"
+        },
+        {
+          "es": "Puerto de Mundaka en la costa vasca",
+          "en": "Mundaka harbour on the Basque coast"
+        },
+        {
+          "es": "Árbol de Gernika",
+          "en": "The Tree of Gernika"
+        }
+      ]
+    },
+    {
+      "id": "bilbao-cultura",
+      "slug": "private-bilbao-city-tour-guggenheim",
+      "category": "cultura",
+      "image": "/media/cms/tours/tours-2-image.webp",
+      "imageAlt": {
+        "es": "Endika guiando junto a la ría y el Casco Viejo de Bilbao",
+        "en": "Endika guiding beside the river and Bilbao’s Old Town"
+      },
+      "short": {
+        "es": "Bilbao Arte, Cultura y Guggenheim",
+        "en": "Bilbao Art, Culture & Guggenheim"
+      },
+      "name": {
+        "es": "Bilbao Arte, Cultura y Guggenheim",
+        "en": "Bilbao Art, Culture & Guggenheim"
+      },
+      "location": {
+        "es": "Bilbao · Museo Guggenheim · Centro · Casco Viejo",
+        "en": "Bilbao · Guggenheim Museum · City Centre · Old Town"
+      },
+      "duration": {
+        "es": "4 horas",
+        "en": "4 hours"
+      },
+      "guests": {
+        "es": "2–8 personas",
+        "en": "2–8 guests"
+      },
+      "eyebrow": {
+        "es": "EXPERIENCIA PRIVADA",
+        "en": "PRIVATE EXPERIENCE"
+      },
+      "description": {
+        "es": "Una introducción privada a Bilbao: el Museo Guggenheim, la arquitectura de la ciudad y las historias que le dan vida.",
+        "en": "A private introduction to Bilbao: the Guggenheim Museum, the city’s architecture and the stories that bring it to life."
+      },
+      "catalogDescription": {
+        "es": "Una introducción privada a Bilbao: el Museo Guggenheim, la arquitectura de la ciudad y las historias que le dan vida.",
+        "en": "A private introduction to Bilbao: the Guggenheim Museum, the city’s architecture and the stories that bring it to life."
+      },
+      "story": {
+        "es": "Descubre Bilbao con un guía local, empezando por el Museo Guggenheim y continuando junto a la ría, la arquitectura contemporánea y los lugares cotidianos que dan carácter a la ciudad. Terminaremos en el Casco Viejo, hablando de los orígenes de la ciudad y sus rincones escondidos.\n\nEsta experiencia privada de cuatro horas está pensada para quienes quieren entender Bilbao además de verlo.",
+        "en": "Discover Bilbao with a local guide, beginning with the Guggenheim Museum and continuing through the river, contemporary architecture and everyday places that give the city its character. We will finish in the Old town talking about the early days of the city and all the hidden gems.\n\nThis four-hour private experience is designed for travellers who want to understand Bilbao as well as see it."
+      },
+      "seoTitle": {
+        "es": "Bilbao Arte, Cultura y Guggenheim | Tours privados | GOXO",
+        "en": "Private Bilbao City Tour & Guggenheim Visit | GOXO"
+      },
+      "seoDescription": {
+        "es": "Una introducción privada a Bilbao: el Museo Guggenheim, la arquitectura de la ciudad y las historias que le dan vida.",
+        "en": "A private introduction to Bilbao: the Guggenheim Museum, the city’s architecture and the stories that bring it to life."
+      },
+      "stops": [
+        {
+          "es": "Museo Guggenheim",
+          "en": "Guggenheim Museum"
+        },
+        {
+          "es": "La ría y la arquitectura",
+          "en": "The river and architecture"
+        },
+        {
+          "es": "Casco Viejo",
+          "en": "Old Town"
+        }
+      ],
+      "stopCopy": [
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        }
+      ],
+      "includes": [
+        {
+          "es": "Guía local y experiencia privada para tu grupo",
+          "en": "Local guide and a private experience for your group"
+        }
+      ],
+      "excludes": [
+        {
+          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
+          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+        }
+      ],
+      "faq": {
+        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
+        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+      },
+      "immersive": false,
+      "gallery": [
+        "/media/cms/tours/tours-2-gallery-0.webp",
+        "/media/cms/tours/tours-2-gallery-1.webp",
+        "/media/cms/tours/tours-2-gallery-2.webp",
+        "/media/cms/tours/tours-2-gallery-3.webp",
+        "/media/cms/tours/tours-2-gallery-4.webp"
+      ],
+      "published": true,
+      "number": "03",
+      "galleryAlts": [
+        {
+          "es": "Endika guiando junto a la ría y el Casco Viejo de Bilbao",
+          "en": "Endika guiding beside the river and Bilbao’s Old Town"
+        },
+        {
+          "es": "Panorámica de Bilbao y su ría desde Artxanda",
+          "en": "Bilbao and its river seen from Artxanda"
+        },
+        {
+          "es": "Fachada del Teatro Arriaga en Bilbao",
+          "en": "Facade of the Arriaga Theatre in Bilbao"
+        },
+        {
+          "es": "Mercado de la Ribera en Bilbao",
+          "en": "La Ribera Market in Bilbao"
+        },
+        {
+          "es": "Calle y comercios del Casco Viejo de Bilbao",
+          "en": "Street and local shops in Bilbao’s Old Town"
+        }
+      ]
+    },
+    {
+      "id": "san-sebastian-getaria",
+      "slug": "san-sebastian-getaria-tour-from-bilbao",
+      "category": "costa",
+      "image": "/media/cms/tours/tours-3-image.webp",
+      "imageAlt": {
+        "es": "Playa de La Concha y monte Urgull en San Sebastián",
+        "en": "La Concha beach and Mount Urgull in San Sebastián"
+      },
+      "short": {
+        "es": "San Sebastián y Getaria",
+        "en": "San Sebastián & Getaria"
+      },
+      "name": {
+        "es": "San Sebastián y Getaria",
+        "en": "San Sebastián & Getaria"
+      },
+      "location": {
+        "es": "San Sebastián · Getaria",
+        "en": "San Sebastián · Getaria"
+      },
+      "duration": {
+        "es": "8 horas",
+        "en": "8 hours"
+      },
+      "guests": {
+        "es": "2–8 personas",
+        "en": "2–8 guests"
+      },
+      "eyebrow": {
+        "es": "EXPERIENCIA PRIVADA",
+        "en": "PRIVATE EXPERIENCE"
+      },
+      "description": {
+        "es": "Un recorrido privado entre San Sebastián y Getaria, donde se unen la elegancia de la Belle Époque, la gastronomía vasca, los paisajes costeros y el txakoli.",
+        "en": "A private journey between San Sebastián and Getaria, where Belle Époque elegance, Basque food culture, coastal landscapes and txakoli come together."
+      },
+      "catalogDescription": {
+        "es": "Un recorrido privado entre San Sebastián y Getaria, donde se unen la elegancia de la Belle Époque, la gastronomía vasca y la costa.",
+        "en": "A private journey between San Sebastián and Getaria, where Belle Époque elegance, Basque food culture and the coast come together."
+      },
+      "story": {
+        "es": "Comienza en San Sebastián, explorando el casco antiguo, la bahía de La Concha y las historias de una de las grandes ciudades gastronómicas de Europa. Disfruta de un pintxo antes de seguir por la costa hacia Getaria: una villa pesquera conocida por el txakoli, el pescado a la parrilla, Balenciaga y su entorno atlántico.\n\nSi lo deseas, la experiencia puede incluir un almuerzo memorable en una parrilla con estrella Michelin en Getaria, sujeto a disponibilidad.",
+        "en": "Begin in San Sebastián, exploring the Old Town, La Concha Bay and the stories behind one of Europe’s great food cities. Stop for a pintxo in the old town, then continue along the coast to Getaria: a fishing town known for txakoli wine, grilled fish, Balenciaga and its Atlantic setting.\n\nFor guests who wish, the experience can include a memorable lunch in Getaria at a Michelin-starred grill, subject to availability."
+      },
+      "seoTitle": {
+        "es": "San Sebastián y Getaria | Tours privados | GOXO",
+        "en": "Private San Sebastián & Getaria Tour | Food, Culture & Coast | GOXO"
+      },
+      "seoDescription": {
+        "es": "Un recorrido privado entre San Sebastián y Getaria, donde se unen la elegancia de la Belle Époque, la gastronomía vasca y la costa.",
+        "en": "A private journey between San Sebastián and Getaria, where Belle Époque elegance, Basque food culture and the coast come together."
+      },
+      "stops": [
+        {
+          "es": "Casco antiguo y La Concha",
+          "en": "Old Town and La Concha"
+        },
+        {
+          "es": "Un pintxo en San Sebastián",
+          "en": "A pintxo in San Sebastián"
+        },
+        {
+          "es": "Getaria",
+          "en": "Getaria"
+        }
+      ],
+      "stopCopy": [
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        }
+      ],
+      "includes": [
+        {
+          "es": "Guía local y experiencia privada para tu grupo",
+          "en": "Local guide and a private experience for your group"
+        }
+      ],
+      "excludes": [
+        {
+          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
+          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+        }
+      ],
+      "faq": {
+        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
+        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+      },
+      "immersive": false,
+      "gallery": [
+        "/media/cms/tours/tours-3-gallery-0.webp"
+      ],
+      "published": true,
+      "number": "04",
+      "galleryAlts": [
+        {
+          "es": "Playa de La Concha y monte Urgull en San Sebastián",
+          "en": "La Concha beach and Mount Urgull in San Sebastián"
+        }
+      ]
+    },
+    {
+      "id": "pintxos",
+      "slug": "private-bilbao-pintxos-tour",
+      "category": "gastronomia",
+      "image": "/media/cms/tours/tours-4-image.webp",
+      "imageAlt": {
+        "es": "Barra de pintxos en el Casco Viejo de Bilbao",
+        "en": "Pintxos counter in Bilbao’s Old Town"
+      },
+      "short": {
+        "es": "Pintxos de Bilbao y maridaje de vino local",
+        "en": "Bilbao Pintxos & Local Wine Pairing"
+      },
+      "name": {
+        "es": "Tour privado de pintxos y vino por el Casco Viejo de Bilbao",
+        "en": "Private Bilbao Pintxos & Wine Tour in the Old Town"
+      },
+      "location": {
+        "es": "Bilbao Casco Viejo",
+        "en": "Bilbao Old Town"
+      },
+      "duration": {
+        "es": "3 horas",
+        "en": "3 hours"
+      },
+      "guests": {
+        "es": "2–8 personas",
+        "en": "2–8 guests"
+      },
+      "eyebrow": {
+        "es": "EXPERIENCIA PRIVADA",
+        "en": "PRIVATE EXPERIENCE"
+      },
+      "description": {
+        "es": "Un tour privado de pintxos y vino por el Casco Viejo de Bilbao, visitando favoritos locales y bares escondidos que difícilmente encontrarías por tu cuenta.",
+        "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
+      },
+      "catalogDescription": {
+        "es": "Un tour privado de pintxos y vino por el Casco Viejo de Bilbao, visitando favoritos locales y bares escondidos que difícilmente encontrarías por tu cuenta.",
+        "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
+      },
+      "story": {
+        "es": "Descubre el Casco Viejo de Bilbao a través de su gastronomía, vino e historias cotidianas. Durante tres horas sin prisas, recorremos las calles estrechas del Casco Viejo y paramos en bares locales cuidadosamente elegidos donde los pintxos forman parte de la vida de la ciudad.\n\nPrueba una selección de pintxos vascos con vino local mientras aprendes a pedir, en qué fijarte y por qué importa cada lugar. Son sitios con carácter, personas detrás de la barra e historias que te ayudan a vivir Bilbao como sus habitantes.",
+        "en": "Discover Bilbao’s Old Town through its food, wine and everyday stories. Over three unhurried hours, we move through the narrow streets of the Casco Viejo, stopping at carefully chosen local bars where pintxos are part of the city’s way of life.\n\nTaste a selection of Basque pintxos, paired with local wine, while learning how to order, what to look for and why each place matters. These are not stops chosen for a checklist: they are places with character, people behind the bar and stories that help you experience Bilbao as locals do."
+      },
+      "seoTitle": {
+        "es": "Pintxos de Bilbao y maridaje de vino local | Tours privados | GOXO",
+        "en": "Private Bilbao Pintxos Tour | Old Town Food & Wine | GOXO"
+      },
+      "seoDescription": {
+        "es": "Un tour privado de pintxos y vino por el Casco Viejo de Bilbao, visitando favoritos locales y bares escondidos que difícilmente encontrarías por tu cuenta.",
+        "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
+      },
+      "stops": [
+        {
+          "es": "Casco Viejo de Bilbao",
+          "en": "Bilbao Old Town"
+        },
+        {
+          "es": "Bares locales y pintxos",
+          "en": "Local bars and pintxos"
+        },
+        {
+          "es": "Vino local",
+          "en": "Local wine"
+        }
+      ],
+      "stopCopy": [
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        }
+      ],
+      "includes": [
+        {
+          "es": "Guía local y experiencia privada para tu grupo",
+          "en": "Local guide and a private experience for your group"
+        }
+      ],
+      "excludes": [
+        {
+          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
+          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+        }
+      ],
+      "faq": {
+        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
+        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+      },
+      "immersive": false,
+      "gallery": [
+        "/media/cms/tours/tours-4-gallery-0.webp",
+        "/media/cms/tours/tours-4-gallery-1.webp",
+        "/media/cms/tours/tours-4-gallery-2.webp",
+        "/media/cms/tours/tours-4-gallery-3.webp"
+      ],
+      "published": true,
+      "number": "05",
+      "galleryAlts": [
+        {
+          "es": "Barra de pintxos en el Casco Viejo de Bilbao",
+          "en": "Pintxos counter in Bilbao’s Old Town"
+        },
+        {
+          "es": "Calles del Casco Viejo de Bilbao",
+          "en": "Streets of Bilbao’s Old Town"
+        },
+        {
+          "es": "Endika y viajeros conversando en una terraza de Bilbao",
+          "en": "Endika and travellers talking on a terrace in Bilbao"
+        },
+        {
+          "es": "Calle y comercios del Casco Viejo de Bilbao",
+          "en": "Street and local shops in Bilbao’s Old Town"
+        }
+      ]
+    }
+  ]
+}

@@ -6,6 +6,7 @@ const html=fs.readFileSync(new URL('../dist/index.html',import.meta.url),'utf8')
 const seed=JSON.parse(html.match(/<script id="goxo-data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
 const sceneIds=seed.media.panoramas.map(p=>p.id);
 const initial={version:1,tours:seed.tours,sceneOrder:sceneIds};
+test('CMS image folders are allowed without admitting traversal or SVG',()=>{assert.equal(safeImage('/media/cms/tours/tours-0-image.webp'),true);assert.equal(safeImage('/media/cms/../image.png'),false);assert.equal(safeImage('/media/cms/tours/image.svg'),false)});
 test('official baseline contains five tours with optional pending media',()=>{const value=validateState(initial,sceneIds);assert.equal(value.tours.length,5);assert.ok(value.tours.every(t=>t.guests.en==='2–8 guests'));value.tours[0].short.es='Edited';assert.notEqual(initial.tours[0].short.es,'Edited')});
 test('adding, unpublishing and deleting experiences preserves valid state',()=>{const value=structuredClone(initial);const tour={...structuredClone(value.tours[0]),id:'my-new-tour',published:false};value.tours.push(tour);assert.equal(validateState(value,sceneIds).tours.length,6);value.tours=value.tours.filter(t=>t.id!==tour.id);assert.equal(validateState(value,sceneIds).tours.length,5)});
 test('malformed imports and duplicate ids are rejected',()=>{assert.throws(()=>validateState(null,sceneIds));assert.throws(()=>validateState({version:4,tours:[]},sceneIds));const value=structuredClone(initial);value.tours.push(value.tours[0]);assert.throws(()=>validateState(value,sceneIds));});

@@ -1,0 +1,12 @@
+---
+import Article from '../../components/Article.astro';
+import {allPosts} from '../../data/articles';
+export const prerender=false;
+const slug=Astro.url.searchParams.get('slug');
+const language=Astro.url.pathname.startsWith('/es/')?'es':'en';
+const post=allPosts.find(post=>post.slug===slug);
+Astro.response.headers.set('Cache-Control','no-store');
+Astro.response.headers.set('X-Robots-Tag','noindex, nofollow');
+if(!post)return new Response('No se encontró el artículo guardado.',{status:404,headers:{'Content-Type':'text/plain;charset=utf-8','X-Robots-Tag':'noindex, nofollow'}});
+---
+<Article {post} {language} preview />

@@ -1,0 +1,91 @@
+{
+  "whyTitle": {
+    "es": "Goxo es una palabra vasca que evoca algo sabroso, reconfortante y hecho con cariño.",
+    "en": "Goxo is a Basque word that evokes something tasty, comforting and made with care."
+  },
+  "whyIntro": {
+    "es": "Así creemos que debe sentirse un viaje: personal, generoso y conectado con el lugar que visitas.",
+    "en": "That is how we believe travel should feel: personal, generous and connected to the place you are visiting."
+  },
+  "whySupport": {
+    "es": "GOXO nació para quienes buscan algo más que una lista de lugares. Diseñamos experiencias privadas que te acercan a las personas, la gastronomía, el vino y los paisajes del País Vasco. Cada experiencia empieza con una conversación y continúa a tu ritmo. Viajar bien también significa dejar una huella más ligera y una conexión más fuerte: apoyar a productores locales, explorar de forma responsable y devolver parte de lo que genera el viaje a las comunidades que lo hacen posible.",
+    "en": "GOXO was created for travellers who want more than a list of places to see. We design private experiences that bring you closer to the people, food, wine and landscapes that make the Basque Country special. Every experience starts with a conversation, then unfolds at your pace. To travel well is also to leave a lighter footprint and a stronger connection: supporting local producers, choosing responsible ways to explore, and returning part of what the journey creates to the communities that make it possible."
+  },
+  "reasons": [
+    {
+      "title": {
+        "es": "Siempre privado",
+        "en": "Private by design"
+      },
+      "body": {
+        "es": "Solo tu grupo, tus preguntas y tu ritmo. Sin grupos mezclados ni itinerarios apresurados.",
+        "en": "Only your group, your questions and your pace. There are no mixed groups and no rushed itineraries."
+      },
+      "image": "/media/cms/way/reasons-0-image.webp",
+      "imageAlt": {
+        "es": "Endika con un grupo en Bilbao",
+        "en": "Endika with a group in Bilbao"
+      }
+    },
+    {
+      "title": {
+        "es": "Experiencias reales",
+        "en": "Real experiences"
+      },
+      "body": {
+        "es": "Compartimos el País Vasco a través de los lugares, las personas y las historias que lo hacen único.",
+        "en": "We share the Basque Country through the places, people and stories that make it unique."
+      },
+      "image": "/media/cms/way/reasons-1-image.webp",
+      "imageAlt": {
+        "es": "Calles del Casco Viejo de Bilbao",
+        "en": "Streets of Bilbao’s Old Town"
+      }
+    },
+    {
+      "title": {
+        "es": "Gastronomía y vino con raíces",
+        "en": "Food and wine with a sense of place"
+      },
+      "body": {
+        "es": "Cada parada se elige por lo que hay detrás: un productor, un oficio, una temporada o una historia familiar.",
+        "en": "Every stop is chosen for what is behind it: a producer, a craft, a season or a family story."
+      },
+      "image": "/media/cms/way/reasons-2-image.webp",
+      "imageAlt": {
+        "es": "Barra de pintxos en el Casco Viejo de Bilbao",
+        "en": "Pintxos counter in Bilbao’s Old Town"
+      }
+    },
+    {
+      "title": {
+        "es": "Viajar y devolver",
+        "en": "Travel that gives back"
+      },
+      "body": {
+        "es": "Cada experiencia GOXO apoya a negocios locales, una forma más ligera de viajar y proyectos que cuidan el País Vasco.",
+        "en": "Every GOXO experience supports local businesses, lighter travel and projects that care for the Basque Country."
+      },
+      "image": "/media/cms/way/reasons-3-image.webp",
+      "imageAlt": {
+        "es": "Panorámica de Bilbao y su ría desde Artxanda",
+        "en": "Bilbao and its river seen from Artxanda"
+      }
+    },
+    {
+      "title": {
+        "es": "Adaptado con cuidado",
+        "en": "Thoughtfully tailored"
+      },
+      "body": {
+        "es": "Tus intereses, necesidades alimentarias, movilidad y ritmo se tienen en cuenta antes de empezar y durante la experiencia.",
+        "en": "Your interests, dietary needs, mobility and rhythm are considered before the day begins — and while it unfolds."
+      },
+      "image": "/media/cms/way/reasons-4-image.webp",
+      "imageAlt": {
+        "es": "Endika, guía local de GOXO Experiences",
+        "en": "Endika, local guide at GOXO Experiences"
+      }
+    }
+  ]
+}

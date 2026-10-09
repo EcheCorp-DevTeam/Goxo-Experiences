@@ -1,0 +1,92 @@
+{
+  "name": "GOXO Experiences",
+  "email": "kaixo@goxoexperiences.com",
+  "telephone": "+34 644 714 642",
+  "whatsapp": "34644714642",
+  "location": "Bilbao · Basque Country",
+  "logo": "/media/cms/settings/logo.png",
+  "googleReviewsUrl": "",
+  "developerName": "Eche Corp.",
+  "developerTelephone": "+57 304 326 1092",
+  "developerUrl": "https://wa.me/573043261092?text=Hola%2C%20estoy%20interesado%20en%20obtener%20informaci%C3%B3n%20acerca%20de%20los%20desarrollos%20web.%20%C2%BFPodr%C3%ADas%20proporcionarme%20m%C3%A1s%20detalles%3F",
+  "catalogSeoTitle": {
+    "es": "Experiencias privadas por el País Vasco | GOXO",
+    "en": "Private Basque Country Experiences | GOXO"
+  },
+  "contactSeoTitle": {
+    "es": "Planifica tu experiencia | GOXO",
+    "en": "Plan Your Experience | GOXO"
+  },
+  "homeSections": [
+    {
+      "id": "hero",
+      "label": "Vídeo principal",
+      "visible": true
+    },
+    {
+      "id": "experiences",
+      "label": "Experiencias",
+      "visible": true
+    },
+    {
+      "id": "way",
+      "label": "The GOXO Way",
+      "visible": true
+    },
+    {
+      "id": "host",
+      "label": "Endika",
+      "visible": true
+    },
+    {
+      "id": "reviews",
+      "label": "Opiniones",
+      "visible": true
+    },
+    {
+      "id": "faq",
+      "label": "Preguntas frecuentes",
+      "visible": true
+    },
+    {
+      "id": "plan",
+      "label": "Contacto final",
+      "visible": true
+    },
+    {
+      "id": "blog",
+      "label": "Blog",
+      "visible": true
+    }
+  ],
+  "navigation": [
+    {
+      "href": "/experiences/",
+      "label": {
+        "es": "Experiencias",
+        "en": "Experiences"
+      }
+    },
+    {
+      "href": "/about/",
+      "label": {
+        "es": "Acerca de",
+        "en": "About"
+      }
+    },
+    {
+      "href": "/#opiniones",
+      "label": {
+        "es": "Opiniones",
+        "en": "Reviews"
+      }
+    },
+    {
+      "href": "/contact/",
+      "label": {
+        "es": "Contacto",
+        "en": "Contact"
+      }
+    }
+  ]
+}

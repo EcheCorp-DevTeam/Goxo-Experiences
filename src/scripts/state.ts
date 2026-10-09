@@ -1,6 +1,6 @@
 export const STORAGE_KEY='goxo:content:v1';
 const fields=['short','name','location','duration','eyebrow','description','story','faq'];
-export function safeImage(value:unknown):value is string{return typeof value==='string'&&value.length<2800000&&(/^\/media\/[a-zA-Z0-9-]+\.(webp|jpg|png)$/.test(value)||/^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+/=]+$/.test(value))}
+export function safeImage(value:unknown):value is string{return typeof value==='string'&&value.length<2800000&&(/^\/media\/(?:[a-zA-Z0-9_-]+\/)*[a-zA-Z0-9_-]+\.(webp|jpe?g|png)$/i.test(value)||/^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+/=]+$/.test(value))}
 export function validateState(value:any,sceneIds:string[]){
  if(!value||value.version!==1||!Array.isArray(value.tours)||value.tours.length>60)throw new Error('Invalid content format');
  const ids=new Set();

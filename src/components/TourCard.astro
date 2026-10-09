@@ -7,7 +7,7 @@ const href=localizedHref(`/experiences/${tour.slug}/`,lang);
 ---
 <article class="tour-card" data-tour-card={tour.id} data-category={tour.category}>
  <div class="tour-card-front">
- <a href={href} class="tour-card-photo" aria-label={tour.short[lang]}>{tour.image?<picture><source media="(max-width:760px)" srcset={tour.image.replace('.webp','-small.webp')}/><img src={tour.image} alt={tour.imageAlt[lang]} loading="lazy" decoding="async" width="1200" height="900" data-tour-image={tour.id}/></picture>:<span class="tour-photo-pending" aria-hidden="true"></span>}</a>
+ <a href={href} class="tour-card-photo" aria-label={tour.short[lang]}>{tour.image?<img src={tour.image} alt={tour.imageAlt[lang]} loading="lazy" decoding="async" width="1200" height="900" data-tour-image={tour.id}/>:<span class="tour-photo-pending" aria-hidden="true"></span>}</a>
  <div class="tour-flip-caption" hidden><C tag="h3" {...tour.short}/><C tag="button" class="button tour-flip-toggle" aria-expanded="false" es="Descubrir experiencia" en="Discover experience"/></div>
  </div>
  <div class="tour-card-body"><C tag="h3" data-tour-name={tour.id} {...tour.short}/><C tag="p" class="tour-description" {...(catalog?tour.catalogDescription:tour.description)}/><div class="tour-card-meta"><C {...tour.location}/><C data-tour-duration={tour.id} {...tour.duration}/><C es="Experiencia privada" en="Private experience"/><C {...tour.guests}/></div><C tag="a" class="button" href={`/contact/?tour=${tour.id}`} es="Consultar disponibilidad" en="Check Availability"/><C tag="a" class="text-link" href={href} es="Ver experiencia" en="View experience"/><C tag="button" class="text-link tour-flip-back" hidden es="Volver a la foto" en="Back to photograph"/></div>

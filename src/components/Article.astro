@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import {languageOf} from '../data/urls';
+import {renderBlog,blogStats} from '../data/blog-render.mjs';
+import '../styles/blog.css';
+const {post,preview=false,language}=Astro.props;
+const lang=language||languageOf(Astro.url.pathname);
+const stats=blogStats(post.body[lang]);
+---
+<Base title={post.seoTitle?.[lang]||`${post.title[lang]} | GOXO`} description={post.seoDescription?.[lang]||post.intro[lang]} {language} {preview} article={post}><main id="main"><section class="page-heading section-pad"><a class="text-link" href={lang==='es'?'/es/journal/':'/journal/'}>{lang==='es'?'← Todas las historias':'← All stories'}</a><p class="eyebrow">{post.category[lang]}</p><h1>{post.title[lang]}</h1><p>{post.intro[lang]}</p><p class="article-reading">{stats.minutes} {lang==='es'?'min de lectura':'min read'}</p></section><article class="article-content section-pad">{post.image&&<img class="article-image" src={post.image} alt={post.imageAlt?.[lang]||post.title[lang]} width="1200" height="800"/>}<div class="blog-prose" set:html={renderBlog(post.body[lang])}/><a class="text-link" href={lang==='es'?'/es/experiences/':'/experiences/'}>{lang==='es'?'Encuentra tu experiencia ↗':'Find your experience ↗'}</a></article></main></Base>

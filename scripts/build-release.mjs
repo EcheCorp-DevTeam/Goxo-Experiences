@@ -1,6 +1,7 @@
 import {execFileSync} from 'node:child_process';
 import {loadEnv} from 'vite';
 const releaseEnv={...loadEnv('production',process.cwd(),'PUBLIC_'),...process.env};
+execFileSync(process.execPath,['scripts/validate-cms.mjs'],{stdio:'inherit'});
 const origin=releaseEnv.PUBLIC_SITE_URL;
 if(!origin)throw new Error('Set PUBLIC_SITE_URL to the confirmed production domain before building a release.');
 const url=new URL(origin);

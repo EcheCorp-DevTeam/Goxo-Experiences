@@ -1,0 +1,45 @@
+---
+import settings from '../../content/site/settings.json';
+import catalogue from '../../content/site/tours.json';
+import '../../styles/cms-dashboard.css';
+const editorURL=(id:string)=>id==='articles'?'/keystatic/collection/articles':`/keystatic/singleton/${id}`;
+const groups=[
+  {name:'Experiencias',items:[['tours','Experiencias y tours','Fotos, itinerarios, disponibilidad y SEO de cada tour.']]},
+  {name:'Páginas',items:[['home','Portada y catálogo','El primer mensaje y la presentación de las experiencias.'],['way','The GOXO Way','Motivos para viajar con GOXO y sus fotografías.'],['about','Endika y la empresa','Tu historia, presentación y compromiso.'],['faq','Preguntas frecuentes','Respuestas claras para tus visitantes.'],['reviews','Sección de opiniones','Título y presentación de las reseñas.']]},
+  {name:'Fotografía y vídeo',items:[['presentation','Vídeos y presentación','Vídeo de portada, presentación y subtítulos.'],['media','Medios y créditos','Fotografías del sitio y sus créditos.'],['imageAlts','Accesibilidad de imágenes','Descripciones de imágenes en ambos idiomas.']]},
+  {name:'Publicaciones',items:[['articles','Blog aprobado','Artículos, borradores y publicaciones.'],['verifiedReviews','Reseñas verificadas','Opiniones reales con enlace a su fuente.']]},
+  {name:'Configuración',items:[['settings','Identidad, contacto y SEO','Logo, contacto, menú y orden de las secciones.'],['interface','Menú y botones','Textos de navegación y acciones en inglés y español.'],['legal','Páginas legales','Privacidad, condiciones y cancelación.']]},
+];
+---
+<!doctype html>
+<html lang="es"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="robots" content="noindex,nofollow"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"/><title>GOXO Studio · Panel de contenido</title></head>
+<body class="goxo-studio">
+  <a class="studio-skip" href="#content">Saltar al contenido</a>
+  <aside class="studio-sidebar">
+    <a href="/admin/" class="studio-brand" aria-label="GOXO Studio, inicio"><img src={settings.logo} alt="GOXO Experiences"/><span>Studio</span></a>
+    <nav aria-label="Gestión del sitio"><a class="overview-link" href="/admin/" aria-current="page">Vista general</a>{groups.map(group=><div class="nav-group"><p>{group.name}</p>{group.items.map(([id,label])=><a href={editorURL(id)}>{label}</a>)}</div>)}</nav>
+    <div class="sidebar-foot"><span class="local-dot"></span> Entorno local</div>
+  </aside>
+  <div class="studio-workspace">
+    <header class="studio-header"><span>Panel de contenido</span><a class="studio-button secondary" href="/" target="_blank" rel="noreferrer">Ver sitio <span aria-hidden="true">↗</span></a></header>
+    <main id="content">
+      <section class="studio-intro"><div><h1>Tu próximo viaje<br/>empieza aquí.</h1><p>Cuida cada detalle de GOXO. Edita experiencias, imágenes y textos desde un mismo lugar.</p></div><a class="studio-button" href="/keystatic/singleton/home">Editar portada</a></section>
+      <section class="catalogue-section" aria-labelledby="catalogue-title">
+        <div class="section-title"><div><h2 id="catalogue-title">Experiencias</h2><p>{catalogue.tours.length} tours en el catálogo · contenido en español e inglés</p></div><a class="studio-button" href="/keystatic/singleton/tours">Editar catálogo</a></div>
+        <div class="catalogue-tools"><label class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="tour-search" type="search" placeholder="Buscar una experiencia…" aria-label="Buscar una experiencia"/></label><label class="status-filter">Estado<select id="tour-status"><option value="all">Todos</option><option value="published">Publicados</option><option value="draft">Borradores</option></select></label></div>
+        <div class="table-scroll" role="region" aria-label="Catálogo de experiencias" tabindex="0"><table><caption class="sr-only">Experiencias y estado del contenido local</caption><thead><tr><th scope="col">Experiencia</th><th scope="col">Duración</th><th scope="col">Fotografías</th><th scope="col">Estado</th><th scope="col"><span class="sr-only">Acciones</span></th></tr></thead><tbody>{catalogue.tours.map(tour=><tr data-tour-row data-search={`${tour.short.es} ${tour.short.en} ${tour.location.es}`.toLowerCase()} data-status={tour.published?'published':'draft'}><th scope="row"><div class="tour-identity"><img src={tour.image} alt="" loading="lazy"/><div><strong>{tour.short.es}</strong><span>{tour.location.es}</span></div></div></th><td>{tour.duration.es}</td><td>{tour.gallery.length} en galería</td><td><span class:list={['status',tour.published?'published':'draft']}>{tour.published?'Publicado':'Borrador'}</span></td><td>{tour.published?<a class="row-action" href={`/es/experiences/${tour.slug}/`} target="_blank" rel="noreferrer" aria-label={`Ver ${tour.short.es} en la web`}>Ver tour <span aria-hidden="true">↗</span></a>:<span class="draft-note">Sin publicar</span>}</td></tr>)}</tbody></table></div>
+        <p id="no-tours" class="empty-search" hidden>No hay experiencias con estos filtros. Prueba otro nombre o selecciona «Todos».</p>
+        <p class="table-note" id="tour-count" aria-live="polite">Mostrando {catalogue.tours.length} experiencias. «Publicado» indica visibilidad en la web local.</p>
+      </section>
+      <section class="content-section" aria-labelledby="content-title"><div class="section-title"><div><h2 id="content-title">El resto de tu sitio</h2><p>Encuentra el contenido que quieres actualizar.</p></div></div><div class="content-columns">{groups.slice(1).map(group=><section class="content-group"><h3>{group.name}</h3>{group.items.map(([id,label,description])=><a class="content-link" href={editorURL(id)}><div><strong>{label}</strong><span>{description}</span></div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>)}</section>)}</div></section>
+      <footer class="studio-footer"><span>GOXO Studio</span><p>Los cambios se guardan en este equipo. Revisa el sitio después de guardar; el despliegue sigue siendo un paso independiente.</p></footer>
+    </main>
+  </div>
+  <script>
+    const search=document.querySelector<HTMLInputElement>('#tour-search')!;
+    const status=document.querySelector<HTMLSelectElement>('#tour-status')!;
+    const rows=[...document.querySelectorAll<HTMLTableRowElement>('[data-tour-row]')];
+    const filter=()=>{let visible=0;for(const row of rows){row.hidden=!(row.dataset.search!.includes(search.value.trim().toLowerCase())&&(status.value==='all'||row.dataset.status===status.value));if(!row.hidden)visible++;}document.querySelector<HTMLElement>('#no-tours')!.hidden=visible>0;document.querySelector('#tour-count')!.textContent=`Mostrando ${visible} de ${rows.length} experiencias.`;};
+    search.addEventListener('input',filter);status.addEventListener('change',filter);
+  </script>
+</body></html>

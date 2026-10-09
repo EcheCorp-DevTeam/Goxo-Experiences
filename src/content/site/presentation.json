@@ -1,0 +1,33 @@
+{
+  "hero": {
+    "poster": "/media/cms/presentation/hero-poster.webp",
+    "video": "/media/cms/presentation/hero-video.mp4",
+    "cta": {
+      "es": "Planifica tu experiencia",
+      "en": "Plan Your Experience"
+    },
+    "pause": {
+      "es": "Pausar vídeo de fondo",
+      "en": "Pause background video"
+    },
+    "videoUrl": ""
+  },
+  "host": {
+    "poster": "/media/cms/presentation/host-poster.webp",
+    "posterAlt": {
+      "es": "Endika, guía local de GOXO Experiences",
+      "en": "Endika, GOXO Experiences local guide"
+    },
+    "video": "",
+    "captions": [],
+    "play": {
+      "es": "Ver mi presentación",
+      "en": "Watch my introduction"
+    },
+    "error": {
+      "es": "No se pudo reproducir el vídeo. Vuelve a intentarlo.",
+      "en": "The video could not play. Please try again."
+    },
+    "videoUrl": ""
+  }
+}

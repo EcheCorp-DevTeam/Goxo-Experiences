@@ -1,8 +1,8 @@
 ---
 import C from './Copy.astro';
-import official from '../data/official.json';
+import official from '../data/official';
 import {home} from '../data/home';
-import imageAlts from '../data/image-alts.json';
+import imageAlts from '../data/image-alts';
 import {languageOf} from '../data/urls';
 const lang=languageOf(Astro.url.pathname);
 const {full=false}=Astro.props;
@@ -11,6 +11,6 @@ const {full=false}=Astro.props;
  <div class="host-copy"><C tag="p" class="eyebrow" es="TU ANFITRIÓN LOCAL" en="YOUR LOCAL HOST"/><C tag="h2" id="host-title" class="display-title" {...official.hostTitle}/><C tag="p" {...official.hostCaption}/>
  {full?official.hostStory.map(p=><C tag="p" {...p}/>):<details class="host-story"><C tag="summary" es="Lee la historia de Endika" en="Read Endika’s story"/>{official.hostStory.map(p=><C tag="p" {...p}/>)}</details>}
  <C tag="a" class="text-link" href={full?'/contact/':'/about/'} es={full?'Planifica tu experiencia':'Conoce a Endika'} en={full?'Plan Your Experience':'Meet Endika'}/></div>
- <div class="host-presentation"><div class="host-video-frame"><img src={home.host.poster} alt={imageAlts[home.host.poster]?.[lang]||''} loading="lazy" width="1000" height="1300"/>{home.host.video&&<><video id="host-video" data-src={home.host.video} poster={home.host.poster} controls playsinline preload="none" aria-labelledby="host-title" hidden>{home.host.captions.map(track=><track kind="captions" src={track.src} srclang={track.lang} label={track.label}/>)}</video><C tag="button" id="host-play" class="button button-light" aria-controls="host-video" {...home.host.play}/></>}</div><C tag="p" id="host-video-error" role="status" hidden {...home.host.error}/></div>
+ <div class="host-presentation"><div class="host-video-frame"><img src={home.host.poster} alt={home.host.posterAlt[lang]||imageAlts[home.host.poster]?.[lang]||''} data-alt-es={home.host.posterAlt.es} data-alt-en={home.host.posterAlt.en} loading="lazy" width="1000" height="1300"/>{(home.host.videoUrl||home.host.video)&&<><video id="host-video" data-src={home.host.videoUrl||home.host.video} poster={home.host.poster} controls playsinline preload="none" aria-labelledby="host-title" hidden>{home.host.captions.map(track=><track kind="captions" src={track.src} srclang={track.lang} label={track.label}/>)}</video><C tag="button" id="host-play" class="button button-light" aria-controls="host-video" {...home.host.play}/></>}</div><C tag="p" id="host-video-error" role="status" hidden {...home.host.error}/></div>
 </section>
 

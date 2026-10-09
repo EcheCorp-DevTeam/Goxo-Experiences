@@ -1,0 +1,281 @@
+{
+  "coast": "/media/cms/media/coast.webp",
+  "bilbao": "/media/cms/media/bilbao.webp",
+  "pintxos": "/media/cms/media/pintxos.webp",
+  "rioja": "/media/cms/media/rioja.webp",
+  "panoramas": [
+    {
+      "id": "pano-white-cliff",
+      "url": "/media/pano-white-cliff.jpg",
+      "preview": "/media/cms/media/panoramas-0-preview.webp",
+      "title": "White Cliff Top",
+      "author": "Greg Zaal",
+      "source": "https://polyhaven.com/a/white_cliff_top",
+      "label": {
+        "es": "El horizonte",
+        "en": "The horizon"
+      }
+    },
+    {
+      "id": "pano-golden-gate",
+      "url": "/media/pano-golden-gate.jpg",
+      "preview": "/media/cms/media/panoramas-1-preview.webp",
+      "title": "Golden Gate Hills",
+      "author": "Dimitrios Savva (photography); Jarod Guest (processing)",
+      "source": "https://polyhaven.com/a/golden_gate_hills",
+      "label": {
+        "es": "La montaña",
+        "en": "The mountain"
+      }
+    },
+    {
+      "id": "pano-pool",
+      "url": "/media/pano-pool.jpg",
+      "preview": "/media/cms/media/panoramas-2-preview.webp",
+      "title": "Pool",
+      "author": "Greg Zaal",
+      "source": "https://polyhaven.com/a/pool",
+      "label": {
+        "es": "El jardín",
+        "en": "The garden"
+      }
+    }
+  ],
+  "video": "/media/cms/media/video.mp4",
+  "credits": [
+    {
+      "title": "San juan de gaztelugatxe, Bilbao (Unsplash)",
+      "author": "Nuri Lopez (bartalamus)",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:San_juan_de_gaztelugatxe,_Bilbao_(Unsplash).jpg",
+      "notes": "Photo of real Gaztelugatxe. Taken 26 January 2017; Commons verifies pre-June-2017 Unsplash CC0 publication.",
+      "file": "gaztelugatxe.jpg"
+    },
+    {
+      "title": "Viñedos en Rodezno, La Rioja",
+      "author": "Nicolás Pérez Gimilio (Nicondarreta)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Vi%C3%B1edos_en_Rodezno,_La_Rioja.jpg",
+      "notes": "Real vineyards in Rodezno, La Rioja; 7 July 2020.",
+      "file": "rioja.jpg"
+    },
+    {
+      "title": "White Cliff Top",
+      "author": "Greg Zaal",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://polyhaven.com/a/white_cliff_top",
+      "notes": "Photographic 360×180 equirectangular JPG from HDRI capture. Demonstration scene outside Euskadi/Rioja; do not label as local. Source photograph author Greg Zaal; additional backplates by Rico Cilliers are NOT used.",
+      "file": "pano-white-cliff.jpg"
+    },
+    {
+      "title": "Golden Gate Hills",
+      "author": "Dimitrios Savva (photography); Jarod Guest (processing)",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://polyhaven.com/a/golden_gate_hills",
+      "notes": "Photographic 360×180 equirectangular JPG from HDRI capture. Demonstration scene outside Euskadi/Rioja; do not label as local.",
+      "file": "pano-golden-gate.jpg"
+    },
+    {
+      "title": "Pool",
+      "author": "Greg Zaal",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://polyhaven.com/a/pool",
+      "notes": "Photographic 360×180 equirectangular JPG from HDRI capture. Demonstration garden pool; location unspecified in source. Do not label as a local destination.",
+      "file": "pano-pool.jpg"
+    },
+    {
+      "title": "Gaztelugatxe from airplane 163926",
+      "author": "Quahadi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gaztelugatxe_from_airplane_163926.webm",
+      "notes": "Real Gaztelugatxe seen from Bilbao–Düsseldorf flight on 19 November 2023. 19.825 seconds, 3840×2160 VP8/Opus. All files are originals unless listed as derivatives.",
+      "file": "gaztelugatxe-video.webm"
+    },
+    {
+      "title": "Puerto de Mundaka",
+      "author": "MiguelAlanCS",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mundaka_2023_-_23_puerto.jpg",
+      "file": "gallery-mundaka.webp"
+    },
+    {
+      "title": "Árbol de Gernika",
+      "author": "Lpikaza",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gernikako_arbola_2.JPG",
+      "file": "gallery-gernika.webp"
+    },
+    {
+      "title": "Ayuntamiento viejo de Laguardia",
+      "author": "Gilles Messian from Paris, France",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Laguardia,_Pays_Basque,_Espagne_(22258056152).jpg",
+      "file": "gallery-laguardia.webp"
+    },
+    {
+      "title": "Bodegas Bilbaínas, Haro",
+      "author": "Zarateman",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:Haro_-_Bodegas_Bilba%C3%ADnas-Vi%C3%B1a_Pomal_04.jpg",
+      "file": "gallery-haro.webp"
+    },
+    {
+      "title": "Endika guiando una experiencia privada en el Casco Viejo de Bilbao",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía propia del cliente.",
+      "file": "bilbao-local-guide.webp"
+    },
+    {
+      "title": "La ría de Bilbao desde Artxanda",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía propia del cliente.",
+      "file": "bilbao.webp"
+    },
+    {
+      "title": "Barra de pintxos en el Casco Viejo",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía propia del cliente.",
+      "file": "pintxos.webp"
+    },
+    {
+      "title": "Endika, guía local de GOXO Experiences",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía propia del cliente.",
+      "file": "endika.webp"
+    },
+    {
+      "title": "Endika con un grupo privado en Bilbao",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía propia del cliente.",
+      "file": "grupo.webp"
+    },
+    {
+      "title": "Las Siete Calles, Casco Viejo de Bilbao",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía propia del cliente.",
+      "file": "gallery-casco-viejo.webp"
+    },
+    {
+      "title": "Sobremesa en una terraza de Bilbao",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía propia del cliente.",
+      "file": "gallery-bar-bilbao.webp"
+    },
+    {
+      "title": "La ría a su paso por el Casco Viejo",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía propia del cliente.",
+      "file": "gallery-zubizuri.webp"
+    },
+    {
+      "title": "Teatro Arriaga, Bilbao",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía propia del cliente.",
+      "file": "gallery-arriaga.webp"
+    },
+    {
+      "title": "Mercado de la Ribera, Bilbao",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía propia del cliente.",
+      "file": "gallery-ribera.webp"
+    },
+    {
+      "title": "Calles del Casco Viejo de Bilbao",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía propia del cliente.",
+      "file": "gallery-siete-calles.webp"
+    },
+    {
+      "title": "San Sebastián - Playa de la Concha 01",
+      "author": "Zarateman",
+      "license": "CC0 1.0 — dominio público",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:San_Sebasti%C3%A1n_-_Playa_de_la_Concha_01.jpg",
+      "notes": "Imagen provisional de referencia solicitada por el cliente. Sustituir por fotografía oficial de GOXO.",
+      "file": "san-sebastian-reference.webp"
+    }
+  ],
+  "galleries": {
+    "costa-vasca": [
+      "/media/gallery-mundaka.webp",
+      "/media/gallery-gernika.webp"
+    ],
+    "rioja": [
+      "/media/gallery-laguardia.webp",
+      "/media/gallery-haro.webp"
+    ],
+    "pintxos": [
+      "/media/gallery-casco-viejo.webp",
+      "/media/gallery-bar-bilbao.webp",
+      "/media/gallery-siete-calles.webp"
+    ],
+    "bilbao-cultura": [
+      "/media/bilbao-local-guide.webp",
+      "/media/bilbao.webp",
+      "/media/gallery-arriaga.webp",
+      "/media/gallery-ribera.webp",
+      "/media/gallery-siete-calles.webp"
+    ],
+    "san-sebastian-getaria": [
+      "/media/san-sebastian-reference.webp"
+    ]
+  },
+  "labels": {
+    "/media/gallery-mundaka.webp": "Puerto de Mundaka",
+    "/media/gallery-gernika.webp": "Árbol de Gernika",
+    "/media/gallery-laguardia.webp": "Ayuntamiento viejo de Laguardia",
+    "/media/gallery-haro.webp": "Bodegas Bilbaínas, Haro",
+    "/media/gallery-casco-viejo.webp": "Las Siete Calles, Casco Viejo de Bilbao",
+    "/media/gallery-bar-bilbao.webp": "Sobremesa en una terraza de Bilbao",
+    "/media/gallery-zubizuri.webp": "La ría a su paso por el Casco Viejo",
+    "/media/gallery-arriaga.webp": "Teatro Arriaga, Bilbao",
+    "/media/gallery-ribera.webp": "Mercado de la Ribera, Bilbao",
+    "/media/gallery-siete-calles.webp": "Calles del Casco Viejo de Bilbao",
+    "/media/san-sebastian-reference.webp": "Playa de La Concha, San Sebastián"
+  },
+  "endika": "/media/cms/media/endika.webp",
+  "grupo": "/media/cms/media/grupo.webp"
+}
