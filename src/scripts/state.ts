@@ -18,11 +18,20 @@ export function validateState(value:any,sceneIds:string[]){
  return structuredClone(value);
 }
 export const tourLanguages=['es','en'] as const;
-export function makeWhatsAppMessage(input:{name:string;email:string;guests:number;date:string;message:string;tour:string;tourLang?:string},lang='es'){
- const {name,email,guests,date,message,tour,tourLang=''}=input;
+type Enquiry={name:string;email:string;guests:number;date:string;message:string;tour:string;tourLang?:string};
+export function validateEnquiry({name,email,guests,date,message,tourLang=''}:Enquiry){
  if(tourLang&&!tourLanguages.includes(tourLang as any))throw new Error('Invalid tour language');
  if(!name.trim()||name.length>80||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)||email.length>150||!Number.isInteger(guests)||guests<2||guests>8||message.length>1500)throw new Error('Please review your enquiry');
  if(date&&!/^\d{4}-\d{2}-\d{2}$/.test(date))throw new Error('Invalid date');
+}
+// Body posted to the contact endpoint, which emails it to Endika.
+export function makeEnquiryPayload(input:Enquiry,lang='es'){
+ validateEnquiry(input);
+ return{language:lang,name:input.name.trim(),email:input.email.trim(),tour:input.tour,guests:input.guests,date:input.date,tourLanguage:input.tourLang||'',message:input.message.trim()};
+}
+export function makeWhatsAppMessage(input:Enquiry,lang='es'){
+ const {name,email,guests,date,message,tour,tourLang=''}=input;
+ validateEnquiry(input);
  return lang==='en'?`Kaixo Endika, I’m ${name.trim()}.\nI’m interested in: ${tour}.\nGuests: ${guests}.\n${tourLang?`Preferred language: ${tourLang==='en'?'English':'Spanish'}.\n`:''}${date?`Date: ${date}.\n`:''}Email: ${email.trim()}.\n${message.trim()}`:`Kaixo Endika, soy ${name.trim()}.\nMe interesa: ${tour}.\nPersonas: ${guests}.\n${tourLang?`Idioma del tour: ${tourLang==='en'?'inglés':'español'}.\n`:''}${date?`Fecha: ${date}.\n`:''}Correo: ${email.trim()}.\n${message.trim()}`;
 }
 export function tourHref(tour:any,baseIds:string[]){return baseIds.includes(tour.id)?(tour.slug?`/experiences/${tour.slug}/`:`/experiencias/${tour.id}/`):`/experiencias/detalle/?id=${encodeURIComponent(tour.id)}`}

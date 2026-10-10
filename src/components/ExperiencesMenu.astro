@@ -1,11 +1,16 @@
 ---
 import C from './Copy.astro';
 import {tours} from '../data/tours';
+import {languageOf} from '../data/urls';
+const lang=languageOf(Astro.url.pathname);
 ---
-<details class="experiences-menu">
- <summary><C es="Experiencias" en="Experiences"/><svg viewBox="0 0 12 8" width="12" height="8" aria-hidden="true"><path d="m1 1 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></summary>
- <div class="experiences-submenu">
+<div class="experiences-menu">
+ <C tag="a" class="experiences-link" href="/experiences/" es="Experiencias" en="Experiences"/>
+ <button type="button" class="experiences-toggle" aria-expanded="false" aria-label={lang==='en'?'Show experiences':'Mostrar experiencias'}><svg viewBox="0 0 12 8" width="12" height="8" aria-hidden="true"><path d="m1 1 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
+ <div class="experiences-submenu" hidden>
   {tours.filter(tour=>tour.published).map(tour=><C tag="a" href={`/experiences/${tour.slug}/`} {...tour.short}/>)}
+  {/* Placeholder: point href at the Multi-Day page once its destination is decided. */}
+  <C tag="a" class="experiences-multiday" href="#" es="Experiencias de varios días" en="Multi-Day Experiences"/>
   <C tag="a" class="experiences-all" href="/experiences/" es="Ver todas las experiencias" en="View all experiences"/>
  </div>
-</details>
+</div>

@@ -4,14 +4,13 @@ body .site-header{position:sticky;top:0;min-height:100px;height:auto;background:
 body.page-dark .site-header{color:var(--ink);border-color:var(--line)}
 body .brand-logo{height:48px;width:auto}
 body .desktop-nav{gap:22px;margin:0 0 0 auto;font-size:1.125rem}
-body .experiences-menu{position:relative}
-body details.experiences-menu{border:0}
-body .experiences-menu summary::after{content:none}
-body .experiences-menu summary{display:flex;align-items:center;gap:8px;padding:8px 0;min-height:44px;font-size:inherit;list-style:none}
-body .experiences-menu summary::-webkit-details-marker{display:none}
-body .experiences-menu[open] summary svg{transform:rotate(180deg)}
+body .experiences-menu{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:4px}
+body .experiences-link{display:flex;align-items:center;padding:8px 0;min-height:44px;font-size:inherit}
+body .experiences-toggle{display:flex;align-items:center;justify-content:center;min-width:32px;min-height:44px;padding:0;border:0;background:none;color:inherit}
+body .experiences-toggle svg{transition:transform .2s}
+body .experiences-toggle[aria-expanded=true] svg{transform:rotate(180deg)}
 body .experiences-submenu{position:absolute;top:100%;left:-18px;width:360px;padding:12px;background:var(--cream);color:var(--ink);border:1px solid var(--line);border-radius:8px;box-shadow:0 10px 24px #19233a18;z-index:30}
-body .site-header.over-video .experiences-submenu a{color:var(--ink);text-shadow:none}
+body .site-header.over-video .experiences-submenu a{color:var(--ink)}
 body .experiences-submenu a{display:block;padding:12px;font-family:var(--sans);font-size:1.125rem;font-weight:400;letter-spacing:normal;line-height:1.5;min-height:44px}
 body .experiences-submenu a:hover,body .experiences-submenu a:focus-visible{background:var(--olive);color:var(--cream)}
 body .experiences-submenu .experiences-all{margin-top:8px;border-top:1px solid var(--line)}
@@ -84,7 +83,10 @@ body .tour-flip-back{margin-top:14px}
 html[data-motion='off'] body .tour-flippable .tour-card-front,html[data-motion='off'] body .tour-flippable .tour-card-body{transition:none}
 body .section-heading{align-items:start}
 body .section-note{max-width:32ch}
-body .why-title{max-width:24ch}
+body .why-title{max-width:none;font-size:clamp(30px,3.6vw,56px);text-wrap:balance}
+body .reasons-section{text-align:center}
+body .reasons-section .section-intro{margin-inline:auto}
+body .reasons-section .reasons-grid{text-align:left}
 body .section-intro,body .about-company>p{max-width:72ch}
 body .reasons-grid{display:flex;flex-direction:column;gap:64px;background:none;border:0}
 body .reason-card{padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center;background:none}
@@ -151,18 +153,16 @@ body .close-button,body .gallery-controls button{min-width:44px;min-height:44px}
 /* Overlay the home video while keeping normal page headers readable. */
 body:has(.home #hero) .site-header{position:fixed;inset:0 0 auto;transition:background-color .2s,color .2s}
 body .site-header.over-video,body.page-dark .site-header.over-video{background:transparent;color:var(--cream);border-bottom-color:transparent}
-body .site-header.over-video .desktop-nav a,body .site-header.over-video .language-button{text-shadow:0 1px 4px #0009}
 body .site-header.over-video .header-contact{background:#19233a80;color:var(--cream);border-color:#ffffffa6}
 body .site-header.over-video .header-contact:hover{background:var(--cream);color:var(--ink)}
 @media(prefers-reduced-motion:reduce){body:has(.home #hero) .site-header{transition:none}}
 
 
 
-body .site-header.over-video .brand{background:var(--cream);padding:10px 16px;border-radius:3px;box-shadow:0 2px 14px #00000014}
-@media(max-width:760px){body .site-header.over-video .brand{padding:8px 12px}}
 
 
 
+body .site-header.over-video .brand-logo{filter:drop-shadow(0 2px 6px #00000059)}
 body .site-header .brand{transform-origin:left center;transition:transform 1s cubic-bezier(.45,0,.2,1),background-color .4s ease}
 @media(hover:hover) and (pointer:fine){body .site-header .brand:hover{transform:scale(1.12)}}
 body .site-header .brand:focus-visible{transform:scale(1.12)}
@@ -172,13 +172,10 @@ body .site-header .brand:focus-visible{transform:scale(1.12)}
 
 
 
-@media(hover:hover) and (pointer:fine){body .site-header.over-video .brand:hover{background:var(--olive)}}
-body .site-header.over-video .brand:focus-visible{background:var(--olive)}
 
 
 /* Softer, consistent corners for interactive controls. */
 body .button,body .header-contact,body .language-button,body .menu-toggle,body .close-button,body #motion-toggle,body .home-video-toggle,body .gallery-controls button{border-radius:8px}
-body .site-header.over-video .brand{border-radius:8px}
 
 
 body .home-hero .hero-content .button.button-light{background:transparent;color:var(--cream);border:1px solid #ffffffb3}

@@ -4,18 +4,21 @@ import {localizedHref,isPublicProduction} from '../data/urls';
 import imageAlts from '../data/image-alts';
 import settings from '../content/site/settings.json';
 import {interfaceCopy} from '../data/interface';
-import {STORAGE_KEY,validateState,safeImage,makeWhatsAppMessage,tourHref} from './state';
+import {STORAGE_KEY,validateState,safeImage,makeEnquiryPayload,tourHref} from './state';
 function initializePage(){
 const events=new AbortController();
 const on=(target:any,type:string,handler:any,options:any={})=>target.addEventListener(type,handler,{...options,signal:events.signal});
 const $=(selector:string):any=>document.querySelector(selector);
 const $$=(selector:string):any[]=>Array.from(document.querySelectorAll(selector));
 $$('.experiences-menu').forEach(dropdown=>{
- on(dropdown,'pointerenter',(event:PointerEvent)=>{if(dropdown.closest('.desktop-nav')&&event.pointerType==='mouse'&&matchMedia('(hover:hover)').matches)dropdown.open=true});
- on(dropdown,'pointerleave',()=>{if(!dropdown.contains(document.activeElement))dropdown.open=false});
- on(dropdown,'focusout',(event:FocusEvent)=>{if(!dropdown.contains(event.relatedTarget as Node))dropdown.open=false});
- on(dropdown,'keydown',(event:KeyboardEvent)=>{if(event.key==='Escape'){dropdown.querySelector('summary').focus();dropdown.open=false;event.stopPropagation()}});
- on(dropdown,'click',(event:MouseEvent)=>{if((event.target as Element).closest('a'))dropdown.open=false});
+ const toggle=dropdown.querySelector('.experiences-toggle'),submenu=dropdown.querySelector('.experiences-submenu');
+ const setOpen=(open:boolean)=>{submenu.hidden=!open;toggle.setAttribute('aria-expanded',String(open))};
+ on(dropdown,'pointerenter',(event:PointerEvent)=>{if(dropdown.closest('.desktop-nav')&&event.pointerType==='mouse'&&matchMedia('(hover:hover)').matches)setOpen(true)});
+ on(dropdown,'pointerleave',()=>{if(!dropdown.contains(document.activeElement))setOpen(false)});
+ on(dropdown,'focusout',(event:FocusEvent)=>{if(!dropdown.contains(event.relatedTarget as Node))setOpen(false)});
+ on(dropdown,'keydown',(event:KeyboardEvent)=>{if(event.key==='Escape'){toggle.focus();setOpen(false);event.stopPropagation()}});
+ on(toggle,'click',()=>setOpen(submenu.hidden));
+ on(dropdown,'click',(event:MouseEvent)=>{if((event.target as Element).closest('a'))setOpen(false)});
 });
 $$('.tour-card').forEach(card=>{
  const front=card.querySelector('.tour-card-front'),back=card.querySelector('.tour-card-body');
@@ -149,7 +152,10 @@ $('#gallery-prev')?.addEventListener('click',()=>{galleryPosition=(galleryPositi
 function openFilm(){if(immersiveDialog?.open)immersiveDialog.close();const video=$('#lightbox-video') as HTMLVideoElement;$('#lightbox-image').hidden=true;video.hidden=false;video.src=seed.media.video;video.poster=seed.media.coast;$('.gallery-controls').hidden=true;text($('#media-title'),say('Gaztelugatxe, desde el aire.','Gaztelugatxe, from the air.'));text($('#media-description'),say('Video real de Quahadi · CC BY-SA 4.0 · Adaptado a MP4 sin audio.','Real footage by Quahadi · CC BY-SA 4.0 · Adapted to MP4 without audio.'));openDialog(mediaDialog);video.play().catch(()=>{})}
 $$('[data-open-film]').forEach(b=>b.addEventListener('click',openFilm));mediaDialog.addEventListener('close',()=>{const video=$('#lightbox-video');video.pause();video.removeAttribute('src');video.load()});$('#lightbox-image')?.addEventListener('error',()=>text($('#media-description'),say('No se pudo cargar esta imagen. Prueba otra fotografía.','This image could not load. Try another photograph.')));$('#lightbox-video')?.addEventListener('error',()=>text($('#media-description'),say('No se pudo reproducir el video. Cierra y vuelve a intentarlo.','The video could not play. Close and try again.')));
 const contactForm=$('#contact-form') as HTMLFormElement;
-if(contactForm){const date=contactForm.elements.namedItem('date') as HTMLInputElement;const today=new Date();date.min=[today.getFullYear(),String(today.getMonth()+1).padStart(2,'0'),String(today.getDate()).padStart(2,'0')].join('-');contactForm.addEventListener('input',()=>{$('#contact-result').hidden=true});contactForm.addEventListener('submit',(e)=>{e.preventDefault();if(!contactForm.reportValidity())return;const data=new FormData(contactForm);try{const tour=state.tours.find((t:any)=>t.id===data.get('tour'));const message=makeWhatsAppMessage({name:String(data.get('name')),email:String(data.get('email')),guests:Number(data.get('guests')),date:String(data.get('date')||''),tourLang:String(data.get('tourLang')||''),message:String(data.get('message')||''),tour:tour?copy(tour.short):say('Una experiencia personalizada','A personalised experience')},lang);text($('#contact-preview'),message);$('#contact-whatsapp').href='https://wa.me/'+settings.whatsapp+'?text='+encodeURIComponent(message);$('#contact-result').hidden=false;$('#contact-whatsapp').focus()}catch{toast(say('Revisa los datos de tu consulta.','Please review your enquiry details.'))}})}
+if(contactForm){const date=contactForm.elements.namedItem('date') as HTMLInputElement;const today=new Date();date.min=[today.getFullYear(),String(today.getMonth()+1).padStart(2,'0'),String(today.getDate()).padStart(2,'0')].join('-');contactForm.addEventListener('submit',async(e)=>{e.preventDefault();if(!contactForm.reportValidity())return;const data=new FormData(contactForm);let payload;try{const tour=state.tours.find((t:any)=>t.id===data.get('tour'));payload=makeEnquiryPayload({name:String(data.get('name')),email:String(data.get('email')),guests:Number(data.get('guests')),date:String(data.get('date')||''),tourLang:String(data.get('tourLang')||''),message:String(data.get('message')||''),tour:tour?copy(tour.short):say('Una experiencia personalizada','A personalised experience')},lang)}catch{toast(say('Revisa los datos de tu consulta.','Please review your enquiry details.'));return}
+ const endpoint=import.meta.env.PUBLIC_CONTACT_ENDPOINT;if(!endpoint){toast(say(`El envío por correo aún no está activo. Escribe a ${settings.email}.`,`Email sending is not active yet. Please write to ${settings.email}.`));return}
+ const submit=contactForm.querySelector('button[type=submit]') as HTMLButtonElement;submit.disabled=true;
+ try{const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(payload)});if(!response.ok)throw new Error('Request failed');contactForm.reset();contactForm.hidden=true;$('#contact-result').hidden=false;$('#contact-result').focus()}catch{toast(say(`No se pudo enviar tu consulta. Inténtalo de nuevo o escribe a ${settings.email}.`,`We couldn't send your enquiry. Please try again or write to ${settings.email}.`))}finally{submit.disabled=false}})}
 let draft:any=null,dirty=false,uploadBusy=false,adminSceneOrder=[...state.sceneOrder];
 const adminForm=$('#admin-form') as HTMLFormElement;
 function field(name:string):any{return adminForm?.elements.namedItem(name)}
