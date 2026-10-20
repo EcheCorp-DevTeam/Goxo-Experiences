@@ -1,6 +1,7 @@
 ---
 import C from './Copy.astro';
 import {tours} from '../data/tours';
+const multiDay=tours.find(tour=>tour.id==='multi-day');
 import {languageOf} from '../data/urls';
 const lang=languageOf(Astro.url.pathname);
 ---
@@ -8,9 +9,8 @@ const lang=languageOf(Astro.url.pathname);
  <C tag="a" class="experiences-link" href="/experiences/" es="Experiencias" en="Experiences"/>
  <button type="button" class="experiences-toggle" aria-expanded="false" aria-label={lang==='en'?'Show experiences':'Mostrar experiencias'}><svg viewBox="0 0 12 8" width="12" height="8" aria-hidden="true"><path d="m1 1 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button>
  <div class="experiences-submenu" hidden>
-  {tours.filter(tour=>tour.published).map(tour=><C tag="a" href={`/experiences/${tour.slug}/`} {...tour.short}/>)}
-  {/* Placeholder: point href at the Multi-Day page once its destination is decided. */}
-  <C tag="a" class="experiences-multiday" href="#" es="Experiencias de varios días" en="Multi-Day Experiences"/>
+  {tours.filter(tour=>tour.published&&tour.id!=='multi-day').map(tour=><C tag="a" href={`/experiences/${tour.slug}/`} {...tour.short}/>)}
+  {multiDay&&<C tag="a" class="experiences-multiday" href={`/experiences/${multiDay.slug}/`} es="Experiencias de varios días" en="Multi-Day Experiences"/>}
   <C tag="a" class="experiences-all" href="/experiences/" es="Ver todas las experiencias" en="View all experiences"/>
  </div>
 </div>

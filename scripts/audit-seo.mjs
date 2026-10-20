@@ -35,7 +35,7 @@ for(const file of files){
  rows.push({url,title,titleLength:title.length,descriptionLength:meta('description').length,h1,robots:meta('robots'),canonical,commercial});
 }
 const sitemap=fs.readFileSync('dist/sitemap.xml','utf8');
-if((sitemap.match(/<loc>/g)||[]).length!==18)errors.push('Sitemap must contain 18 commercial URLs');
+if((sitemap.match(/<loc>/g)||[]).length!==20)errors.push('Sitemap must contain 20 commercial URLs');
 if(!sitemap.includes('xmlns:xhtml='))errors.push('Sitemap lacks language alternatives');
 const robots=fs.readFileSync('dist/robots.txt','utf8');
 if(production)for(const file of ['dist/admin/index.html','dist/experiencias/detalle/index.html'])if(fs.existsSync(file))errors.push('Public release includes editor/draft page: '+file);

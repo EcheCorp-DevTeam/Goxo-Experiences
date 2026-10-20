@@ -18,8 +18,8 @@
         "en": "Private by design"
       },
       "body": {
-        "es": "Solo tu grupo, tus preguntas y tu ritmo. Sin grupos mezclados ni itinerarios apresurados.",
-        "en": "Only your group, your questions and your pace. There are no mixed groups and no rushed itineraries."
+        "es": "Tu grupo, tus intereses y tu ritmo, con atención personal en todo momento.",
+        "en": "Your group, your interests and your pace, with personal attention throughout."
       },
       "image": "/media/cms/way/reasons-0-image.webp",
       "imageAlt": {
@@ -29,12 +29,12 @@
     },
     {
       "title": {
-        "es": "Experiencias reales",
-        "en": "Real experiences"
+        "es": "Una mirada local",
+        "en": "A local perspective"
       },
       "body": {
-        "es": "Compartimos el País Vasco a través de los lugares, las personas y las historias que lo hacen único.",
-        "en": "We share the Basque Country through the places, people and stories that make it unique."
+        "es": "Descubre los lugares, las personas y las historias que hacen que el País Vasco se sienta como en casa.",
+        "en": "Discover the places, people and stories that make the Basque Country feel like home."
       },
       "image": "/media/cms/way/reasons-1-image.webp",
       "imageAlt": {
@@ -44,12 +44,12 @@
     },
     {
       "title": {
-        "es": "Gastronomía y vino con raíces",
+        "es": "Gastronomía y vino con sentido del lugar",
         "en": "Food and wine with a sense of place"
       },
       "body": {
-        "es": "Cada parada se elige por lo que hay detrás: un productor, un oficio, una temporada o una historia familiar.",
-        "en": "Every stop is chosen for what is behind it: a producer, a craft, a season or a family story."
+        "es": "Conoce los sabores locales a través de bares independientes, bodegas familiares y las historias que hay detrás.",
+        "en": "Meet local flavours through independent bars, family wineries and the stories behind them."
       },
       "image": "/media/cms/way/reasons-2-image.webp",
       "imageAlt": {
@@ -63,28 +63,13 @@
         "en": "Travel that gives back"
       },
       "body": {
-        "es": "Cada experiencia GOXO apoya a negocios locales, una forma más ligera de viajar y proyectos que cuidan el País Vasco.",
-        "en": "Every GOXO experience supports local businesses, lighter travel and projects that care for the Basque Country."
+        "es": "Apoyamos a negocios locales, tomamos decisiones responsables y destinamos una parte de nuestros beneficios a proyectos sociales y ambientales locales.",
+        "en": "We support local businesses, make responsible choices and commit a share of our profits to local social and environmental projects."
       },
       "image": "/media/cms/way/reasons-3-image.webp",
       "imageAlt": {
         "es": "Panorámica de Bilbao y su ría desde Artxanda",
         "en": "Bilbao and its river seen from Artxanda"
-      }
-    },
-    {
-      "title": {
-        "es": "Adaptado con cuidado",
-        "en": "Thoughtfully tailored"
-      },
-      "body": {
-        "es": "Tus intereses, necesidades alimentarias, movilidad y ritmo se tienen en cuenta antes de empezar y durante la experiencia.",
-        "en": "Your interests, dietary needs, mobility and rhythm are considered before the day begins — and while it unfolds."
-      },
-      "image": "/media/cms/way/reasons-4-image.webp",
-      "imageAlt": {
-        "es": "Endika, guía local de GOXO Experiences",
-        "en": "Endika, local guide at GOXO Experiences"
       }
     }
   ]

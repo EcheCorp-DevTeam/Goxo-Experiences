@@ -20,24 +20,6 @@ $$('.experiences-menu').forEach(dropdown=>{
  on(toggle,'click',()=>setOpen(submenu.hidden));
  on(dropdown,'click',(event:MouseEvent)=>{if((event.target as Element).closest('a'))setOpen(false)});
 });
-$$('.tour-card').forEach(card=>{
- const front=card.querySelector('.tour-card-front'),back=card.querySelector('.tour-card-body');
- if(!front||!back)return;
- const toggle=front.querySelector('.tour-flip-toggle'),close=back.querySelector('.tour-flip-back');
- card.classList.add('tour-flippable');front.querySelector('.tour-flip-caption').hidden=false;close.hidden=false;
- back.id=`tour-info-${card.dataset.tourCard}`;toggle.setAttribute('aria-controls',back.id);back.inert=true;
- const flip=(open:boolean)=>{
-  if(open)$$('.tour-flippable.is-flipped').forEach(other=>{
-   if(other===card)return;
-   other.classList.remove('is-flipped');other.querySelector('.tour-flip-toggle').setAttribute('aria-expanded','false');
-   other.querySelector('.tour-card-front').inert=false;other.querySelector('.tour-card-body').inert=true;
-  });
-  card.classList.toggle('is-flipped',open);toggle.setAttribute('aria-expanded',String(open));front.inert=open;back.inert=!open;(open?close:toggle).focus({preventScroll:true});
- };
- on(front.querySelector('.tour-card-photo'),'click',(event:MouseEvent)=>{if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();flip(true)});
- on(toggle,'click',()=>flip(true));on(close,'click',()=>flip(false));
- on(card,'keydown',(event:KeyboardEvent)=>{if(event.key==='Escape'&&card.classList.contains('is-flipped'))flip(false)});
-});
 const hero=document.querySelector<HTMLElement>('#hero');
 const header=document.querySelector<HTMLElement>('.site-header');
 let headerObserver:IntersectionObserver|undefined;
@@ -115,7 +97,7 @@ let activeTerritory=seed.tours[0].id;
 function selectTerritory(id:string){const tour=state.tours.find((t:any)=>t.id===id&&t.published);if(!tour)return false;activeTerritory=id;const img=$('#hero-landscape');if(img){gsap.killTweensOf(img);const apply=()=>{img.src=tour.image;img.alt=copy(tour.location)};if(canAnimate()){const preload=new Image();preload.src=tour.image;preload.decode().then(()=>{if(activeTerritory!==id)return;if(!canAnimate()){apply();gsap.set(img,{opacity:1});return}gsap.to(img,{opacity:.25,duration:.45,ease:'sine.inOut',onComplete:()=>{apply();gsap.to(img,{opacity:1,duration:.8,ease:'sine.inOut'})}})}).catch(()=>{if(activeTerritory===id)gsap.set(img,{opacity:1})})}else{apply();gsap.set(img,{opacity:1})}}$$('[data-territory]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.territory===id)));const loc=$('#hero-location');if(loc)translated(loc,{es:`${tour.number} / ${tour.short.es.toUpperCase()}`,en:`${tour.number} / ${tour.short.en.toUpperCase()}`});return true}
 $$('[data-territory]').forEach(b=>b.addEventListener('click',()=>selectTerritory(b.dataset.territory)));
 let selectedFilter='all';
-function filterTours(category:string){if(!['all','costa','vino','gastronomia','cultura'].includes(category))throw new Error('Unknown category');selectedFilter=category;let count=0;$$('[data-tour-card]').forEach(card=>{const tour=state.tours.find((t:any)=>t.id===card.dataset.tourCard);card.hidden=!tour?.published||(category!=='all'&&tour.category!==category);if(!card.hidden)count++});$$('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filter===category)));if($('#tours-empty'))$('#tours-empty').hidden=count>0;ScrollTrigger.refresh();return count}
+function filterTours(category:string){if(!['all','costa','vino','gastronomia','cultura','multidia'].includes(category))throw new Error('Unknown category');selectedFilter=category;let count=0;$$('[data-tour-card]').forEach(card=>{const tour=state.tours.find((t:any)=>t.id===card.dataset.tourCard);card.hidden=!tour?.published||(category!=='all'&&tour.category!==category);if(!card.hidden)count++});$$('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filter===category)));if($('#tours-empty'))$('#tours-empty').hidden=count>0;ScrollTrigger.refresh();return count}
 $$('[data-filter]').forEach(b=>b.addEventListener('click',()=>filterTours(b.dataset.filter)));
 function element(tag:string,className='',content=''){const el=document.createElement(tag);if(className)el.className=className;if(content)el.textContent=content;return el}
 function buildCard(tour:any){
@@ -123,10 +105,11 @@ function buildCard(tour:any){
  const href=localizedHref(tourHref(tour,baseIds),lang),link=element('a','tour-card-photo') as HTMLAnchorElement;link.href=href;link.setAttribute('aria-label',copy(tour.short));
  if(tour.image){const img=element('img') as HTMLImageElement;img.src=tour.image;img.alt=copy(tour.imageAlt||{es:'',en:''});img.loading='lazy';img.width=1200;img.height=900;img.dataset.tourImage=tour.id;link.append(img)}else link.append(element('span','tour-photo-pending'));
  const body=element('div','tour-card-body'),name=element('h3'),description=element('p','tour-description'),meta=element('div','tour-card-meta');translated(name,tour.short);name.dataset.tourName=tour.id;translated(description,tour.description);
- for(const value of [tour.location,tour.duration,{es:'Experiencia privada',en:'Private experience'},tour.guests||{es:'Grupo a consultar',en:'Group size on request'}]){const span=element('span');translated(span,value);meta.append(span)}
- const cta=element('a','button',say('Consultar disponibilidad','Check Availability')) as HTMLAnchorElement;cta.href=localizedHref('/contact/?tour='+encodeURIComponent(tour.id),lang);
- const more=element('a','text-link',say('Ver experiencia','View experience')) as HTMLAnchorElement;more.href=href;
- body.append(name,description,meta,cta,more);card.append(link,body);return card;
+ for(const value of [tour.location,tour.duration,{es:'Experiencia privada',en:'Private experience'}]){const span=element('span');translated(span,value);meta.append(span)}
+ const more=element('a','button',say('Explorar esta experiencia','Explore This Experience')) as HTMLAnchorElement;more.href=href;
+ const plan=element('a','button button-secondary',say('Planifiquemos tu experiencia','Let’s Plan Your Experience')) as HTMLAnchorElement;plan.href=localizedHref('/contact/?tour='+encodeURIComponent(tour.id),lang);
+ const actions=element('div','tour-card-actions');actions.append(more,plan);
+ body.append(name,description,meta,actions);card.append(link,body);return card;
 }
 let currentTour:any=null;
 function syncPublic(){
@@ -152,7 +135,7 @@ $('#gallery-prev')?.addEventListener('click',()=>{galleryPosition=(galleryPositi
 function openFilm(){if(immersiveDialog?.open)immersiveDialog.close();const video=$('#lightbox-video') as HTMLVideoElement;$('#lightbox-image').hidden=true;video.hidden=false;video.src=seed.media.video;video.poster=seed.media.coast;$('.gallery-controls').hidden=true;text($('#media-title'),say('Gaztelugatxe, desde el aire.','Gaztelugatxe, from the air.'));text($('#media-description'),say('Video real de Quahadi · CC BY-SA 4.0 · Adaptado a MP4 sin audio.','Real footage by Quahadi · CC BY-SA 4.0 · Adapted to MP4 without audio.'));openDialog(mediaDialog);video.play().catch(()=>{})}
 $$('[data-open-film]').forEach(b=>b.addEventListener('click',openFilm));mediaDialog.addEventListener('close',()=>{const video=$('#lightbox-video');video.pause();video.removeAttribute('src');video.load()});$('#lightbox-image')?.addEventListener('error',()=>text($('#media-description'),say('No se pudo cargar esta imagen. Prueba otra fotografía.','This image could not load. Try another photograph.')));$('#lightbox-video')?.addEventListener('error',()=>text($('#media-description'),say('No se pudo reproducir el video. Cierra y vuelve a intentarlo.','The video could not play. Close and try again.')));
 const contactForm=$('#contact-form') as HTMLFormElement;
-if(contactForm){const date=contactForm.elements.namedItem('date') as HTMLInputElement;const today=new Date();date.min=[today.getFullYear(),String(today.getMonth()+1).padStart(2,'0'),String(today.getDate()).padStart(2,'0')].join('-');contactForm.addEventListener('submit',async(e)=>{e.preventDefault();if(!contactForm.reportValidity())return;const data=new FormData(contactForm);let payload;try{const tour=state.tours.find((t:any)=>t.id===data.get('tour'));payload=makeEnquiryPayload({name:String(data.get('name')),email:String(data.get('email')),guests:Number(data.get('guests')),date:String(data.get('date')||''),tourLang:String(data.get('tourLang')||''),message:String(data.get('message')||''),tour:tour?copy(tour.short):say('Una experiencia personalizada','A personalised experience')},lang)}catch{toast(say('Revisa los datos de tu consulta.','Please review your enquiry details.'));return}
+if(contactForm){const date=contactForm.elements.namedItem('date') as HTMLInputElement;const today=new Date();date.min=[today.getFullYear(),String(today.getMonth()+1).padStart(2,'0'),String(today.getDate()).padStart(2,'0')].join('-');contactForm.addEventListener('submit',async(e)=>{e.preventDefault();if(!contactForm.reportValidity())return;const data=new FormData(contactForm);const multiDay=data.get('tour')==='multi-day';let payload;try{const tour=state.tours.find((t:any)=>t.id===data.get('tour'));payload=makeEnquiryPayload({interests:multiDay?data.getAll('interests').map(String):[],interestsNote:multiDay?String(data.get('interestsNote')||''):'',name:String(data.get('name')),email:String(data.get('email')),guests:Number(data.get('guests')),date:String(data.get('date')||''),tourLang:String(data.get('tourLang')||''),message:String(data.get('message')||''),tour:tour?copy(tour.short):say('Una experiencia personalizada','A personalised experience')},lang)}catch{toast(say('Revisa los datos de tu consulta.','Please review your enquiry details.'));return}
  const endpoint=import.meta.env.PUBLIC_CONTACT_ENDPOINT;if(!endpoint){toast(say(`El envío por correo aún no está activo. Escribe a ${settings.email}.`,`Email sending is not active yet. Please write to ${settings.email}.`));return}
  const submit=contactForm.querySelector('button[type=submit]') as HTMLButtonElement;submit.disabled=true;
  try{const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(payload)});if(!response.ok)throw new Error('Request failed');contactForm.reset();contactForm.hidden=true;$('#contact-result').hidden=false;$('#contact-result').focus()}catch{toast(say(`No se pudo enviar tu consulta. Inténtalo de nuevo o escribe a ${settings.email}.`,`We couldn't send your enquiry. Please try again or write to ${settings.email}.`))}finally{submit.disabled=false}})}
@@ -174,6 +157,7 @@ on(window,'storage',(e)=>{if(e.key===STORAGE_KEY){if(adminForm){toast(say('El co
 translate();syncPublic();updateMotionButtons();
 on(window,'goxo:motion',()=>{const img=$('#hero-landscape');if(img&&!canAnimate()){gsap.killTweensOf(img);const tour=state.tours.find((t:any)=>t.id===activeTerritory);if(tour){img.src=tour.image;img.alt=copy(tour.location)}gsap.set(img,{opacity:1})}});
 if(contactForm){const selected=new URLSearchParams(location.search).get('tour');if(selected&&state.tours.some((t:any)=>t.id===selected&&t.published))$('#contact-tour').value=selected;}
+if(contactForm){const tourSelect=$('#contact-tour'),interests=$('#journey-interests');const syncInterests=()=>{const show=tourSelect.value==='multi-day';interests.hidden=!show;if(!show)interests.querySelectorAll('input,textarea').forEach((el:any)=>{if(el.type==='checkbox')el.checked=false;else el.value=''})};on(tourSelect,'change',syncInterests);syncInterests()}
 const lifecycle=new AbortController();
 const context=(document as any).modelContext;
 if(context?.registerTool){const specs=[{name:'list_goxo_experiences',title:'List GOXO experiences',description:'Read published experiences available in the current prototype.',inputSchema:{type:'object',properties:{},additionalProperties:false},annotations:{readOnlyHint:true},execute:async()=>({experiences:state.tours.filter((t:any)=>t.published).map((t:any)=>({id:t.id,title:copy(t.short),category:t.category,url:tourHref(t,baseIds)}))})}];if($('#tours-grid'))specs.push({name:'filter_goxo_experiences',title:'Filter GOXO experiences',description:'Filter the visible catalogue by category. Does not book or contact anyone.',inputSchema:{type:'object',properties:{category:{type:'string',enum:['all','costa','vino','gastronomia','cultura']}},required:['category'],additionalProperties:false},annotations:{readOnlyHint:false},execute:async(input:any)=>{if(!input||typeof input.category!=='string')throw new Error('Category required');return {visibleCount:filterTours(input.category),category:selectedFilter}}} as any);for(const spec of specs){try{Promise.resolve(context.registerTool(spec,{signal:lifecycle.signal})).catch(()=>{})}catch{}}}

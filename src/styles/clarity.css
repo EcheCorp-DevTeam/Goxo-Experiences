@@ -32,8 +32,8 @@ body .home .hero-content{padding:80px 7%;max-width:1250px}
 body .home .hero h1{font-size:clamp(44px,5.5vw,82px);max-width:23ch;line-height:1.08}
 body .home .hero h1 span{display:inline}
 body .home .home-video-toggle{z-index:5;background:var(--ink);color:var(--cream)}
-body .tours-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:54px 5%;align-items:stretch}
-body .tour-card{display:flex;flex-direction:column;min-width:0;transform:none;opacity:1}
+body .tours-grid{display:flex;flex-direction:column;gap:64px}
+body .tour-card{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(24px,4vw,64px);align-items:center;min-width:0;transform:none;opacity:1}
 body .tour-card-photo{aspect-ratio:4/3;background:#e6e5d8}
 body .tour-card-photo img,body .tour-card-photo:hover img{transform:none;transition:none}
 /* Paired photos breathe together without shifting the reading plane. */
@@ -50,37 +50,17 @@ body .gallery-tile{min-width:0}
  html:not([data-motion='off']) body .gallery-grid:has(.gallery-tile:nth-child(3n):is(:hover,:focus-visible)){grid-template-columns:minmax(0,.91fr) minmax(0,.91fr) minmax(0,1.18fr)}
  html:not([data-motion='off']) body .tour-card-photo img{transform:scale(1.015)}
  html:not([data-motion='off']) body .tour-card-photo:is(:hover,:focus-visible) img{transform:scale(1.04)}
- html:not([data-motion='off']) body .tour-card:nth-child(odd):has(.tour-card-photo:is(:hover,:focus-visible)) + .tour-card .tour-card-photo img,
- html:not([data-motion='off']) body .tour-card:nth-child(odd):has(+ .tour-card .tour-card-photo:is(:hover,:focus-visible)) .tour-card-photo img{transform:scale(1)}
 }
+body .page-heading h1 .title-line{display:block}
+@media(max-width:760px){body .page-heading h1 .title-line{display:inline}body .page-heading h1 .title-line+.title-line::before{content:" "}}
 body .tour-photo-pending{display:block;width:100%;height:100%;background:var(--olive);opacity:.2}
-body .tour-card-body{padding-top:24px;display:flex;flex-direction:column;align-items:flex-start;flex:1}
+body .tour-card-body{display:flex;flex-direction:column;align-items:flex-start}
 body .tour-card-body h3{font:500 clamp(28px,2.8vw,42px)/1.12 var(--serif);margin:0 0 18px}
 body .tour-card-body .tour-description{max-width:65ch;margin-bottom:20px}
-body .tour-card-meta{display:grid;grid-template-columns:1fr 1fr;gap:6px 18px;padding:0 0 22px;color:var(--ink);margin-top:auto;width:100%}
-body .tour-card-meta span:first-child{max-width:none;grid-column:1/-1}
-body .tour-card-body .button{width:100%}
-body .tour-card-body .text-link{margin-top:8px}
-/* Click reveals the reverse; both faces remain readable without JavaScript. */
-body .tour-flippable{display:grid;perspective:1400px;align-items:stretch}
-body .tour-flippable .tour-card-front,body .tour-flippable .tour-card-body{grid-area:1/1;backface-visibility:hidden;transition:transform 700ms cubic-bezier(.4,0,.2,1);min-width:0}
-body .tour-flippable .tour-card-front{position:relative;transform:rotateY(0deg)}
-body .tour-flippable .tour-card-photo{height:100%;min-height:460px;aspect-ratio:auto}
-body .tour-flippable .tour-card-photo img{transform:none;transition:none}
-@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
- html:not([data-motion='off']) body .tour-flippable .tour-card-photo img{transform:scale(1);transition:transform 650ms cubic-bezier(.4,0,.2,1)}
- html:not([data-motion='off']) body .tour-flippable .tour-card-front:is(:hover,:focus-within) .tour-card-photo img{transform:scale(1.045)}
-}
-body .tour-flippable .tour-card-body{transform:rotateY(-180deg);padding:32px;background:var(--cream);border:1px solid var(--line);border-radius:12px;justify-content:center}
-body .tour-flippable.is-flipped .tour-card-front{transform:rotateY(180deg)}
-body .tour-flippable.is-flipped .tour-card-body{transform:rotateY(0deg)}
-body .tour-flip-caption{position:absolute;inset:auto 0 0;padding:65px 28px 28px;background:linear-gradient(transparent,#19233aee);color:var(--cream);border-radius:0 0 12px 12px;pointer-events:none}
-body .tour-flip-caption h3{font:500 clamp(28px,2.8vw,42px)/1.12 var(--serif);margin-bottom:20px}
-body .tour-flip-caption button{pointer-events:auto;background:var(--cream);color:var(--ink)}
-body .tour-flip-back{margin-top:14px}
-@media(max-width:760px){body .tour-flippable .tour-card-body{padding:24px}body .tour-flippable .tour-card-photo{min-height:430px}}
-@media(prefers-reduced-motion:reduce){body .tour-flippable .tour-card-front,body .tour-flippable .tour-card-body{transition:none}}
-html[data-motion='off'] body .tour-flippable .tour-card-front,html[data-motion='off'] body .tour-flippable .tour-card-body{transition:none}
+body .tour-card-meta{display:flex;flex:none;flex-direction:row;flex-wrap:wrap;justify-content:flex-start;gap:6px 24px;padding:0 0 24px;font-size:1rem;color:var(--ink);width:100%}
+body .tour-card-actions{display:flex;flex-wrap:wrap;gap:12px}
+body .button.button-secondary{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+body .button.button-secondary:hover,body .button.button-secondary:focus-visible{background:var(--olive);border-color:var(--olive);color:var(--cream)}
 body .section-heading{align-items:start}
 body .section-note{max-width:32ch}
 body .why-title{max-width:none;font-size:clamp(30px,3.6vw,56px);text-wrap:balance}
@@ -88,10 +68,9 @@ body .reasons-section{text-align:center}
 body .reasons-section .section-intro{margin-inline:auto}
 body .reasons-section .reasons-grid{text-align:left}
 body .section-intro,body .about-company>p{max-width:72ch}
-body .reasons-grid{display:flex;flex-direction:column;gap:64px;background:none;border:0}
-body .reason-card{padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center;background:none}
-body .reason-card:nth-child(even) img{order:2}
-body .reason-card img{width:100%;aspect-ratio:4/3;object-fit:cover}
+body .reasons-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px 5%;background:none;border:0}
+body .reason-card{padding:0;display:flex;flex-direction:column;gap:24px;background:none}
+body .reason-card img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
 body .reason-card h3{font:500 clamp(30px,3vw,46px)/1.12 var(--serif)}
 body .reason-card p{font-size:1.125rem;max-width:55ch}
 body .host-copy p{font-size:1.125rem;max-width:65ch}
@@ -130,9 +109,9 @@ body .site-footer a:focus-visible,body .site-footer button:focus-visible,body .h
  body .home .home-hero{min-height:540px;height:calc(100svh - 124px)}
  body .home .hero-content{padding:60px 24px 100px}
  body .home .hero h1{font-size:clamp(38px,8.7vw,60px)}
- body .tours-grid{grid-template-columns:1fr;gap:48px}
+ body .tours-grid{gap:48px}body .tour-card{grid-template-columns:1fr;gap:24px}
  body .section-heading{flex-direction:column;gap:20px}
- body .reason-card{grid-template-columns:1fr;gap:24px}body .reason-card:nth-child(even) img{order:0}
+ body .reasons-grid{grid-template-columns:1fr}
  body .reasons-grid{gap:48px}body .section-pad{padding:64px 24px}
  body .home .home-host{grid-template-columns:1fr}
  body .host-video-frame{max-height:600px}
@@ -186,6 +165,6 @@ body:has(.home) .site-header .header-contact{display:none}
 
 
 .developer-credit{margin:8px 0 0;padding-top:6px;border-top:1px solid var(--line);font-size:.875rem;line-height:1.5;text-align:center}.developer-credit a{display:inline-flex;align-items:center;min-height:44px;margin-left:8px;text-decoration:underline;text-underline-offset:4px}
-
-
-
+body .interests{border:0;padding:0;margin:0;min-width:0}body .interests legend{padding:0;margin-bottom:12px;font-size:1.125rem}body .interests .optional{color:#475061}
+body .interest-options{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px 24px;margin-bottom:16px}
+body .interest-option{display:flex;flex-direction:row;align-items:center;justify-content:flex-start;gap:12px;min-height:44px;text-align:left}body .interest-option input{width:auto;min-height:0;flex:none;accent-color:var(--olive)}

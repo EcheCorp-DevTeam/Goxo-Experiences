@@ -241,6 +241,131 @@
       ]
     },
     {
+      "id": "pintxos",
+      "slug": "private-bilbao-pintxos-tour",
+      "category": "gastronomia",
+      "image": "/media/cms/tours/tours-4-image.webp",
+      "imageAlt": {
+        "es": "Barra de pintxos en el Casco Viejo de Bilbao",
+        "en": "Pintxos counter in Bilbao’s Old Town"
+      },
+      "short": {
+        "es": "Bilbao Pintxos & Local Wine",
+        "en": "Bilbao Pintxos & Local Wine"
+      },
+      "name": {
+        "es": "Tour privado de pintxos y vino por el Casco Viejo de Bilbao",
+        "en": "Private Bilbao Pintxos & Wine Tour in the Old Town"
+      },
+      "location": {
+        "es": "Bilbao Casco Viejo",
+        "en": "Bilbao Old Town"
+      },
+      "duration": {
+        "es": "3 horas",
+        "en": "3 hours"
+      },
+      "guests": {
+        "es": "2–8 personas",
+        "en": "2–8 guests"
+      },
+      "eyebrow": {
+        "es": "EXPERIENCIA PRIVADA",
+        "en": "PRIVATE EXPERIENCE"
+      },
+      "description": {
+        "es": "Un tour privado de pintxos y vino por el Casco Viejo de Bilbao, visitando favoritos locales y bares escondidos que difícilmente encontrarías por tu cuenta.",
+        "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
+      },
+      "catalogDescription": {
+        "es": "Un tour privado de pintxos y vino por el Casco Viejo de Bilbao, visitando favoritos locales y bares escondidos que difícilmente encontrarías por tu cuenta.",
+        "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
+      },
+      "story": {
+        "es": "Descubre el Casco Viejo de Bilbao a través de su gastronomía, vino e historias cotidianas. Durante tres horas sin prisas, recorremos las calles estrechas del Casco Viejo y paramos en bares locales cuidadosamente elegidos donde los pintxos forman parte de la vida de la ciudad.\n\nPrueba una selección de pintxos vascos con vino local mientras aprendes a pedir, en qué fijarte y por qué importa cada lugar. Son sitios con carácter, personas detrás de la barra e historias que te ayudan a vivir Bilbao como sus habitantes.",
+        "en": "Discover Bilbao’s Old Town through its food, wine and everyday stories. Over three unhurried hours, we move through the narrow streets of the Casco Viejo, stopping at carefully chosen local bars where pintxos are part of the city’s way of life.\n\nTaste a selection of Basque pintxos, paired with local wine, while learning how to order, what to look for and why each place matters. These are not stops chosen for a checklist: they are places with character, people behind the bar and stories that help you experience Bilbao as locals do."
+      },
+      "seoTitle": {
+        "es": "Pintxos de Bilbao y maridaje de vino local | Tours privados | GOXO",
+        "en": "Private Bilbao Pintxos Tour | Old Town Food & Wine | GOXO"
+      },
+      "seoDescription": {
+        "es": "Un tour privado de pintxos y vino por el Casco Viejo de Bilbao, visitando favoritos locales y bares escondidos que difícilmente encontrarías por tu cuenta.",
+        "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
+      },
+      "stops": [
+        {
+          "es": "Casco Viejo de Bilbao",
+          "en": "Bilbao Old Town"
+        },
+        {
+          "es": "Bares locales y pintxos",
+          "en": "Local bars and pintxos"
+        },
+        {
+          "es": "Vino local",
+          "en": "Local wine"
+        }
+      ],
+      "stopCopy": [
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        },
+        {
+          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
+          "en": "The order and details are tailored to your group and confirmed before the experience."
+        }
+      ],
+      "includes": [
+        {
+          "es": "Guía local y experiencia privada para tu grupo",
+          "en": "Local guide and a private experience for your group"
+        }
+      ],
+      "excludes": [
+        {
+          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
+          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+        }
+      ],
+      "faq": {
+        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
+        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+      },
+      "immersive": false,
+      "gallery": [
+        "/media/cms/tours/tours-4-gallery-0.webp",
+        "/media/cms/tours/tours-4-gallery-1.webp",
+        "/media/cms/tours/tours-4-gallery-2.webp",
+        "/media/cms/tours/tours-4-gallery-3.webp"
+      ],
+      "published": true,
+      "number": "03",
+      "galleryAlts": [
+        {
+          "es": "Barra de pintxos en el Casco Viejo de Bilbao",
+          "en": "Pintxos counter in Bilbao’s Old Town"
+        },
+        {
+          "es": "Calles del Casco Viejo de Bilbao",
+          "en": "Streets of Bilbao’s Old Town"
+        },
+        {
+          "es": "Endika y viajeros conversando en una terraza de Bilbao",
+          "en": "Endika and travellers talking on a terrace in Bilbao"
+        },
+        {
+          "es": "Calle y comercios del Casco Viejo de Bilbao",
+          "en": "Street and local shops in Bilbao’s Old Town"
+        }
+      ]
+    },
+    {
       "id": "bilbao-cultura",
       "slug": "private-bilbao-city-tour-guggenheim",
       "category": "cultura",
@@ -346,7 +471,7 @@
         "/media/cms/tours/tours-2-gallery-4.webp"
       ],
       "published": true,
-      "number": "03",
+      "number": "04",
       "galleryAlts": [
         {
           "es": "Endika guiando junto a la ría y el Casco Viejo de Bilbao",
@@ -472,7 +597,7 @@
         "/media/cms/tours/tours-3-gallery-0.webp"
       ],
       "published": true,
-      "number": "04",
+      "number": "05",
       "galleryAlts": [
         {
           "es": "Playa de La Concha y monte Urgull en San Sebastián",
@@ -481,129 +606,115 @@
       ]
     },
     {
-      "id": "pintxos",
-      "slug": "private-bilbao-pintxos-tour",
-      "category": "gastronomia",
-      "image": "/media/cms/tours/tours-4-image.webp",
+      "id": "multi-day",
+      "slug": "tailor-made-private-tours-basque-country-rioja",
+      "category": "multidia",
+      "image": "/media/cms/tours/tours-1-image.webp",
       "imageAlt": {
-        "es": "Barra de pintxos en el Casco Viejo de Bilbao",
-        "en": "Pintxos counter in Bilbao’s Old Town"
+        "es": "San Juan de Gaztelugatxe y la costa vasca",
+        "en": "San Juan de Gaztelugatxe and the Basque coast"
       },
       "short": {
-        "es": "Pintxos de Bilbao y maridaje de vino local",
-        "en": "Bilbao Pintxos & Local Wine Pairing"
+        "es": "Experiencia privada de varios días a medida",
+        "en": "Tailor-Made Multi-Day Experience"
       },
       "name": {
-        "es": "Tour privado de pintxos y vino por el Casco Viejo de Bilbao",
-        "en": "Private Bilbao Pintxos & Wine Tour in the Old Town"
+        "es": "Tours privados a medida por el País Vasco y La Rioja",
+        "en": "Tailor-Made Private Tours of the Basque Country & Rioja"
       },
       "location": {
-        "es": "Bilbao Casco Viejo",
-        "en": "Bilbao Old Town"
+        "es": "Bilbao · País Vasco · La Rioja",
+        "en": "Bilbao · Basque Country · Rioja"
       },
       "duration": {
-        "es": "3 horas",
-        "en": "3 hours"
-      },
-      "guests": {
-        "es": "2–8 personas",
-        "en": "2–8 guests"
+        "es": "A medida de tu estancia",
+        "en": "Tailored to your stay"
       },
       "eyebrow": {
         "es": "EXPERIENCIA PRIVADA",
         "en": "PRIVATE EXPERIENCE"
       },
       "description": {
-        "es": "Un tour privado de pintxos y vino por el Casco Viejo de Bilbao, visitando favoritos locales y bares escondidos que difícilmente encontrarías por tu cuenta.",
-        "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
+        "es": "Un viaje privado por el País Vasco y La Rioja que reúne gastronomía, vino, productores locales y aventuras al aire libre, a tu medida y a tu ritmo.",
+        "en": "A private journey through the Basque Country and Rioja, bringing together food, wine, local producers and outdoor adventures — shaped around your interests and pace."
       },
       "catalogDescription": {
-        "es": "Un tour privado de pintxos y vino por el Casco Viejo de Bilbao, visitando favoritos locales y bares escondidos que difícilmente encontrarías por tu cuenta.",
-        "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
+        "es": "Un viaje privado por el País Vasco y La Rioja que reúne gastronomía, vino, productores locales y aventuras al aire libre, a tu medida y a tu ritmo.",
+        "en": "A private journey through the Basque Country and Rioja, bringing together food, wine, local producers and outdoor adventures — shaped around your interests and pace."
       },
       "story": {
-        "es": "Descubre el Casco Viejo de Bilbao a través de su gastronomía, vino e historias cotidianas. Durante tres horas sin prisas, recorremos las calles estrechas del Casco Viejo y paramos en bares locales cuidadosamente elegidos donde los pintxos forman parte de la vida de la ciudad.\n\nPrueba una selección de pintxos vascos con vino local mientras aprendes a pedir, en qué fijarte y por qué importa cada lugar. Son sitios con carácter, personas detrás de la barra e historias que te ayudan a vivir Bilbao como sus habitantes.",
-        "en": "Discover Bilbao’s Old Town through its food, wine and everyday stories. Over three unhurried hours, we move through the narrow streets of the Casco Viejo, stopping at carefully chosen local bars where pintxos are part of the city’s way of life.\n\nTaste a selection of Basque pintxos, paired with local wine, while learning how to order, what to look for and why each place matters. These are not stops chosen for a checklist: they are places with character, people behind the bar and stories that help you experience Bilbao as locals do."
+        "es": "Date tiempo para vivir el País Vasco más allá de un solo día. Partiendo de una conversación sobre tus intereses, tus fechas de viaje y el ritmo que prefieres, creamos un itinerario privado que reúne los lugares, las personas y las actividades que más te importan.\n\nExplora Bilbao, descubre San Sebastián y los pueblos de la costa, o pasa un día entre los viñedos y las localidades medievales de La Rioja. Por el camino, disfruta de la gastronomía local, visita a productores independientes y escucha las historias que hay detrás de su trabajo.\n\nSi te gusta la naturaleza, tu viaje puede incluir senderismo, observación de aves, surf u otras actividades de aventura, elegidas según tus intereses y tu experiencia. Combina el tiempo al aire libre con visitas a bodegas familiares, granjas, productores artesanos de alimentos o talleres locales, y conecta los paisajes que recorres con las personas que viven y trabajan en ellos.\n\nTu itinerario puede ser activo, tranquilo o un equilibrio entre ambos: una ruta costera seguida de la visita a un productor, una mañana de surf antes de una comida local, o un día de observación de aves combinado con gastronomía y vino. Las actividades se planifican según la temporada, las condiciones locales y la disponibilidad, con guías o monitores especializados cuando corresponde.\n\nAcordamos contigo el itinerario, la organización y el precio antes de que reserves, para que sepas exactamente qué esperar.",
+        "en": "Give yourself time to experience the Basque Country beyond a single day. Starting with a conversation about your interests, travel dates and preferred pace, we create a private itinerary that brings together the places, people and activities that matter most to you.\n\nExplore Bilbao, discover San Sebastián and the coastal villages, or spend a day among the vineyards and medieval towns of Rioja. Along the way, enjoy local food, visit independent producers and hear the stories behind their work.\n\nIf you love the outdoors, your journey can include hiking, birdwatching, surfing or other adventure activities, selected to suit your interests and experience. Combine time in nature with visits to family-owned wineries, farms, artisan food producers or local workshops, connecting the landscapes you explore with the people who live and work there.\n\nYour itinerary can be active, relaxed or a balance of both: a coastal hike followed by a producer visit, a morning of surfing before a local lunch, or a day of birdwatching combined with food and wine. Activities are planned around the season, local conditions and availability, with specialist guides or instructors where appropriate.\n\nWe agree on the itinerary, arrangements and price with you before you book, so you know exactly what to expect."
       },
       "seoTitle": {
-        "es": "Pintxos de Bilbao y maridaje de vino local | Tours privados | GOXO",
-        "en": "Private Bilbao Pintxos Tour | Old Town Food & Wine | GOXO"
+        "es": "Tours privados de varios días por el País Vasco y La Rioja | GOXO",
+        "en": "Private Multi-Day Basque Country & Rioja Tours | GOXO"
       },
       "seoDescription": {
-        "es": "Un tour privado de pintxos y vino por el Casco Viejo de Bilbao, visitando favoritos locales y bares escondidos que difícilmente encontrarías por tu cuenta.",
-        "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
+        "es": "Tours privados a medida por el País Vasco y La Rioja, con gastronomía, vino, productores locales, senderismo, observación de aves y surf a tu ritmo.",
+        "en": "Tailor-made private tours of the Basque Country and Rioja, combining food, wine, local producers, hiking, birdwatching and surfing at your own pace."
       },
       "stops": [
         {
-          "es": "Casco Viejo de Bilbao",
-          "en": "Bilbao Old Town"
+          "es": "Una conversación contigo",
+          "en": "A conversation about you"
         },
         {
-          "es": "Bares locales y pintxos",
-          "en": "Local bars and pintxos"
+          "es": "Tu itinerario privado",
+          "en": "Your private itinerary"
         },
         {
-          "es": "Vino local",
-          "en": "Local wine"
+          "es": "Gastronomía, vino y productores",
+          "en": "Food, wine and producers"
+        },
+        {
+          "es": "Aventuras al aire libre",
+          "en": "Outdoor adventures"
         }
       ],
       "stopCopy": [
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Empezamos por tus intereses, tus fechas de viaje y el ritmo que prefieres.",
+          "en": "We start with your interests, travel dates and preferred pace."
         },
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Reunimos los lugares, las personas y las actividades que más te importan.",
+          "en": "We bring together the places, people and activities that matter most to you."
         },
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Comida local, bodegas familiares y productores independientes, con las historias que hay detrás.",
+          "en": "Local food, family-owned wineries and independent producers, with the stories behind their work."
+        },
+        {
+          "es": "Senderismo, observación de aves, surf u otras actividades, según la temporada y las condiciones.",
+          "en": "Hiking, birdwatching, surfing or other activities, planned around the season and conditions."
         }
       ],
       "includes": [
         {
-          "es": "Guía local y experiencia privada para tu grupo",
-          "en": "Local guide and a private experience for your group"
+          "es": "Itinerario privado a medida",
+          "en": "A private, tailor-made itinerary"
+        },
+        {
+          "es": "Guías o monitores especializados cuando corresponde",
+          "en": "Specialist guides or instructors where appropriate"
         }
       ],
       "excludes": [
         {
-          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
-          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+          "es": "El itinerario, la organización y el precio se acuerdan contigo antes de reservar.",
+          "en": "The itinerary, arrangements and price are agreed with you before you book."
         }
       ],
       "faq": {
-        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
-        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+        "es": "Acordamos contigo el itinerario, la organización y el precio antes de que reserves, para que sepas exactamente qué esperar.",
+        "en": "We agree on the itinerary, arrangements and price with you before you book, so you know exactly what to expect."
       },
       "immersive": false,
-      "gallery": [
-        "/media/cms/tours/tours-4-gallery-0.webp",
-        "/media/cms/tours/tours-4-gallery-1.webp",
-        "/media/cms/tours/tours-4-gallery-2.webp",
-        "/media/cms/tours/tours-4-gallery-3.webp"
-      ],
+      "gallery": [],
+      "galleryAlts": [],
       "published": true,
-      "number": "05",
-      "galleryAlts": [
-        {
-          "es": "Barra de pintxos en el Casco Viejo de Bilbao",
-          "en": "Pintxos counter in Bilbao’s Old Town"
-        },
-        {
-          "es": "Calles del Casco Viejo de Bilbao",
-          "en": "Streets of Bilbao’s Old Town"
-        },
-        {
-          "es": "Endika y viajeros conversando en una terraza de Bilbao",
-          "en": "Endika and travellers talking on a terrace in Bilbao"
-        },
-        {
-          "es": "Calle y comercios del Casco Viejo de Bilbao",
-          "en": "Street and local shops in Bilbao’s Old Town"
-        }
-      ]
+      "number": "06"
     }
   ]
 }

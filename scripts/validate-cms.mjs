@@ -8,7 +8,7 @@ export function validateCMS({tours,settings,presentation,articles}){
   if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(tour.id)||ids.has(tour.id))throw new Error('Tour ID missing, invalid or duplicated');
   if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(tour.slug)||slugs.has(tour.slug))throw new Error('Tour slug missing, invalid or duplicated');
   ids.add(tour.id);slugs.add(tour.slug);
-  for(const key of ['name','short','description','catalogDescription','story','location','duration','guests','seoTitle','seoDescription','imageAlt'])if(!bilingual(tour[key]))throw new Error(`Missing bilingual field: ${tour.id}.${key}`);
+  for(const key of ['name','short','description','catalogDescription','story','location','duration','seoTitle','seoDescription','imageAlt'])if(!bilingual(tour[key]))throw new Error(`Missing bilingual field: ${tour.id}.${key}`);
   if(tour.stops.length!==tour.stopCopy.length)throw new Error(`Each stop needs a description: ${tour.id}`);
  }
  const sectionIds=new Set();

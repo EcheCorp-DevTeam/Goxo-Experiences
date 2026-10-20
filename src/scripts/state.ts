@@ -6,7 +6,7 @@ export function validateState(value:any,sceneIds:string[]){
  const ids=new Set();
  for(const tour of value.tours){
   if(!tour||typeof tour.id!=='string'||!/^[a-z][a-z0-9-]{0,60}$/.test(tour.id)||ids.has(tour.id))throw new Error('Invalid or duplicate experience');ids.add(tour.id);
-  if(!['costa','vino','gastronomia','cultura'].includes(tour.category)||!(tour.image===''||safeImage(tour.image)))throw new Error('Invalid category or image');
+  if(!['costa','vino','gastronomia','cultura','multidia'].includes(tour.category)||!(tour.image===''||safeImage(tour.image)))throw new Error('Invalid category or image');
   for(const field of fields){const c=tour[field];if(!c||typeof c.es!=='string'||typeof c.en!=='string'||c.es.length>2400||c.en.length>2400)throw new Error('Invalid bilingual content')}
   if(!tour.short.es.trim()||!tour.short.en.trim()||!tour.name.es.trim()||!tour.name.en.trim())throw new Error('Missing experience name');
   for(const field of ['stops','stopCopy','includes','excludes'])if(!Array.isArray(tour[field])||tour[field].length>20||tour[field].some((c:any)=>!c||typeof c.es!=='string'||typeof c.en!=='string'||c.es.length>2400||c.en.length>2400))throw new Error('Invalid experience details');
@@ -18,8 +18,10 @@ export function validateState(value:any,sceneIds:string[]){
  return structuredClone(value);
 }
 export const tourLanguages=['es','en'] as const;
-type Enquiry={name:string;email:string;guests:number;date:string;message:string;tour:string;tourLang?:string};
-export function validateEnquiry({name,email,guests,date,message,tourLang=''}:Enquiry){
+export const journeyInterests=['food-wine','producers-crafts','culture-city','hiking','birdwatching','surfing','outdoor-other'] as const;
+type Enquiry={name:string;email:string;guests:number;date:string;message:string;tour:string;tourLang?:string;interests?:string[];interestsNote?:string};
+export function validateEnquiry({name,email,guests,date,message,tourLang='',interests=[],interestsNote=''}:Enquiry){
+ if(interests.some(value=>!journeyInterests.includes(value as any))||new Set(interests).size!==interests.length||interestsNote.length>1000)throw new Error('Invalid journey interests');
  if(tourLang&&!tourLanguages.includes(tourLang as any))throw new Error('Invalid tour language');
  if(!name.trim()||name.length>80||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)||email.length>150||!Number.isInteger(guests)||guests<2||guests>8||message.length>1500)throw new Error('Please review your enquiry');
  if(date&&!/^\d{4}-\d{2}-\d{2}$/.test(date))throw new Error('Invalid date');
@@ -27,7 +29,7 @@ export function validateEnquiry({name,email,guests,date,message,tourLang=''}:Enq
 // Body posted to the contact endpoint, which emails it to Endika.
 export function makeEnquiryPayload(input:Enquiry,lang='es'){
  validateEnquiry(input);
- return{language:lang,name:input.name.trim(),email:input.email.trim(),tour:input.tour,guests:input.guests,date:input.date,tourLanguage:input.tourLang||'',message:input.message.trim()};
+ return{language:lang,name:input.name.trim(),email:input.email.trim(),tour:input.tour,guests:input.guests,date:input.date,tourLanguage:input.tourLang||'',message:input.message.trim(),interests:input.interests||[],interestsNote:(input.interestsNote||'').trim()};
 }
 export function makeWhatsAppMessage(input:Enquiry,lang='es'){
  const {name,email,guests,date,message,tour,tourLang=''}=input;
