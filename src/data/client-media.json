@@ -1,0 +1,432 @@
+[
+  {
+    "source": "01 Rioja/1-rioja-vineyards-mountains.jpg",
+    "file": "1-rioja-vineyards-mountains.webp",
+    "width": 4608,
+    "height": 3072,
+    "alt": {
+      "es": "Viñedos bajo las montañas de Rioja.",
+      "en": "Vineyards beneath the mountains in Rioja."
+    }
+  },
+  {
+    "source": "01 Rioja/rioja-grapes-sunlight.jpg",
+    "file": "rioja-grapes-sunlight.webp",
+    "width": 4608,
+    "height": 3072,
+    "alt": {
+      "es": "Uvas y hojas de vid a contraluz.",
+      "en": "Grapes and vine leaves backlit by the sun."
+    }
+  },
+  {
+    "source": "01 Rioja/rioja-wine-tasting-stone-vault.jpg",
+    "file": "rioja-wine-tasting-stone-vault.webp",
+    "width": 2944,
+    "height": 3925,
+    "alt": {
+      "es": "Una sala de catas bajo una bóveda de piedra.",
+      "en": "A wine tasting room beneath a stone vault."
+    }
+  },
+  {
+    "source": "01 Rioja/rioja-winery-stone-cellar.jpg",
+    "file": "rioja-winery-stone-cellar.webp",
+    "width": 2963,
+    "height": 3951,
+    "alt": {
+      "es": "Barricas de vino bajo una bóveda de piedra en una bodega de Rioja.",
+      "en": "Wine barrels beneath a stone vault in a Rioja cellar."
+    }
+  },
+  {
+    "source": "01 Rioja/stone-village-street.jpg",
+    "file": "stone-village-street.webp",
+    "width": 900,
+    "height": 1350,
+    "alt": {
+      "es": "Una calle estrecha flanqueada por edificios tradicionales de piedra.",
+      "en": "A narrow street lined with traditional stone buildings."
+    }
+  },
+  {
+    "source": "01 Rioja/stone-winery-facade-vine.jpg",
+    "file": "stone-winery-facade-vine.webp",
+    "width": 2746,
+    "height": 3661,
+    "alt": {
+      "es": "Una parra crece sobre la fachada de piedra de una bodega.",
+      "en": "A vine growing over the stone façade of a winery."
+    }
+  },
+  {
+    "source": "01 Rioja/travellers-wine-toast-terrace.jpg",
+    "file": "travellers-wine-toast-terrace.webp",
+    "width": 4336,
+    "height": 2670,
+    "alt": {
+      "es": "Dos personas brindando con copas de vino en una terraza.",
+      "en": "Two people raising wine glasses on a terrace."
+    }
+  },
+  {
+    "source": "01 Rioja/winery-wooden-barrels.jpg",
+    "file": "winery-wooden-barrels.webp",
+    "width": 1350,
+    "height": 900,
+    "alt": {
+      "es": "Filas de barricas de madera en una bodega.",
+      "en": "Rows of wooden wine barrels in a cellar."
+    }
+  },
+  {
+    "source": "02 Costa vasca/1-gaztelugatxe-aerial-stairway.jpg",
+    "file": "1-gaztelugatxe-aerial-stairway.webp",
+    "width": 4032,
+    "height": 2268,
+    "alt": {
+      "es": "Vista aérea de Gaztelugatxe y su escalinata de piedra.",
+      "en": "Aerial view of Gaztelugatxe and its stone stairway."
+    }
+  },
+  {
+    "source": "02 Costa vasca/gaztelugatxe-coastal-panorama.jpg",
+    "file": "gaztelugatxe-coastal-panorama.webp",
+    "width": 4032,
+    "height": 2268,
+    "alt": {
+      "es": "Gaztelugatxe y la costa de su entorno vistos desde arriba.",
+      "en": "Gaztelugatxe and the surrounding coast seen from above."
+    }
+  },
+  {
+    "source": "02 Costa vasca/gaztelugatxe-stone-steps.jpg",
+    "file": "gaztelugatxe-stone-steps.webp",
+    "width": 1350,
+    "height": 900,
+    "alt": {
+      "es": "La sinuosa escalinata de piedra de Gaztelugatxe.",
+      "en": "The winding stone staircase at Gaztelugatxe."
+    }
+  },
+  {
+    "source": "02 Costa vasca/gernika-guernica-mural.jpg",
+    "file": "gernika-guernica-mural.webp",
+    "width": 3024,
+    "height": 2771,
+    "alt": {
+      "es": "La reproducción cerámica del Guernica en Gernika.",
+      "en": "The ceramic reproduction of Guernica in Gernika."
+    }
+  },
+  {
+    "source": "02 Costa vasca/mundaka-harbour-terrace.jpg",
+    "file": "mundaka-harbour-terrace.webp",
+    "width": 3785,
+    "height": 2839,
+    "alt": {
+      "es": "Varias personas comparten comida en una terraza junto al puerto de Mundaka.",
+      "en": "People sharing food on a terrace beside Mundaka harbour."
+    }
+  },
+  {
+    "source": "02 Costa vasca/urdaibai-estuary.jpg",
+    "file": "urdaibai-estuary.webp",
+    "width": 4365,
+    "height": 2882,
+    "alt": {
+      "es": "La ría de Urdaibai rodeada de colinas verdes.",
+      "en": "The Urdaibai estuary surrounded by green hills."
+    }
+  },
+  {
+    "source": "03 Bilbao pintxos/1-bilbao-pintxos-basque-flags.jpg",
+    "file": "1-bilbao-pintxos-basque-flags.webp",
+    "width": 1350,
+    "height": 1080,
+    "alt": {
+      "es": "Pintxos con pequeñas ikurriñas sobre la barra de un bar.",
+      "en": "Pintxos topped with small Basque flags on a bar counter."
+    }
+  },
+  {
+    "source": "03 Bilbao pintxos/bilbao-bar-toast.jpg",
+    "file": "bilbao-bar-toast.webp",
+    "width": 1350,
+    "height": 900,
+    "alt": {
+      "es": "Tres personas brindando en un bar de Bilbao.",
+      "en": "Three people raising their glasses at a bar in Bilbao."
+    }
+  },
+  {
+    "source": "03 Bilbao pintxos/endika-conversation-plaza-nueva.jpg",
+    "file": "endika-conversation-plaza-nueva.webp",
+    "width": 1350,
+    "height": 900,
+    "alt": {
+      "es": "Endika conversa con dos personas en una terraza de la Plaza Nueva.",
+      "en": "Endika talking with two people at a terrace in Plaza Nueva."
+    }
+  },
+  {
+    "source": "03 Bilbao pintxos/gorostiaga-hat-shop-bilbao.jpg",
+    "file": "gorostiaga-hat-shop-bilbao.webp",
+    "width": 3072,
+    "height": 4465,
+    "alt": {
+      "es": "La sombrerería Gorostiaga en el Casco Viejo de Bilbao.",
+      "en": "The Gorostiaga hat shop in Bilbao’s Old Town."
+    }
+  },
+  {
+    "source": "03 Bilbao pintxos/pintxos-white-plates.jpg",
+    "file": "pintxos-white-plates.webp",
+    "width": 900,
+    "height": 1350,
+    "alt": {
+      "es": "Una selección de pintxos servidos en pequeños platos blancos.",
+      "en": "A selection of pintxos served on small white plates."
+    }
+  },
+  {
+    "source": "03 Bilbao pintxos/plaza-nueva-bilbao.jpg",
+    "file": "plaza-nueva-bilbao.webp",
+    "width": 5605,
+    "height": 3737,
+    "alt": {
+      "es": "La Plaza Nueva de Bilbao, con soportales, terrazas y palmeras.",
+      "en": "Plaza Nueva in Bilbao, with arcades, terraces and palm trees."
+    }
+  },
+  {
+    "source": "04 Bilbao arte y ciudad/1-guggenheim-bilbao-riverside.jpg",
+    "file": "1-guggenheim-bilbao-riverside.webp",
+    "width": 4576,
+    "height": 3072,
+    "alt": {
+      "es": "El Museo Guggenheim junto a la ría de Bilbao.",
+      "en": "The Guggenheim Museum beside the river in Bilbao."
+    }
+  },
+  {
+    "source": "04 Bilbao arte y ciudad/arriaga-theatre-bilbao.jpg",
+    "file": "arriaga-theatre-bilbao.webp",
+    "width": 4530,
+    "height": 3020,
+    "alt": {
+      "es": "La fachada del Teatro Arriaga de Bilbao.",
+      "en": "The façade of the Arriaga Theatre in Bilbao."
+    }
+  },
+  {
+    "source": "04 Bilbao arte y ciudad/bilbao-old-town-river.jpg",
+    "file": "bilbao-old-town-river.webp",
+    "width": 1350,
+    "height": 856,
+    "alt": {
+      "es": "La ría, un puente y el Mercado de La Ribera en Bilbao.",
+      "en": "The river, a bridge and La Ribera Market in Bilbao."
+    }
+  },
+  {
+    "source": "04 Bilbao arte y ciudad/endika-walking-travellers-bilbao.jpg",
+    "file": "endika-walking-travellers-bilbao.webp",
+    "width": 3996,
+    "height": 2407,
+    "alt": {
+      "es": "Endika camina y conversa con visitantes en Bilbao.",
+      "en": "Endika walking and talking with visitors in Bilbao."
+    }
+  },
+  {
+    "source": "04 Bilbao arte y ciudad/guggenheim-bilbao-steel-sculptures.jpg",
+    "file": "guggenheim-bilbao-steel-sculptures.webp",
+    "width": 3691,
+    "height": 5346,
+    "alt": {
+      "es": "Grandes esculturas curvas de acero en el interior del Museo Guggenheim Bilbao.",
+      "en": "Large curved steel sculptures inside the Guggenheim Museum Bilbao."
+    }
+  },
+  {
+    "source": "04 Bilbao arte y ciudad/guggenheim-titanium-detail.jpg",
+    "file": "guggenheim-titanium-detail.webp",
+    "width": 4450,
+    "height": 3030,
+    "alt": {
+      "es": "Paneles curvos de titanio en el Museo Guggenheim.",
+      "en": "Curved titanium panels on the Guggenheim Museum."
+    }
+  },
+  {
+    "source": "04 Bilbao arte y ciudad/la-ribera-market-interior.jpg",
+    "file": "la-ribera-market-interior.webp",
+    "width": 1350,
+    "height": 900,
+    "alt": {
+      "es": "Vidrieras sobre el interior del Mercado de La Ribera.",
+      "en": "Stained-glass windows above the interior of La Ribera Market."
+    }
+  },
+  {
+    "source": "04 Bilbao arte y ciudad/maman-guggenheim-bilbao.jpg",
+    "file": "maman-guggenheim-bilbao.webp",
+    "width": 3072,
+    "height": 4355,
+    "alt": {
+      "es": "La escultura de la araña Maman frente al Museo Guggenheim.",
+      "en": "The Maman spider sculpture outside the Guggenheim Museum."
+    }
+  },
+  {
+    "source": "05 Donosti y Getaria/1-ondarreta-monte-igueldo.jpg",
+    "file": "1-ondarreta-monte-igueldo.webp",
+    "width": 4279,
+    "height": 2853,
+    "alt": {
+      "es": "La playa de Ondarreta y el Monte Igueldo en San Sebastián.",
+      "en": "Ondarreta beach and Monte Igueldo in San Sebastián."
+    }
+  },
+  {
+    "source": "05 Donosti y Getaria/buen-pastor-san-sebastian.jpg",
+    "file": "buen-pastor-san-sebastian.webp",
+    "width": 4441,
+    "height": 2960,
+    "alt": {
+      "es": "La catedral del Buen Pastor enmarcada por edificios de San Sebastián.",
+      "en": "Buen Pastor Cathedral framed by buildings in San Sebastián."
+    }
+  },
+  {
+    "source": "05 Donosti y Getaria/getaria-old-town-street.jpg",
+    "file": "getaria-old-town-street.webp",
+    "width": 2821,
+    "height": 2980,
+    "alt": {
+      "es": "Una calle del casco antiguo de Getaria.",
+      "en": "A street in Getaria’s Old Town."
+    }
+  },
+  {
+    "source": "05 Donosti y Getaria/la-concha-bay-garden.jpg",
+    "file": "la-concha-bay-garden.webp",
+    "width": 3338,
+    "height": 1826,
+    "alt": {
+      "es": "La bahía de La Concha vista desde un jardín tras una barandilla de hierro.",
+      "en": "La Concha Bay seen from a garden behind an iron railing."
+    }
+  },
+  {
+    "source": "05 Donosti y Getaria/plaza-constitucion-san-sebastian.jpg",
+    "file": "plaza-constitucion-san-sebastian.webp",
+    "width": 4372,
+    "height": 3072,
+    "alt": {
+      "es": "La Plaza de la Constitución vista a través de un arco en San Sebastián.",
+      "en": "Plaza de la Constitución seen through an archway in San Sebastián."
+    }
+  },
+  {
+    "source": "05 Donosti y Getaria/san-sebastian-architecture.jpg",
+    "file": "san-sebastian-architecture.webp",
+    "width": 4521,
+    "height": 3014,
+    "alt": {
+      "es": "Fachadas ornamentadas y un edificio con cúpula en San Sebastián.",
+      "en": "Ornate façades and a domed building in San Sebastián."
+    }
+  },
+  {
+    "source": "06 Multi day/1-basque-coast-cliffs-panorama.jpg",
+    "file": "1-basque-coast-cliffs-panorama.webp",
+    "width": 4032,
+    "height": 2268,
+    "alt": {
+      "es": "Colinas verdes y acantilados sobre la costa vasca.",
+      "en": "Green hills and cliffs overlooking the Basque coast."
+    }
+  },
+  {
+    "source": "06 Multi day/coastal-cliffs-walk.jpg",
+    "file": "coastal-cliffs-walk.webp",
+    "width": 1350,
+    "height": 900,
+    "alt": {
+      "es": "Acantilados costeros estratificados sobre el mar.",
+      "en": "Layered coastal cliffs overlooking the sea."
+    }
+  },
+  {
+    "source": "06 Multi day/cows-mountain-landscape.jpg",
+    "file": "cows-mountain-landscape.webp",
+    "width": 1350,
+    "height": 823,
+    "alt": {
+      "es": "Vacas que descansan y pastan entre rocas en un paisaje de montaña.",
+      "en": "Cows resting and grazing among rocks in a mountain landscape."
+    }
+  },
+  {
+    "source": "06 Multi day/green-mountain-valley.jpg",
+    "file": "green-mountain-valley.webp",
+    "width": 1205,
+    "height": 755,
+    "alt": {
+      "es": "Laderas verdes y edificios rurales distribuidos por un valle de montaña.",
+      "en": "Green slopes and rural buildings spread across a mountain valley."
+    }
+  },
+  {
+    "source": "06 Multi day/guggenheim-bilbao-la-salve.jpg",
+    "file": "guggenheim-bilbao-la-salve.webp",
+    "width": 4608,
+    "height": 2755,
+    "alt": {
+      "es": "El Museo Guggenheim junto al puente de La Salve en Bilbao.",
+      "en": "The Guggenheim Museum beside La Salve Bridge in Bilbao."
+    }
+  },
+  {
+    "source": "06 Multi day/peine-del-viento-sunset.jpg",
+    "file": "peine-del-viento-sunset.webp",
+    "width": 4557,
+    "height": 3038,
+    "alt": {
+      "es": "Las esculturas del Peine del Viento junto al mar al atardecer.",
+      "en": "The Peine del Viento sculptures beside the sea at sunset."
+    }
+  },
+  {
+    "source": "06 Multi day/sunset-sea-of-clouds.jpg",
+    "file": "sunset-sea-of-clouds.webp",
+    "width": 1350,
+    "height": 900,
+    "alt": {
+      "es": "Luz del atardecer sobre un mar de nubes entre crestas montañosas.",
+      "en": "Sunset light above a sea of clouds between mountain ridges."
+    }
+  },
+  {
+    "source": "07 Web general About y Contacto/endika-explaining-bilbao.jpg",
+    "file": "endika-explaining-bilbao.webp",
+    "width": 1350,
+    "height": 900,
+    "alt": {
+      "es": "Endika señala edificios junto a la ría de Bilbao.",
+      "en": "Endika pointing out buildings beside the river in Bilbao."
+    }
+  },
+  {
+    "source": "07 Web general About y Contacto/endika-portrait-san-sebastian.jpg",
+    "file": "endika-portrait-san-sebastian.webp",
+    "width": 1350,
+    "height": 1080,
+    "alt": {
+      "es": "Endika sonríe junto al mar en San Sebastián.",
+      "en": "Endika smiling beside the sea in San Sebastián."
+    }
+  }
+]

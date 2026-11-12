@@ -1,0 +1,9 @@
+---
+import manifest from '../data/client-media.json';
+const {src,alt='',eager=false,sizes='(max-width: 760px) 100vw, 50vw',style='',...rest}=Astro.props;
+const item=manifest.find(item=>src===`/media/client/${item.file}`);
+const widths=item?[640,960,1600,1920].filter((width,i,all)=>i===0||Math.min(width,item.width)>Math.min(all[i-1],item.width)):[];
+const srcset=item?widths.map(width=>`${width===1920?src:`/media/client/${width}/${item.file}`} ${Math.min(width,item.width)}w`).join(', '):undefined;
+const ratioStyle=item?`aspect-ratio:auto ${item.width}/${item.height};${style}`:(style||undefined);
+---
+<img src={src} alt={alt} srcset={srcset} sizes={srcset?sizes:undefined} width={item?.width||1200} height={item?.height||800} style={ratioStyle} loading={eager?'eager':'lazy'} fetchpriority={eager?'high':undefined} decoding="async" {...rest}/>

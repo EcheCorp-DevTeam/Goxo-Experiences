@@ -16,7 +16,11 @@ const graph:any[]=[business,{'@type':'WebSite','@id':siteOrigin+'/#website',url:
 if(article){page.mainEntity={'@id':canonical+'#article'};graph.push({'@type':'BlogPosting','@id':canonical+'#article',headline:article.title[lang],description,inLanguage:lang,image,url:canonical,publisher:{'@id':business['@id']},mainEntityOfPage:{'@id':canonical+'#page'}});}
 if(tour){
  page.mainEntity={'@id':canonical+'#experience'};
- graph.push({'@type':'Service','@id':canonical+'#experience',name:tour.name[lang],description:tour.story[lang],url:canonical,image,serviceType:lang==='en'?'Private guided experience':'Experiencia privada con guía',provider:{'@id':business['@id']},areaServed:tour.location[lang]});
+ graph.push({'@type':['Service','TouristTrip'],'@id':canonical+'#experience',name:tour.name[lang],description:tour.story[lang],url:canonical,image,serviceType:lang==='en'?'Private guided experience':'Experiencia privada con guía',touristType:lang==='en'?'Private group (2–8 guests)':'Grupo privado (2–8 personas)',availableLanguage:['en','es'],provider:{'@id':business['@id']},areaServed:tour.location[lang],itinerary:{'@type':'ItemList',itemListElement:tour.stops.map((stop,i)=>({'@type':'ListItem',position:i+1,name:stop[lang],description:tour.stopCopy[i]?.[lang]||''}))}});
+ if(tour.faqs?.length)graph.push({'@type':'FAQPage','@id':canonical+'#faq',inLanguage:lang,mainEntity:tour.faqs.map(f=>({'@type':'Question',name:f.question[lang],acceptedAnswer:{'@type':'Answer',text:f.answer[lang]}}))});
+}
+if(path==='/'&&official.faqs?.length){
+ graph.push({'@type':'FAQPage','@id':canonical+'#faq',inLanguage:lang,mainEntity:official.faqs.map(f=>({'@type':'Question',name:f.question[lang],acceptedAnswer:{'@type':'Answer',text:f.answer[lang]}}))});
 }
 if(path==='/about/'){
  page.mainEntity={'@id':siteOrigin+'/#endika'};
@@ -43,4 +47,5 @@ if(path!=='/'&&!path.includes('404')&&!path.includes('admin')){
 <meta name="twitter:title" content={title}/>
 <meta name="twitter:description" content={description}/>
 <meta name="twitter:image" content={image}/>
-<script id="seo-graph" type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\u003c')}/>
+<meta name="twitter:image:alt" content={article?.imageAlt?.[lang]||article?.title[lang]||tour?.imageAlt?.[lang]||'GOXO Experiences'}/>
+<script id="seo-graph" type="application/ld+json" set:html={JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c')}/>

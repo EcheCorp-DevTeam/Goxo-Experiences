@@ -49,13 +49,13 @@
       "visible": true
     },
     {
-      "id": "plan",
-      "label": "Contacto final",
+      "id": "blog",
+      "label": "Blog",
       "visible": true
     },
     {
-      "id": "blog",
-      "label": "Blog",
+      "id": "plan",
+      "label": "Contacto final",
       "visible": true
     }
   ],

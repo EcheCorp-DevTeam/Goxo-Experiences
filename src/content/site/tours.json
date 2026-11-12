@@ -4,26 +4,26 @@
       "id": "rioja",
       "slug": "rioja-wine-tour-from-bilbao",
       "category": "vino",
-      "image": "/media/cms/tours/tours-0-image.webp",
+      "image": "/media/client/1-rioja-vineyards-mountains.webp",
       "imageAlt": {
-        "es": "Viñedos de Rodezno en La Rioja",
-        "en": "Vineyards in Rodezno, La Rioja"
+        "es": "Viñedos bajo las montañas de Rioja.",
+        "en": "Vineyards beneath the mountains in Rioja."
       },
       "short": {
         "es": "Rioja Wine Experience",
         "en": "Rioja Wine Experience"
       },
       "name": {
-        "es": "Rioja Wine Experience",
-        "en": "Rioja Wine Experience"
+        "es": "Tour privado de vino en Rioja desde Bilbao",
+        "en": "Private Rioja Wine Tour from Bilbao"
       },
       "location": {
         "es": "Rioja · Laguardia",
         "en": "Rioja · Laguardia"
       },
       "duration": {
-        "es": "8 horas",
-        "en": "8 hours"
+        "es": "Aproximadamente 8 horas",
+        "en": "Approximately 8 hours"
       },
       "guests": {
         "es": "2–8 personas",
@@ -38,112 +38,342 @@
         "en": "A private Rioja wine tour from Bilbao, combining family wineries, medieval towns and stories behind every glass."
       },
       "catalogDescription": {
-        "es": "Un tour privado de vino por Rioja desde Bilbao, con bodegas familiares, pueblos medievales y un almuerzo local cuidadosamente elegido.",
-        "en": "A private Rioja wine tour from Bilbao, combining family-owned wineries, medieval towns and a carefully chosen local lunch."
+        "es": "Dos bodegas, un pueblo medieval y una mesa que merece disfrutarse sin prisas. Descubre Rioja a través de sus vinos, sus paisajes y las personas que les dan vida.",
+        "en": "Two wineries, a medieval village and a table worth taking your time over. Discover Rioja through its wines, its landscapes and the people who bring them to life."
       },
       "story": {
-        "es": "Dedica un día a descubrir La Rioja a través de las personas, paisajes y vinos que definen una de las regiones vinícolas más celebradas de España. Visita dos bodegas familiares, habla con el bodeguero, descubre las historias detrás de cada copa y pasea por las calles medievales de Laguardia.\n\nLa experiencia se adapta a tus intereses, desde pequeños productores hasta bodegas grandes e icónicas. Termina el día con un almuerzo local premium, elegido por su conexión con el territorio y su cultura gastronómica.",
-        "en": "Spend a full day discovering La Rioja through the people, landscapes and wines that define one of Spain’s most celebrated wine regions. Visit two family-owned wineries, talk to the winemaker and meet the stories behind each glass and explore the medieval streets of Laguardia.\n\nThe experience can be tailored around your interests, from small producers to larger, iconic wineries. Finish the day with a premium local lunch, chosen for its connection to the territory and its food culture."
+        "es": "Deja Bilbao atrás para pasar un día entre los viñedos de Rioja, una de las regiones vinícolas más reconocidas de España. Esta experiencia privada combina dos visitas a bodegas, las calles medievales de Laguardia y una comida local cuidadosamente seleccionada con maridaje de vinos.\n\nDamos preferencia a las bodegas familiares, donde la visita permite una conexión más cercana con las personas y las decisiones que hay detrás de cada botella. Descubre cómo se elaboran los vinos, prueba distintos estilos y escucha las historias que los vinculan al paisaje.\n\nEntre visitas, disfruta de los viñedos y explora Laguardia, un pueblo situado en lo alto de una colina, con calles de piedra, edificios históricos y vistas de Rioja Alavesa. Tu guía te acercará a la historia y la vida cotidiana de la región, dando contexto a lo que ves y degustas.\n\nLa comida forma parte de ese descubrimiento: cocina regional, ingredientes de temporada y tiempo para disfrutar de la gastronomía y la conversación.\n\nTanto si descubres Rioja por primera vez como si ya te manejas con soltura ante una carta de vinos, adaptamos el día a tus intereses. Si hay un productor concreto o una bodega emblemática que te gustaría visitar, cuéntanoslo al hacer tu consulta.",
+        "en": "Leave Bilbao behind for a day among the vineyards of Rioja, one of Spain’s most celebrated wine regions. This private experience brings together two winery visits, the medieval streets of Laguardia and a carefully selected local lunch with wine pairing.\n\nWe favour family-owned wineries, where the visit offers a closer connection to the people and decisions behind each bottle. Discover how the wines are made, taste different styles and hear the stories that connect them to the landscape.\n\nBetween visits, take in the vineyards and explore Laguardia, a hilltop village of stone streets, historic buildings and views across Rioja Alavesa. Your guide will introduce you to the region’s history and everyday life, giving context to what you see and taste.\n\nLunch is part of that discovery: regional cooking, seasonal ingredients and time to enjoy the food and conversation.\n\nWhether you are discovering Rioja for the first time or already know your way around a wine list, we adapt the day to your interests. If there is a particular producer or iconic winery you would love to visit, tell us when you enquire."
       },
       "seoTitle": {
-        "es": "Rioja Wine Experience | Tours privados | GOXO",
-        "en": "Private Rioja Wine Tour from Bilbao | GOXO Experiences"
+        "es": "Tour privado de vino en Rioja desde Bilbao | Bodegas y Laguardia | GOXO",
+        "en": "Private Rioja Wine Tour from Bilbao | Wineries & Laguardia | GOXO"
       },
       "seoDescription": {
-        "es": "Un tour privado de vino por Rioja desde Bilbao, con bodegas familiares, pueblos medievales y un almuerzo local cuidadosamente elegido.",
-        "en": "A private Rioja wine tour from Bilbao, combining family-owned wineries, medieval towns and a carefully chosen local lunch."
+        "es": "Descubre Rioja en un tour privado de vino desde Bilbao. Visita dos bodegas familiares, explora pueblos medievales y disfruta de una comida local cuidadosamente seleccionada con vino de la región.",
+        "en": "Discover Rioja on a private wine tour from Bilbao. Visit two family-owned wineries, explore medieval towns and enjoy a carefully selected lunch with local wine."
       },
       "stops": [
         {
-          "es": "Bodegas familiares",
-          "en": "Family-owned wineries"
+          "es": "9:00 — Encuentro con tu guía local en Bilbao",
+          "en": "9:00 am — Meet your local guide in Bilbao"
         },
         {
-          "es": "Laguardia",
-          "en": "Laguardia"
+          "es": "10:30 — Primera visita a una bodega y cata",
+          "en": "10:30 am — First winery visit and tasting"
         },
         {
-          "es": "Almuerzo local",
-          "en": "Local lunch"
+          "es": "12:00 — Otra perspectiva de Rioja",
+          "en": "12:00 pm — A second perspective on Rioja"
+        },
+        {
+          "es": "13:30 — Sabores de la región",
+          "en": "1:30 pm — A taste of the region"
+        },
+        {
+          "es": "15:00 — Un paseo por la Laguardia medieval",
+          "en": "3:00pm — A walk through medieval Laguardia"
+        },
+        {
+          "es": "17:00 — Regreso a tu hotel.",
+          "en": "5:00 pm — Return to your hotel."
         }
       ],
       "stopCopy": [
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Comienza en tu hotel o en un punto de encuentro acordado. Durante el trayecto, tu guía te presenta los paisajes, la historia y la cultura del vino de la región.",
+          "en": "Begin at your hotel or an agreed meeting point. During the journey, your guide introduces the landscapes, history and wine culture of the region."
         },
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Explora una bodega familiar y descubre su forma de entender la elaboración del vino. Degusta una selección de vinos mientras conoces su carácter, sus orígenes y su producción.",
+          "en": "Explore a family-owned winery and discover its approach to winemaking. Taste a selection of wines while learning about their character, origins and production."
         },
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Visita una segunda bodega para descubrir una historia y un estilo diferentes. Comparar ambas permite comprender mejor la región y a las personas que dan forma a sus vinos.",
+          "en": "Visit a second winery to discover a different story and style. Comparing the two offers a richer understanding of the region and the people who shape its wines."
+        },
+        {
+          "es": "Siéntate a disfrutar de una comida local cuidadosamente seleccionada, con platos regionales y vino para acompañarlos. Las necesidades alimentarias se comentan al planificar tu experiencia.",
+          "en": "Sit down to a carefully selected local lunch, with regional dishes and wine to accompany the meal. Dietary requirements are discussed when planning your experience."
+        },
+        {
+          "es": "Explora con tu guía las calles de piedra y el patrimonio medieval de Laguardia, descubriendo las historias y la vida cotidiana de este histórico pueblo de Rioja.",
+          "en": "Explore Laguardia’s stone streets and medieval heritage with your guide, discovering the stories and everyday life of this historic Rioja village."
+        },
+        {
+          "es": "Termina el día de vuelta en tu hotel o en el lugar de llegada acordado.",
+          "en": "Finish the day back at your hotel or the agreed drop-off point."
         }
       ],
       "includes": [
         {
-          "es": "Guía local y experiencia privada para tu grupo",
-          "en": "Local guide and a private experience for your group"
-        }
-      ],
-      "excludes": [
+          "es": "Una experiencia privada con tu guía local de GOXO.",
+          "en": "A private experience with your local GOXO guide."
+        },
         {
-          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
-          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+          "es": "Transporte de ida y vuelta desde Bilbao.",
+          "en": "Return transport from Bilbao."
+        },
+        {
+          "es": "Visitas y catas de vino en dos bodegas seleccionadas.",
+          "en": "Visits and wine tastings at two selected wineries."
+        },
+        {
+          "es": "Un paseo guiado por Laguardia.",
+          "en": "A guided walk through Laguardia."
+        },
+        {
+          "es": "Una comida local cuidadosamente seleccionada con vino.",
+          "en": "A carefully selected local lunch with wine."
+        },
+        {
+          "es": "Planificación y coordinación de las reservas de bodegas y restaurante.",
+          "en": "Planning and coordination of your winery and restaurant reservations."
         }
       ],
+      "excludes": [],
       "faq": {
-        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
-        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+        "es": "",
+        "en": ""
       },
       "immersive": false,
       "gallery": [
-        "/media/cms/tours/tours-0-gallery-0.webp",
-        "/media/cms/tours/tours-0-gallery-1.webp",
-        "/media/cms/tours/tours-0-gallery-2.webp"
+        "/media/client/rioja-winery-stone-cellar.webp",
+        "/media/client/travellers-wine-toast-terrace.webp",
+        "/media/client/rioja-grapes-sunlight.webp",
+        "/media/client/rioja-wine-tasting-stone-vault.webp",
+        "/media/client/stone-winery-facade-vine.webp",
+        "/media/client/winery-wooden-barrels.webp",
+        "/media/client/stone-village-street.webp"
       ],
       "published": true,
       "number": "01",
       "galleryAlts": [
         {
-          "es": "Viñedos de Rodezno en La Rioja",
-          "en": "Vineyards in Rodezno, La Rioja"
+          "es": "Barricas de vino bajo una bóveda de piedra en una bodega de Rioja.",
+          "en": "Wine barrels beneath a stone vault in a Rioja cellar."
         },
         {
-          "es": "Ayuntamiento viejo de Laguardia",
-          "en": "Laguardia’s old town hall"
+          "es": "Dos personas brindando con copas de vino en una terraza.",
+          "en": "Two people raising wine glasses on a terrace."
         },
         {
-          "es": "Bodegas Bilbaínas en Haro",
-          "en": "Bodegas Bilbaínas in Haro"
+          "es": "Uvas y hojas de vid a contraluz.",
+          "en": "Grapes and vine leaves backlit by the sun."
+        },
+        {
+          "es": "Una sala de catas bajo una bóveda de piedra.",
+          "en": "A wine tasting room beneath a stone vault."
+        },
+        {
+          "es": "Una parra crece sobre la fachada de piedra de una bodega.",
+          "en": "A vine growing over the stone façade of a winery."
+        },
+        {
+          "es": "Filas de barricas de madera en una bodega.",
+          "en": "Rows of wooden wine barrels in a cellar."
+        },
+        {
+          "es": "Una calle estrecha flanqueada por edificios tradicionales de piedra.",
+          "en": "A narrow street lined with traditional stone buildings."
         }
-      ]
+      ],
+      "itineraryTitle": {
+        "es": "TU DÍA EN RIOJA",
+        "en": "YOUR DAY IN RIOJA"
+      },
+      "sectionsTitle": {
+        "es": "OPCIONES ADICIONALES",
+        "en": "OPTIONAL ARRANGEMENTS"
+      },
+      "faqsTitle": {
+        "es": "PREGUNTAS SOBRE TU EXPERIENCIA EN RIOJA",
+        "en": "QUESTIONS ABOUT YOUR RIOJA EXPERIENCE"
+      },
+      "glance": [
+        {
+          "label": {
+            "es": "Duración",
+            "en": "Duration"
+          },
+          "value": {
+            "es": "Aproximadamente 8 horas",
+            "en": "Approximately 8 hours"
+          }
+        },
+        {
+          "label": {
+            "es": "Salida",
+            "en": "Departure"
+          },
+          "value": {
+            "es": "Bilbao",
+            "en": "Bilbao"
+          }
+        },
+        {
+          "label": {
+            "es": "Punto de encuentro",
+            "en": "Meeting point"
+          },
+          "value": {
+            "es": "Tu hotel o un punto de encuentro acordado en Bilbao",
+            "en": "Your hotel or an agreed meeting point in Bilbao"
+          }
+        },
+        {
+          "label": {
+            "es": "Inicio sugerido",
+            "en": "Suggested start"
+          },
+          "value": {
+            "es": "9:00",
+            "en": "9:00 am"
+          }
+        },
+        {
+          "label": {
+            "es": "Idiomas",
+            "en": "Languages"
+          },
+          "value": {
+            "es": "Inglés o español",
+            "en": "English or Spanish"
+          }
+        }
+      ],
+      "scheduleNote": {
+        "es": "El horario es un ejemplo. Las citas en las bodegas, la comida y el paseo por Laguardia pueden realizarse en un orden diferente según la disponibilidad, la temporada y tus preferencias.",
+        "en": "The schedule is an example. Winery appointments, lunch and the walk through Laguardia may take place in a different order depending on availability, the season and your preferences."
+      },
+      "sections": [
+        {
+          "heading": false,
+          "text": {
+            "es": "¿Tienes en mente alguna bodega, estilo de vino o restaurante? Podemos explorar alternativas al planificar el día. Cualquier coste adicional se explicará en tu propuesta antes de reservar.",
+            "en": "Have a particular winery, wine style or restaurant in mind? We can explore alternatives when planning your day. Any additional costs will be explained in your proposal before you book."
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "INFORMACIÓN PRÁCTICA",
+            "en": "GOOD TO KNOW"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Lleva calzado cómodo para caminar por Laguardia y las bodegas.",
+            "en": "Wear comfortable shoes for walking through Laguardia and the wineries."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Cuéntanos tus necesidades alimentarias, de movilidad y cualquier interés particular relacionado con el vino al hacer tu consulta.",
+            "en": "Please tell us about dietary requirements, mobility needs and any particular wine interests when you enquire."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "La experiencia es privada para tu grupo. Las visitas y catas en bodegas pueden incluir a otros visitantes, salvo que se haya organizado una cita exclusiva.",
+            "en": "Your experience is private to your group. Winery visits and tastings may include other visitors unless an exclusive appointment has been arranged."
+          }
+        }
+      ],
+      "faqs": [
+        {
+          "question": {
+            "es": "¿Qué bodegas visitaremos?",
+            "en": "Which wineries will we visit?"
+          },
+          "answer": {
+            "es": "Seleccionamos las bodegas según la disponibilidad, tus intereses y el equilibrio del día. Preferimos los productores familiares, pero también podemos explorar visitas a bodegas más grandes y conocidas. El itinerario se confirmará en tu propuesta.",
+            "en": "We select the wineries around availability, your interests and the balance of the day. Our preference is for family-owned producers, but we can also explore visits to larger, well-known wineries. The itinerary will be confirmed in your proposal."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Conoceremos a quien elabora el vino?",
+            "en": "Will we meet the winemaker?"
+          },
+          "answer": {
+            "es": "Buscamos oportunidades para acercarte a las personas que hay detrás de los vinos. Según la bodega y el trabajo de ese día, puede recibirte quien elabora el vino, un miembro de la familia o alguien del equipo de la bodega.",
+            "en": "We look for opportunities to connect you with the people behind the wines. Depending on the winery and the day’s work, your host may be the winemaker, a family member or a member of the winery team."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Necesitamos saber de vino?",
+            "en": "Do we need to know about wine?"
+          },
+          "answer": {
+            "es": "En absoluto. La experiencia es adecuada tanto para quienes se acercan al vino con curiosidad como para aficionados con experiencia. Cuéntanos qué te interesa y lo tendremos en cuenta al seleccionar las visitas.",
+            "en": "Not at all. The experience is suitable for curious newcomers and wine enthusiasts alike. Tell us what interests you, and we will take it into account when selecting the visits."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podéis atender necesidades alimentarias?",
+            "en": "Can you accommodate dietary requirements?"
+          },
+          "answer": {
+            "es": "Indícanos cualquier alergia o necesidad alimentaria al hacer tu consulta. Comprobaremos las opciones adecuadas con el restaurante antes de confirmar tu reserva.",
+            "en": "Please share any allergies or dietary requirements when you enquire. We will check suitable options with the restaurant before confirming your booking."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podemos personalizar el día?",
+            "en": "Can we customize the day?"
+          },
+          "answer": {
+            "es": "Sí. Podemos hablar de otras bodegas, opciones para comer o ajustes en el ritmo. Los cambios dependen de la disponibilidad y deben encajar en el tiempo disponible.",
+            "en": "Yes. We can discuss different wineries, lunch options or adjustments to the pace. Changes depend on availability and must fit within the time available."
+          }
+        }
+      ],
+      "finalCta": {
+        "title": {
+          "es": "Planifiquemos tu día en Rioja.",
+          "en": "Let’s plan your day in Rioja."
+        },
+        "body": {
+          "es": "Cuéntanos cuándo vienes y qué disfrutas de la gastronomía y el vino. Endika preparará una propuesta personal con el itinerario, la disponibilidad y el precio.",
+          "en": "Tell us when you are visiting and what you enjoy about food and wine. Endika will prepare a personal proposal with the itinerary, availability and price."
+        }
+      },
+      "includesTitle": {
+        "es": "QUÉ INCLUYE",
+        "en": "WHAT’S INCLUDED"
+      }
     },
     {
       "id": "costa-vasca",
       "slug": "gaztelugatxe-mundaka-gernika-tour",
       "category": "costa",
-      "image": "/media/cms/tours/tours-1-image.webp",
+      "image": "/media/client/1-gaztelugatxe-aerial-stairway.webp",
       "imageAlt": {
-        "es": "San Juan de Gaztelugatxe y la costa vasca",
-        "en": "San Juan de Gaztelugatxe and the Basque coast"
+        "es": "Vista aérea de Gaztelugatxe y su escalinata de piedra.",
+        "en": "Aerial view of Gaztelugatxe and its stone stairway."
       },
       "short": {
         "es": "Costa Vasca",
         "en": "Basque Coast"
       },
       "name": {
-        "es": "Costa Vasca",
-        "en": "Basque Coast"
+        "es": "Tour privado por la Costa Vasca desde Bilbao",
+        "en": "Private Basque Coast Tour from Bilbao"
       },
       "location": {
         "es": "Gaztelugatxe · Mundaka · Gernika",
         "en": "Gaztelugatxe · Mundaka · Gernika"
       },
       "duration": {
-        "es": "6 horas",
-        "en": "6 hours"
+        "es": "Aproximadamente 6 horas sin comida. La caminata de Gaztelugatxe o la comida pueden ampliar la experiencia.",
+        "en": "Approximately 6 hours without lunch. The Gaztelugatxe walk or lunch may extend the experience."
       },
       "guests": {
         "es": "2–8 personas",
@@ -154,100 +384,348 @@
         "en": "PRIVATE EXPERIENCE"
       },
       "description": {
-        "es": "Un recorrido privado por Gaztelugatxe, Mundaka y Gernika: paisajes atlánticos, historias locales y una conexión más profunda con la cultura y la política vascas.",
-        "en": "A private journey through Gaztelugatxe, Mundaka and Gernika: Atlantic landscapes, local stories and a deeper connection with Basque culture & politics."
+        "es": "Descubre Gaztelugatxe, Mundaka y Gernika en un viaje privado por paisajes costeros, tradiciones pesqueras y las historias que hay detrás de la cultura vasca.",
+        "en": "Discover Gaztelugatxe, Mundaka and Gernika on a private journey through coastal landscapes, fishing traditions and the stories behind Basque culture."
       },
       "catalogDescription": {
-        "es": "Un recorrido privado por Gaztelugatxe, Mundaka y Gernika: paisajes atlánticos, historias de pescadores locales y cultura vasca.",
-        "en": "A private journey through Gaztelugatxe, Mundaka and Gernika: Atlantic landscapes, local fisherman´s stories and Basque culture."
+        "es": "Vistas espectaculares de la costa, pueblos pesqueros y las historias que hay detrás de la identidad vasca. Descubre Gaztelugatxe, Mundaka y Gernika con un guía local, a tu ritmo.",
+        "en": "Dramatic coastal views, fishing villages and the stories behind Basque identity. Discover Gaztelugatxe, Mundaka and Gernika with a local guide, at your own pace."
       },
       "story": {
-        "es": "Descubre la Costa Vasca sin prisas, desde los escalones de San Juan de Gaztelugatxe hasta la cultura del surf de Mundaka y la poderosa historia de Gernika.\n\nEste día privado combina paisajes costeros, historias locales y tiempo para disfrutar de cada lugar. La entrada a Gaztelugatxe se puede gestionar cuando esté disponible, y el itinerario puede incluir un almuerzo en un restaurante local cuidadosamente elegido.",
-        "en": "Discover the Basque Coast at an unhurried pace, from the dramatic steps of San Juan de Gaztelugatxe to the surf culture of Mundaka and the powerful history of Gernika.\n\nThis private day combines coastal landscapes, local stories and time to experience each place properly. Entry to Gaztelugatxe can be arranged when available, and the itinerary can include lunch at a carefully selected local restaurant."
+        "es": "Sal de Bilbao para pasar un día en la Costa Vasca, donde el paisaje atlántico y quienes viven junto al mar cuentan una historia compartida. Esta experiencia privada conecta San Juan de Gaztelugatxe, el pueblo pesquero de Mundaka y la histórica villa de Gernika.\n\nEn Gaztelugatxe, el famoso escenario de Juego de Tronos, disfruta desde el mirador de las vistas de la ermita y su serpenteante puente de piedra. Si prefieres una visita más activa, podemos organizar la caminata hasta la costa y la subida por las escaleras a la ermita, según la disponibilidad de acceso y las condiciones. En verano, esta opción implica recogerte antes en el hotel para aprovechar las horas más frescas de la mañana.\n\nContinúa hasta Mundaka, uno de los pueblos costeros más bonitos, donde las tradiciones pesqueras y la cultura del surf se encuentran alrededor de un pequeño puerto. Explora sus calles, escucha historias de la vida costera y disfruta de las vistas hacia la ría de Urdaibai.\n\nEn Gernika, descubre la historia y los símbolos que hacen de esta villa un lugar esencial para comprender el País Vasco. Tu guía conecta su pasado con la cultura y la vida cotidiana de la región actual.\n\nPara una experiencia más larga, quédate a comer en un asador vasco tradicional. Con alimentos preparados a la parrilla e ingredientes elegidos por su calidad, es una de las formas más características de disfrutar de la gastronomía vasca.",
+        "en": "Leave Bilbao for a day along the Basque Coast, where the Atlantic landscape and the people who live beside it tell a shared story. This private experience connects San Juan de Gaztelugatxe, the fishing village of Mundaka and the historic town of Gernika.\n\nAt Gaztelugatxe, the famous Game of Thrones location, take in the views of the hermitage and its winding stone bridge from the lookout. If you would like a more active visit, we can arrange the walk down to the coast and up the steps to the hermitage, subject to access availability and conditions. During summer, this option comes with an earlier hotel pick-up to make the most of the cooler morning hours.\n\nContinue to Mundaka, one of the most beautiful coastal towns where fishing traditions and surf culture meet around a small harbour. Explore its streets, hear stories of coastal life and enjoy views towards the Urdaibai estuary.\n\nIn Gernika, discover the history and symbols that make this town central to understanding the Basque Country. Your guide connects its past with the culture and everyday life of the region today.\n\nFor a longer experience, stay for lunch at a traditional Basque asador. With food cooked over the grill and ingredients chosen for their quality, this is one of the most characteristic ways to enjoy Basque gastronomy."
       },
       "seoTitle": {
-        "es": "Costa Vasca | Tours privados | GOXO",
-        "en": "Private Basque Coast Tour | Gaztelugatxe, Mundaka & Gernika | GOXO"
+        "es": "Tour privado por la Costa Vasca desde Bilbao | Gaztelugatxe, Mundaka y Gernika | GOXO",
+        "en": "Private Basque Coast Tour from Bilbao | Gaztelugatxe, Mundaka & Gernika | GOXO"
       },
       "seoDescription": {
-        "es": "Un recorrido privado por Gaztelugatxe, Mundaka y Gernika: paisajes atlánticos, historias de pescadores locales y cultura vasca.",
-        "en": "A private journey through Gaztelugatxe, Mundaka and Gernika: Atlantic landscapes, local fisherman´s stories and Basque culture."
+        "es": "Descubre Gaztelugatxe, Mundaka y Gernika en un tour privado por la Costa Vasca desde Bilbao, con recogida en tu hotel y comida opcional en un asador tradicional.",
+        "en": "Discover Gaztelugatxe, Mundaka and Gernika on a private Basque Coast tour from Bilbao, with hotel pick-up and an optional traditional asador lunch."
       },
       "stops": [
         {
-          "es": "Gaztelugatxe",
-          "en": "Gaztelugatxe"
+          "es": "9:00 — Encuentro con tu guía local en Bilbao",
+          "en": "9:00 am — Meet your local guide in Bilbao"
         },
         {
-          "es": "Mundaka",
-          "en": "Mundaka"
+          "es": "10:00 — San Juan de Gaztelugatxe",
+          "en": "10:00 am — San Juan de Gaztelugatxe"
         },
         {
-          "es": "Gernika",
-          "en": "Gernika"
+          "es": "11:15 — Mundaka y su puerto",
+          "en": "11:15 am — Mundaka and its harbour"
+        },
+        {
+          "es": "12:30 — Gernika y la historia vasca",
+          "en": "12:30 pm — Gernika and Basque history"
+        },
+        {
+          "es": "15:00 — Regreso a Bilbao",
+          "en": "3:00 pm — Return to Bilbao"
+        },
+        {
+          "es": "Opcional — Quédate a comer en un asador tradicional",
+          "en": "Optional — Stay for a traditional asador lunch"
         }
       ],
       "stopCopy": [
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Comienza en tu hotel o en un punto de encuentro acordado. Durante el trayecto, tu guía te presenta los paisajes, las tradiciones marítimas y la historia de la Costa Vasca.",
+          "en": "Begin at your hotel or an agreed meeting point. During the journey, your guide introduces the landscapes, maritime traditions and history of the Basque Coast."
         },
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Disfruta de las vistas desde el mirador y descubre las historias de la ermita y su espectacular entorno. Hay tiempo para hacer fotografías y apreciar el paisaje.\n\nSi eliges la caminata hasta la ermita, ajustamos la salida y reservamos tiempo adicional para el descenso, las escaleras y el regreso.",
+          "en": "Enjoy the views from the lookout and discover the stories behind the hermitage and its dramatic setting. There is time to take photographs and appreciate the landscape.\n\nIf you choose the walk to the hermitage, we adjust the departure time and allow additional time for the descent, steps and return."
         },
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Pasea por el pueblo y junto al mar, descubriendo su patrimonio pesquero, su cultura del surf y su conexión con la cercana ría de Urdaibai.",
+          "en": "Walk through the village and along the waterfront, discovering its fishing heritage, surf culture, and connection to the surrounding Urdaibai estuary."
+        },
+        {
+          "es": "Explora Gernika con tu guía y conoce los acontecimientos, tradiciones y símbolos que han dado forma a su importancia para el pueblo vasco. Las visitas a interiores dependen de los horarios y la disponibilidad.",
+          "en": "Explore Gernika with your guide and learn about the events, traditions and symbols that have shaped its significance for the Basque people. Any interior visits depend on opening times and availability."
+        },
+        {
+          "es": "Regresa a tu hotel o al lugar de llegada acordado tras el itinerario sin comida.",
+          "en": "Return to your hotel or the agreed drop-off point after the itinerary without lunch."
+        },
+        {
+          "es": "Amplía el día con una comida en un asador vasco cuidadosamente seleccionado. Disfruta de la tradición de la parrilla de la región y del tiempo alrededor de la mesa antes de regresar a Bilbao.",
+          "en": "Extend your day with a meal at a carefully selected Basque asador. Enjoy the region’s grilling traditions and time around the table before returning to Bilbao."
         }
       ],
       "includes": [
         {
-          "es": "Guía local y experiencia privada para tu grupo",
-          "en": "Local guide and a private experience for your group"
-        }
-      ],
-      "excludes": [
+          "es": "Una experiencia privada con tu guía local de GOXO.",
+          "en": "A private experience with your local GOXO guide."
+        },
         {
-          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
-          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+          "es": "Recogida y regreso a tu hotel en Bilbao, o a un punto de encuentro acordado.",
+          "en": "Hotel pick-up and drop-off in Bilbao, or an agreed meeting point."
+        },
+        {
+          "es": "Transporte de ida y vuelta desde Bilbao y entre las paradas.",
+          "en": "Return transport from Bilbao and travel between stops."
+        },
+        {
+          "es": "Una visita al mirador de Gaztelugatxe.",
+          "en": "A visit to the Gaztelugatxe viewpoint."
+        },
+        {
+          "es": "Paseos guiados por Mundaka y Gernika.",
+          "en": "Guided walks through Mundaka and Gernika."
+        },
+        {
+          "es": "Planificación y coordinación del itinerario elegido.",
+          "en": "Planning and coordination of your chosen itinerary."
         }
       ],
+      "excludes": [],
       "faq": {
-        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
-        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+        "es": "",
+        "en": ""
       },
       "immersive": false,
       "gallery": [
-        "/media/cms/tours/tours-1-gallery-0.webp",
-        "/media/cms/tours/tours-1-gallery-1.webp",
-        "/media/cms/tours/tours-1-gallery-2.webp"
+        "/media/client/urdaibai-estuary.webp",
+        "/media/client/mundaka-harbour-terrace.webp",
+        "/media/client/gernika-guernica-mural.webp",
+        "/media/client/gaztelugatxe-stone-steps.webp",
+        "/media/client/gaztelugatxe-coastal-panorama.webp"
       ],
       "published": true,
       "number": "02",
       "galleryAlts": [
         {
-          "es": "San Juan de Gaztelugatxe y la costa vasca",
-          "en": "San Juan de Gaztelugatxe and the Basque coast"
+          "es": "La ría de Urdaibai rodeada de colinas verdes.",
+          "en": "The Urdaibai estuary surrounded by green hills."
         },
         {
-          "es": "Puerto de Mundaka en la costa vasca",
-          "en": "Mundaka harbour on the Basque coast"
+          "es": "Varias personas comparten comida en una terraza junto al puerto de Mundaka.",
+          "en": "People sharing food on a terrace beside Mundaka harbour."
         },
         {
-          "es": "Árbol de Gernika",
-          "en": "The Tree of Gernika"
+          "es": "La reproducción cerámica del Guernica en Gernika.",
+          "en": "The ceramic reproduction of Guernica in Gernika."
+        },
+        {
+          "es": "La sinuosa escalinata de piedra de Gaztelugatxe.",
+          "en": "The winding stone staircase at Gaztelugatxe."
+        },
+        {
+          "es": "Gaztelugatxe y la costa de su entorno vistos desde arriba.",
+          "en": "Gaztelugatxe and the surrounding coast seen from above."
         }
-      ]
+      ],
+      "itineraryTitle": {
+        "es": "TU DÍA EN LA COSTA VASCA",
+        "en": "YOUR DAY ON THE BASQUE COAST"
+      },
+      "sectionsTitle": {
+        "es": "EXPERIENCIAS OPCIONALES",
+        "en": "OPTIONAL EXPERIENCES"
+      },
+      "faqsTitle": {
+        "es": "PREGUNTAS SOBRE TU EXPERIENCIA EN LA COSTA VASCA",
+        "en": "QUESTIONS ABOUT YOUR BASQUE COAST EXPERIENCE"
+      },
+      "glance": [
+        {
+          "label": {
+            "es": "Duración",
+            "en": "Duration"
+          },
+          "value": {
+            "es": "Aproximadamente 6 horas sin comida. La caminata de Gaztelugatxe o la comida pueden ampliar la experiencia.",
+            "en": "Approximately 6 hours without lunch. The Gaztelugatxe walk or lunch may extend the experience."
+          }
+        },
+        {
+          "label": {
+            "es": "Salida",
+            "en": "Departure"
+          },
+          "value": {
+            "es": "Bilbao",
+            "en": "Bilbao"
+          }
+        },
+        {
+          "label": {
+            "es": "Punto de encuentro",
+            "en": "Meeting point"
+          },
+          "value": {
+            "es": "Tu hotel o un punto de encuentro acordado en Bilbao",
+            "en": "Your hotel or an agreed meeting point in Bilbao"
+          }
+        },
+        {
+          "label": {
+            "es": "Inicio sugerido",
+            "en": "Suggested start"
+          },
+          "value": {
+            "es": "9:00 para el itinerario del mirador. Recogida más temprana en verano para la caminata de Gaztelugatxe, confirmada al planificar.",
+            "en": "9:00 am for the viewpoint itinerary. Earlier summer pick-up for the Gaztelugatxe walk, confirmed when planning."
+          }
+        },
+        {
+          "label": {
+            "es": "Idiomas",
+            "en": "Languages"
+          },
+          "value": {
+            "es": "Inglés o español",
+            "en": "English or Spanish"
+          }
+        }
+      ],
+      "scheduleNote": {
+        "es": "El horario es un ejemplo. La recogida, el orden de las visitas y la hora de regreso se confirmarán según las opciones elegidas, los accesos y la temporada.",
+        "en": "The schedule is an example. Your pick-up time, order of visits and return time will be confirmed according to your chosen options, access arrangements and the season."
+      },
+      "sections": [
+        {
+          "heading": true,
+          "text": {
+            "es": "La caminata de Gaztelugatxe",
+            "en": "The Gaztelugatxe walk"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Elige bajar hasta la costa y subir las escaleras hasta la ermita, según la disponibilidad de acceso y las condiciones. Ajustamos el horario para disponer del tiempo necesario, con una salida más temprana durante el verano.",
+            "en": "Choose to walk down to the coast and climb the steps to the hermitage, subject to access availability and conditions. We adjust the schedule to allow time for the route, with an earlier start during summer."
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "Una comida en un asador vasco tradicional",
+            "en": "A traditional Basque asador lunch"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Añade una comida en un asador local para descubrir una de las tradiciones gastronómicas más distintivas de la región. El restaurante, el menú, las bebidas, el tiempo adicional y el precio se confirman en tu propuesta.",
+            "en": "Add a meal at a local asador to experience one of the region’s most distinctive food traditions. The restaurant, menu, drinks, additional time and price are confirmed in your proposal."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "La comida no está incluida salvo que elijas esa opción. Cualquier coste adicional relacionado con las opciones que elijas se explicará antes de reservar.",
+            "en": "Lunch is not included unless you select the lunch option. Any additional costs associated with your chosen arrangements will be explained before you book."
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "INFORMACIÓN PRÁCTICA",
+            "en": "GOOD TO KNOW"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Lleva calzado cómodo y ropa adecuada para el tiempo. Añade protección solar si eliges la caminata de Gaztelugatxe.",
+            "en": "Wear comfortable shoes and clothing suited to the weather. Bring sun protection if you choose the Gaztelugatxe walk."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "El recorrido hasta la ermita implica un descenso pronunciado, una subida por las escaleras y el trayecto de vuelta. Cuéntanos tus necesidades de movilidad o dudas antes de reservar para que podamos hablar de la opción más adecuada.",
+            "en": "The route to the hermitage involves a steep descent, a climb up the steps and the return journey. Tell us about mobility needs or concerns before booking so we can discuss the most suitable option."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Indícanos cualquier alergia o necesidad alimentaria si deseas incluir la comida.",
+            "en": "Please share any allergies or dietary requirements if you would like to include lunch."
+          }
+        }
+      ],
+      "faqs": [
+        {
+          "question": {
+            "es": "¿Tenemos que caminar hasta la ermita de Gaztelugatxe?",
+            "en": "Do we have to walk to the Gaztelugatxe hermitage?"
+          },
+          "answer": {
+            "es": "No. Puedes disfrutar de Gaztelugatxe desde el mirador. La caminata es opcional y puede incorporarse al itinerario si hay acceso disponible y las condiciones son adecuadas.",
+            "en": "No. You can enjoy Gaztelugatxe from the viewpoint. The walk is optional and can be incorporated into your itinerary if access is available and conditions are suitable."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Por qué salimos antes para la caminata de verano?",
+            "en": "Why do we leave earlier for the summer walk?"
+          },
+          "answer": {
+            "es": "Salir antes nos ayuda a organizar la caminata en las horas más frescas del día y evitar los periodos de mayor afluencia. La hora exacta de recogida depende de la franja de acceso y las condiciones previstas, y se acordará con antelación.",
+            "en": "An earlier start helps us plan the walk for the cooler part of the day and avoid the busiest periods. The exact pick-up time depends on your access slot and the expected conditions, and will be agreed in advance."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Está incluida la comida?",
+            "en": "Is lunch included?"
+          },
+          "answer": {
+            "es": "Puedes elegir la experiencia con o sin comida. La opción con comida incluye un menú en un asador vasco tradicional y amplía la duración del día. Tu propuesta confirmará el menú, las bebidas, la duración y el precio.",
+            "en": "You can choose the experience with or without lunch. The lunch option includes a meal at a traditional Basque asador and extends the day. Your proposal will confirm the menu, drinks, duration and price."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podéis adaptar la experiencia a nuestro ritmo al caminar?",
+            "en": "Can you adapt the experience to our walking pace?"
+          },
+          "answer": {
+            "es": "Sí. Cuéntanos tu ritmo preferido y tus necesidades de movilidad al hacer la consulta. Hablaremos de un itinerario adecuado, incluida la elección entre el mirador o la caminata de Gaztelugatxe.",
+            "en": "Yes. Tell us about your preferred pace and mobility needs when you enquire. We will discuss a suitable itinerary, including whether the Gaztelugatxe viewpoint or walk is the better choice for you."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Qué ocurre si el tiempo afecta al itinerario?",
+            "en": "What happens if the weather affects the itinerary?"
+          },
+          "answer": {
+            "es": "Revisamos las condiciones y hablamos de alternativas adecuadas si afectan al acceso o a tu experiencia. Cualquier cambio, modificación de fecha o cancelación seguirá las condiciones confirmadas con tu reserva.",
+            "en": "We review the conditions and discuss suitable alternatives if they affect access or your experience. Any changes, rescheduling or cancellation arrangements follow the terms confirmed with your booking."
+          }
+        }
+      ],
+      "finalCta": {
+        "title": {
+          "es": "Planifiquemos tu día en la Costa Vasca.",
+          "en": "Let’s plan your day on the Basque Coast."
+        },
+        "body": {
+          "es": "Cuéntanos si prefieres el mirador o la caminata y si te gustaría quedarte a comer. Endika preparará una propuesta personal con el itinerario, la disponibilidad y el precio.",
+          "en": "Tell us whether you prefer the viewpoint or the walk, and whether you would like to stay for lunch. Endika will prepare a personal proposal with the itinerary, availability and price."
+        }
+      },
+      "includesTitle": {
+        "es": "QUÉ INCLUYE",
+        "en": "WHAT’S INCLUDED"
+      }
     },
     {
       "id": "pintxos",
       "slug": "private-bilbao-pintxos-tour",
       "category": "gastronomia",
-      "image": "/media/cms/tours/tours-4-image.webp",
+      "image": "/media/client/1-bilbao-pintxos-basque-flags.webp",
       "imageAlt": {
-        "es": "Barra de pintxos en el Casco Viejo de Bilbao",
-        "en": "Pintxos counter in Bilbao’s Old Town"
+        "es": "Pintxos con pequeñas ikurriñas sobre la barra de un bar.",
+        "en": "Pintxos topped with small Basque flags on a bar counter."
       },
       "short": {
         "es": "Bilbao Pintxos & Local Wine",
@@ -278,117 +756,352 @@
         "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
       },
       "catalogDescription": {
-        "es": "Un tour privado de pintxos y vino por el Casco Viejo de Bilbao, visitando favoritos locales y bares escondidos que difícilmente encontrarías por tu cuenta.",
-        "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
+        "es": "Seis paradas locales, una selección de pintxos con maridajes de bebidas cuidadosamente elegidos y un guía local para acercarte a los sabores y las historias del Casco Viejo de Bilbao.",
+        "en": "Six local stops, a selection of pintxos with carefully chosen drink pairings, and a local guide to introduce you to the flavours and stories of Bilbao’s Old Town."
       },
       "story": {
-        "es": "Descubre el Casco Viejo de Bilbao a través de su gastronomía, vino e historias cotidianas. Durante tres horas sin prisas, recorremos las calles estrechas del Casco Viejo y paramos en bares locales cuidadosamente elegidos donde los pintxos forman parte de la vida de la ciudad.\n\nPrueba una selección de pintxos vascos con vino local mientras aprendes a pedir, en qué fijarte y por qué importa cada lugar. Son sitios con carácter, personas detrás de la barra e historias que te ayudan a vivir Bilbao como sus habitantes.",
-        "en": "Discover Bilbao’s Old Town through its food, wine and everyday stories. Over three unhurried hours, we move through the narrow streets of the Casco Viejo, stopping at carefully chosen local bars where pintxos are part of the city’s way of life.\n\nTaste a selection of Basque pintxos, paired with local wine, while learning how to order, what to look for and why each place matters. These are not stops chosen for a checklist: they are places with character, people behind the bar and stories that help you experience Bilbao as locals do."
+        "es": "Descubre el Casco Viejo a través de su gastronomía, su vino y los lugares donde se reúne la gente de aquí. Durante tres horas, tu guía te lleva por las calles del casco antiguo a seis bares y restaurantes cuidadosamente seleccionados, combinando favoritos locales con rincones que difícilmente encontrarías por tu cuenta.\n\nDisfruta de una selección de pintxos acompañados de bebidas elegidas para complementar los sabores a lo largo del recorrido. Descubre distintos ingredientes y formas de cocinar, escucha las historias que hay detrás de la comida y aprende a desenvolverte con confianza en una barra de pintxos vasca.\n\nEntre degustaciones, explora las calles y plazas del Casco Viejo. Tu guía comparte la historia, las costumbres y los detalles cotidianos que te ayudan a comprender Bilbao más allá de sus monumentos, con tiempo para preguntas y conversación.\n\nTodos los pintxos y maridajes de bebidas previstos están incluidos. La experiencia es privada para tu grupo y adaptamos la selección a tus gustos y necesidades alimentarias siempre que sea posible. Se pueden organizar con antelación alternativas vegetarianas, sin gluten y sin alcohol.",
+        "en": "Discover the Casco Viejo through its food, its wine and the places where locals gather. Over three hours, your guide takes you through the Old Town’s streets to six carefully selected bars and restaurants, combining local favourites with tucked-away places you would be unlikely to find on your own.\n\nEnjoy a selection of pintxos accompanied by drinks chosen to complement the flavours along the way. Discover different ingredients and ways of cooking, hear the stories behind the food and learn how to find your way around a Basque pintxo bar with confidence.\n\nBetween tastings, explore the streets and squares of the Casco Viejo. Your guide shares the history, customs and everyday details that help you understand Bilbao beyond its landmarks, with time for questions and conversation along the way.\n\nAll planned pintxos and drink pairings are included. The experience is private to your group, and we adapt the selection to your tastes and dietary requirements wherever possible. Vegetarian, gluten-free and non-alcoholic alternatives can be arranged in advance."
       },
       "seoTitle": {
-        "es": "Pintxos de Bilbao y maridaje de vino local | Tours privados | GOXO",
+        "es": "Tour privado de pintxos en Bilbao | Gastronomía y vino en el Casco Viejo | GOXO",
         "en": "Private Bilbao Pintxos Tour | Old Town Food & Wine | GOXO"
       },
       "seoDescription": {
-        "es": "Un tour privado de pintxos y vino por el Casco Viejo de Bilbao, visitando favoritos locales y bares escondidos que difícilmente encontrarías por tu cuenta.",
-        "en": "A private pintxos and wine tour through Bilbao’s Old Town, visiting local favourites and hidden bars you are unlikely to find on your own."
+        "es": "Descubre el Casco Viejo de Bilbao en un tour privado de pintxos y vino. Visita seis bares y restaurantes locales, con todos los pintxos y maridajes de bebidas previstos incluidos.",
+        "en": "Discover Bilbao’s Old Town on a private pintxos and wine tour. Visit six local bars and restaurants, with all planned pintxos and drink pairings included."
       },
       "stops": [
         {
-          "es": "Casco Viejo de Bilbao",
-          "en": "Bilbao Old Town"
+          "es": "18:30 — Encuentro con tu guía local",
+          "en": "6:30 pm — Meet your local guide"
         },
         {
-          "es": "Bares locales y pintxos",
-          "en": "Local bars and pintxos"
+          "es": "18:45 — Tu primer sabor de Bilbao",
+          "en": "6:45 pm — Your first taste of Bilbao"
         },
         {
-          "es": "Vino local",
-          "en": "Local wine"
+          "es": "19:30 — Favoritos locales y rincones escondidos",
+          "en": "7:30 pm — Local favourites and hidden corners"
+        },
+        {
+          "es": "20:30 — Más sabores y conversación",
+          "en": "8:30 pm — More flavours and conversation"
+        },
+        {
+          "es": "21:30 — Final en el Casco Viejo",
+          "en": "9:30 pm — Finish in the Old Town"
         }
       ],
       "stopCopy": [
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Comienza en el Casco Viejo con una introducción a la cultura gastronómica de Bilbao. Descubre cómo forman parte los pintxos de la vida cotidiana y qué puedes esperar mientras nos desplazamos entre los seis locales.",
+          "en": "Begin in the Casco Viejo with an introduction to Bilbao’s food culture. Discover how pintxos fit into everyday life and what to expect as we move between the six venues."
         },
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Visita las primeras paradas y entra en el ritmo de la tarde. Tu guía presenta la comida y comparte los ingredientes y las historias que hay detrás de la selección.",
+          "en": "Visit the first stops and settle into the rhythm of the evening. Your guide introduces the food, sharing the ingredients and stories behind the selection."
         },
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Continúa por el Casco Viejo, descubriendo bares y restaurantes seleccionados junto con las calles y plazas que los conectan. Disfruta de pintxos y maridajes mientras conoces lo que pide la gente local y lo que da carácter a cada lugar.",
+          "en": "Continue through the Old Town, discovering selected bars and restaurants alongside the streets and squares that connect them. Enjoy pintxos and drink pairings while learning what locals order and what gives each place its character."
+        },
+        {
+          "es": "Disfruta de las degustaciones restantes, completando seis paradas a lo largo de la experiencia. Haz preguntas y reúne recomendaciones para el resto de tu estancia.",
+          "en": "Enjoy the remaining tastings, completing six stops across the experience. Ask questions and collect recommendations for the rest of your stay."
+        },
+        {
+          "es": "Termina el tour en el Casco Viejo, con una mejor comprensión de la cultura gastronómica de Bilbao e ideas sobre dónde volver durante tu visita.",
+          "en": "End the tour in the Casco Viejo, with a better understanding of Bilbao’s food culture and ideas for where to return during your visit."
         }
       ],
       "includes": [
         {
-          "es": "Guía local y experiencia privada para tu grupo",
-          "en": "Local guide and a private experience for your group"
-        }
-      ],
-      "excludes": [
+          "es": "Una experiencia privada a pie de tres horas con tu guía local de GOXO.",
+          "en": "A private three-hour walking experience with your local GOXO guide."
+        },
         {
-          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
-          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+          "es": "Visitas a seis bares y restaurantes seleccionados del Casco Viejo de Bilbao.",
+          "en": "Visits to six selected bars and restaurants in Bilbao’s Old Town."
+        },
+        {
+          "es": "Una selección de pintxos a lo largo de las seis paradas.",
+          "en": "A selection of pintxos across the six stops."
+        },
+        {
+          "es": "Maridajes de bebidas cuidadosamente elegidos durante la experiencia.",
+          "en": "Carefully chosen drink pairings during the experience."
+        },
+        {
+          "es": "Todas las degustaciones de comida y bebida previstas.",
+          "en": "All planned food and drink tastings."
+        },
+        {
+          "es": "Historias sobre Bilbao, su vida local y sus tradiciones gastronómicas.",
+          "en": "Stories about Bilbao’s history, local life and food traditions."
+        },
+        {
+          "es": "Recomendaciones personales para el resto de tu estancia.",
+          "en": "Personal recommendations for the rest of your stay."
         }
       ],
+      "excludes": [],
       "faq": {
-        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
-        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+        "es": "",
+        "en": ""
       },
       "immersive": false,
       "gallery": [
-        "/media/cms/tours/tours-4-gallery-0.webp",
-        "/media/cms/tours/tours-4-gallery-1.webp",
-        "/media/cms/tours/tours-4-gallery-2.webp",
-        "/media/cms/tours/tours-4-gallery-3.webp"
+        "/media/client/bilbao-bar-toast.webp",
+        "/media/client/pintxos-white-plates.webp",
+        "/media/client/endika-conversation-plaza-nueva.webp",
+        "/media/client/gorostiaga-hat-shop-bilbao.webp",
+        "/media/client/plaza-nueva-bilbao.webp"
       ],
       "published": true,
       "number": "03",
       "galleryAlts": [
         {
-          "es": "Barra de pintxos en el Casco Viejo de Bilbao",
-          "en": "Pintxos counter in Bilbao’s Old Town"
+          "es": "Tres personas brindando en un bar de Bilbao.",
+          "en": "Three people raising their glasses at a bar in Bilbao."
         },
         {
-          "es": "Calles del Casco Viejo de Bilbao",
-          "en": "Streets of Bilbao’s Old Town"
+          "es": "Una selección de pintxos servidos en pequeños platos blancos.",
+          "en": "A selection of pintxos served on small white plates."
         },
         {
-          "es": "Endika y viajeros conversando en una terraza de Bilbao",
-          "en": "Endika and travellers talking on a terrace in Bilbao"
+          "es": "Endika conversa con dos personas en una terraza de la Plaza Nueva.",
+          "en": "Endika talking with two people at a terrace in Plaza Nueva."
         },
         {
-          "es": "Calle y comercios del Casco Viejo de Bilbao",
-          "en": "Street and local shops in Bilbao’s Old Town"
+          "es": "La sombrerería Gorostiaga en el Casco Viejo de Bilbao.",
+          "en": "The Gorostiaga hat shop in Bilbao’s Old Town."
+        },
+        {
+          "es": "La Plaza Nueva de Bilbao, con soportales, terrazas y palmeras.",
+          "en": "Plaza Nueva in Bilbao, with arcades, terraces and palm trees."
         }
-      ]
+      ],
+      "itineraryTitle": {
+        "es": "TU EXPERIENCIA DE PINTXOS EN BILBAO",
+        "en": "YOUR PINTXOS EXPERIENCE IN BILBAO"
+      },
+      "sectionsTitle": {
+        "es": "PERSONALIZA TU EXPERIENCIA",
+        "en": "PERSONALISE YOUR EXPERIENCE"
+      },
+      "faqsTitle": {
+        "es": "PREGUNTAS SOBRE TU EXPERIENCIA DE PINTXOS EN BILBAO",
+        "en": "QUESTIONS ABOUT YOUR BILBAO PINTXOS EXPERIENCE"
+      },
+      "glance": [
+        {
+          "label": {
+            "es": "Duración",
+            "en": "Duration"
+          },
+          "value": {
+            "es": "3 horas",
+            "en": "3 hours"
+          }
+        },
+        {
+          "label": {
+            "es": "Ubicación",
+            "en": "Location"
+          },
+          "value": {
+            "es": "Casco Viejo de Bilbao",
+            "en": "Bilbao Old Town — Casco Viejo"
+          }
+        },
+        {
+          "label": {
+            "es": "Punto de encuentro",
+            "en": "Meeting point"
+          },
+          "value": {
+            "es": "Un punto de encuentro acordado en el Casco Viejo de Bilbao. También podemos encontrarnos en tu hotel cuando resulte práctico para el recorrido a pie.",
+            "en": "An agreed meeting point in Bilbao’s Old Town. We can also meet at your hotel when practical for the walking route."
+          }
+        },
+        {
+          "label": {
+            "es": "Inicio sugerido",
+            "en": "Suggested start"
+          },
+          "value": {
+            "es": "Opciones de comida o cena",
+            "en": "Lunch or dinner options"
+          }
+        },
+        {
+          "label": {
+            "es": "Idiomas",
+            "en": "Languages"
+          },
+          "value": {
+            "es": "Inglés o español",
+            "en": "English or Spanish"
+          }
+        }
+      ],
+      "scheduleNote": {
+        "es": "El horario es un ejemplo. La hora de inicio, los locales y el orden de las seis paradas pueden variar según los horarios de apertura, la disponibilidad y tus preferencias alimentarias.",
+        "en": "The schedule is an example. The start time, venues and order of the six stops may vary according to opening hours, availability and your dietary preferences."
+      },
+      "sections": [
+        {
+          "heading": false,
+          "text": {
+            "es": "Cuéntanos qué te gusta comer y beber y si hay algo que prefieras evitar. Tendremos en cuenta tus preferencias al planificar la selección.",
+            "en": "Tell us what you enjoy eating and drinking, and whether there is anything you would prefer to avoid. We will take your preferences into account when planning the selection."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Se pueden organizar alternativas vegetarianas, sin gluten y sin alcohol con los locales. Indícanos tus necesidades alimentarias o alergias antes de reservar para que podamos confirmar opciones adecuadas.",
+            "en": "Vegetarian, gluten-free and non-alcoholic alternatives can be arranged with the venues. Please share dietary requirements or allergies before booking so we can confirm suitable options."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "La comida o bebida adicional que se pida fuera de las degustaciones previstas no está incluida.",
+            "en": "Additional food or drinks ordered beyond the planned tastings are not included."
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "INFORMACIÓN PRÁCTICA",
+            "en": "GOOD TO KNOW"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Es un recorrido a pie por el Casco Viejo, con varios paseos cortos entre paradas. Se recomienda calzado cómodo.",
+            "en": "This is a walking tour through the Old Town, with several short walks between stops. Comfortable shoes are recommended."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Algunos locales sirven los pintxos en la barra o en mesas altas. La forma local de comer algunos de ellos es de pie, por lo que te pedimos que nos avises con antelación si necesitas sentarte con frecuencia.",
+            "en": "Some venues serve pintxos at the bar or at standing tables. The local way of eating some of them is standing, so please tell us in advance if you need to sit regularly."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "El tour es privado para tu grupo, mientras que los bares y restaurantes permanecen abiertos a otros clientes. Formar parte de su ambiente cotidiano es parte de la experiencia.",
+            "en": "The tour is private to your group, while the bars and restaurants remain open to other customers. Being part of their everyday atmosphere is part of the experience."
+          }
+        }
+      ],
+      "faqs": [
+        {
+          "question": {
+            "es": "¿Están incluidos los pintxos y las bebidas?",
+            "en": "Are the pintxos and drinks included?"
+          },
+          "answer": {
+            "es": "Sí. Todos los pintxos y maridajes previstos están incluidos. Las bebidas acompañan degustaciones seleccionadas, no cada parada. Los pedidos adicionales fuera de la selección prevista se pagan aparte.",
+            "en": "Yes. All planned pintxos and drink pairings are included. Drinks accompany selected tastings rather than every stop. Additional orders outside the planned selection are separate."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Qué bebidas están incluidas?",
+            "en": "What drinks are included?"
+          },
+          "answer": {
+            "es": "La experiencia incluye bebidas seleccionadas para complementar los pintxos, con el vino local como eje de la selección. Cuéntanos tus preferencias al hacer la consulta para que podamos hablar de maridajes alternativos.",
+            "en": "The experience includes drinks selected to complement the pintxos, with local wine at the heart of the selection. Tell us your preferences when you enquire so we can discuss alternative pairings."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Puedo participar si no bebo alcohol?",
+            "en": "Can I join if I do not drink alcohol?"
+          },
+          "answer": {
+            "es": "Sí. Podemos organizar alternativas sin alcohol. Avísanos con antelación para que podamos planificar los maridajes con los locales.",
+            "en": "Yes. We can arrange non-alcoholic alternatives. Let us know in advance so we can plan the pairings with the venues."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podéis atender dietas vegetarianas o sin gluten?",
+            "en": "Can you accommodate vegetarian or gluten-free diets?"
+          },
+          "answer": {
+            "es": "Sí, se pueden planificar alternativas con los locales. Cuéntanos si sigues una dieta vegetariana, tienes celiaquía, alergias u otras necesidades antes de reservar, para que podamos comprobar las opciones adecuadas y las limitaciones de contaminación cruzada.",
+            "en": "Yes, alternatives can be planned with the venues. Please tell us about vegetarian diets, coeliac disease, allergies or other requirements before booking so we can check suitable options and any cross-contact limitations."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Las degustaciones serán suficientes para cenar?",
+            "en": "Will the tastings be enough for dinner?"
+          },
+          "answer": {
+            "es": "Los pintxos y maridajes están diseñados para constituir una experiencia gastronómica sustanciosa.",
+            "en": "The pintxos and pairings are designed to form a substantial food experience."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podemos elegir otra hora de inicio?",
+            "en": "Can we choose a different start time?"
+          },
+          "answer": {
+            "es": "Podemos explorar otros horarios según tus planes y los horarios de apertura de los locales. La hora de inicio se confirmará antes de reservar.",
+            "en": "We can explore other times according to your plans and the venues’ opening hours. Your start time will be confirmed before you book."
+          }
+        }
+      ],
+      "finalCta": {
+        "title": {
+          "es": "Descubramos Bilbao, pintxo a pintxo.",
+          "en": "Let’s discover Bilbao, one pintxo at a time."
+        },
+        "body": {
+          "es": "Cuéntanos la fecha que prefieres, qué te gusta comer y beber y cualquier necesidad alimentaria. Endika preparará los detalles de tu experiencia privada por el Casco Viejo.",
+          "en": "Tell us your preferred date, what you enjoy eating and drinking, and any dietary requirements. Endika will prepare the details for your private Old Town experience."
+        }
+      },
+      "includesTitle": {
+        "es": "QUÉ INCLUYE",
+        "en": "WHAT’S INCLUDED"
+      }
     },
     {
       "id": "bilbao-cultura",
       "slug": "private-bilbao-city-tour-guggenheim",
       "category": "cultura",
-      "image": "/media/cms/tours/tours-2-image.webp",
+      "image": "/media/client/1-guggenheim-bilbao-riverside.webp",
       "imageAlt": {
-        "es": "Endika guiando junto a la ría y el Casco Viejo de Bilbao",
-        "en": "Endika guiding beside the river and Bilbao’s Old Town"
+        "es": "El Museo Guggenheim junto a la ría de Bilbao.",
+        "en": "The Guggenheim Museum beside the river in Bilbao."
       },
       "short": {
         "es": "Bilbao Arte, Cultura y Guggenheim",
         "en": "Bilbao Art, Culture & Guggenheim"
       },
       "name": {
-        "es": "Bilbao Arte, Cultura y Guggenheim",
-        "en": "Bilbao Art, Culture & Guggenheim"
+        "es": "Tour privado por Bilbao y visita al Museo Guggenheim",
+        "en": "Private Bilbao City Tour & Guggenheim Museum Visit"
       },
       "location": {
         "es": "Bilbao · Museo Guggenheim · Centro · Casco Viejo",
         "en": "Bilbao · Guggenheim Museum · City Centre · Old Town"
       },
       "duration": {
-        "es": "4 horas",
-        "en": "4 hours"
+        "es": "Aproximadamente 4 horas. También hay una opción más corta sin entrada al museo.",
+        "en": "Approximately 4 hours. A shorter option without museum entry is also available."
       },
       "guests": {
         "es": "2–8 personas",
@@ -399,126 +1112,418 @@
         "en": "PRIVATE EXPERIENCE"
       },
       "description": {
-        "es": "Una introducción privada a Bilbao: el Museo Guggenheim, la arquitectura de la ciudad y las historias que le dan vida.",
-        "en": "A private introduction to Bilbao: the Guggenheim Museum, the city’s architecture and the stories that bring it to life."
+        "es": "Descubre Bilbao a través del Museo Guggenheim, la transformación de su ría y las calles del Casco Viejo, conectando arte, arquitectura y vida local.",
+        "en": "Discover Bilbao through the Guggenheim Museum, its riverside transformation and the streets of the Old Town, connecting art, architecture and local life."
       },
       "catalogDescription": {
-        "es": "Una introducción privada a Bilbao: el Museo Guggenheim, la arquitectura de la ciudad y las historias que le dan vida.",
-        "en": "A private introduction to Bilbao: the Guggenheim Museum, the city’s architecture and the stories that bring it to life."
+        "es": "Comienza dentro del Guggenheim, sigue la ría a través de la transformación de Bilbao y descubre las calles donde empezó la historia de la ciudad.",
+        "en": "Begin inside the Guggenheim, follow the river through Bilbao’s transformation and discover the streets where the city’s story began."
       },
       "story": {
-        "es": "Descubre Bilbao con un guía local, empezando por el Museo Guggenheim y continuando junto a la ría, la arquitectura contemporánea y los lugares cotidianos que dan carácter a la ciudad. Terminaremos en el Casco Viejo, hablando de los orígenes de la ciudad y sus rincones escondidos.\n\nEsta experiencia privada de cuatro horas está pensada para quienes quieren entender Bilbao además de verlo.",
-        "en": "Discover Bilbao with a local guide, beginning with the Guggenheim Museum and continuing through the river, contemporary architecture and everyday places that give the city its character. We will finish in the Old town talking about the early days of the city and all the hidden gems.\n\nThis four-hour private experience is designed for travellers who want to understand Bilbao as well as see it."
+        "es": "Descubre Bilbao a través de su arte, arquitectura y vida cotidiana en una experiencia privada con un guía local. Durante cuatro horas, explora el Museo Guggenheim, pasea junto a la ría y continúa hasta el Casco Viejo, conectando las distintas identidades de la ciudad a lo largo del recorrido.\n\nComienza con una visita guiada dentro del Guggenheim, con la entrada incluida. Dedica aproximadamente una hora y media a descubrir obras maestras seleccionadas entre las expuestas, comentar las ideas que hay detrás y explorar el propio edificio como obra arquitectónica.\n\nFuera del museo, sigue la ría por una ciudad marcada por la industria y la reinvención. Tu guía comparte las historias de la arquitectura, los puentes y los espacios públicos, ayudándote a comprender cómo Bilbao se convirtió en la ciudad que ves hoy.\n\nTermina en el Casco Viejo, donde las calles y plazas revelan la historia más antigua de Bilbao y la vida cotidiana que continúa a su alrededor. Escucha historias locales, descubre rincones que de otro modo podrías pasar por alto y llévate recomendaciones para el resto de tu estancia.\n\nSi te gustaría continuar alrededor de la mesa, amplía la experiencia con pintxos en el Casco Viejo o una comida en un restaurante seleccionado según tus gustos. Podemos explorar marisco, carne a la parrilla o un restaurante con estrella Michelin según tus intereses y la disponibilidad.",
+        "en": "Discover Bilbao through its art, architecture and everyday life on a private experience with a local guide. Over four hours, explore the Guggenheim Museum, walk along the river and continue into the Casco Viejo, connecting the city’s different identities along the way.\n\nBegin with a guided visit inside the Guggenheim, with admission included. Spend approximately one and a half hours discovering selected masterpieces on display, discussing the ideas behind them and exploring the building itself as a work of architecture.\n\nOutside the museum, follow the river through a city shaped by industry and reinvention. Your guide shares the stories behind the architecture, bridges and public spaces, helping you understand how Bilbao became the city you see today.\n\nFinish in the Old Town, where the streets and squares reveal Bilbao’s earlier history and the daily life that continues around it. Hear local stories, discover corners you might otherwise overlook and leave with recommendations for the rest of your stay.\n\nIf you would like to continue over food, extend the experience with pintxos in the Casco Viejo or a restaurant meal selected around your tastes. Seafood, grilled meat or a Michelin-starred restaurant can be explored according to your interests and availability."
       },
       "seoTitle": {
-        "es": "Bilbao Arte, Cultura y Guggenheim | Tours privados | GOXO",
-        "en": "Private Bilbao City Tour & Guggenheim Visit | GOXO"
+        "es": "Tour privado por Bilbao y visita al Museo Guggenheim | GOXO",
+        "en": "Private Bilbao City Tour & Guggenheim Museum Visit | GOXO"
       },
       "seoDescription": {
-        "es": "Una introducción privada a Bilbao: el Museo Guggenheim, la arquitectura de la ciudad y las historias que le dan vida.",
-        "en": "A private introduction to Bilbao: the Guggenheim Museum, the city’s architecture and the stories that bring it to life."
+        "es": "Explora el Museo Guggenheim, la ría de Bilbao y el Casco Viejo en un tour privado de cuatro horas con un guía local. Entrada al museo incluida y comida opcional.",
+        "en": "Explore the Guggenheim Museum, Bilbao’s riverside and Old Town on a private four-hour tour with a local guide. Museum admission included, with optional lunch."
       },
       "stops": [
         {
-          "es": "Museo Guggenheim",
-          "en": "Guggenheim Museum"
+          "es": "10:00 — Encuentro con tu guía local y descubrimiento del Guggenheim",
+          "en": "10:00 am — Meet your local guide and discover the Guggenheim"
         },
         {
-          "es": "La ría y la arquitectura",
-          "en": "The river and architecture"
+          "es": "11:30 — Sigue la ría a través de la transformación de Bilbao",
+          "en": "11:30 am — Follow the river through Bilbao’s transformation"
         },
         {
-          "es": "Casco Viejo",
-          "en": "Old Town"
+          "es": "13:00 — Explora el Casco Viejo",
+          "en": "1:00 pm — Explore the Casco Viejo"
+        },
+        {
+          "es": "14:00 — Final en el Casco Viejo",
+          "en": "2:00 pm — Finish in the Old Town"
+        },
+        {
+          "es": "Opcional — Continúa alrededor de la mesa",
+          "en": "Optional — Continue over food"
         }
       ],
       "stopCopy": [
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Comienza en el museo o en el punto de encuentro acordado. Durante una visita interior de aproximadamente 1,5 horas, explora obras maestras seleccionadas entre las expuestas y comenta sus ideas y contexto, junto con la arquitectura del edificio.",
+          "en": "Begin at the museum or the agreed meeting point. During an interior visit of approximately 1.5 hours, explore selected masterpieces on display and discuss their ideas and context alongside the architecture of the building."
         },
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Continúa junto a la ría, descubriendo las conexiones entre el pasado industrial de la ciudad, la arquitectura contemporánea y la vida actual.",
+          "en": "Continue along the riverside, discovering the connections between the city’s industrial past, contemporary architecture and life today."
         },
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Entra en el casco antiguo y descubre las calles, plazas e historias que conectan los orígenes de Bilbao con su cultura cotidiana.",
+          "en": "Enter the Old Town and discover the streets, squares and stories that connect Bilbao’s origins with its everyday culture."
+        },
+        {
+          "es": "Termina la experiencia de cuatro horas en el Casco Viejo, con recomendaciones personales de tu guía.",
+          "en": "End the four-hour experience in the Casco Viejo, with personal recommendations from your guide."
+        },
+        {
+          "es": "Quédate a disfrutar de pintxos en el Casco Viejo o de una comida en un restaurante seleccionado contigo. La extensión gastronómica añade tiempo al tour de cuatro horas.",
+          "en": "Stay for pintxos in the Old Town or a meal at a restaurant selected with you. The food extension adds time beyond the four-hour tour."
         }
       ],
       "includes": [
         {
-          "es": "Guía local y experiencia privada para tu grupo",
-          "en": "Local guide and a private experience for your group"
-        }
-      ],
-      "excludes": [
+          "es": "Una experiencia privada de cuatro horas con tu guía local de GOXO.",
+          "en": "A private four-hour experience with your local GOXO guide."
+        },
         {
-          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
-          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+          "es": "Entrada al Museo Guggenheim.",
+          "en": "Guggenheim Museum admission."
+        },
+        {
+          "es": "Una visita guiada por el interior del museo de aproximadamente 1,5 horas.",
+          "en": "A guided interior museum visit of approximately 1.5 hours."
+        },
+        {
+          "es": "Una introducción a obras maestras seleccionadas entre las expuestas y a la arquitectura del edificio.",
+          "en": "An introduction to selected masterpieces on display and the building’s architecture."
+        },
+        {
+          "es": "Un paseo guiado junto a la ría de Bilbao.",
+          "en": "A guided walk along Bilbao’s riverside."
+        },
+        {
+          "es": "Una introducción guiada al Casco Viejo.",
+          "en": "A guided introduction to the Casco Viejo."
+        },
+        {
+          "es": "Recomendaciones personales para el resto de tu estancia.",
+          "en": "Personal recommendations for the rest of your stay."
         }
       ],
+      "excludes": [],
       "faq": {
-        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
-        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+        "es": "",
+        "en": ""
       },
       "immersive": false,
       "gallery": [
-        "/media/cms/tours/tours-2-gallery-0.webp",
-        "/media/cms/tours/tours-2-gallery-1.webp",
-        "/media/cms/tours/tours-2-gallery-2.webp",
-        "/media/cms/tours/tours-2-gallery-3.webp",
-        "/media/cms/tours/tours-2-gallery-4.webp"
+        "/media/client/maman-guggenheim-bilbao.webp",
+        "/media/client/guggenheim-titanium-detail.webp",
+        "/media/client/arriaga-theatre-bilbao.webp",
+        "/media/client/bilbao-old-town-river.webp",
+        "/media/client/la-ribera-market-interior.webp",
+        "/media/client/endika-walking-travellers-bilbao.webp",
+        "/media/client/guggenheim-bilbao-steel-sculptures.webp"
       ],
       "published": true,
       "number": "04",
       "galleryAlts": [
         {
-          "es": "Endika guiando junto a la ría y el Casco Viejo de Bilbao",
-          "en": "Endika guiding beside the river and Bilbao’s Old Town"
+          "es": "La escultura de la araña Maman frente al Museo Guggenheim.",
+          "en": "The Maman spider sculpture outside the Guggenheim Museum."
         },
         {
-          "es": "Panorámica de Bilbao y su ría desde Artxanda",
-          "en": "Bilbao and its river seen from Artxanda"
+          "es": "Paneles curvos de titanio en el Museo Guggenheim.",
+          "en": "Curved titanium panels on the Guggenheim Museum."
         },
         {
-          "es": "Fachada del Teatro Arriaga en Bilbao",
-          "en": "Facade of the Arriaga Theatre in Bilbao"
+          "es": "La fachada del Teatro Arriaga de Bilbao.",
+          "en": "The façade of the Arriaga Theatre in Bilbao."
         },
         {
-          "es": "Mercado de la Ribera en Bilbao",
-          "en": "La Ribera Market in Bilbao"
+          "es": "La ría, un puente y el Mercado de La Ribera en Bilbao.",
+          "en": "The river, a bridge and La Ribera Market in Bilbao."
         },
         {
-          "es": "Calle y comercios del Casco Viejo de Bilbao",
-          "en": "Street and local shops in Bilbao’s Old Town"
+          "es": "Vidrieras sobre el interior del Mercado de La Ribera.",
+          "en": "Stained-glass windows above the interior of La Ribera Market."
+        },
+        {
+          "es": "Endika camina y conversa con visitantes en Bilbao.",
+          "en": "Endika walking and talking with visitors in Bilbao."
+        },
+        {
+          "es": "Grandes esculturas curvas de acero en el interior del Museo Guggenheim Bilbao.",
+          "en": "Large curved steel sculptures inside the Guggenheim Museum Bilbao."
         }
-      ]
+      ],
+      "itineraryTitle": {
+        "es": "TU DÍA EN BILBAO",
+        "en": "YOUR DAY IN BILBAO"
+      },
+      "sectionsTitle": {
+        "es": "¿PREFIERES EXPLORAR SIN ENTRAR EN EL MUSEO?",
+        "en": "PREFER TO EXPLORE WITHOUT ENTERING THE MUSEUM?"
+      },
+      "faqsTitle": {
+        "es": "PREGUNTAS SOBRE TU EXPERIENCIA EN BILBAO",
+        "en": "QUESTIONS ABOUT YOUR BILBAO EXPERIENCE"
+      },
+      "glance": [
+        {
+          "label": {
+            "es": "Duración",
+            "en": "Duration"
+          },
+          "value": {
+            "es": "Aproximadamente 4 horas. También hay una opción más corta sin entrada al museo.",
+            "en": "Approximately 4 hours. A shorter option without museum entry is also available."
+          }
+        },
+        {
+          "label": {
+            "es": "Ubicación",
+            "en": "Location"
+          },
+          "value": {
+            "es": "Museo Guggenheim · Ría de Bilbao · Casco Viejo",
+            "en": "Guggenheim Museum · Bilbao Riverside · Old Town"
+          }
+        },
+        {
+          "label": {
+            "es": "Punto de encuentro",
+            "en": "Meeting point"
+          },
+          "value": {
+            "es": "Un punto de encuentro acordado en Bilbao. También podemos encontrarnos en tu hotel cuando resulte práctico para el recorrido a pie.",
+            "en": "An agreed meeting point in Bilbao. We can also meet at your hotel when practical for the walking route."
+          }
+        },
+        {
+          "label": {
+            "es": "Inicio sugerido",
+            "en": "Suggested start"
+          },
+          "value": {
+            "es": "10:00",
+            "en": "10:00 am"
+          }
+        },
+        {
+          "label": {
+            "es": "Idiomas",
+            "en": "Languages"
+          },
+          "value": {
+            "es": "Inglés o español",
+            "en": "English or Spanish"
+          }
+        }
+      ],
+      "scheduleNote": {
+        "es": "El horario es un ejemplo. La hora de inicio y el orden de las visitas pueden variar según la disponibilidad del museo, el punto de encuentro y tu ritmo preferido.",
+        "en": "The schedule is an example. The start time and order of visits may vary according to museum availability, your meeting point and your preferred pace."
+      },
+      "sections": [
+        {
+          "heading": false,
+          "text": {
+            "es": "También ofrecemos una versión más corta de esta experiencia sin la visita al interior del museo.",
+            "en": "We also offer a shorter version of this experience without the interior museum visit."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Explora la arquitectura del Guggenheim desde el exterior y descubre el distrito moderno que lo rodea, comentando la transformación que el museo ayudó a impulsar en Bilbao. Después, continúa junto a la ría hasta el Casco Viejo.",
+            "en": "Explore the Guggenheim’s architecture from outside and discover the surrounding modern district, discussing the transformation the museum helped bring to Bilbao. Then continue along the riverside to the Old Town."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Esta opción no incluye la entrada al museo. Su duración más corta, itinerario y precio se confirmarán en tu propuesta.",
+            "en": "This option does not include museum admission. Its shorter duration, itinerary and price will be confirmed in your proposal."
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "EXPERIENCIAS GASTRONÓMICAS OPCIONALES",
+            "en": "OPTIONAL FOOD EXPERIENCES"
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "Pintxos en el Casco Viejo",
+            "en": "Pintxos in the Old Town"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Continúa explorando Bilbao a través de su cultura gastronómica, con pintxos seleccionados y maridajes de bebidas en locales de la ciudad. El número de paradas, las degustaciones y el tiempo adicional se acuerdan al planificar tu experiencia.",
+            "en": "Continue exploring Bilbao through its food culture, with selected pintxos and drink pairings at local venues. The number of stops, tastings and additional time are agreed when planning your experience."
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "Un restaurante elegido según tus gustos",
+            "en": "A restaurant chosen around your tastes"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Disfruta de una comida centrada en el marisco, la carne a la parrilla u otro aspecto de la cocina vasca. Si te interesa un restaurante con estrella Michelin, podemos explorar opciones adecuadas y su disponibilidad.",
+            "en": "Enjoy a meal focused on seafood, grilled meat or another aspect of Basque cooking. If you are interested in a Michelin-starred restaurant, we can explore suitable options and availability."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Las experiencias gastronómicas son opcionales y no están incluidas en el tour estándar. Los locales, el menú, las bebidas, la duración y el precio adicional se confirmarán en tu propuesta antes de reservar.",
+            "en": "Food experiences are optional and are not included in the standard tour. The venues, menu, drinks, duration and additional price will be confirmed in your proposal before you book."
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "INFORMACIÓN PRÁCTICA",
+            "en": "GOOD TO KNOW"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Lleva calzado cómodo para la visita al museo y el paseo por la ciudad. Cuéntanos tus necesidades de movilidad o tu ritmo preferido antes de reservar para que podamos hablar de una ruta adecuada.",
+            "en": "Wear comfortable shoes for the museum visit and the walk through the city. Tell us about mobility needs or your preferred walking pace before booking so we can discuss a suitable route."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "La visita al museo se adapta a las exposiciones y salas disponibles ese día. Cuéntanos si hay una obra concreta que te gustaría ver y comprobaremos su disponibilidad.",
+            "en": "The museum visit follows the exhibitions and galleries available on the day. Tell us if there is a particular masterpiece you would love to see, and we will check its availability."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "La experiencia guiada es privada para tu grupo, mientras que el museo permanece abierto a otros visitantes.",
+            "en": "Your guided experience is private to your group, while the museum remains open to other visitors."
+          }
+        }
+      ],
+      "faqs": [
+        {
+          "question": {
+            "es": "¿El tour incluye la entrada al Museo Guggenheim?",
+            "en": "Does the tour include entry to the Guggenheim Museum?"
+          },
+          "answer": {
+            "es": "Sí. La experiencia estándar de cuatro horas incluye la entrada y una visita guiada al interior de aproximadamente 1,5 horas, seguida del paseo por la ría y el Casco Viejo.",
+            "en": "Yes. The standard four-hour experience includes admission and a guided interior visit of approximately 1.5 hours, followed by the riverside and Old Town walk."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Qué veremos dentro del museo?",
+            "en": "What will we see inside the museum?"
+          },
+          "answer": {
+            "es": "Exploramos obras maestras seleccionadas entre las expuestas, comentando sus ideas y contexto, así como la arquitectura del edificio. La selección depende de las obras y salas disponibles ese día.",
+            "en": "We explore selected masterpieces on display, discussing their ideas and context, as well as the architecture of the building. The selection depends on the artworks and galleries available that day."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Tenemos que comprar las entradas del museo por separado?",
+            "en": "Do we need to buy museum tickets separately?"
+          },
+          "answer": {
+            "es": "No. Organizamos la entrada como parte de la experiencia estándar.",
+            "en": "No. We arrange admission as part of the standard experience."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podemos hacer el tour sin entrar en el museo?",
+            "en": "Can we do the tour without entering the museum?"
+          },
+          "answer": {
+            "es": "Sí. Ofrecemos una versión más corta que explora el Guggenheim desde fuera, la ría moderna y el Casco Viejo. La entrada al museo no está incluida en esta opción, y su duración y precio se confirman antes de reservar.",
+            "en": "Yes. We offer a shorter version that explores the Guggenheim from outside, the modern riverside and the Old Town. Museum admission is not included in this option, and its duration and price are confirmed before booking."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Está incluida la comida?",
+            "en": "Is lunch included?"
+          },
+          "answer": {
+            "es": "La comida es opcional. Puedes ampliar cualquiera de las dos versiones con pintxos o una comida en un restaurante elegido según tus gustos. Los detalles y el precio adicional se acuerdan con antelación.",
+            "en": "Lunch is optional. You can extend either version with pintxos or a restaurant meal selected around your tastes. The arrangements and additional price are agreed in advance."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podéis adaptar la ruta a nuestro ritmo al caminar?",
+            "en": "Can you adapt the route to our walking pace?"
+          },
+          "answer": {
+            "es": "Sí. Cuéntanos tus necesidades de movilidad y tu ritmo preferido antes de reservar. Hablaremos de un recorrido adecuado y de cómo equilibrar las distintas partes de la experiencia.",
+            "en": "Yes. Tell us about your preferred pace and mobility needs before booking. We will discuss a suitable route and how to balance the different parts of the experience."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podemos elegir otra hora de inicio?",
+            "en": "Can we choose a different start time?"
+          },
+          "answer": {
+            "es": "Podemos explorar otros horarios según tus planes y, para el tour estándar, los horarios de apertura y la disponibilidad de entradas del museo. La hora de encuentro se confirmará antes de reservar.",
+            "en": "We can explore other times according to your plans and, for the standard tour, museum opening hours and entry availability. Your meeting time will be confirmed before you book."
+          }
+        }
+      ],
+      "finalCta": {
+        "title": {
+          "es": "Conozcamos Bilbao.",
+          "en": "Let’s get to know Bilbao."
+        },
+        "body": {
+          "es": "Cuéntanos cuándo vienes, qué te interesa y si te gustaría continuar alrededor de la mesa. Si prefieres la experiencia más corta sin entrada al museo, indícanoslo al hacer tu consulta.",
+          "en": "Tell us when you are visiting, what interests you and whether you would like to continue over food. If you prefer the shorter experience without museum entry, let us know when you enquire."
+        }
+      },
+      "includesTitle": {
+        "es": "QUÉ INCLUYE",
+        "en": "WHAT’S INCLUDED"
+      }
     },
     {
       "id": "san-sebastian-getaria",
       "slug": "san-sebastian-getaria-tour-from-bilbao",
       "category": "costa",
-      "image": "/media/cms/tours/tours-3-image.webp",
+      "image": "/media/client/1-ondarreta-monte-igueldo.webp",
       "imageAlt": {
-        "es": "Playa de La Concha y monte Urgull en San Sebastián",
-        "en": "La Concha beach and Mount Urgull in San Sebastián"
+        "es": "La playa de Ondarreta y el Monte Igueldo en San Sebastián.",
+        "en": "Ondarreta beach and Monte Igueldo in San Sebastián."
       },
       "short": {
         "es": "San Sebastián y Getaria",
         "en": "San Sebastián & Getaria"
       },
       "name": {
-        "es": "San Sebastián y Getaria",
-        "en": "San Sebastián & Getaria"
+        "es": "Tour privado a San Sebastián y Getaria desde Bilbao",
+        "en": "Private San Sebastián & Getaria Tour from Bilbao"
       },
       "location": {
         "es": "San Sebastián · Getaria",
         "en": "San Sebastián · Getaria"
       },
       "duration": {
-        "es": "8 horas",
-        "en": "8 hours"
+        "es": "Aproximadamente 8 horas. Algunas experiencias gastronómicas o una visita opcional al museo pueden requerir un día más largo.",
+        "en": "Approximately 8 hours. Some restaurant experiences or an optional museum visit may require a longer day."
       },
       "guests": {
         "es": "2–8 personas",
@@ -529,97 +1534,415 @@
         "en": "PRIVATE EXPERIENCE"
       },
       "description": {
-        "es": "Un recorrido privado entre San Sebastián y Getaria, donde se unen la elegancia de la Belle Époque, la gastronomía vasca, los paisajes costeros y el txakoli.",
-        "en": "A private journey between San Sebastián and Getaria, where Belle Époque elegance, Basque food culture, coastal landscapes and txakoli come together."
+        "es": "Descubre las elegantes calles de San Sebastián y la bahía de La Concha antes de explorar el patrimonio pesquero de Getaria y disfrutar de una comida cuidadosamente seleccionada.",
+        "en": "Discover San Sebastián’s elegant streets and La Concha Bay before exploring Getaria’s fishing heritage and enjoying a carefully selected lunch."
       },
       "catalogDescription": {
-        "es": "Un recorrido privado entre San Sebastián y Getaria, donde se unen la elegancia de la Belle Époque, la gastronomía vasca y la costa.",
-        "en": "A private journey between San Sebastián and Getaria, where Belle Époque elegance, Basque food culture and the coast come together."
+        "es": "La elegancia de San Sebastián, el patrimonio pesquero de Getaria y una comida memorable junto a la Costa Vasca. Un día privado de cultura local, paisajes costeros y gastronomía por la que merece la pena viajar.",
+        "en": "The elegance of San Sebastián, the fishing heritage of Getaria and a memorable lunch by the Basque Coast. A private day of local culture, coastal landscapes and food worth travelling for."
       },
       "story": {
-        "es": "Comienza en San Sebastián, explorando el casco antiguo, la bahía de La Concha y las historias de una de las grandes ciudades gastronómicas de Europa. Disfruta de un pintxo antes de seguir por la costa hacia Getaria: una villa pesquera conocida por el txakoli, el pescado a la parrilla, Balenciaga y su entorno atlántico.\n\nSi lo deseas, la experiencia puede incluir un almuerzo memorable en una parrilla con estrella Michelin en Getaria, sujeto a disponibilidad.",
-        "en": "Begin in San Sebastián, exploring the Old Town, La Concha Bay and the stories behind one of Europe’s great food cities. Stop for a pintxo in the old town, then continue along the coast to Getaria: a fishing town known for txakoli wine, grilled fish, Balenciaga and its Atlantic setting.\n\nFor guests who wish, the experience can include a memorable lunch in Getaria at a Michelin-starred grill, subject to availability."
+        "es": "Sal de Bilbao para descubrir dos caras diferentes de la Costa Vasca. Esta experiencia privada combina una visita guiada a San Sebastián con el pueblo pesquero de Getaria y una comida cuidadosamente seleccionada.\n\nComienza en San Sebastián, conocida localmente como Donostia. Recorre el Ensanche, donde las fachadas elegantes y las amplias avenidas pueden hacerte sentir que has llegado a París. Visita la catedral, explora las calles y plazas de la Parte Vieja y pasea junto a la playa de La Concha.\n\nTu guía conecta estos lugares con las historias de la ciudad, desde su pasado como destino de veraneo de moda hasta las tradiciones locales que continúan hoy. Hay tiempo para disfrutar de las vistas, hacer preguntas y descubrir detalles que de otro modo podrías pasar por alto.\n\nViaja por la costa hasta Getaria, un pueblo marcado por el mar, las tradiciones pesqueras y los viñedos que lo rodean. Explora sus calles y su puerto, escuchando historias de marineros, vida local y personas que han llevado su nombre por el mundo.\n\nLa comida forma parte de la experiencia. Elige un asador vasco tradicional, donde la cocina a la parrilla es protagonista, o explora la opción de un restaurante con estrella Michelin. Seleccionamos el local contigo, según tus intereses, presupuesto y disponibilidad, para que la comida sea tan personal como el resto del día.\n\nPara quienes se interesan por la moda y el diseño, Getaria también ofrece la opción de visitar el Museo Cristóbal Balenciaga. Cuéntanoslo al hacer tu consulta para poder reservar tiempo para la visita junto al resto de la experiencia.",
+        "en": "Leave Bilbao for a day discovering two different sides of the Basque Coast. This private experience combines a guided visit to San Sebastián with the fishing town of Getaria and a carefully selected lunch.\n\nBegin in San Sebastián, known locally as Donostia. Walk through the Ensanche, where elegant facades and broad avenues might make you feel you have stepped into Paris. Visit the Cathedral, explore the streets and squares of the Old Town and stroll beside La Concha Beach.\n\nYour guide connects these places with the stories of the city, from its past as a fashionable summer retreat to the local traditions that continue today. There is time to enjoy the views, ask questions and discover the details you might otherwise overlook.\n\nTravel along the coast to Getaria, a town shaped by the sea, fishing traditions and the vineyards that surround it. Explore its streets and harbour, hearing stories of seafarers, local life and the people who have carried its name around the world.\n\nLunch is part of the experience. Choose a traditional Basque asador, where cooking over the grill takes centre stage, or explore a Michelin-starred restaurant option. We select the venue with you, according to your interests, budget and availability, so the meal feels as personal as the rest of the day.\n\nFor those with an interest in fashion and design, Getaria also offers the option of visiting the Cristóbal Balenciaga Museum. Tell us when you enquire so we can plan time for the visit alongside the rest of your experience."
       },
       "seoTitle": {
-        "es": "San Sebastián y Getaria | Tours privados | GOXO",
-        "en": "Private San Sebastián & Getaria Tour | Food, Culture & Coast | GOXO"
+        "es": "Tour privado a San Sebastián y Getaria desde Bilbao | GOXO",
+        "en": "Private San Sebastián & Getaria Tour from Bilbao | GOXO"
       },
       "seoDescription": {
-        "es": "Un recorrido privado entre San Sebastián y Getaria, donde se unen la elegancia de la Belle Époque, la gastronomía vasca y la costa.",
-        "en": "A private journey between San Sebastián and Getaria, where Belle Époque elegance, Basque food culture and the coast come together."
+        "es": "Descubre San Sebastián y Getaria en un tour privado desde Bilbao, con recogida en tu hotel, un guía local y comida en un restaurante elegido según tus gustos.",
+        "en": "Discover San Sebastián and Getaria on a private tour from Bilbao, with hotel pick-up, a local guide and lunch at a restaurant chosen around your tastes."
       },
       "stops": [
         {
-          "es": "Casco antiguo y La Concha",
-          "en": "Old Town and La Concha"
+          "es": "9:00 — Encuentro con tu guía local en Bilbao",
+          "en": "9:00 am — Meet your local guide in Bilbao"
         },
         {
-          "es": "Un pintxo en San Sebastián",
-          "en": "A pintxo in San Sebastián"
+          "es": "10:15 — El Ensanche y la catedral del Buen Pastor",
+          "en": "10:15 am — The Ensanche and Buen Pastor Cathedral"
         },
         {
-          "es": "Getaria",
-          "en": "Getaria"
+          "es": "11:00 — La Concha y la Parte Vieja",
+          "en": "11:00 am — La Concha and the Old Town"
+        },
+        {
+          "es": "12:15 — Continúa por la costa hasta Getaria",
+          "en": "12:15 pm — Continue along the coast to Getaria"
+        },
+        {
+          "es": "13:00 — Getaria y su puerto",
+          "en": "1:00 pm — Getaria and its harbour"
+        },
+        {
+          "es": "13:45 — Comida en Getaria",
+          "en": "1:45 pm — Lunch in Getaria"
+        },
+        {
+          "es": "17:00 — Regreso a Bilbao",
+          "en": "5:00 pm — Return to Bilbao"
         }
       ],
       "stopCopy": [
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Comienza en tu hotel o en un punto de encuentro acordado. Durante el trayecto, tu guía te presenta los paisajes, la historia y las tradiciones de la Costa Vasca.",
+          "en": "Begin at your hotel or an agreed meeting point. During the journey, your guide introduces the landscapes, history and traditions of the Basque Coast."
         },
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Pasea por el elegante Ensanche de San Sebastián, descubriendo las avenidas y la arquitectura que dan a esta parte de la ciudad su aire parisino. Visita la catedral del Buen Pastor, con acceso al interior sujeto a horarios y celebraciones.",
+          "en": "Walk through San Sebastián’s elegant Ensanche, discovering the avenues and architecture that give this part of the city its Parisian feel. Visit Buen Pastor Cathedral, with interior access subject to opening times and services."
         },
         {
-          "es": "El orden y los detalles se adaptan a tu grupo y se confirman antes de la experiencia.",
-          "en": "The order and details are tailored to your group and confirmed before the experience."
+          "es": "Pasea junto a la playa de La Concha antes de explorar las calles y plazas de la Parte Vieja. Escucha las historias de la tradición marítima, la cultura gastronómica y la vida cotidiana de la ciudad.",
+          "en": "Stroll beside La Concha Beach before exploring the streets and squares of the Old Town. Hear the stories behind the city’s maritime history, food culture and everyday life."
+        },
+        {
+          "es": "Viaja hacia Getaria, descubriendo los paisajes costeros y la conexión entre el mar, los viñedos y los pueblos del recorrido.",
+          "en": "Travel towards Getaria, discovering the coastal landscapes and the connection between the sea, the vineyards and the towns along the route."
+        },
+        {
+          "es": "Pasea por el pueblo con tu guía, explorando sus calles y su frente marítimo. Escucha historias de su patrimonio marítimo, el txakoli y las tradiciones gastronómicas locales.",
+          "en": "Walk through the town with your guide, exploring its streets and waterfront. Hear the stories behind its maritime heritage, txakoli wine and local food traditions."
+        },
+        {
+          "es": "Siéntate a disfrutar de la experiencia gastronómica seleccionada contigo: un asador vasco tradicional o una opción con estrella Michelin, según disponibilidad y tu propuesta confirmada.",
+          "en": "Sit down to the restaurant experience selected with you: a traditional Basque asador or a Michelin-starred option, subject to availability and your confirmed proposal."
+        },
+        {
+          "es": "Termina el día de vuelta en tu hotel o en el lugar de llegada acordado.",
+          "en": "Finish the day back at your hotel or the agreed drop-off point."
         }
       ],
       "includes": [
         {
-          "es": "Guía local y experiencia privada para tu grupo",
-          "en": "Local guide and a private experience for your group"
-        }
-      ],
-      "excludes": [
+          "es": "Una experiencia privada con tu guía local de GOXO.",
+          "en": "A private experience with your local GOXO guide."
+        },
         {
-          "es": "Las inclusiones, opciones y el precio final se confirmarán en tu propuesta personal.",
-          "en": "Inclusions, optional stops and the final price will be confirmed in your personal proposal."
+          "es": "Recogida y regreso a tu hotel en Bilbao, o a un punto de encuentro acordado.",
+          "en": "Hotel pick-up and drop-off in Bilbao, or an agreed meeting point."
+        },
+        {
+          "es": "Transporte de ida y vuelta desde Bilbao y entre las paradas.",
+          "en": "Return transport from Bilbao and travel between stops."
+        },
+        {
+          "es": "Un paseo guiado por San Sebastián y Getaria.",
+          "en": "A guided walk through San Sebastián & Getaria."
+        },
+        {
+          "es": "Comida en el restaurante acordado en tu propuesta.",
+          "en": "Lunch at the restaurant agreed in your proposal."
+        },
+        {
+          "es": "Planificación y coordinación de tu reserva de restaurante.",
+          "en": "Planning and coordination of your restaurant reservation."
+        },
+        {
+          "es": "Recomendaciones personales para el resto de tu estancia.",
+          "en": "Personal recommendations for the rest of your stay."
         }
       ],
+      "excludes": [],
       "faq": {
-        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
-        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+        "es": "",
+        "en": ""
       },
       "immersive": false,
       "gallery": [
-        "/media/cms/tours/tours-3-gallery-0.webp"
+        "/media/client/getaria-old-town-street.webp",
+        "/media/client/buen-pastor-san-sebastian.webp",
+        "/media/client/plaza-constitucion-san-sebastian.webp",
+        "/media/client/san-sebastian-architecture.webp",
+        "/media/client/la-concha-bay-garden.webp"
       ],
       "published": true,
       "number": "05",
       "galleryAlts": [
         {
-          "es": "Playa de La Concha y monte Urgull en San Sebastián",
-          "en": "La Concha beach and Mount Urgull in San Sebastián"
+          "es": "Una calle del casco antiguo de Getaria.",
+          "en": "A street in Getaria’s Old Town."
+        },
+        {
+          "es": "La catedral del Buen Pastor enmarcada por edificios de San Sebastián.",
+          "en": "Buen Pastor Cathedral framed by buildings in San Sebastián."
+        },
+        {
+          "es": "La Plaza de la Constitución vista a través de un arco en San Sebastián.",
+          "en": "Plaza de la Constitución seen through an archway in San Sebastián."
+        },
+        {
+          "es": "Fachadas ornamentadas y un edificio con cúpula en San Sebastián.",
+          "en": "Ornate façades and a domed building in San Sebastián."
+        },
+        {
+          "es": "La bahía de La Concha vista desde un jardín tras una barandilla de hierro.",
+          "en": "La Concha Bay seen from a garden behind an iron railing."
         }
-      ]
+      ],
+      "itineraryTitle": {
+        "es": "TU DÍA EN SAN SEBASTIÁN Y GETARIA",
+        "en": "YOUR DAY IN SAN SEBASTIÁN & GETARIA"
+      },
+      "sectionsTitle": {
+        "es": "TU COMIDA EN GETARIA",
+        "en": "YOUR LUNCH IN GETARIA"
+      },
+      "faqsTitle": {
+        "es": "PREGUNTAS SOBRE TU EXPERIENCIA EN SAN SEBASTIÁN Y GETARIA",
+        "en": "QUESTIONS ABOUT YOUR SAN SEBASTIÁN & GETARIA EXPERIENCE"
+      },
+      "glance": [
+        {
+          "label": {
+            "es": "Duración",
+            "en": "Duration"
+          },
+          "value": {
+            "es": "Aproximadamente 8 horas. Algunas experiencias gastronómicas o una visita opcional al museo pueden requerir un día más largo.",
+            "en": "Approximately 8 hours. Some restaurant experiences or an optional museum visit may require a longer day."
+          }
+        },
+        {
+          "label": {
+            "es": "Salida",
+            "en": "Departure"
+          },
+          "value": {
+            "es": "Bilbao",
+            "en": "Bilbao"
+          }
+        },
+        {
+          "label": {
+            "es": "Punto de encuentro",
+            "en": "Meeting point"
+          },
+          "value": {
+            "es": "Tu hotel o un punto de encuentro acordado en Bilbao",
+            "en": "Your hotel or an agreed meeting point in Bilbao"
+          }
+        },
+        {
+          "label": {
+            "es": "Inicio sugerido",
+            "en": "Suggested start"
+          },
+          "value": {
+            "es": "9:00",
+            "en": "9:00 am"
+          }
+        },
+        {
+          "label": {
+            "es": "Idiomas",
+            "en": "Languages"
+          },
+          "value": {
+            "es": "Inglés o español",
+            "en": "English or Spanish"
+          }
+        }
+      ],
+      "scheduleNote": {
+        "es": "El horario es un ejemplo. El orden de las visitas y la hora de comer pueden variar según las reservas, tus preferencias y la temporada. Un menú degustación más largo o una visita opcional al Museo Balenciaga pueden requerir un regreso más tarde, acordado antes de reservar.",
+        "en": "The schedule is an example. The order of visits and lunch time may vary according to reservations, your preferences and the season. A longer tasting menu or an optional Balenciaga Museum visit may require a later return, agreed before booking."
+      },
+      "sections": [
+        {
+          "heading": true,
+          "text": {
+            "es": "Un asador vasco tradicional",
+            "en": "A traditional Basque asador"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Descubre la tradición de la parrilla de pescado de la región en un asador cuidadosamente seleccionado. Comentamos el menú contigo con antelación, teniendo en cuenta tus preferencias y necesidades alimentarias.",
+            "en": "Discover the region’s fish-grilling traditions at a carefully selected asador. We discuss the menu with you in advance, taking your food preferences and dietary requirements into account."
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "Un restaurante con estrella Michelin",
+            "en": "A Michelin-starred restaurant"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Para quienes buscan una experiencia gastronómica concreta, podemos explorar un restaurante con estrella Michelin en Getaria. La disponibilidad, los menús y las condiciones de reserva se comprueban antes de confirmar tu propuesta.",
+            "en": "For guests looking for a particular gastronomic experience, we can explore a Michelin-starred restaurant in Getaria. Availability, menus and reservation conditions are checked before confirming your proposal."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "La comida está incluida en el precio acordado del tour. El restaurante, el menú y las bebidas se confirman antes de reservar. La elección de distintos restaurantes puede cambiar el precio y la duración de la experiencia.",
+            "en": "Lunch is included in the agreed tour price. The restaurant, menu and drinks arrangements are confirmed before booking. Different restaurant choices may change the price and duration of the experience."
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "PARA AMANTES DE LA MODA — MUSEO CRISTÓBAL BALENCIAGA",
+            "en": "FOR FASHION LOVERS — CRISTÓBAL BALENCIAGA MUSEUM"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Explora la conexión de Getaria con la moda a través del Museo Cristóbal Balenciaga. Esta visita opcional ofrece otra perspectiva del pueblo, a través del trabajo y el legado del diseñador que nació aquí.",
+            "en": "Explore Getaria’s connection to fashion through the Cristóbal Balenciaga Museum. This optional visit offers another perspective on the town, through the work and legacy of the designer born here."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Cuéntanos tu interés al hacer la consulta. Comprobaremos los horarios de apertura y la disponibilidad de entradas, y explicaremos cómo encaja la visita en tu día. La entrada al museo, cualquier visita guiada y el tiempo adicional no están incluidos en el tour estándar y se detallarán en tu propuesta.",
+            "en": "Tell us about your interest when you enquire. We will check opening times and ticket availability, and explain how the visit fits into your day. Museum admission, any guided visit and additional time are not included in the standard tour and will be specified in your proposal."
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "INFORMACIÓN PRÁCTICA",
+            "en": "GOOD TO KNOW"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Lleva calzado cómodo para los paseos por San Sebastián y Getaria y ropa adecuada para el tiempo.",
+            "en": "Wear comfortable shoes for the walks through San Sebastián and Getaria, and bring clothing suited to the weather."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Cuéntanos cualquier alergia, necesidad alimentaria o de movilidad antes de reservar, para que podamos comprobar opciones adecuadas de restaurante y adaptar el recorrido a pie.",
+            "en": "Please tell us about allergies, dietary requirements or mobility needs before booking so we can check suitable restaurant options and adapt the walking route."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "El acceso al interior de la catedral depende de los horarios de apertura, las celebraciones y otras actividades. Si no se puede entrar, presentamos el edificio desde fuera.",
+            "en": "Cathedral interior access depends on opening times, services and other activities. If entry is unavailable, we introduce the building from outside."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "La experiencia guiada es privada para tu grupo. Los restaurantes y espacios públicos permanecen abiertos a otros visitantes.",
+            "en": "Your guided experience is private to your group. Restaurants and public spaces remain open to other visitors."
+          }
+        }
+      ],
+      "faqs": [
+        {
+          "question": {
+            "es": "¿Qué partes de San Sebastián visitaremos?",
+            "en": "Which parts of San Sebastián will we visit?"
+          },
+          "answer": {
+            "es": "Paseamos por el Ensanche, visitamos la zona de la catedral del Buen Pastor, caminamos junto a la playa de La Concha y exploramos la Parte Vieja. El acceso al interior de la catedral depende de los horarios y las celebraciones.",
+            "en": "We walk through the Ensanche, visit the Buen Pastor Cathedral area, stroll beside La Concha Beach and explore the Old Town. Cathedral interior access depends on opening times and services."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Está incluida la comida?",
+            "en": "Is lunch included?"
+          },
+          "answer": {
+            "es": "Sí. La comida en el restaurante acordado en tu propuesta está incluida. Confirmamos el local, el menú y las bebidas antes de reservar.",
+            "en": "Yes. Lunch at the restaurant agreed in your proposal is included. We confirm the venue, menu and drinks arrangements before you book."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podemos elegir entre un asador tradicional y un restaurante con estrella Michelin?",
+            "en": "Can we choose between a traditional asador and a Michelin-starred restaurant?"
+          },
+          "answer": {
+            "es": "Sí. Hablamos de tus intereses y presupuesto y después comprobamos las opciones adecuadas y su disponibilidad. La elección del restaurante puede afectar al precio final y al tiempo necesario para la comida.",
+            "en": "Yes. We discuss your interests and budget, then check suitable options and availability. The restaurant choice may affect the final price and the time needed for lunch."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podemos visitar el Museo Balenciaga?",
+            "en": "Can we visit the Balenciaga Museum?"
+          },
+          "answer": {
+            "es": "Sí, podemos explorar la posibilidad de añadir una visita según los horarios y la disponibilidad. Es opcional, y la entrada, cualquier servicio guiado, el tiempo adicional y el coste se confirmarán en tu propuesta.",
+            "en": "Yes, we can explore adding a visit according to opening times and availability. It is optional, and admission, any guided service, additional time and cost will be confirmed in your proposal."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podéis atender necesidades alimentarias?",
+            "en": "Can you accommodate dietary requirements?"
+          },
+          "answer": {
+            "es": "Indícanos cualquier alergia o necesidad alimentaria al hacer tu consulta. Comprobaremos opciones adecuadas con el restaurante antes de confirmar la experiencia.",
+            "en": "Please share any allergies or dietary requirements when you enquire. We will check suitable options with the restaurant before confirming the experience."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podemos adaptar el ritmo al caminar?",
+            "en": "Can we adapt the walking pace?"
+          },
+          "answer": {
+            "es": "Sí. Cuéntanos tu ritmo preferido y tus necesidades de movilidad para que podamos hablar de un recorrido cómodo por ambos lugares.",
+            "en": "Yes. Tell us about your preferred pace and mobility needs so we can discuss a comfortable route through both towns."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Puede durar más de ocho horas la experiencia?",
+            "en": "Can the experience last longer than eight hours?"
+          },
+          "answer": {
+            "es": "Sí. Algunos menús requieren más tiempo, y añadir el Museo Balenciaga puede ampliar el día. Cualquier ampliación y su efecto en el precio se acordarán antes de reservar.",
+            "en": "Yes. Some restaurant menus take longer, and adding the Balenciaga Museum may extend the day. Any extension and its effect on the price will be agreed before booking."
+          }
+        }
+      ],
+      "finalCta": {
+        "title": {
+          "es": "Planifiquemos tu día en San Sebastián y Getaria.",
+          "en": "Let’s plan your day in San Sebastián and Getaria."
+        },
+        "body": {
+          "es": "Cuéntanos cuándo vienes y qué tipo de experiencia gastronómica te gustaría disfrutar. Endika preparará una propuesta personal con el itinerario, las opciones, la disponibilidad y el precio.",
+          "en": "Tell us when you are visiting and what kind of food experience you would love to enjoy. Endika will prepare a personal proposal with the itinerary, options, availability and price."
+        }
+      },
+      "includesTitle": {
+        "es": "QUÉ INCLUYE",
+        "en": "WHAT’S INCLUDED"
+      }
     },
     {
       "id": "multi-day",
       "slug": "tailor-made-private-tours-basque-country-rioja",
       "category": "multidia",
-      "image": "/media/cms/tours/tours-1-image.webp",
+      "image": "/media/client/1-basque-coast-cliffs-panorama.webp",
       "imageAlt": {
-        "es": "San Juan de Gaztelugatxe y la costa vasca",
-        "en": "San Juan de Gaztelugatxe and the Basque coast"
+        "es": "Colinas verdes y acantilados sobre la costa vasca.",
+        "en": "Green hills and cliffs overlooking the Basque coast."
       },
       "short": {
         "es": "Experiencia privada de varios días a medida",
         "en": "Tailor-Made Multi-Day Experience"
       },
       "name": {
-        "es": "Tours privados a medida por el País Vasco y La Rioja",
+        "es": "Tours privados a medida por el País Vasco y Rioja",
         "en": "Tailor-Made Private Tours of the Basque Country & Rioja"
       },
       "location": {
@@ -627,94 +1950,446 @@
         "en": "Bilbao · Basque Country · Rioja"
       },
       "duration": {
-        "es": "A medida de tu estancia",
-        "en": "Tailored to your stay"
+        "es": "Dos o más días, adaptados a tus planes",
+        "en": "Two or more days, tailored to your plans"
       },
       "eyebrow": {
         "es": "EXPERIENCIA PRIVADA",
         "en": "PRIVATE EXPERIENCE"
       },
       "description": {
-        "es": "Un viaje privado por el País Vasco y La Rioja que reúne gastronomía, vino, productores locales y aventuras al aire libre, a tu medida y a tu ritmo.",
-        "en": "A private journey through the Basque Country and Rioja, bringing together food, wine, local producers and outdoor adventures — shaped around your interests and pace."
+        "es": "Un viaje privado por el País Vasco y Rioja que combina gastronomía, vino, productores locales, aventuras al aire libre y tiempo para relajarte, todo adaptado a ti.",
+        "en": "A private journey through the Basque Country and Rioja, combining food, wine, local producers, outdoor adventures and time to unwind, all shaped around you."
       },
       "catalogDescription": {
-        "es": "Un viaje privado por el País Vasco y La Rioja que reúne gastronomía, vino, productores locales y aventuras al aire libre, a tu medida y a tu ritmo.",
-        "en": "A private journey through the Basque Country and Rioja, bringing together food, wine, local producers and outdoor adventures — shaped around your interests and pace."
+        "es": "Unos días para explorar, conectar y disfrutar de lo que te gusta. Descubre el País Vasco y Rioja mediante una experiencia privada diseñada a tu medida.",
+        "en": "A few days to explore, connect and enjoy the things you love. Discover the Basque Country and Rioja through a private experience designed around you."
       },
       "story": {
-        "es": "Date tiempo para vivir el País Vasco más allá de un solo día. Partiendo de una conversación sobre tus intereses, tus fechas de viaje y el ritmo que prefieres, creamos un itinerario privado que reúne los lugares, las personas y las actividades que más te importan.\n\nExplora Bilbao, descubre San Sebastián y los pueblos de la costa, o pasa un día entre los viñedos y las localidades medievales de La Rioja. Por el camino, disfruta de la gastronomía local, visita a productores independientes y escucha las historias que hay detrás de su trabajo.\n\nSi te gusta la naturaleza, tu viaje puede incluir senderismo, observación de aves, surf u otras actividades de aventura, elegidas según tus intereses y tu experiencia. Combina el tiempo al aire libre con visitas a bodegas familiares, granjas, productores artesanos de alimentos o talleres locales, y conecta los paisajes que recorres con las personas que viven y trabajan en ellos.\n\nTu itinerario puede ser activo, tranquilo o un equilibrio entre ambos: una ruta costera seguida de la visita a un productor, una mañana de surf antes de una comida local, o un día de observación de aves combinado con gastronomía y vino. Las actividades se planifican según la temporada, las condiciones locales y la disponibilidad, con guías o monitores especializados cuando corresponde.\n\nAcordamos contigo el itinerario, la organización y el precio antes de que reserves, para que sepas exactamente qué esperar.",
-        "en": "Give yourself time to experience the Basque Country beyond a single day. Starting with a conversation about your interests, travel dates and preferred pace, we create a private itinerary that brings together the places, people and activities that matter most to you.\n\nExplore Bilbao, discover San Sebastián and the coastal villages, or spend a day among the vineyards and medieval towns of Rioja. Along the way, enjoy local food, visit independent producers and hear the stories behind their work.\n\nIf you love the outdoors, your journey can include hiking, birdwatching, surfing or other adventure activities, selected to suit your interests and experience. Combine time in nature with visits to family-owned wineries, farms, artisan food producers or local workshops, connecting the landscapes you explore with the people who live and work there.\n\nYour itinerary can be active, relaxed or a balance of both: a coastal hike followed by a producer visit, a morning of surfing before a local lunch, or a day of birdwatching combined with food and wine. Activities are planned around the season, local conditions and availability, with specialist guides or instructors where appropriate.\n\nWe agree on the itinerary, arrangements and price with you before you book, so you know exactly what to expect."
+        "es": "Date tiempo para descubrir el País Vasco más allá de un solo día. Empezando por una conversación sobre tus intereses, fechas de viaje y ritmo preferido, creamos un itinerario privado que conecta los lugares, las personas y las actividades que más te gustaría conocer.\n\nExplora el arte y la vida local de Bilbao, descubre San Sebastián y los pueblos pesqueros de la costa o pasa un día entre los viñedos y las villas medievales de Rioja. La gastronomía y el vino pueden acompañar toda la experiencia, con visitas a bodegas familiares, restaurantes locales y productores independientes que comparten las historias de su trabajo.\n\nSi disfrutas del aire libre, podemos incluir senderismo, observación de aves, surf u otras actividades de aventura adaptadas a tus intereses y experiencia. Recorre un sendero costero antes de conocer a un productor local o pasa una mañana observando fauna antes de explorar un pueblo cercano.\n\nTambién puedes equilibrar la actividad con tiempo para relajarte. Completa una caminata o una sesión de surf con una visita a un spa, o reserva una tarde más tranquila para el bienestar y el descanso antes de una cena memorable.\n\nTus días pueden ser activos, relajados o una combinación de ambos. Planificamos juntos la ruta, el transporte, las comidas y las actividades seleccionadas, con guías especializados o instructores cuando corresponda. Las visitas a spas y los tratamientos pueden organizarse según tus preferencias y la disponibilidad.\n\nA lo largo de la experiencia, el objetivo es acercarte al País Vasco y darte tiempo para disfrutarlo de verdad. Cada programa es personal y todos los detalles se acuerdan antes de reservar.",
+        "en": "Give yourself time to discover the Basque Country beyond a single day. Starting with a conversation about your interests, travel dates and preferred pace, we create a private itinerary that connects the places, people and activities you would most like to experience.\n\nExplore Bilbao’s art and local life, discover San Sebastián and the fishing towns of the coast, or spend a day among the vineyards and medieval villages of Rioja. Food and wine can run through the experience, with visits to family-owned wineries, local restaurants and independent producers who share the stories behind their work.\n\nIf you enjoy the outdoors, we can include hiking, birdwatching, surfing or other adventure activities suited to your interests and experience. Follow a coastal trail before meeting a local producer, or spend a morning observing wildlife before exploring a nearby village.\n\nYou can also balance activity with time to unwind. Follow a hike or surf session with a spa visit, or set aside a quieter afternoon for wellness and relaxation before a memorable dinner.\n\nYour days can be active, relaxed or a balance of both. We plan the route, transport, meals and selected activities together, with specialist guides or instructors where appropriate. Spa visits and treatments can be arranged according to your preferences and availability.\n\nThroughout the experience, the aim is to bring you closer to the Basque Country while giving you time to enjoy it properly. Every programme is personal, and all arrangements are agreed before you book."
       },
       "seoTitle": {
-        "es": "Tours privados de varios días por el País Vasco y La Rioja | GOXO",
+        "es": "Tours privados de varios días por el País Vasco y Rioja | GOXO",
         "en": "Private Multi-Day Basque Country & Rioja Tours | GOXO"
       },
       "seoDescription": {
-        "es": "Tours privados a medida por el País Vasco y La Rioja, con gastronomía, vino, productores locales, senderismo, observación de aves y surf a tu ritmo.",
-        "en": "Tailor-made private tours of the Basque Country and Rioja, combining food, wine, local producers, hiking, birdwatching and surfing at your own pace."
+        "es": "Planifica una experiencia privada de varios días por el País Vasco y Rioja, combinando gastronomía, vino, cultura local, aventuras al aire libre y tiempo para relajarte.",
+        "en": "Plan a private multi-day experience in the Basque Country and Rioja, combining food, wine, local culture, outdoor adventures and time to unwind."
       },
       "stops": [
         {
-          "es": "Una conversación contigo",
-          "en": "A conversation about you"
+          "es": "Gastronomía y vino",
+          "en": "Food & Wine"
         },
         {
-          "es": "Tu itinerario privado",
-          "en": "Your private itinerary"
+          "es": "Cultura y vida local",
+          "en": "Culture & Local Life"
         },
         {
-          "es": "Gastronomía, vino y productores",
-          "en": "Food, wine and producers"
+          "es": "Productores locales y artesanía",
+          "en": "Local Producers & Crafts"
         },
         {
-          "es": "Aventuras al aire libre",
-          "en": "Outdoor adventures"
+          "es": "Senderismo y naturaleza",
+          "en": "Hiking & Nature"
+        },
+        {
+          "es": "Observación de aves",
+          "en": "Birdwatching"
+        },
+        {
+          "es": "Surf y aventuras al aire libre",
+          "en": "Surfing & Outdoor Adventures"
+        },
+        {
+          "es": "Bienestar y relajación",
+          "en": "Wellness & Relaxation"
         }
       ],
       "stopCopy": [
         {
-          "es": "Empezamos por tus intereses, tus fechas de viaje y el ritmo que prefieres.",
-          "en": "We start with your interests, travel dates and preferred pace."
+          "es": "Descubre la región a través de pintxos, asadores tradicionales, restaurantes seleccionados y visitas a bodegas. Conoce a las personas que hay detrás de la gastronomía y el vino, con tiempo para comprender su trabajo y disfrutar de lo que crean.",
+          "en": "Discover the region through pintxos, traditional asadores, selected restaurants and winery visits. Meet the people behind the food and wine, with time to understand their work and enjoy what they create."
         },
         {
-          "es": "Reunimos los lugares, las personas y las actividades que más te importan.",
-          "en": "We bring together the places, people and activities that matter most to you."
+          "es": "Explora ciudades y pueblos con un guía local, conectando lugares emblemáticos con historias cotidianas. El arte, la arquitectura, el patrimonio marítimo y las tradiciones locales pueden formar parte de tu itinerario.",
+          "en": "Explore cities and villages with a local guide, connecting well-known landmarks with everyday stories. Art, architecture, maritime heritage and local traditions can all form part of your itinerary."
         },
         {
-          "es": "Comida local, bodegas familiares y productores independientes, con las historias que hay detrás.",
-          "en": "Local food, family-owned wineries and independent producers, with the stories behind their work."
+          "es": "Visita productores independientes, negocios familiares o talleres locales según tus intereses y la disponibilidad. Descubre cómo se vincula su trabajo con el paisaje y la cultura que lo rodea.",
+          "en": "Visit independent producers, family businesses or local workshops according to your interests and availability. Discover how their work connects to the landscape and the culture around it."
         },
         {
-          "es": "Senderismo, observación de aves, surf u otras actividades, según la temporada y las condiciones.",
-          "en": "Hiking, birdwatching, surfing or other activities, planned around the season and conditions."
+          "es": "Explora caminos costeros, entornos rurales y paisajes naturales en rutas elegidas según tu experiencia al caminar y el nivel de actividad que prefieras.",
+          "en": "Explore coastal paths, countryside and natural landscapes on routes chosen around your walking experience and preferred level of activity."
+        },
+        {
+          "es": "Dedica tiempo a observar aves y descubrir sus hábitats, con lugares y horarios elegidos según la estación y las condiciones locales. Se puede organizar un guía especializado como parte de tu programa.",
+          "en": "Spend time observing birds and discovering their habitats, with locations and timings selected around the season and local conditions. Specialist guiding can be arranged as part of your programme."
+        },
+        {
+          "es": "Incluye una sesión de surf u otra actividad al aire libre con un proveedor local adecuado. Hablamos de tu experiencia, confianza e intereses antes de seleccionar opciones apropiadas.",
+          "en": "Include a surf session or another outdoor activity with an appropriate local provider. We discuss your experience, confidence and interests before selecting suitable options."
+        },
+        {
+          "es": "Deja espacio para bajar el ritmo. Disfruta de un spa después de una caminata costera o una sesión de surf, explora los tratamientos disponibles o incluye una tarde más tranquila entre días de descubrimiento. Seleccionamos las opciones según tus preferencias y el ritmo de tu itinerario.",
+          "en": "Make space to slow down. Enjoy a spa visit after a coastal hike or surf session, explore available treatments, or include a quieter afternoon between days of discovery. We select options around your preferences and the rhythm of your itinerary."
         }
       ],
       "includes": [
         {
-          "es": "Itinerario privado a medida",
-          "en": "A private, tailor-made itinerary"
+          "es": "El diseño y la coordinación de tu itinerario privado.",
+          "en": "The design and coordination of your private itinerary."
         },
         {
-          "es": "Guías o monitores especializados cuando corresponde",
-          "en": "Specialist guides or instructors where appropriate"
-        }
-      ],
-      "excludes": [
+          "es": "Guía GOXO durante los días y las visitas especificados en tu programa.",
+          "en": "GOXO guiding for the days and visits specified in your programme."
+        },
         {
-          "es": "El itinerario, la organización y el precio se acuerdan contigo antes de reservar.",
-          "en": "The itinerary, arrangements and price are agreed with you before you book."
+          "es": "Transporte para la ruta acordada.",
+          "en": "Transport for the agreed route."
+        },
+        {
+          "es": "Las comidas, visitas a bodegas, catas y actividades indicadas en tu propuesta.",
+          "en": "The meals, winery visits, tastings and activities listed in your proposal."
+        },
+        {
+          "es": "Guías especializados o instructores para las actividades seleccionadas, cuando se haya acordado.",
+          "en": "Specialist guides or instructors for selected activities, where agreed."
+        },
+        {
+          "es": "Acceso a spa o tratamientos de bienestar, cuando se hayan seleccionado y especificado en tu propuesta.",
+          "en": "Spa access or wellness treatments, when selected and specified in your proposal."
+        },
+        {
+          "es": "Coordinación de las reservas incluidas en tu programa.",
+          "en": "Coordination of the reservations included in your programme."
+        },
+        {
+          "es": "Un itinerario y un precio claros antes de confirmar.",
+          "en": "A clear itinerary and price before you confirm."
         }
       ],
+      "excludes": [],
       "faq": {
-        "es": "Acordamos contigo el itinerario, la organización y el precio antes de que reserves, para que sepas exactamente qué esperar.",
-        "en": "We agree on the itinerary, arrangements and price with you before you book, so you know exactly what to expect."
+        "es": "",
+        "en": ""
       },
       "immersive": false,
-      "gallery": [],
-      "galleryAlts": [],
+      "gallery": [
+        "/media/client/guggenheim-bilbao-la-salve.webp",
+        "/media/client/peine-del-viento-sunset.webp",
+        "/media/client/green-mountain-valley.webp",
+        "/media/client/cows-mountain-landscape.webp",
+        "/media/client/sunset-sea-of-clouds.webp",
+        "/media/client/coastal-cliffs-walk.webp",
+        "/media/client/travellers-wine-toast-terrace.webp",
+        "/media/client/rioja-wine-tasting-stone-vault.webp"
+      ],
+      "galleryAlts": [
+        {
+          "es": "El Museo Guggenheim junto al puente de La Salve en Bilbao.",
+          "en": "The Guggenheim Museum beside La Salve Bridge in Bilbao."
+        },
+        {
+          "es": "Las esculturas del Peine del Viento junto al mar al atardecer.",
+          "en": "The Peine del Viento sculptures beside the sea at sunset."
+        },
+        {
+          "es": "Laderas verdes y edificios rurales distribuidos por un valle de montaña.",
+          "en": "Green slopes and rural buildings spread across a mountain valley."
+        },
+        {
+          "es": "Vacas que descansan y pastan entre rocas en un paisaje de montaña.",
+          "en": "Cows resting and grazing among rocks in a mountain landscape."
+        },
+        {
+          "es": "Luz del atardecer sobre un mar de nubes entre crestas montañosas.",
+          "en": "Sunset light above a sea of clouds between mountain ridges."
+        },
+        {
+          "es": "Acantilados costeros estratificados sobre el mar.",
+          "en": "Layered coastal cliffs overlooking the sea."
+        },
+        {
+          "es": "Dos personas brindando con copas de vino en una terraza.",
+          "en": "Two people raising wine glasses on a terrace."
+        },
+        {
+          "es": "Una sala de catas bajo una bóveda de piedra.",
+          "en": "A wine tasting room beneath a stone vault."
+        }
+      ],
       "published": true,
-      "number": "06"
+      "number": "06",
+      "itineraryTitle": {
+        "es": "¿QUÉ TE GUSTARÍA DESCUBRIR?",
+        "en": "WHAT WOULD YOU LIKE TO DISCOVER?"
+      },
+      "sectionsTitle": {
+        "es": "CÓMO PLANIFICAMOS TU EXPERIENCIA",
+        "en": "HOW WE PLAN YOUR EXPERIENCE"
+      },
+      "faqsTitle": {
+        "es": "PREGUNTAS SOBRE TU EXPERIENCIA DE VARIOS DÍAS",
+        "en": "QUESTIONS ABOUT YOUR MULTI-DAY EXPERIENCE"
+      },
+      "glance": [
+        {
+          "label": {
+            "es": "Duración",
+            "en": "Duration"
+          },
+          "value": {
+            "es": "Dos o más días, adaptados a tus planes",
+            "en": "Two or more days, tailored to your plans"
+          }
+        },
+        {
+          "label": {
+            "es": "Ubicación",
+            "en": "Location"
+          },
+          "value": {
+            "es": "Bilbao · País Vasco · Rioja",
+            "en": "Bilbao · Basque Country · Rioja"
+          }
+        },
+        {
+          "label": {
+            "es": "Punto de inicio",
+            "en": "Starting point"
+          },
+          "value": {
+            "es": "Acordado según tu itinerario",
+            "en": "Agreed according to your itinerary"
+          }
+        },
+        {
+          "label": {
+            "es": "Horario diario",
+            "en": "Daily schedule"
+          },
+          "value": {
+            "es": "Planificado según tus intereses, reservas y ritmo preferido",
+            "en": "Planned around your interests, reservations and preferred pace"
+          }
+        },
+        {
+          "label": {
+            "es": "Idiomas",
+            "en": "Languages"
+          },
+          "value": {
+            "es": "Guía GOXO en inglés o español",
+            "en": "GOXO guiding in English or Spanish"
+          }
+        }
+      ],
+      "scheduleNote": {
+        "es": "",
+        "en": ""
+      },
+      "sections": [
+        {
+          "heading": true,
+          "text": {
+            "es": "1. Cuéntanos tus planes",
+            "en": "1. Tell us about your plans"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Comparte tus fechas, el número de personas que viajan, tus intereses y una orientación sobre tu presupuesto. Cuéntanos tu equilibrio ideal entre actividad y descanso y cualquier cosa que te gustaría especialmente incluir.",
+            "en": "Share your dates, the number of people travelling, your interests and an indication of your budget. Let us know your ideal balance of activity and relaxation, and anything you would particularly love to include."
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "2. Damos forma al itinerario juntos",
+            "en": "2. Shape the itinerary together"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Sugerimos una ruta y una combinación de actividades, visitas, comidas y tiempo para relajarte. Puedes darnos tu opinión para ajustar el programa a lo que más te importa.",
+            "en": "We suggest a route and a balance of activities, visits, meals and time to unwind. You can give feedback so we can refine the programme around what matters most to you."
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "3. Confirmamos los detalles",
+            "en": "3. Confirm the arrangements"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Una vez comprobada la disponibilidad, te enviamos el itinerario acordado, las inclusiones, el precio y las condiciones de reserva. Sabrás qué está organizado antes de confirmar.",
+            "en": "Once availability has been checked, we send the agreed itinerary, inclusions, price and booking terms. You will know what is arranged before confirming."
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "4. Disfruta de tu estancia",
+            "en": "4. Enjoy your time here"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Coordinamos el programa acordado y compartimos los detalles prácticos que necesitas para cada día, para que puedas centrarte en la experiencia.",
+            "en": "We coordinate the agreed programme and share the practical details you need for each day, so you can focus on the experience."
+          }
+        },
+        {
+          "heading": true,
+          "text": {
+            "es": "INFORMACIÓN PRÁCTICA",
+            "en": "GOOD TO KNOW"
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Las actividades al aire libre dependen de la estación, el tiempo y las condiciones locales. Seleccionamos las opciones según tu experiencia y comodidad, con proveedores especializados cuando corresponde.",
+            "en": "Outdoor activities depend on the season, weather and local conditions. We select options around your experience and comfort level, with specialist providers where appropriate."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "El acceso al spa y los tratamientos dependen de las instalaciones disponibles y sus condiciones de reserva. Confirmamos lo que está incluido, las restricciones de edad y el tiempo necesario al planificar tu programa.",
+            "en": "Spa access and treatments depend on the facilities available and their reservation conditions. We confirm what is included, any age restrictions and the time needed when planning your programme."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Cuéntanos tus necesidades alimentarias, alergias, necesidades de movilidad o cualquier otra consideración al planificar tu experiencia.",
+            "en": "Please tell us about dietary requirements, allergies, mobility needs or any other considerations when planning your experience."
+          }
+        },
+        {
+          "heading": false,
+          "text": {
+            "es": "Algunas visitas a bodegas o actividades especializadas pueden incluir a otros participantes, salvo que se haya confirmado una organización exclusiva. Las instalaciones del spa también pueden compartirse con otros huéspedes.",
+            "en": "Some winery visits or specialist activities may involve other participants unless an exclusive arrangement has been confirmed. Spa facilities may also be shared with other guests."
+          }
+        }
+      ],
+      "faqs": [
+        {
+          "question": {
+            "es": "¿Cuántos días deberíamos planificar?",
+            "en": "How many days should we plan?"
+          },
+          "answer": {
+            "es": "Cuéntanos de cuánto tiempo dispones y qué te gustaría descubrir. Sugeriremos una ruta y un ritmo realistas, dejando tiempo para disfrutar de cada lugar.",
+            "en": "Tell us how much time you have and what you would most like to discover. We will suggest a realistic route and pace, allowing time to enjoy each place."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podemos combinar gastronomía y vino con actividades al aire libre?",
+            "en": "Can we combine food and wine with outdoor activities?"
+          },
+          "answer": {
+            "es": "Sí. Tu programa puede combinar visitas urbanas, productores locales, comidas en restaurantes, bodegas, senderismo, observación de aves, surf u otras actividades según tus intereses.",
+            "en": "Yes. Your programme can bring together city visits, local producers, restaurant meals, wineries, hiking, birdwatching, surfing or other activities, according to your interests."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podemos incluir un spa después del senderismo o el surf?",
+            "en": "Can we include a spa after hiking or surfing?"
+          },
+          "answer": {
+            "es": "Sí. Podemos organizar una actividad al aire libre seguida de tiempo en un spa, o incluir el bienestar como una parte independiente del programa. El acceso, los tratamientos, los horarios y los costes se confirman en tu propuesta, según disponibilidad.",
+            "en": "Yes. We can arrange an outdoor activity followed by time at a spa, or include wellness as a separate part of your programme. Access, treatments, timings and costs are confirmed in your proposal, subject to availability."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Necesitamos experiencia previa para las actividades al aire libre?",
+            "en": "Do we need previous experience for the outdoor activities?"
+          },
+          "answer": {
+            "es": "Depende de lo que elijas. Hablamos de tu experiencia y comodidad y después comprobamos opciones adecuadas con el proveedor correspondiente antes de confirmar.",
+            "en": "It depends on what you choose. We discuss your experience and comfort level, then check suitable options with the relevant provider before confirming."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Puede ser un programa relajado en lugar de activo?",
+            "en": "Can the programme be relaxed rather than active?"
+          },
+          "answer": {
+            "es": "Por supuesto. Puedes centrarte en visitas culturales, gastronomía, vino, paseos suaves y tiempo en el spa, con espacio para parar y disfrutar de cada día.",
+            "en": "Absolutely. You can focus on cultural visits, food, wine, gentle walks and spa time, with space to pause and enjoy each day."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Están incluidas todas las comidas, actividades y tratamientos de spa?",
+            "en": "Are all meals, activities and spa treatments included?"
+          },
+          "answer": {
+            "es": "Tu propuesta especifica exactamente qué comidas, bebidas, visitas, actividades y servicios de bienestar están incluidos. No hay una selección fija: acordamos el programa contigo antes de reservar.",
+            "en": "Your proposal specifies exactly which meals, drinks, visits, activities and wellness services are included. There is no fixed selection: we agree the programme with you before booking."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Podéis adaptar la experiencia a distintos intereses dentro del grupo?",
+            "en": "Can you adapt the experience for different interests within our group?"
+          },
+          "answer": {
+            "es": "Cuéntanos qué disfruta cada persona y cualquier necesidad práctica. Hablaremos de cómo crear un itinerario equilibrado que funcione para tu grupo.",
+            "en": "Tell us what each person enjoys and any practical needs. We will discuss how to create a balanced itinerary that works for your group."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Qué ocurre si las condiciones afectan a una actividad al aire libre?",
+            "en": "What happens if conditions affect an outdoor activity?"
+          },
+          "answer": {
+            "es": "Comentamos los detalles correspondientes antes de reservar y revisamos alternativas si las condiciones afectan al programa. Cualquier cambio seguirá las condiciones acordadas contigo y con el proveedor de la actividad.",
+            "en": "We discuss the relevant arrangements before booking and review alternatives if conditions affect the programme. Any changes follow the terms agreed with you and the activity provider."
+          }
+        },
+        {
+          "question": {
+            "es": "¿Con cuánta antelación deberíamos consultar?",
+            "en": "How far ahead should we enquire?"
+          },
+          "answer": {
+            "es": "Ponte en contacto cuando conozcas tus fechas aproximadas. Una mayor antelación nos da más flexibilidad para coordinar bodegas, restaurantes, actividades especializadas y reservas de spa, especialmente en periodos de mucha demanda.",
+            "en": "Get in touch once you know your approximate dates. More notice gives us greater flexibility to coordinate wineries, restaurants, specialist activities and spa reservations, particularly during busy periods."
+          }
+        }
+      ],
+      "finalCta": {
+        "title": {
+          "es": "Creemos tu experiencia en el País Vasco.",
+          "en": "Let’s create your Basque Country experience."
+        },
+        "body": {
+          "es": "Cuéntanos qué te atrae de este lugar, de cuánto tiempo dispones y tu equilibrio ideal entre descubrimiento, actividad y descanso. Endika te ayudará a dar forma a un programa privado según tus intereses y tu ritmo.",
+          "en": "Tell us what draws you here, how much time you have and your ideal balance of discovery, activity and relaxation. Endika will help shape a private programme around your interests and pace."
+        }
+      },
+      "includesTitle": {
+        "es": "QUÉ INCLUYE TU PROPUESTA",
+        "en": "WHAT YOUR PROPOSAL INCLUDES"
+      }
     }
   ]
 }

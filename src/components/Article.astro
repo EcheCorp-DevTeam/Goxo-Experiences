@@ -2,9 +2,14 @@
 import Base from '../layouts/Base.astro';
 import {languageOf} from '../data/urls';
 import {renderBlog,blogStats} from '../data/blog-render.mjs';
+import {tours} from '../data/tours';
+import C from './Copy.astro';
+import Photo from './ClientPhoto.astro';
+import {localizedHref} from '../data/urls';
 import '../styles/blog.css';
 const {post,preview=false,language}=Astro.props;
 const lang=language||languageOf(Astro.url.pathname);
 const stats=blogStats(post.body[lang]);
+const relatedTours=tours.filter(tour=>post.relatedTourIds?.includes(tour.id));
 ---
-<Base title={post.seoTitle?.[lang]||`${post.title[lang]} | GOXO`} description={post.seoDescription?.[lang]||post.intro[lang]} {language} {preview} article={post}><main id="main"><section class="page-heading section-pad"><a class="text-link" href={lang==='es'?'/es/journal/':'/journal/'}>{lang==='es'?'← Todas las historias':'← All stories'}</a><p class="eyebrow">{post.category[lang]}</p><h1>{post.title[lang]}</h1><p>{post.intro[lang]}</p><p class="article-reading">{stats.minutes} {lang==='es'?'min de lectura':'min read'}</p></section><article class="article-content section-pad">{post.image&&<img class="article-image" src={post.image} alt={post.imageAlt?.[lang]||post.title[lang]} width="1200" height="800"/>}<div class="blog-prose" set:html={renderBlog(post.body[lang])}/><a class="text-link" href={lang==='es'?'/es/experiences/':'/experiences/'}>{lang==='es'?'Encuentra tu experiencia ↗':'Find your experience ↗'}</a></article></main></Base>
+<Base title={post.seoTitle?.[lang]||`${post.title[lang]} | GOXO`} description={post.seoDescription?.[lang]||post.intro[lang]} {language} {preview} article={post}><main id="main"><section class="page-heading section-pad"><a class="text-link" href={lang==='es'?'/es/journal/':'/journal/'}>{lang==='es'?'← Todas las historias':'← All stories'}</a><p class="eyebrow">{post.category[lang]}</p><h1>{post.title[lang]}</h1><p>{post.intro[lang]}</p><p class="article-reading">{stats.minutes} {lang==='es'?'min de lectura':'min read'}</p></section><article class="article-content section-pad">{post.image&&<img class="article-image" src={post.image} alt={post.imageAlt?.[lang]||post.title[lang]} width="1200" height="800"/>}<div class="blog-prose" set:html={renderBlog(post.body[lang])}/>{relatedTours.length>0&&<section><C tag="h2" es="Experiencias relacionadas" en="Related experiences"/><div class="related-tour-grid">{relatedTours.map(tour=><a href={localizedHref(`/experiences/${tour.slug}/`,lang)}><Photo src={tour.image} alt={tour.imageAlt[lang]}/><C {...tour.short}/></a>)}</div></section>}<a class="text-link" href={lang==='es'?'/es/experiences/':'/experiences/'}>{lang==='es'?'Encuentra tu experiencia ↗':'Find your experience ↗'}</a></article></main></Base>

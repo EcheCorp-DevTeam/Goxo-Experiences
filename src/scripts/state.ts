@@ -18,7 +18,7 @@ export function validateState(value:any,sceneIds:string[]){
  return structuredClone(value);
 }
 export const tourLanguages=['es','en'] as const;
-export const journeyInterests=['food-wine','producers-crafts','culture-city','hiking','birdwatching','surfing','outdoor-other'] as const;
+export const journeyInterests=['food-wine','producers-crafts','culture-city','hiking','birdwatching','surfing','outdoor-other','wellness'] as const;
 type Enquiry={name:string;email:string;guests:number;date:string;message:string;tour:string;tourLang?:string;interests?:string[];interestsNote?:string};
 export function validateEnquiry({name,email,guests,date,message,tourLang='',interests=[],interestsNote=''}:Enquiry){
  if(interests.some(value=>!journeyInterests.includes(value as any))||new Set(interests).size!==interests.length||interestsNote.length>1000)throw new Error('Invalid journey interests');

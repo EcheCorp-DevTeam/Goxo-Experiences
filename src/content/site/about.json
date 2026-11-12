@@ -4,21 +4,21 @@
     "en": "Kaixo, I’m Endika."
   },
   "hostCaption": {
-    "es": "Un anfitrión local, toda una vida de historias y una forma más personal de conocer el País Vasco.",
-    "en": "A local host, a lifetime of stories and a more personal way to experience the Basque Country."
+    "es": "",
+    "en": ""
   },
   "hostStory": [
     {
-      "es": "Nací en Bilbao y he pasado más de once años viajando y trabajando como guía turístico por todo el mundo. Tras años en el extranjero, volví a casa con una idea sencilla: compartir el País Vasco con la misma curiosidad, cuidado y generosidad que busco cuando viajo.",
-      "en": "I was born in Bilbao and have spent more than eleven years travelling and working as a tour guide around the world. After years abroad, I came home with a simple idea: to share the Basque Country with the same curiosity, care and generosity that I look for when I travel myself."
+      "es": "Nací en Bilbao y pasé más de once años viajando y trabajando como guía por todo el mundo. Guiar me enseñó la diferencia entre mostrarle un lugar a alguien y hacer que sienta que pertenece a él.",
+      "en": "I was born in Bilbao and spent more than eleven years travelling and working as a guide around the world. Guiding taught me the difference between showing someone a place and making them feel they belong."
     },
     {
-      "es": "No siempre imaginé que me dedicaría a esto. Estudié Administración de Empresas, pensando que seguiría un camino más convencional. Pero once años guiando por el mundo me enseñaron algo que ningún título puede enseñar: la diferencia entre mostrar un lugar y hacer que alguien sienta que también es suyo.",
-      "en": "I did not always imagine myself doing this. I studied Business Administration, thinking I would follow a more conventional path. But eleven years of guiding around the world taught me something no degree can teach: the difference between showing someone a place and making them feel it is theirs."
+      "es": "Volví a casa con las mismas raíces y una perspectiva diferente. GOXO es mi manera de compartir los lugares que conozco, las personas en quienes confío y las historias que rara vez aparecen en una guía.",
+      "en": "I came home with the same roots and a different perspective. GOXO is my way of sharing the places I know, the people I trust and the stories that rarely appear in a guidebook."
     },
     {
-      "es": "GOXO es mi manera de presentarte los lugares que conozco, las personas en quienes confío, las historias que rara vez aparecen en una guía y la cultura real que buscas. Después de más de una década compartiendo otras partes del mundo, quería compartir la mía: despacio, en grupos pequeños y mediante experiencias auténticas, sin prisas, sin turismo masivo y sin hacer algo comercial solo por hacerlo.",
-      "en": "GOXO is my way of introducing you to the places I know, the people I trust, the stories that rarely appear in a guidebook and the real culture you are looking for. After more than a decade of sharing other parts of the world, I wanted to share my own: slowly, in small groups and through genuine experiences — never rushed, never mass tourism, never commercial for the sake of it."
+      "es": "Después de encontrar tantas puertas abiertas lejos de casa, quería abrir la mía.",
+      "en": "After finding so many open doors far from home, I wanted to open mine."
     }
   ],
   "aboutTitle": {
@@ -26,37 +26,158 @@
     "en": "About GOXO | Private Basque Country Tours with Local Impact"
   },
   "aboutClaim": {
-    "es": "Una forma más consciente de conocer el País Vasco.",
-    "en": "A more thoughtful way to experience the Basque Country."
+    "es": "Con alas para explorar.\nCon raíces a las que volver.",
+    "en": "With wings to explore.\nWith roots to return to."
   },
   "aboutIntro": [
     {
-      "es": "GOXO toma su nombre de la palabra vasca goxo, que evoca algo sabroso, reconfortante y hecho con cariño.",
-      "en": "GOXO takes its name from the Basque word goxo, evoking something tasty, comforting and made with care."
+      "es": "GOXO toma su nombre de la palabra vasca «goxo», que evoca algo sabroso, reconfortante y hecho con cariño.",
+      "en": "GOXO takes its name from the Basque word “goxo”, evoking something tasty, comforting and made with care."
     },
     {
-      "es": "Esa idea guía todo lo que hacemos. Creemos que viajar debe sentirse personal, generoso y conectado con el lugar que visitas.",
-      "en": "That idea shapes everything we do. We believe travel should feel personal, generous and connected to the place you are visiting."
+      "es": "Esa idea da forma a mi manera de recibirte: a través de un viaje personal y cuidado, conectado con el lugar que visitas.",
+      "en": "That idea shapes the way I welcome you: through personal, thoughtful travel, connected to the place you are visiting."
+    },
+    {
+      "es": "Desde Bilbao, creo experiencias privadas de gastronomía, vino y cultura por el País Vasco y Rioja, adaptadas a tus intereses y a tu ritmo.",
+      "en": "Based in Bilbao, I create private food, wine and cultural experiences across the Basque Country and Rioja, shaped around your interests and your pace."
     }
   ],
   "aboutCompany": [
     {
-      "es": "Desde Bilbao, GOXO crea experiencias privadas de gastronomía, vino y cultura por el País Vasco. Cada viaje se diseña alrededor de tu grupo, tus intereses y tu ritmo, desde la primera conversación hasta la última recomendación.",
-      "en": "Based in Bilbao, GOXO creates private food, wine and cultural experiences across the Basque Country. Every journey is designed around your group, your interests and your pace — from the first conversation to the final recommendation."
+      "es": "Nací en Bilbao y estudié Empresariales, imaginando que seguiría un camino más convencional. En cambio, pasé más de once años viajando y trabajando como guía por todo el mundo. Viajar me enseñó que cada lugar tiene una historia que merece ser escuchada. Guiar me enseñó algo que ningún título podía: la diferencia entre mostrarle un lugar a alguien y hacer que sienta que pertenece a él.",
+      "en": "I was born in Bilbao and studied Business, imagining I would follow a more conventional path. Instead, I spent more than eleven years travelling and working as a guide around the world. Travelling taught me that every place has a story worth listening to. Guiding taught me something no degree could: the difference between showing someone a place and making them feel they belong."
     },
     {
-      "es": "Te llevamos más allá de lo evidente: a bodegas familiares donde puedes hablar con quien hace el vino, restaurantes locales, pueblos costeros, productores e historias que revelan el verdadero carácter de la región. Sin grupos mezclados. Sin itinerarios apresurados. Sin experiencias hechas para todos y recordadas por nadie.",
-      "en": "We take you beyond the obvious: to family-owned wineries where you can talk with the winemaker, local restaurants, coastal towns, producers and stories that reveal the real character of the region. No mixed groups. No rushed itineraries. No experiences built for everyone and remembered by no one."
+      "es": "Con alas para explorar y raíces a las que volver, regresé a Bilbao. Mis raíces eran las mismas, pero mi perspectiva había cambiado. Porque marcharse también cambia nuestra forma de pertenecer.",
+      "en": "With wings to explore and roots to return to, I came home to Bilbao. My roots were the same, but my perspective had changed. Because leaving also changes the way we belong."
+    },
+    {
+      "es": "GOXO nació de ese regreso a casa: del deseo de compartir mi tierra con la misma curiosidad, cuidado y generosidad que busco cuando viajo. Después de tantos años acercando a viajeros a otras partes del mundo, quería compartir la mía: los lugares que conozco, las personas en quienes confío y las historias que rara vez aparecen en una guía. Con tiempo para disfrutarlos, en grupos pequeños y con cuidado hacia las personas que nos reciben.",
+      "en": "GOXO grew out of that homecoming: a desire to share my homeland with the same curiosity, care and generosity I look for when I travel. After so many years introducing travellers to other parts of the world, I wanted to share my own: the places I know, the people I trust and the stories that rarely appear in a guidebook. With time to enjoy them, in small groups and with care for the people who welcome us."
+    },
+    {
+      "es": "Sigo sintiéndome un viajero, incluso ahora que soy yo quien recibe a los demás. Y después de encontrar tantas puertas abiertas lejos de casa, quería abrir la mía.",
+      "en": "I still feel like a traveller, even now that I am the one welcoming others. And after finding so many open doors far from home, I wanted to open mine."
     }
   ],
-  "aboutCommitment": [
+  "aboutCommitment": [],
+  "storyTitle": {
+    "es": "De Bilbao al mundo. Del mundo de vuelta a casa.",
+    "en": "From Bilbao to the world. From the world back home."
+  },
+  "valuesIntro": {
+    "es": "Estos son los diez valores que guían mi manera de recibirte y dan vida a GOXO.",
+    "en": "These are the ten values that guide the way I welcome you and bring GOXO to life."
+  },
+  "valuesTitle": {
+    "es": "Los valores de GOXO",
+    "en": "Values behind GOXO"
+  },
+  "values": [
     {
-      "es": "El País Vasco está en el corazón de cada experiencia GOXO; cuidarlo forma parte de nuestro trabajo. Priorizamos negocios locales y de temporada, apoyamos a pequeños productores independientes y tomamos decisiones responsables al explorar la región.",
-      "en": "The Basque Country is at the heart of every GOXO experience, so looking after it is part of how we work. We prioritise local and seasonal businesses, support small independent producers and make responsible choices in the way we explore the region."
+      "title": {
+        "es": "Recibirte como me gusta viajar",
+        "en": "Welcoming you as I like to travel"
+      },
+      "body": {
+        "es": "Antes de ser anfitrión, soy viajero. Te recibo con la calidez, generosidad y naturalidad que aprecio cuando viajo. Comparto lo que sé y dejo espacio para tus preguntas y las conversaciones espontáneas. Quiero hacer algo más que mostrarte un lugar: quiero ayudarte a descubrirlo.",
+        "en": "Before being a host, I am a traveller. I welcome you with the warmth, generosity and natural ease I appreciate when I travel. I share what I know and leave room for your questions and spontaneous conversations. I want to do more than show you a place: I want to help you discover it."
+      }
     },
     {
-      "es": "Creemos que el turismo debe devolver algo. A medida que GOXO crezca, parte de lo que creemos se reinvertirá en proyectos sociales y medioambientales locales que protejan las comunidades y los paisajes que hacen posibles estas experiencias.",
-      "en": "We believe tourism should give something back. As GOXO grows, part of what we create will be reinvested in local social and environmental projects that protect the communities and landscapes that make these experiences possible."
+      "title": {
+        "es": "Escuchar para cuidar cada detalle",
+        "en": "Listening to care for every detail"
+      },
+      "body": {
+        "es": "Cada persona tiene su propia forma de descubrir el mundo. Antes de planificar una experiencia, quiero entender tus intereses y el ritmo que disfrutas. Cuido los detalles y adapto el día a ti para que te sientas atendido sin perder la libertad de disfrutarlo a tu manera.",
+        "en": "Everyone has their own way of discovering the world. Before planning an experience, I want to understand your interests and the pace you enjoy. I take care of the details and shape the day around you, so you feel looked after while keeping the freedom to enjoy it your way."
+      }
+    },
+    {
+      "title": {
+        "es": "Compartir los lugares sin ocuparlos",
+        "en": "Sharing places without taking them over"
+      },
+      "body": {
+        "es": "Disfrutar de un lugar también significa respetar a quienes viven en él. Por eso ofrezco experiencias privadas para grupos pequeños: tiempo para conversar y explorar sin convertir los lugares en un escenario ni alterar innecesariamente la vida cotidiana.",
+        "en": "Enjoying a place also means respecting the people who live there. That is why I offer private experiences for small groups: time to talk and explore without turning places into a stage or unnecessarily disrupting everyday life."
+      }
+    },
+    {
+      "title": {
+        "es": "Crear conexiones que importan",
+        "en": "Building connections that matter"
+      },
+      "body": {
+        "es": "Conocer un lugar significa conocer a las personas que lo hacen ser lo que es. Construyo relaciones de confianza con personas y negocios locales, buscando colaboraciones justas y duraderas. Estos encuentros permiten comprender el País Vasco más de cerca, respetando el trabajo, el tiempo y el conocimiento de quienes nos reciben.",
+        "en": "Getting to know a place means meeting the people who make it what it is. I build trusted relationships with local people and businesses, seeking fair, lasting partnerships. These encounters offer a closer understanding of the Basque Country while respecting the work, time and knowledge of those who welcome us."
+      }
+    },
+    {
+      "title": {
+        "es": "Descubrir la riqueza de la vida local",
+        "en": "Discovering the richness of local life"
+      },
+      "body": {
+        "es": "Para mí, apostar por lo local va más allá de elegir productos de proximidad. Significa escuchar a músicos locales, conocer la historia de un pueblo o detenerse a hablar con quienes lo mantienen vivo. Quiero compartir un País Vasco que se descubre mejor despacio, a través de la riqueza de la vida cotidiana.",
+        "en": "For me, keeping things local goes beyond choosing local produce. It means listening to local musicians, learning a village’s history or stopping to talk with the people who keep it alive. I want to share a Basque Country best discovered slowly, through the richness of everyday life."
+      }
+    },
+    {
+      "title": {
+        "es": "Mirar más allá de la postal",
+        "en": "Looking beyond the postcard"
+      },
+      "body": {
+        "es": "Combino los lugares que siempre has querido ver con rincones menos conocidos e historias que rara vez aparecen en las guías. Planifico cuidadosamente las rutas y los horarios para favorecer una visita más tranquila. Se trata de ampliar tu perspectiva y descubrir lo que hay más allá de lo familiar.",
+        "en": "I combine the places you have always wanted to see with lesser-known corners and stories that rarely appear in guidebooks. I plan routes and timings carefully to encourage a quieter visit. It is about widening your perspective and discovering what lies beyond the familiar."
+      }
+    },
+    {
+      "title": {
+        "es": "Mantener vivas nuestras raíces",
+        "en": "Keeping our roots alive"
+      },
+      "body": {
+        "es": "La artesanía tradicional, las tiendas independientes y las formas locales de hacer las cosas dan identidad a un lugar. Elijo personas y lugares que conservan su carácter y tienen algo propio que compartir. Quiero ayudar a mantener vivas esas raíces en un mundo donde tantos lugares empiezan a parecerse.",
+        "en": "Traditional crafts, independent shops and local ways of doing things give a place its identity. I choose people and places that retain their character and have something of their own to share. I want to help keep those roots alive in a world where so many places are starting to look alike."
+      }
+    },
+    {
+      "title": {
+        "es": "Dejar una huella más ligera",
+        "en": "Leaving a lighter footprint"
+      },
+      "body": {
+        "es": "Cada viaje y actividad tiene un impacto. Priorizo caminar cuando tiene sentido, reduzco residuos y plásticos de un solo uso y busco transportes de menor impacto cuando están disponibles. Cuidar nuestro entorno empieza con las decisiones cotidianas.",
+        "en": "Every journey and activity has an impact. I prioritise walking where it makes sense, reduce waste and disposable plastics, and seek lower-impact transport when available. Caring for our surroundings starts with everyday decisions."
+      }
+    },
+    {
+      "title": {
+        "es": "Aprender de la naturaleza y respetar sus ritmos",
+        "en": "Learning from nature and respecting its rhythms"
+      },
+      "body": {
+        "es": "La naturaleza es más que un escenario: es un entorno vivo. Adapto las actividades a las estaciones y las condiciones, sigo los senderos señalizados y las normas locales y observo la fauna sin molestarla. Quiero compartir estos paisajes respetando sus límites y ritmos naturales.",
+        "en": "Nature is more than a backdrop: it is a living environment. I adapt activities to the seasons and conditions, follow marked trails and local rules, and observe wildlife without disturbing it. I want to share these landscapes while respecting their limits and natural rhythms."
+      }
+    },
+    {
+      "title": {
+        "es": "Devolver algo",
+        "en": "Giving something back"
+      },
+      "body": {
+        "es": "Compartir mi tierra también significa asumir una responsabilidad hacia ella. Destino una parte de los beneficios de GOXO a proyectos sociales y medioambientales locales, para que el crecimiento del negocio también contribuya al bienestar de quienes viven aquí y al cuidado de la tierra. Porque viajar también puede ser una forma de devolver algo.",
+        "en": "Sharing my homeland also means taking responsibility for it. I commit a share of GOXO’s profits to local social and environmental projects, so that growing the business also contributes to the wellbeing of the people who live here and the care of the land. Because travel can also be a way of giving back."
+      }
     }
-  ]
+  ],
+  "heroImage": "/media/client/1-basque-coast-cliffs-panorama.webp",
+  "portrait": "/media/client/endika-portrait-san-sebastian.webp",
+  "closingImage": "/media/client/endika-conversation-plaza-nueva.webp",
+  "contactImage": "/media/client/endika-portrait-san-sebastian.webp"
 }

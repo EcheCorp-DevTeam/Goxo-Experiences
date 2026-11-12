@@ -4,98 +4,88 @@
     "en": "Questions, answered."
   },
   "faqIntro": {
-    "es": "Todo lo que necesitas saber antes de planificar tu experiencia privada.",
-    "en": "Everything you need to know before planning your private experience."
+    "es": "Algunos detalles prácticos para ayudarte a planificar tu estancia con GOXO.",
+    "en": "A few practical details to help you plan your time with GOXO."
   },
   "faqs": [
     {
       "question": {
-        "es": "¿Cómo planifico una experiencia?",
-        "en": "How do I plan an experience?"
+        "es": "¿Cómo reservo una experiencia GOXO?",
+        "en": "How do I book a GOXO experience?"
       },
       "answer": {
-        "es": "Cuéntanos tus fechas, el número de personas y qué quieres descubrir. Te responderemos personalmente para ayudarte a elegir y confirmar disponibilidad.",
-        "en": "Tell us your travel dates, the number of guests and what you would like to discover. We will reply personally to help you choose the right experience and confirm availability."
+        "es": "Envía tus fechas preferidas, el número de personas y lo que te gustaría descubrir. Te responderé personalmente con la disponibilidad y una propuesta. Antes de reservar, recibirás el itinerario, las inclusiones, el precio final, las instrucciones de pago y las condiciones de cancelación.",
+        "en": "Send your preferred dates, the number of guests and what you would like to discover. I will reply personally with availability and a proposal. Before you book, you will receive the itinerary, inclusions, final price, payment instructions and cancellation terms."
       }
     },
     {
       "question": {
-        "es": "¿Todas las experiencias GOXO son privadas?",
-        "en": "Are all GOXO experiences private?"
+        "es": "¿Son privados todos los tours de GOXO?",
+        "en": "Are all GOXO tours private?"
       },
       "answer": {
-        "es": "Sí. Cada experiencia es para tu propio grupo. No hay grupos mezclados, y el ritmo, la conversación y el itinerario son personales de principio a fin.",
-        "en": "Yes. Every GOXO experience is designed for your own group. There are no mixed groups, so the pace, conversation and itinerary can feel personal from beginning to end."
+        "es": "Sí. Tu guía GOXO y tu itinerario están reservados para tu grupo, sin incorporar a otras personas. Las bodegas, museos, restaurantes y espacios de actividades pueden compartirse con otros visitantes, salvo que se haya confirmado una organización exclusiva.",
+        "en": "Yes. Your GOXO guide and itinerary are reserved for your group, with no other guests added. Wineries, museums, restaurants and activity venues may be shared with other visitors unless an exclusive arrangement has been confirmed."
       }
     },
     {
       "question": {
-        "es": "¿Podéis adaptar la experiencia a nosotros?",
-        "en": "Can you tailor the experience to us?"
+        "es": "¿Dónde nos encontramos y está incluido el transporte?",
+        "en": "Where do we meet, and is transport included?"
       },
       "answer": {
-        "es": "Por supuesto. Cuéntanos tus intereses, necesidades alimentarias y de movilidad y el ritmo que prefieres. Adaptaremos la experiencia a lo que más te importa.",
-        "en": "Of course. Tell us about your interests, dietary requirements, mobility needs and preferred pace. We will shape the experience around what matters most to you."
+        "es": "Las excursiones a Rioja, la Costa Vasca y San Sebastián y Getaria incluyen recogida en tu hotel de Bilbao y transporte entre las paradas. Para los recorridos a pie por Bilbao, acordamos un punto de encuentro conveniente y podemos encontrarnos en tu hotel cuando resulte práctico. Todos los detalles se confirman antes de reservar.",
+        "en": "Day trips to Rioja, the Basque Coast, and San Sebastián and Getaria include hotel pick-up in Bilbao and transport between stops. For Bilbao walking tours, we agree on a convenient meeting point and can meet at your hotel when practical. All arrangements are confirmed before booking."
       }
     },
     {
       "question": {
-        "es": "¿Dónde nos encontramos?",
-        "en": "Where do we meet?"
+        "es": "¿Qué está incluido en el precio?",
+        "en": "What is included in the price?"
       },
       "answer": {
-        "es": "En la mayoría de los casos, nos encontramos contigo en tu hotel. Si otro punto de encuentro es más adecuado para tu experiencia, lo confirmaremos con antelación y te enviaremos un enlace de Google Maps con todos los detalles prácticos.",
-        "en": "In most cases, we meet you at your hotel. If a different meeting point is more suitable for your experience, we will confirm it in advance and send you a Google Maps link with all the practical details."
+        "es": "Depende de la experiencia y las opciones que elijas. Tu propuesta enumera claramente el servicio de guía, transporte, entradas, catas, comidas y bebidas incluidos, junto con los extras opcionales y el precio final.",
+        "en": "It depends on the experience and the options you choose. Your proposal clearly lists the guiding, transport, tickets, tastings, meals and drinks included, along with any optional extras and the final price."
       }
     },
     {
       "question": {
-        "es": "¿Qué incluye cada tour?",
-        "en": "What is included in each tour?"
+        "es": "¿Podéis adaptar la experiencia a nuestros intereses y ritmo al caminar?",
+        "en": "Can you adapt the experience to our interests and walking pace?"
       },
       "answer": {
-        "es": "Cada experiencia es diferente. Antes de confirmar, recibirás una propuesta clara con itinerario, duración, punto de encuentro, gastronomía o catas incluidas cuando corresponda y precio final.",
-        "en": "Each experience is different. Before you confirm, you will receive a clear proposal with the itinerary, duration, meeting point, included food or tastings where applicable, and the final price."
+        "es": "Sí. Cuéntame lo que disfrutas, tu ritmo preferido y cualquier necesidad de movilidad. Hablaremos de un itinerario adecuado y de lo que puede adaptarse a tu grupo, los horarios de apertura y la disponibilidad.",
+        "en": "Yes. Tell me what you enjoy, your preferred pace and any mobility needs. We will discuss a suitable itinerary and what can be adapted around your group, opening times and availability."
       }
     },
     {
       "question": {
-        "es": "¿Qué idiomas ofrecéis?",
-        "en": "What languages do you offer?"
+        "es": "¿Podéis atender necesidades alimentarias o a personas que no beben alcohol?",
+        "en": "Can you accommodate dietary requirements or guests who do not drink alcohol?"
       },
       "answer": {
-        "es": "Las experiencias están disponibles en inglés y español. Indícanos tu idioma preferido al contactar.",
-        "en": "Experiences are available in English and Spanish. Please tell us your preferred language when you get in touch."
+        "es": "Indica cualquier alergia, necesidad alimentaria o preferencia de bebidas antes de reservar. Comprobaré opciones adecuadas con los locales, incluidas alternativas vegetarianas, sin gluten y sin alcohol, y comentaré cualquier limitación antes de confirmar.",
+        "en": "Please share any allergies, dietary requirements or drink preferences before booking. I will check suitable options with the venues, including vegetarian, gluten-free and non-alcoholic alternatives, and discuss any limitations before confirming."
       }
     },
     {
       "question": {
-        "es": "¿Qué debemos llevar?",
-        "en": "What should we bring?"
+        "es": "¿Qué idiomas están disponibles?",
+        "en": "What languages are available?"
       },
       "answer": {
-        "es": "Te enviaremos consejos prácticos antes de la experiencia. Normalmente basta con calzado cómodo y ropa adecuada al tiempo. Para la costa y el campo, podemos recomendar una prenda impermeable ligera.",
-        "en": "We will send you practical advice before the experience. Comfortable shoes and clothing suitable for the weather are usually all you need. For coastal and countryside experiences, we may recommend a light waterproof layer."
+        "es": "El servicio de guía de GOXO está disponible en inglés y español. Indícame tu idioma preferido al hacer la consulta. Para las actividades especializadas, confirmaremos los idiomas disponibles del proveedor al planificar tu itinerario.",
+        "en": "GOXO guiding is available in English and Spanish. Let me know your preferred language when you enquire. For specialist activities, we will confirm the provider’s available languages when planning your itinerary."
       }
     },
     {
       "question": {
-        "es": "¿Qué pasa si cambia el tiempo?",
-        "en": "What happens if the weather changes?"
+        "es": "¿Qué ocurre si el tiempo afecta a nuestros planes o necesitamos cancelar?",
+        "en": "What happens if the weather affects our plans, or we need to cancel?"
       },
       "answer": {
-        "es": "El País Vasco es precioso en cualquier estación, pero tu comodidad y seguridad son lo primero. Si el tiempo afecta a la experiencia, hablaremos contigo sobre la mejor alternativa, cambio de fecha o solución de cancelación.",
-        "en": "The Basque Country is beautiful in every season, but your comfort and safety come first. If the weather affects the experience, we will discuss the best alternative, rescheduling option or cancellation solution with you."
-      }
-    },
-    {
-      "question": {
-        "es": "¿Cómo confirmo y pago mi experiencia?",
-        "en": "How do I confirm and pay for my experience?"
-      },
-      "answer": {
-        "es": "Una vez acordada la experiencia y confirmada la disponibilidad, te enviaremos los detalles de reserva, el precio y las instrucciones de pago antes de confirmar nada.",
-        "en": "Once we have agreed on the right experience and confirmed availability, we will send you the booking details, price and payment instructions clearly before anything is confirmed."
+        "es": "Si las condiciones afectan al itinerario, hablaré contigo de alternativas adecuadas. Cualquier cambio, modificación de fecha o cancelación seguirá las condiciones facilitadas antes de reservar, incluidas las condiciones específicas de restaurantes, bodegas o proveedores de actividades.",
+        "en": "If conditions affect the itinerary, I will discuss suitable alternatives with you. Any changes, rescheduling or cancellations follow the terms provided before booking, including any specific conditions for restaurants, wineries or activity providers."
       }
     }
   ]

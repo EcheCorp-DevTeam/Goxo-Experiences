@@ -1,15 +1,20 @@
 ---
 import Base from '../layouts/Base.astro';
 import C from '../components/Copy.astro';
-import Host from '../components/Host.astro';
+import Photo from '../components/ClientPhoto.astro';
 import official from '../data/official';
+import {home} from '../data/home';
+import imageAlts from '../data/image-alts';
 import {languageOf} from '../data/urls';
 import '../styles/home.css';
 const lang=languageOf(Astro.url.pathname);
 ---
-<Base title={official.aboutTitle[lang]} description={official.aboutIntro[0][lang]}><main id="main">
-<section class="page-heading section-pad"><C tag="h1" {...official.aboutClaim}/>{official.aboutIntro.map(p=><C tag="p" {...p}/>)}</section>
-<section class="about-company section-pad">{official.aboutCompany.map(p=><C tag="p" {...p}/>)}<C tag="h2" class="display-title" es="Nuestro compromiso" en="Our commitment"/>{official.aboutCommitment.map(p=><C tag="p" {...p}/>)}</section>
-<Host full/>
+<Base title={official.aboutTitle[lang]} description={official.aboutIntro[0][lang]}><main id="main" class="about-page">
+ <Photo class="about-landscape" src={official.heroImage} alt={imageAlts[official.heroImage][lang]} data-alt-es={imageAlts[official.heroImage].es} data-alt-en={imageAlts[official.heroImage].en} eager sizes="100vw"/>
+ <section class="page-heading section-pad"><C tag="h1" class="preserve-lines" {...official.aboutClaim}/>{official.aboutIntro.map(p=><C tag="p" {...p}/>)}</section>
+ <section class="about-story section-pad" id="story"><div><C tag="h2" class="display-title" {...official.storyTitle}/>{official.aboutCompany.map(p=><C tag="p" {...p}/>)}</div><div class="host-presentation"><Photo src={official.portrait} alt={imageAlts[official.portrait][lang]} data-alt-es={imageAlts[official.portrait].es} data-alt-en={imageAlts[official.portrait].en}/>{(home.host.videoUrl||home.host.video)&&<><video id="host-video" data-src={home.host.videoUrl||home.host.video} poster={official.portrait} controls playsinline preload="none" hidden>{home.host.captions.map(track=><track kind="captions" src={track.src} srclang={track.lang} label={track.label}/>)}</video><C tag="button" id="host-play" class="button" {...home.host.play}/><C tag="p" id="host-video-error" role="status" hidden {...home.host.error}/></>}</div></section>
+ <section class="about-values section-pad" id="values"><C tag="p" {...official.valuesIntro}/><C tag="h2" class="display-title" {...official.valuesTitle}/><div class="values-controls"><C tag="button" class="text-link" data-values-open="true" aria-controls="values-list" es="Abrir todos" en="Expand all"/><C tag="button" class="text-link" data-values-open="false" aria-controls="values-list" es="Cerrar todos" en="Collapse all"/></div><div id="values-list">{official.values.map(value=><details><C tag="summary" {...value.title}/><C tag="p" {...value.body}/></details>)}</div></section>
+ <section class="section-pad about-closing"><Photo src={official.closingImage} alt={imageAlts[official.closingImage][lang]} data-alt-es={imageAlts[official.closingImage].es} data-alt-en={imageAlts[official.closingImage].en} sizes="(max-width: 760px) 100vw, 80vw"/></section>
+ <section class="final-cta section-pad"><C tag="h2" class="display-title" es="Planifica tu experiencia." en="Plan Your Experience."/><C tag="p" {...official.finalBody}/><C tag="a" class="button" href="/contact/" es="Planifica tu experiencia" en="Plan Your Experience"/></section>
 </main></Base>
 <script>import '../scripts/home-media';</script>

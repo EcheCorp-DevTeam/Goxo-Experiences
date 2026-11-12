@@ -1,5 +1,5 @@
 {
-  "coast": "/media/cms/media/coast.webp",
+  "coast": "/media/client/1-gaztelugatxe-aerial-stairway.webp",
   "bilbao": "/media/cms/media/bilbao.webp",
   "pintxos": "/media/cms/media/pintxos.webp",
   "rioja": "/media/cms/media/rioja.webp",
@@ -44,24 +44,6 @@
   "video": "/media/cms/media/video.mp4",
   "credits": [
     {
-      "title": "San juan de gaztelugatxe, Bilbao (Unsplash)",
-      "author": "Nuri Lopez (bartalamus)",
-      "license": "CC0 1.0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "source": "https://commons.wikimedia.org/wiki/File:San_juan_de_gaztelugatxe,_Bilbao_(Unsplash).jpg",
-      "notes": "Photo of real Gaztelugatxe. Taken 26 January 2017; Commons verifies pre-June-2017 Unsplash CC0 publication.",
-      "file": "gaztelugatxe.jpg"
-    },
-    {
-      "title": "Viñedos en Rodezno, La Rioja",
-      "author": "Nicolás Pérez Gimilio (Nicondarreta)",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "source": "https://commons.wikimedia.org/wiki/File:Vi%C3%B1edos_en_Rodezno,_La_Rioja.jpg",
-      "notes": "Real vineyards in Rodezno, La Rioja; 7 July 2020.",
-      "file": "rioja.jpg"
-    },
-    {
       "title": "White Cliff Top",
       "author": "Greg Zaal",
       "license": "CC0 1.0",
@@ -98,169 +80,442 @@
       "file": "gaztelugatxe-video.webm"
     },
     {
-      "title": "Puerto de Mundaka",
-      "author": "MiguelAlanCS",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Mundaka_2023_-_23_puerto.jpg",
-      "file": "gallery-mundaka.webp"
-    },
-    {
-      "title": "Árbol de Gernika",
-      "author": "Lpikaza",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Gernikako_arbola_2.JPG",
-      "file": "gallery-gernika.webp"
-    },
-    {
-      "title": "Ayuntamiento viejo de Laguardia",
-      "author": "Gilles Messian from Paris, France",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "source": "https://commons.wikimedia.org/wiki/File:Laguardia,_Pays_Basque,_Espagne_(22258056152).jpg",
-      "file": "gallery-laguardia.webp"
-    },
-    {
-      "title": "Bodegas Bilbaínas, Haro",
-      "author": "Zarateman",
-      "license": "CC0",
-      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "source": "https://commons.wikimedia.org/wiki/File:Haro_-_Bodegas_Bilba%C3%ADnas-Vi%C3%B1a_Pomal_04.jpg",
-      "file": "gallery-haro.webp"
-    },
-    {
-      "title": "Endika guiando una experiencia privada en el Casco Viejo de Bilbao",
+      "file": "1-rioja-vineyards-mountains.webp",
+      "title": "Vineyards beneath the mountains in Rioja.",
       "author": "GOXO Experiences",
       "license": "Todos los derechos reservados",
       "licenseUrl": "",
       "source": "",
-      "notes": "Fotografía propia del cliente.",
-      "file": "bilbao-local-guide.webp"
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
     },
     {
-      "title": "La ría de Bilbao desde Artxanda",
+      "file": "rioja-grapes-sunlight.webp",
+      "title": "Grapes and vine leaves backlit by the sun.",
       "author": "GOXO Experiences",
       "license": "Todos los derechos reservados",
       "licenseUrl": "",
       "source": "",
-      "notes": "Fotografía propia del cliente.",
-      "file": "bilbao.webp"
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
     },
     {
-      "title": "Barra de pintxos en el Casco Viejo",
+      "file": "rioja-wine-tasting-stone-vault.webp",
+      "title": "A wine tasting room beneath a stone vault.",
       "author": "GOXO Experiences",
       "license": "Todos los derechos reservados",
       "licenseUrl": "",
       "source": "",
-      "notes": "Fotografía propia del cliente.",
-      "file": "pintxos.webp"
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
     },
     {
-      "title": "Endika, guía local de GOXO Experiences",
+      "file": "rioja-winery-stone-cellar.webp",
+      "title": "Wine barrels beneath a stone vault in a Rioja cellar.",
       "author": "GOXO Experiences",
       "license": "Todos los derechos reservados",
       "licenseUrl": "",
       "source": "",
-      "notes": "Fotografía propia del cliente.",
-      "file": "endika.webp"
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
     },
     {
-      "title": "Endika con un grupo privado en Bilbao",
+      "file": "stone-village-street.webp",
+      "title": "A narrow street lined with traditional stone buildings.",
       "author": "GOXO Experiences",
       "license": "Todos los derechos reservados",
       "licenseUrl": "",
       "source": "",
-      "notes": "Fotografía propia del cliente.",
-      "file": "grupo.webp"
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
     },
     {
-      "title": "Las Siete Calles, Casco Viejo de Bilbao",
+      "file": "stone-winery-facade-vine.webp",
+      "title": "A vine growing over the stone façade of a winery.",
       "author": "GOXO Experiences",
       "license": "Todos los derechos reservados",
       "licenseUrl": "",
       "source": "",
-      "notes": "Fotografía propia del cliente.",
-      "file": "gallery-casco-viejo.webp"
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
     },
     {
-      "title": "Sobremesa en una terraza de Bilbao",
+      "file": "travellers-wine-toast-terrace.webp",
+      "title": "Two people raising wine glasses on a terrace.",
       "author": "GOXO Experiences",
       "license": "Todos los derechos reservados",
       "licenseUrl": "",
       "source": "",
-      "notes": "Fotografía propia del cliente.",
-      "file": "gallery-bar-bilbao.webp"
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
     },
     {
-      "title": "La ría a su paso por el Casco Viejo",
+      "file": "winery-wooden-barrels.webp",
+      "title": "Rows of wooden wine barrels in a cellar.",
       "author": "GOXO Experiences",
       "license": "Todos los derechos reservados",
       "licenseUrl": "",
       "source": "",
-      "notes": "Fotografía propia del cliente.",
-      "file": "gallery-zubizuri.webp"
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
     },
     {
-      "title": "Teatro Arriaga, Bilbao",
+      "file": "1-gaztelugatxe-aerial-stairway.webp",
+      "title": "Aerial view of Gaztelugatxe and its stone stairway.",
       "author": "GOXO Experiences",
       "license": "Todos los derechos reservados",
       "licenseUrl": "",
       "source": "",
-      "notes": "Fotografía propia del cliente.",
-      "file": "gallery-arriaga.webp"
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
     },
     {
-      "title": "Mercado de la Ribera, Bilbao",
+      "file": "gaztelugatxe-coastal-panorama.webp",
+      "title": "Gaztelugatxe and the surrounding coast seen from above.",
       "author": "GOXO Experiences",
       "license": "Todos los derechos reservados",
       "licenseUrl": "",
       "source": "",
-      "notes": "Fotografía propia del cliente.",
-      "file": "gallery-ribera.webp"
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
     },
     {
-      "title": "Calles del Casco Viejo de Bilbao",
+      "file": "gaztelugatxe-stone-steps.webp",
+      "title": "The winding stone staircase at Gaztelugatxe.",
       "author": "GOXO Experiences",
       "license": "Todos los derechos reservados",
       "licenseUrl": "",
       "source": "",
-      "notes": "Fotografía propia del cliente.",
-      "file": "gallery-siete-calles.webp"
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
     },
     {
-      "title": "San Sebastián - Playa de la Concha 01",
-      "author": "Zarateman",
-      "license": "CC0 1.0 — dominio público",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "source": "https://commons.wikimedia.org/wiki/File:San_Sebasti%C3%A1n_-_Playa_de_la_Concha_01.jpg",
-      "notes": "Imagen provisional de referencia solicitada por el cliente. Sustituir por fotografía oficial de GOXO.",
-      "file": "san-sebastian-reference.webp"
+      "file": "gernika-guernica-mural.webp",
+      "title": "The ceramic reproduction of Guernica in Gernika.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "mundaka-harbour-terrace.webp",
+      "title": "People sharing food on a terrace beside Mundaka harbour.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "urdaibai-estuary.webp",
+      "title": "The Urdaibai estuary surrounded by green hills.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "1-bilbao-pintxos-basque-flags.webp",
+      "title": "Pintxos topped with small Basque flags on a bar counter.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "bilbao-bar-toast.webp",
+      "title": "Three people raising their glasses at a bar in Bilbao.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "endika-conversation-plaza-nueva.webp",
+      "title": "Endika talking with two people at a terrace in Plaza Nueva.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "gorostiaga-hat-shop-bilbao.webp",
+      "title": "The Gorostiaga hat shop in Bilbao’s Old Town.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "pintxos-white-plates.webp",
+      "title": "A selection of pintxos served on small white plates.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "plaza-nueva-bilbao.webp",
+      "title": "Plaza Nueva in Bilbao, with arcades, terraces and palm trees.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "1-guggenheim-bilbao-riverside.webp",
+      "title": "The Guggenheim Museum beside the river in Bilbao.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "arriaga-theatre-bilbao.webp",
+      "title": "The façade of the Arriaga Theatre in Bilbao.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "bilbao-old-town-river.webp",
+      "title": "The river, a bridge and La Ribera Market in Bilbao.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "endika-walking-travellers-bilbao.webp",
+      "title": "Endika walking and talking with visitors in Bilbao.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "guggenheim-bilbao-steel-sculptures.webp",
+      "title": "Large curved steel sculptures inside the Guggenheim Museum Bilbao.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "guggenheim-titanium-detail.webp",
+      "title": "Curved titanium panels on the Guggenheim Museum.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "la-ribera-market-interior.webp",
+      "title": "Stained-glass windows above the interior of La Ribera Market.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "maman-guggenheim-bilbao.webp",
+      "title": "The Maman spider sculpture outside the Guggenheim Museum.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "1-ondarreta-monte-igueldo.webp",
+      "title": "Ondarreta beach and Monte Igueldo in San Sebastián.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "buen-pastor-san-sebastian.webp",
+      "title": "Buen Pastor Cathedral framed by buildings in San Sebastián.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "getaria-old-town-street.webp",
+      "title": "A street in Getaria’s Old Town.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "la-concha-bay-garden.webp",
+      "title": "La Concha Bay seen from a garden behind an iron railing.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "plaza-constitucion-san-sebastian.webp",
+      "title": "Plaza de la Constitución seen through an archway in San Sebastián.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "san-sebastian-architecture.webp",
+      "title": "Ornate façades and a domed building in San Sebastián.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "1-basque-coast-cliffs-panorama.webp",
+      "title": "Green hills and cliffs overlooking the Basque coast.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "coastal-cliffs-walk.webp",
+      "title": "Layered coastal cliffs overlooking the sea.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "cows-mountain-landscape.webp",
+      "title": "Cows resting and grazing among rocks in a mountain landscape.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "green-mountain-valley.webp",
+      "title": "Green slopes and rural buildings spread across a mountain valley.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "guggenheim-bilbao-la-salve.webp",
+      "title": "The Guggenheim Museum beside La Salve Bridge in Bilbao.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "peine-del-viento-sunset.webp",
+      "title": "The Peine del Viento sculptures beside the sea at sunset.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "sunset-sea-of-clouds.webp",
+      "title": "Sunset light above a sea of clouds between mountain ridges.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "endika-explaining-bilbao.webp",
+      "title": "Endika pointing out buildings beside the river in Bilbao.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
+    },
+    {
+      "file": "endika-portrait-san-sebastian.webp",
+      "title": "Endika smiling beside the sea in San Sebastián.",
+      "author": "GOXO Experiences",
+      "license": "Todos los derechos reservados",
+      "licenseUrl": "",
+      "source": "",
+      "notes": "Fotografía entregada por GOXO; versión web optimizada."
     }
   ],
   "galleries": {
     "costa-vasca": [
-      "/media/gallery-mundaka.webp",
-      "/media/gallery-gernika.webp"
+      "/media/client/urdaibai-estuary.webp",
+      "/media/client/mundaka-harbour-terrace.webp",
+      "/media/client/gernika-guernica-mural.webp",
+      "/media/client/gaztelugatxe-stone-steps.webp",
+      "/media/client/gaztelugatxe-coastal-panorama.webp"
     ],
     "rioja": [
-      "/media/gallery-laguardia.webp",
-      "/media/gallery-haro.webp"
+      "/media/client/rioja-winery-stone-cellar.webp",
+      "/media/client/travellers-wine-toast-terrace.webp",
+      "/media/client/rioja-grapes-sunlight.webp",
+      "/media/client/rioja-wine-tasting-stone-vault.webp",
+      "/media/client/stone-winery-facade-vine.webp",
+      "/media/client/winery-wooden-barrels.webp",
+      "/media/client/stone-village-street.webp"
     ],
     "pintxos": [
-      "/media/gallery-casco-viejo.webp",
-      "/media/gallery-bar-bilbao.webp",
-      "/media/gallery-siete-calles.webp"
+      "/media/client/bilbao-bar-toast.webp",
+      "/media/client/pintxos-white-plates.webp",
+      "/media/client/endika-conversation-plaza-nueva.webp",
+      "/media/client/gorostiaga-hat-shop-bilbao.webp",
+      "/media/client/plaza-nueva-bilbao.webp"
     ],
     "bilbao-cultura": [
-      "/media/bilbao-local-guide.webp",
-      "/media/bilbao.webp",
-      "/media/gallery-arriaga.webp",
-      "/media/gallery-ribera.webp",
-      "/media/gallery-siete-calles.webp"
+      "/media/client/maman-guggenheim-bilbao.webp",
+      "/media/client/guggenheim-titanium-detail.webp",
+      "/media/client/arriaga-theatre-bilbao.webp",
+      "/media/client/bilbao-old-town-river.webp",
+      "/media/client/la-ribera-market-interior.webp",
+      "/media/client/endika-walking-travellers-bilbao.webp",
+      "/media/client/guggenheim-bilbao-steel-sculptures.webp"
     ],
     "san-sebastian-getaria": [
-      "/media/san-sebastian-reference.webp"
+      "/media/client/getaria-old-town-street.webp",
+      "/media/client/buen-pastor-san-sebastian.webp",
+      "/media/client/plaza-constitucion-san-sebastian.webp",
+      "/media/client/san-sebastian-architecture.webp",
+      "/media/client/la-concha-bay-garden.webp"
+    ],
+    "multi-day": [
+      "/media/client/guggenheim-bilbao-la-salve.webp",
+      "/media/client/peine-del-viento-sunset.webp",
+      "/media/client/green-mountain-valley.webp",
+      "/media/client/cows-mountain-landscape.webp",
+      "/media/client/sunset-sea-of-clouds.webp",
+      "/media/client/coastal-cliffs-walk.webp",
+      "/media/client/travellers-wine-toast-terrace.webp",
+      "/media/client/rioja-wine-tasting-stone-vault.webp"
     ]
   },
   "labels": {
@@ -276,6 +531,6 @@
     "/media/gallery-siete-calles.webp": "Calles del Casco Viejo de Bilbao",
     "/media/san-sebastian-reference.webp": "Playa de La Concha, San Sebastián"
   },
-  "endika": "/media/cms/media/endika.webp",
+  "endika": "/media/client/endika-portrait-san-sebastian.webp",
   "grupo": "/media/cms/media/grupo.webp"
 }

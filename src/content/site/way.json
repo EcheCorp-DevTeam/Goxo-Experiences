@@ -1,60 +1,60 @@
 {
   "whyTitle": {
-    "es": "Goxo es una palabra vasca que evoca algo sabroso, reconfortante y hecho con cariño.",
-    "en": "Goxo is a Basque word that evokes something tasty, comforting and made with care."
+    "es": "GOXO toma su nombre de la palabra vasca «goxo», que evoca algo sabroso, reconfortante y hecho con cariño.",
+    "en": "GOXO takes its name from the Basque word goxo, evoking something tasty, comforting and made with care."
   },
   "whyIntro": {
-    "es": "Así creemos que debe sentirse un viaje: personal, generoso y conectado con el lugar que visitas.",
-    "en": "That is how we believe travel should feel: personal, generous and connected to the place you are visiting."
+    "es": "Esa idea da forma a mi manera de recibirte: a través de un viaje personal y cuidado, conectado con el lugar que visitas.",
+    "en": "That idea shapes the way I welcome you: through personal, thoughtful travel, connected to the place you are visiting."
   },
   "whySupport": {
-    "es": "GOXO nació para quienes buscan algo más que una lista de lugares. Diseñamos experiencias privadas que te acercan a las personas, la gastronomía, el vino y los paisajes del País Vasco.",
-    "en": "GOXO was created for travellers who want more than a list of places to see. We design private experiences that bring you closer to the people, food, wine and landscapes that make the Basque Country special."
+    "es": "Desde Bilbao, creo experiencias privadas de gastronomía, vino y cultura por el País Vasco y Rioja, adaptadas a tus intereses y a tu ritmo.",
+    "en": "Based in Bilbao, I create private food, wine and cultural experiences across the Basque Country and Rioja, shaped around your interests and your pace."
   },
   "reasons": [
     {
       "title": {
-        "es": "Siempre privado",
-        "en": "Private by design"
+        "es": "Recibirte como me gusta viajar",
+        "en": "Welcoming you as I like to travel"
       },
       "body": {
-        "es": "Tu grupo, tus intereses y tu ritmo, con atención personal en todo momento.",
-        "en": "Your group, your interests and your pace, with personal attention throughout."
+        "es": "Calidez, cuidado y tiempo para escuchar. Adapto cada experiencia privada a tus intereses, para que te sientas bienvenido y libre de disfrutarla a tu manera.",
+        "en": "Warmth, care and time to listen. I shape each private experience around your interests, so you feel welcome and free to enjoy it your way."
       },
-      "image": "/media/cms/way/reasons-0-image.webp",
+      "image": "/media/client/endika-explaining-bilbao.webp",
       "imageAlt": {
-        "es": "Endika con un grupo en Bilbao",
-        "en": "Endika with a group in Bilbao"
+        "es": "Endika señala edificios junto a la ría de Bilbao.",
+        "en": "Endika pointing out buildings beside the river in Bilbao."
       }
     },
     {
       "title": {
-        "es": "Una mirada local",
-        "en": "A local perspective"
+        "es": "Conexiones locales, encuentros reales",
+        "en": "Local connections, real encounters"
       },
       "body": {
-        "es": "Descubre los lugares, las personas y las historias que hacen que el País Vasco se sienta como en casa.",
-        "en": "Discover the places, people and stories that make the Basque Country feel like home."
+        "es": "Te acerco a lugares que conozco, personas en quienes confío y las historias que hay detrás de la gastronomía, el vino y la vida cotidiana de la región.",
+        "en": "I introduce you to places I know, people I trust and the stories behind the region’s food, wine and everyday life."
       },
-      "image": "/media/cms/way/reasons-1-image.webp",
+      "image": "/media/client/endika-conversation-plaza-nueva.webp",
       "imageAlt": {
-        "es": "Calles del Casco Viejo de Bilbao",
-        "en": "Streets of Bilbao’s Old Town"
+        "es": "Endika conversa con dos personas en una terraza de la Plaza Nueva.",
+        "en": "Endika talking with two people at a terrace in Plaza Nueva."
       }
     },
     {
       "title": {
-        "es": "Gastronomía y vino con sentido del lugar",
-        "en": "Food and wine with a sense of place"
+        "es": "Mantener vivas nuestras raíces",
+        "en": "Keeping our roots alive"
       },
       "body": {
-        "es": "Conoce los sabores locales a través de bares independientes, bodegas familiares y las historias que hay detrás.",
-        "en": "Meet local flavours through independent bars, family wineries and the stories behind them."
+        "es": "Apoyo a los negocios independientes y busco colaboraciones justas y duraderas con las personas cuyo trabajo da carácter a este lugar.",
+        "en": "I support independent businesses and seek fair, lasting partnerships with the people whose work gives this place its character."
       },
-      "image": "/media/cms/way/reasons-2-image.webp",
+      "image": "/media/client/gorostiaga-hat-shop-bilbao.webp",
       "imageAlt": {
-        "es": "Barra de pintxos en el Casco Viejo de Bilbao",
-        "en": "Pintxos counter in Bilbao’s Old Town"
+        "es": "La sombrerería Gorostiaga en el Casco Viejo de Bilbao.",
+        "en": "The Gorostiaga hat shop in Bilbao’s Old Town."
       }
     },
     {
@@ -63,13 +63,13 @@
         "en": "Travel that gives back"
       },
       "body": {
-        "es": "Apoyamos a negocios locales, tomamos decisiones responsables y destinamos una parte de nuestros beneficios a proyectos sociales y ambientales locales.",
-        "en": "We support local businesses, make responsible choices and commit a share of our profits to local social and environmental projects."
+        "es": "Tomo decisiones responsables y destino una parte de los beneficios de GOXO a proyectos sociales y medioambientales locales.",
+        "en": "I make responsible choices and commit a share of GOXO’s profits to local social and environmental projects."
       },
-      "image": "/media/cms/way/reasons-3-image.webp",
+      "image": "/media/client/green-mountain-valley.webp",
       "imageAlt": {
-        "es": "Panorámica de Bilbao y su ría desde Artxanda",
-        "en": "Bilbao and its river seen from Artxanda"
+        "es": "Laderas verdes y edificios rurales distribuidos por un valle de montaña.",
+        "en": "Green slopes and rural buildings spread across a mountain valley."
       }
     }
   ]
