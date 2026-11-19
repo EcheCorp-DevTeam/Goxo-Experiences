@@ -10,7 +10,7 @@ async (sharedPage) => {
   await page.goto(base+'/');await page.waitForTimeout(1700);
   assert(await page.locator('html').getAttribute('lang')==='en','Default locale');
   assert(await page.locator('main h1').count()===1,'Single H1');
-  assert(await page.locator('#home-claim').innerText()==='Private tours in Bilbao and the Basque Country — led by a local.','Official H1');
+  assert(await page.locator('#home-claim').innerText()==='Private tours in Bilbao and the Basque Country led by a local.','Official H1');
   assert(await page.locator('#hero-video').getAttribute('src')===null,'Reduced motion fetched video');
   assert(await page.locator('[data-tour-card]').count()===5,'Five experiences');
   assert(await page.locator('.reason-card img').count()===5,'Five illustrated reasons');

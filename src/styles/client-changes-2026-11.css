@@ -1,0 +1,91 @@
+/* Client changes requested on 12 Nov 2026. Loaded last so it overrides earlier layers. */
+:root{--card-green:#e8ebdd;--card-green-line:#cfd5bd}
+
+/* Text blocks use the full width of the main container, with even side margins. */
+body .section-intro,body .section-note,body .about-company>p,body .reason-card p,body .host-copy p,
+body .home .host-story-paragraph,body .tour-card-body .tour-description,body .experience-description p,
+body .experience-options p,body .about-story p,body .about-page .page-heading p,body .page-heading>p:not(.eyebrow),
+body .experience-faq details p,body .about-values details p,body .schedule-note,body .journal-empty,
+body .legal-content p,body .faq-section p{max-width:none}
+body .experience-faq,body .about-company,body .experience-options,body .about-values,body .legal-content{max-width:none}
+
+/* Justified content text; the last line keeps natural spacing, short titles are untouched. */
+body main p,body main li,body main dd,body main blockquote{text-align:justify;text-align-last:auto;hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word}
+body main :is(.eyebrow,.tour-card-facts,.reviews-note,.form-note,.review-stars),
+body main :is(h1,h2,h3,h4,summary,label,legend,button,.button,.text-link),
+body main .hero p,body main .contact-result p{text-align:inherit;hyphens:manual;-webkit-hyphens:manual}
+@media(max-width:760px){body main{overflow-x:clip}}
+
+/* GOXO Way: the values link closes the section on its own. */
+body .reasons-section>.text-link{margin-top:clamp(56px,7vw,96px)}
+
+/* Experiences intro: more air between title and note, same block. */
+body .home .experiences-section .display-title{margin-bottom:0}
+body .home .experiences-section .section-note{margin-top:20px}
+@media(max-width:760px){body .home .experiences-section .section-note{margin-top:32px}}
+
+/* Home experience cards: photo and light green panel read as one bordered card. */
+body .home .tours-grid{gap:clamp(32px,4vw,56px)}
+body .home .tour-card{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:0;align-items:stretch;background:var(--card-green);border:1px solid var(--card-green-line);border-radius:0;box-shadow:none;overflow:hidden}
+body .home .tour-card-photo{display:block;height:100%;min-height:clamp(320px,32vw,520px);background:var(--card-green-line)}
+body .home .tour-card-photo img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:center;border-radius:0}
+body .home .tour-card-body{justify-content:center;padding:clamp(32px,4vw,64px)}
+body .home .tour-card-body h3{margin-bottom:16px}
+body .tour-card-facts{margin:0 0 28px;font-size:1rem;line-height:1.6;color:var(--ink);font-weight:500;text-align:left}
+@media(max-width:760px){
+ body .home .tour-card{grid-template-columns:1fr}
+ body .home .tour-card-photo{min-height:0;height:auto}
+ body .home .tour-card-photo img{height:auto;aspect-ratio:3/2}
+ body .home .tour-card-body{padding:28px 24px 32px}
+}
+
+/* Developer credit: discreet, no phone number. */
+body .developer-credit{font-size:.8125rem;color:inherit;opacity:.8}
+body .developer-credit a{margin-left:0}
+
+/* About: a thin horizontal strip instead of a full-screen photograph. */
+body .about-page .about-landscape{width:100%;height:clamp(280px,24vw,360px);max-height:none;aspect-ratio:auto;object-fit:cover;object-position:center 45%}
+@media(max-width:760px){body .about-page .about-landscape{height:clamp(180px,52vw,240px)}}
+
+/* Experience pages: short intro, AT A GLANCE and inclusions before the long description. */
+body .experience-overview{grid-template-columns:minmax(0,1.5fr) minmax(280px,1fr);grid-template-areas:"lead summary" "story summary";row-gap:0}
+body .experience-overview .experience-lead{grid-area:lead}
+body .experience-overview .experience-summary{grid-area:summary}
+body .experience-overview .experience-description{grid-area:story}
+@media(max-width:760px){
+ body .experience-overview{grid-template-columns:1fr;grid-template-areas:"lead" "summary" "story";row-gap:32px}
+ body .experience-overview .experience-introduction{margin-bottom:0}
+}
+
+/* Optional extras open like the About values (+ / −); several can be open at once. */
+body .experience-extra{border-bottom:1px solid var(--line)}
+body .experience-extra:first-of-type,body .experience-options h3+.experience-extra{border-top:1px solid var(--line)}
+body .experience-extra summary{font:500 clamp(22px,2.5vw,30px)/1.4 var(--serif)}
+body .experience-extra-body{padding:0 0 24px}
+body .experience-extra-body p{padding:0;margin:0 0 16px}
+body .experience-extra-body .text-link{margin-top:4px}
+
+/* Horizontal gallery with arrows, swipe and a peek of the next photograph. */
+body .gallery-carousel{position:relative;margin:35px 0 20px}
+body .gallery-track{position:relative;display:flex;gap:16px;margin:0;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+body .gallery-track::-webkit-scrollbar{display:none}
+body .gallery-track .gallery-tile,body .gallery-grid .gallery-tile:only-child{flex:0 0 min(78%,1150px);scroll-snap-align:start;padding:0;border:0;background:none;cursor:zoom-in}
+body .gallery-track .gallery-tile:only-child{flex-basis:100%}
+body .gallery-track .gallery-tile img,body .gallery-grid .gallery-tile:only-child img{width:100%;height:auto;aspect-ratio:3/2!important;object-fit:cover;border-radius:0;transform:none}
+body .gallery-arrow{position:absolute;top:50%;z-index:2;display:grid;place-items:center;width:52px;height:52px;margin-top:-26px;border:1px solid var(--ink);border-radius:50%;background:var(--cream);color:var(--ink);font-size:22px;line-height:1}
+body .gallery-prev{left:12px}
+body .gallery-next{right:12px}
+body .gallery-arrow:disabled{opacity:.35;cursor:default}
+body .gallery-track:focus-visible{outline:3px solid var(--olive);outline-offset:4px}
+@media(max-width:760px){
+ body .gallery-track{gap:10px}
+ body .gallery-track .gallery-tile{flex-basis:86%}
+ body .gallery-arrow{width:44px;height:44px;margin-top:-22px;font-size:18px}
+ body .gallery-prev{left:6px}
+ body .gallery-next{right:6px}
+}
+@media(prefers-reduced-motion:reduce){body .gallery-track{scroll-behavior:auto}}
+
+/* Optional commercial subtitle (The Bilbao Experience). */
+body .tour-card-subtitle{margin:-8px 0 16px;font:italic 400 clamp(20px,1.8vw,26px)/1.3 var(--serif);text-align:left}
+body .detail-subtitle{margin:12px 0 0;font:italic 400 clamp(22px,2.4vw,34px)/1.3 var(--serif);text-align:left}

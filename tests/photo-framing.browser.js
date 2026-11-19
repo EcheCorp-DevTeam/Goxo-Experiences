@@ -27,7 +27,8 @@ async(sharedPage)=>{
       if(img.closest('.home-backdrop'))return null; // Decorative video poster, not content photography.
       const box=img.getBoundingClientRect(),css=getComputedStyle(img);
       const ratio=img.naturalWidth/img.naturalHeight,frame=box.width/box.height;
-      const cover=img.parentElement.classList.contains('detail-hero');
+      // Banners and landscape crops requested by the client (12 Nov 2026) are intentional covers.
+      const cover=img.parentElement.classList.contains('detail-hero')||img.matches('.about-landscape,.gallery-tile img,.home .tour-card-photo img');
       if(cover&&Math.abs(box.width-img.parentElement.clientWidth)>1)throw new Error('Tour cover must fill banner width');
       const cropped=!cover&&css.objectFit==='cover'&&Math.abs(ratio-frame)>.02;
       const distorted=css.objectFit==='fill'&&Math.abs(ratio-frame)>.02;

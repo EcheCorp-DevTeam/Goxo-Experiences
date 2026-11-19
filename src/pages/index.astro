@@ -11,11 +11,15 @@ import settings from '../content/site/settings.json';
 import {languageOf} from '../data/urls';
 import '../styles/home.css';
 const lang=languageOf(Astro.url.pathname);
+// A YouTube link in the CMS plays as a muted background loop through the privacy-enhanced embed.
+const heroVideo=home.hero.videoUrl||home.hero.video;
+const youtubeId=heroVideo.match(/(?:youtube\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/)|youtu\.be\/)([\w-]{11})/)?.[1];
+const youtubeSrc=youtubeId&&`https://www.youtube-nocookie.com/embed/${youtubeId}?autoplay=1&mute=1&loop=1&playlist=${youtubeId}&controls=0&playsinline=1&rel=0&modestbranding=1&disablekb=1&iv_load_policy=3&fs=0&enablejsapi=1`;
 const googleReviewsUrl=settings.googleReviewsUrl||import.meta.env.PUBLIC_GOOGLE_REVIEWS_URL||'';
 ---
 <Base dark title={official.title[lang]} description={official.description[lang]}><main id="main" class="home">{settings.homeSections.filter(section=>section.visible).map(section=><>
 {section.id==='hero'&&<section id="hero" class="hero home-hero" aria-labelledby="home-claim">
- <div class="home-backdrop"><img src={home.hero.poster} alt="" width="1920" height="1200" fetchpriority="high" loading="eager"/><video id="hero-video" data-src={home.hero.videoUrl||home.hero.video} autoplay muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video></div><div class="hero-shade"></div>
+ <div class="home-backdrop"><img src={home.hero.poster} alt="" width="1920" height="1200" fetchpriority="high" loading="eager"/>{youtubeSrc?<iframe id="hero-video" class="hero-youtube" data-src={youtubeSrc} title="" aria-hidden="true" tabindex="-1" allow="autoplay; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin"></iframe>:<video id="hero-video" data-src={heroVideo} autoplay muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>}</div><div class="hero-shade"></div>
  <div class="hero-content"><C tag="h1" id="home-claim" {...official.claim}/><C tag="a" class="button button-light" href="/contact/" {...home.hero.cta}/></div><button id="hero-motion" class="home-video-toggle" aria-label={home.hero.pause[lang]}>Ⅱ</button>
 </section>}
 {section.id==='experiences'&&<section id="experiencias" class="experiences-section section-pad"><div class="section-heading"><div><C tag="p" class="eyebrow" es="EXPERIENCIAS PRIVADAS" en="PRIVATE EXPERIENCES"/><C tag="h2" class="display-title" {...official.experiencesTitle}/></div><C tag="p" class="section-note" {...official.experiencesIntro}/></div><div class="tours-grid" id="tours-grid">{tours.map(tour=><TourCard tour={tour}/>)}</div></section>}

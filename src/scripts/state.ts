@@ -23,7 +23,7 @@ type Enquiry={name:string;email:string;guests:number;date:string;message:string;
 export function validateEnquiry({name,email,guests,date,message,tourLang='',interests=[],interestsNote=''}:Enquiry){
  if(interests.some(value=>!journeyInterests.includes(value as any))||new Set(interests).size!==interests.length||interestsNote.length>1000)throw new Error('Invalid journey interests');
  if(tourLang&&!tourLanguages.includes(tourLang as any))throw new Error('Invalid tour language');
- if(!name.trim()||name.length>80||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)||email.length>150||!Number.isInteger(guests)||guests<2||guests>8||message.length>1500)throw new Error('Please review your enquiry');
+ if(!name.trim()||name.length>80||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)||email.length>150||!Number.isInteger(guests)||guests<1||guests>8||message.length>1500)throw new Error('Please review your enquiry');
  if(date&&!/^\d{4}-\d{2}-\d{2}$/.test(date))throw new Error('Invalid date');
 }
 // Body posted to the contact endpoint, which emails it to Endika.

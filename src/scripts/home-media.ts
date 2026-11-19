@@ -2,7 +2,20 @@ function initializeMedia(){
 const events=new AbortController();
 const on=(target:any,type:string,handler:any,options:any={})=>target.addEventListener(type,handler,{...options,signal:events.signal});
 let disposeObserver=()=>{};
-const background = document.querySelector<HTMLVideoElement>('#hero-video');
+const heroElement = document.querySelector<HTMLVideoElement|HTMLIFrameElement>('#hero-video');
+// A YouTube embed is driven through its iframe API so the pause control and reduced-motion settings still apply.
+const youtube = heroElement instanceof HTMLIFrameElement ? heroElement : null;
+const command = (func: string) => youtube?.contentWindow?.postMessage(JSON.stringify({event: 'command', func, args: []}), '*');
+const background = youtube ? {
+  dataset: youtube.dataset,
+  getAttribute: (name: string) => youtube.getAttribute(name),
+  removeAttribute: (name: string) => youtube.removeAttribute(name),
+  set src(value: string) { youtube.src = value; },
+  pause: () => command('pauseVideo'),
+  play: () => { command('playVideo'); return Promise.resolve(); },
+  addEventListener: (type: string, handler: () => void) => { if (type === 'error') youtube.addEventListener('error', handler); },
+} as unknown as HTMLVideoElement : heroElement as HTMLVideoElement | null;
+if (youtube) youtube.addEventListener('load', () => { youtube.dataset.playing = ''; setTimeout(() => syncBackground(), 400); });
 const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 const connection = (navigator as Navigator & {connection?: {saveData?: boolean; effectiveType?: string}}).connection;
 let ready = false;
@@ -29,7 +42,7 @@ if (background) {
     visible = entry.isIntersecting;
     syncBackground();
   });
-  observer.observe(background); disposeObserver=()=>observer.disconnect();
+  observer.observe(heroElement!); disposeObserver=()=>observer.disconnect();
   // The poster and claim paint first. No video URL is exposed to the preload scanner.
   const start = () => requestAnimationFrame(() => requestAnimationFrame(() => {
     const load = () => { ready = true; syncBackground(); };

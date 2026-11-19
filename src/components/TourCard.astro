@@ -9,9 +9,9 @@ const href=localizedHref(`/experiences/${tour.slug}/`,lang);
 <article class="tour-card" data-tour-card={tour.id} data-category={tour.category}>
  <a href={href} class="tour-card-photo" aria-label={tour.short[lang]}>{tour.image?<Photo src={tour.image} alt={tour.imageAlt[lang]} data-alt-es={tour.imageAlt.es} data-alt-en={tour.imageAlt.en} data-tour-image={tour.id}/>:<span class="tour-photo-pending" aria-hidden="true"></span>}</a>
  <div class="tour-card-body">
-  <C tag="h3" data-tour-name={tour.id} {...tour.short}/>
-  <C tag="p" class="tour-description" {...(catalog?tour.catalogDescription:tour.description)}/>
-  <div class="tour-card-meta"><C {...tour.location}/><C data-tour-duration={tour.id} {...tour.duration}/><C es="Experiencia privada" en="Private experience"/></div>
+  <C tag="h3" data-tour-name={tour.id} {...tour.short}/>{tour.subtitle?.en&&<C tag="p" class="tour-card-subtitle" {...tour.subtitle}/>}
+  <C tag="p" class="tour-description" {...tour.description}/>
+  <C tag="p" class="tour-card-facts" data-tour-facts={tour.id} {...tour.facts}/>
   <div class="tour-card-actions"><C tag="a" class="button" href={href} es="Explorar esta experiencia" en="Explore This Experience"/><C tag="a" class="button button-secondary" href={`/contact/?tour=${tour.id}`} es="Planifiquemos tu experiencia" en="Let’s Plan Your Experience"/></div>
  </div>
 </article>
